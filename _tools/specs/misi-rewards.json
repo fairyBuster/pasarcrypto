@@ -1,0 +1,1692 @@
+{
+ "slug": "misi-rewards",
+ "id": "42:2",
+ "frameName": "Misi Rewards",
+ "size": [
+  412,
+  1759
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Misi Rewards",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1601,
+    1245,
+    111,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ajak teman gabung, hadiahnya makin besar",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 28,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1736,
+    1307,
+    237,
+    56
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman trading",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1736,
+    1408,
+    156,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1736,
+    1425,
+    12,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "orang",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1720,
+    1427,
+    34,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Total hadiah didapat",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1563,
+    1408,
+    156,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "75.000",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1563,
+    1425,
+    63,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1497,
+    1427,
+    20,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode undangan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1719,
+    1490,
+    93,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KNZ8F2",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 1.5,
+   "color": "#FFFFFF",
+   "box": [
+    -1620,
+    1488,
+    63,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Salin",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -1404,
+    1489,
+    29,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Undang Teman",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1584,
+    1549,
+    102,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Cara dapat hadiah",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1736,
+    1746,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1681,
+    1792,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Bagikan kode undanganmu",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1713,
+    1821,
+    70,
+    30
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1550,
+    1792,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Teman daftar & mulai trading",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1586,
+    1821,
+    80,
+    30
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1418,
+    1792,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Klaim bonus saldo di sini",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1461,
+    1821,
+    95,
+    30
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Setiap misi memberi bonus saldo IDR yang masuk ke Saldo Tersedia setelah diklaim. Hadiah tiap misi bisa diklaim satu kali.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1736,
+    1870,
+    380,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Daftar Misi",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1736,
+    1919,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1723,
+    1971,
+    6,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1 teman trading",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1692,
+    1968,
+    259,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    1988,
+    259,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1421,
+    1968,
+    46,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    1969,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "✓ Diklaim",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1408,
+    1991,
+    52,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1723,
+    2030,
+    7,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2 teman trading",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1692,
+    2027,
+    259,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2047,
+    259,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1421,
+    2027,
+    46,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2028,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "✓ Diklaim",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1408,
+    2050,
+    52,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1724,
+    2089,
+    8,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3 teman trading",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1692,
+    2086,
+    253,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2106,
+    253,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1427,
+    2086,
+    53,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2087,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Klaim",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1400,
+    2114,
+    30,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1723,
+    2148,
+    7,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "5 teman trading",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1692,
+    2145,
+    250,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Posisi kamu sekarang · 3/5 teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -1692,
+    2165,
+    250,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "200.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1430,
+    2145,
+    55,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2146,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1723,
+    2207,
+    7,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "7 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2204,
+    251,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2224,
+    251,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "300.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1429,
+    2204,
+    54,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2205,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 4 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1418,
+    2227,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1726,
+    2266,
+    13,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "10 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2263,
+    251,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2283,
+    251,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "500.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1429,
+    2263,
+    54,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2264,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 7 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1418,
+    2286,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "15",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1726,
+    2325,
+    13,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "15 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2322,
+    251,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2342,
+    251,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "800.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1429,
+    2322,
+    54,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2323,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 12 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1423,
+    2345,
+    67,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "20",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1727,
+    2384,
+    15,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "20 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2381,
+    242,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2401,
+    242,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.200.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1438,
+    2381,
+    63,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2382,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 17 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1423,
+    2404,
+    67,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1727,
+    2443,
+    14,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "25 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2440,
+    242,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2460,
+    242,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.600.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1438,
+    2440,
+    63,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2441,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 22 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1425,
+    2463,
+    69,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "30",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1727,
+    2502,
+    15,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "30 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2499,
+    239,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2519,
+    239,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.000.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1441,
+    2499,
+    65,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2500,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 27 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1424,
+    2522,
+    68,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "40",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1727,
+    2561,
+    15,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "40 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2558,
+    239,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2578,
+    239,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.800.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1441,
+    2558,
+    65,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2559,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 37 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1425,
+    2581,
+    69,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1727,
+    2620,
+    15,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "50 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2617,
+    239,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2637,
+    239,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3.500.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1441,
+    2617,
+    65,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2618,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 47 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1425,
+    2640,
+    69,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "75",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1727,
+    2679,
+    14,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "75 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2676,
+    240,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2696,
+    240,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5.500.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1440,
+    2676,
+    65,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2677,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 72 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1424,
+    2699,
+    68,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1730,
+    2738,
+    20,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "100 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2735,
+    239,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2755,
+    239,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8.000.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1441,
+    2735,
+    65,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2736,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 97 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1424,
+    2758,
+    68,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "150",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1730,
+    2797,
+    20,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "150 teman trading",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1692,
+    2794,
+    234,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah utama · bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1692,
+    2814,
+    234,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12.000.000",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1446,
+    2794,
+    71,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1372,
+    2795,
+    17,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Butuh 147 lagi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1430,
+    2817,
+    74,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1736,
+    2854,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman akan dihitung setelah mendaftar menggunakan kode referral kamu dan menyelesaikan transaksi trading pertama. Setiap teman yang memenuhi syarat akan menambah progres pencapaian. Bonus dapat diklaim setelah jumlah teman mencapai target yang ditentukan.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1736,
+    2875,
+    380,
+    90
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

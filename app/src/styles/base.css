@@ -1,0 +1,173 @@
+:root {
+  color-scheme: dark;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --stage-bg: #070d16;
+  --frame-bg: #0f172a;
+  --frame-w: 412px;
+  --frame-h: min(917px, 100dvh);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--stage-bg);
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+.phone-stage {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 0%, #12203a 0%, var(--stage-bg) 62%);
+}
+
+/* frame is a size container so screen CSS can use cqh (was 100vh in the export) */
+.phone-frame {
+  position: relative;
+  width: var(--frame-w);
+  max-width: 100vw;
+  height: var(--frame-h);
+  container-type: size;
+  overflow: hidden;
+  background: var(--frame-bg);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+/* the landing site is a website, not a phone screen: on a desktop window the
+   shell fills it so the marketing sections can use the whole width */
+.phone-frame.is-landing {
+  width: 100%;
+  height: 100dvh;
+  box-shadow: none;
+}
+
+.phone-scroll {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.phone-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.phone-frame button,
+.phone-frame a,
+.phone-frame [role='button'] {
+  cursor: pointer;
+}
+
+/* browsers paint a blue flash over a control the moment it is pressed; every
+   screen styles its own pressed state, so the native highlight stays out */
+.phone-frame * {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Chrome also leaves its default blue ring behind after a click; keep a ring
+   for keyboard navigation only */
+.phone-frame :focus:not(:focus-visible) {
+  outline: none;
+}
+
+.phone-frame :focus-visible {
+  outline: 2px solid rgba(201, 212, 225, 0.9);
+  outline-offset: 2px;
+}
+
+/* delegated-click feedback: copy actions and buttons without a route */
+.ui-toast-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(4, 10, 20, 0.55);
+  animation: toast-fade 0.16s ease-out;
+  /* the dim is decoration, not a dialog: it never holds on to a press */
+  pointer-events: none;
+}
+
+.ui-toast {
+  max-width: 280px;
+  padding: 12px 20px;
+  border-radius: 14px;
+  font: 500 12px/1.4 var(--font-sans);
+  color: #0b1220;
+  background: rgba(230, 236, 243, 0.96);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  animation: toast-in 0.16s ease-out;
+}
+
+@keyframes toast-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.route-loading {
+  min-height: 100%;
+  background: var(--frame-bg);
+}
+
+.route-missing {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #8597ab;
+}
+
+.route-missing a {
+  color: #e6ecf3;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .phone-stage {
+    padding: 0;
+  }
+
+  .phone-frame {
+    width: 100vw;
+    height: 100dvh;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header {
+  padding-top: 20px;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1f3048;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+.page-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* CSS for section section:Tabs */
+#section-tabs {
+  padding-top: 20px;
+}
+.tabs-container {
+  display: flex;
+  padding: 0 16px;
+  border-bottom: 1px solid #22344b;
+}
+.tab {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  margin-bottom: -1px;
+}
+.tab.active {
+  border-bottom-color: #c9d4e1;
+}
+.tab-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.tab.active .tab-title { color: #ffffff; }
+.tab:not(.active) .tab-title { color: #8597ab; }
+.tab-count {
+  font-size: 12px;
+}
+.tab.active .tab-count { color: #a9b7c8; }
+.tab:not(.active) .tab-count { color: #75879c; }
+
+.tab-description {
+  padding: 10px 16px 0;
+  color: #a9b7c8;
+  font-size: 12px;
+}
+
+/* CSS for section section:Filters */
+#section-filters {
+  padding-top: 12px;
+}
+.filters-container {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px;
+}
+.filter-btn {
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 16px;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.filter-btn.active {
+  background: linear-gradient(to bottom, #f5f8fb, #c9d4e1);
+  color: #0c1a2d;
+}
+.filter-btn:not(.active) {
+  background-color: #1f3048;
+  color: #a9b7c8;
+}
+
+/* CSS for section section:UserList */
+#section-user-list {
+  padding-top: 4px;
+}
+.list-container {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(201, 212, 225, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.list-item:last-child {
+  border-bottom: none;
+}
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.username {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.phone {
+  color: #8597ab;
+  font-size: 12px;
+}
+.item-details {
+  display: flex;
+  justify-content: space-between;
+}
+.detail-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.detail-col.right {
+  align-items: flex-end;
+}
+.detail-label {
+  color: #75879c;
+  font-size: 10px;
+}
+.detail-value {
+  color: #e6ecf3;
+  font-size: 12px;
+  font-weight: 500;
+}
+.item-status {
+  display: flex;
+  gap: 16px;
+  padding-top: 2px;
+}
+.status-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.status-icon {
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status-icon.checked {
+  background: linear-gradient(135deg, #5982bf 0%, #2b4c80 100%);
+}
+.status-icon.unchecked {
+  border: 1px solid #51657e;
+  box-sizing: border-box;
+}
+.status-text {
+  font-size: 10px;
+}
+.status-text.checked-text {
+  color: #a9b7c8;
+}
+.status-text.unchecked-text {
+  color: #75879c;
+}
+
+/* CSS for section section:Pagination */
+#section-pagination {
+  padding-top: 18px;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px;
+}
+.page-btn {
+  min-width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border: none;
+  background: transparent;
+  color: #a9b7c8;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 6px;
+}
+.page-btn.active {
+  background: linear-gradient(to bottom, #f5f8fb, #c9d4e1);
+  color: #0c1a2d;
+  font-weight: 600;
+}
+.page-btn.nav-btn {
+  background-color: #1f3048;
+  padding: 0;
+  width: 32px;
+}
+.page-btn.nav-btn.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.page-dots {
+  color: #75879c;
+  font-size: 12px;
+  padding: 0 4px;
+}
+.pagination-info {
+  text-align: center;
+  color: #75879c;
+  font-size: 10px;
+  padding: 10px 16px 28px;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="site-header">
+    <button class="icon-btn"><img src="images/52_628.svg" alt="Back"></button>
+    <h1 class="page-title">Teman Diundang</h1>
+    <button class="icon-btn"><img src="images/52_633.svg" alt="Info"></button>
+  </header>
+</section>
+<section id="section-tabs">
+  <div class="tabs-container">
+    <div class="tab active">
+      <span class="tab-title">Level 1</span>
+      <span class="tab-count">(832)</span>
+    </div>
+    <div class="tab">
+      <span class="tab-title">Level 2</span>
+      <span class="tab-count">(2.415)</span>
+    </div>
+    <div class="tab">
+      <span class="tab-title">Level 3</span>
+      <span class="tab-count">(5.120)</span>
+    </div>
+  </div>
+  <div class="tab-description">
+    Teman yang daftar langsung pakai kode undanganmu.
+  </div>
+</section>
+<section id="section-filters">
+  <div class="filters-container">
+    <button class="filter-btn active">Semua</button>
+    <button class="filter-btn">Aktif</button>
+    <button class="filter-btn">Menunggu</button>
+  </div>
+</section>
+<section id="section-user-list">
+  <div class="list-container">
+    <!-- Item 1 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">Us****01</div>
+        <div class="phone">0812 **** 4471</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">22-10-2026 14:05</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">4.250.000 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_680.svg" alt="check"></div>
+          <span class="status-text checked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_685.svg" alt="check"></div>
+          <span class="status-text checked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 2 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">Ra****na</div>
+        <div class="phone">0857 **** 1290</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">22-10-2026 09:41</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">0 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_708.svg" alt="check"></div>
+          <span class="status-text checked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon unchecked"></div>
+          <span class="status-text unchecked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 3 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">Di****89</div>
+        <div class="phone">0813 **** 7752</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">21-10-2026 21:17</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">0 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon unchecked"></div>
+          <span class="status-text unchecked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon unchecked"></div>
+          <span class="status-text unchecked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 4 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">Ke****ya</div>
+        <div class="phone">0821 **** 3308</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">21-10-2026 08:02</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">12.800.000 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_758.svg" alt="check"></div>
+          <span class="status-text checked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_763.svg" alt="check"></div>
+          <span class="status-text checked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 5 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">An****ri</div>
+        <div class="phone">0878 **** 6015</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">20-10-2026 19:30</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">950.000 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_786.svg" alt="check"></div>
+          <span class="status-text checked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_791.svg" alt="check"></div>
+          <span class="status-text checked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 6 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">Fa****zz</div>
+        <div class="phone">0812 **** 9924</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">19-10-2026 11:12</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">0 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_814.svg" alt="check"></div>
+          <span class="status-text checked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon unchecked"></div>
+          <span class="status-text unchecked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 7 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">Jo****ko</div>
+        <div class="phone">0838 **** 5167</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">18-10-2026 16:48</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">2.100.000 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_840.svg" alt="check"></div>
+          <span class="status-text checked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon checked"><img src="images/52_845.svg" alt="check"></div>
+          <span class="status-text checked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 8 -->
+    <div class="list-item">
+      <div class="item-header">
+        <div class="username">Si****wa</div>
+        <div class="phone">0896 **** 2041</div>
+      </div>
+      <div class="item-details">
+        <div class="detail-col">
+          <div class="detail-label">Tanggal Registrasi</div>
+          <div class="detail-value">17-10-2026 07:55</div>
+        </div>
+        <div class="detail-col right">
+          <div class="detail-label">Volume Trading</div>
+          <div class="detail-value">0 IDR</div>
+        </div>
+      </div>
+      <div class="item-status">
+        <div class="status-badge">
+          <div class="status-icon unchecked"></div>
+          <span class="status-text unchecked-text">Verifikasi Akun</span>
+        </div>
+        <div class="status-badge">
+          <div class="status-icon unchecked"></div>
+          <span class="status-text unchecked-text">Transaksi Kripto</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-pagination">
+  <div class="pagination-container">
+    <button class="page-btn nav-btn disabled"><img src="images/52_875.svg" alt="prev"></button>
+    <button class="page-btn active">1</button>
+    <button class="page-btn">2</button>
+    <button class="page-btn">3</button>
+    <span class="page-dots">...</span>
+    <button class="page-btn">104</button>
+    <button class="page-btn nav-btn"><img src="images/52_888.svg" alt="next"></button>
+  </div>
+  <div class="pagination-info">
+    Menampilkan 1–8 dari 832 teman
+  </div>
+</section>
+</body>
+</html>

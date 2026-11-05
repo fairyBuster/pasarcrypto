@@ -1,0 +1,3541 @@
+{
+ "akun": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "22px"
+  },
+  {
+   "cls": "progress-text",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "item-label",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "list-section-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "badge-gold",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "badge-gold",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "app-version",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "alamat-pengiriman": [
+  {
+   "cls": "title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "notice-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "toggle-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "toggle-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "toggle-desc",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "aset-kosong": [
+  {
+   "cls": "currency",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "currency",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "currency",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "asset-equiv",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "asset-change",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "percent",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "tab-item",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "tab-item",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "tab-item",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "btn-outline",
+   "prop": "font-size",
+   "to": "13px"
+  }
+ ],
+ "aset-saya": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "22px"
+  },
+  {
+   "cls": "amount",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "amount",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "currency",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "currency",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "asset-equivalent",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "filter-chip",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "holding-name",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "holding-name",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "amount-profit",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "bahasa": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "desc-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "lang-icon",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "lang-icon",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "lang-main",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "lang-main",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "lang-sub",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "btn-save",
+   "prop": "font-size",
+   "to": "14px"
+  }
+ ],
+ "buat-postingan": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "username",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "username",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "image-label",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "image-label",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "submit-btn",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "chat-cs": [
+  {
+   "cls": "main-title",
+   "prop": "font-size",
+   "to": "24px"
+  },
+  {
+   "cls": "chat-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "copy-btn",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "deposit-metode": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "provider-name",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "provider-name",
+   "prop": "font-weight",
+   "to": 700
+  }
+ ],
+ "deposit-qris-1": [
+  {
+   "cls": "title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "currency",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "chip",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "chip",
+   "prop": "color",
+   "to": "#FFFFFF"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "deposit-qris-2": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "timer-label",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "timer-pill",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "detail-label",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "detail-label",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "detail-label",
+   "prop": "color",
+   "to": "#C3CFDD"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "guide-title",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "primary-btn",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "primary-btn",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "deposit-va1": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "deposit-amount",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "deposit-currency",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "amount-btn",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "amount-btn",
+   "prop": "color",
+   "to": "#FFFFFF"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "security-title",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "deposit-va2": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "pc-timer-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "pc-timer-value",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "pc-va-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "pc-va-number",
+   "prop": "font-size",
+   "to": "22px"
+  },
+  {
+   "cls": "pc-copy-text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "pc-copy-text",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "pc-detail-label",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "pc-detail-value",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "pc-detail-value",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "pc-detail-label",
+   "prop": "color",
+   "to": "#FFFFFF"
+  },
+  {
+   "cls": "security-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "security-desc",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "security-desc",
+   "prop": "line-height",
+   "to": "16px"
+  },
+  {
+   "cls": "guide-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "faq": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "category-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "category-count",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "question-text",
+   "prop": "font-weight",
+   "to": 400
+  },
+  {
+   "cls": "faq-answer",
+   "prop": "color",
+   "to": "#A9B7C8"
+  }
+ ],
+ "fear-and-greed": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "gauge-score",
+   "prop": "font-size",
+   "to": "44px"
+  },
+  {
+   "cls": "gauge-status",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "gauge-timestamp",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "stat-title",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "stat-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "stat-label",
+   "prop": "color",
+   "to": "#D3DCE7"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "filter-btn",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "filter-btn",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "scale-name",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "scale-right",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "scale-name",
+   "prop": "color",
+   "to": "#D3DCE7"
+  },
+  {
+   "cls": "badge-now",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "explanation-text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "tag",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "note-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "note-text",
+   "prop": "line-height",
+   "to": "18px"
+  }
+ ],
+ "feed": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "22px"
+  },
+  {
+   "cls": "input-placeholder",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "create-post-subtext",
+   "prop": "color",
+   "to": "#8597AB"
+  },
+  {
+   "cls": "post-username",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "post-title",
+   "prop": "font-size",
+   "to": "16px"
+  },
+  {
+   "cls": "post-title",
+   "prop": "line-height",
+   "to": "23px"
+  },
+  {
+   "cls": "post-body",
+   "prop": "color",
+   "to": "#7FA6DC"
+  }
+ ],
+ "home": [
+  {
+   "cls": "deposit-btn",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "amount",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "currency-small",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "banner-text",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "banner-indicator",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "gauge-value",
+   "prop": "line-height",
+   "to": "24px"
+  },
+  {
+   "cls": "coin-icon",
+   "prop": "font-size",
+   "to": "7px"
+  },
+  {
+   "cls": "coin-icon",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "coin-badge",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "name",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "name",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "tag",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "apr-value",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "apr-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "footer-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "market-name",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "market-name",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "market-change",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "kebijakan-privasi": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "contact-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "contact-desc",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "konfirmasi-pembelian": [
+  {
+   "cls": "modal-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "amount-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "amount-value",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "amount-value",
+   "prop": "line-height",
+   "to": "36px"
+  },
+  {
+   "cls": "amount-currency",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "amount-currency",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "detail-label",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "color",
+   "to": "#3ECF8E"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "btn-secondary",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "btn-secondary",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "btn-secondary",
+   "prop": "color",
+   "to": "#A9B7C8"
+  }
+ ],
+ "konfirmasi-tarik": [
+  {
+   "cls": "modal-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "modal-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "amount-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "amount-value",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "amount-currency",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "btn-secondary",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "landingpage-1": [
+  {
+   "cls": "coin",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "section-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "section-label",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "22px"
+  },
+  {
+   "cls": "section-desc",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "tag",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "tag",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "article-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "article-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "article-title",
+   "prop": "line-height",
+   "to": "24px"
+  },
+  {
+   "cls": "article-desc",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "read-time",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "article-thumb",
+   "prop": "font-size",
+   "to": "8px"
+  },
+  {
+   "cls": "article-thumb",
+   "prop": "font-weight",
+   "to": 400
+  },
+  {
+   "cls": "item-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "item-title",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "view-all",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "view-all",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "term",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "term",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "definition",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "definition",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-weight",
+   "to": 800
+  },
+  {
+   "cls": "stat-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "cta-title",
+   "prop": "font-size",
+   "to": "21px"
+  },
+  {
+   "cls": "cta-title",
+   "prop": "font-weight",
+   "to": 800
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "disclaimer",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "disclaimer",
+   "prop": "line-height",
+   "to": "15px"
+  },
+  {
+   "cls": "copyright",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "landingpage-bantuan": [
+  {
+   "cls": "breadcrumb",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "breadcrumb",
+   "prop": "line-height",
+   "to": "21px"
+  },
+  {
+   "cls": "char-count",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "submit-btn",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "footer-link",
+   "prop": "color",
+   "to": "#8597AB"
+  },
+  {
+   "cls": "footer-copyright",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "landingpage-hadiah": [
+  {
+   "cls": "breadcrumb",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "item-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "link-item",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "link-item",
+   "prop": "color",
+   "to": "#FFFFFF"
+  }
+ ],
+ "landingpage-holding": [
+  {
+   "cls": "hero-title",
+   "prop": "font-size",
+   "to": "27px"
+  },
+  {
+   "cls": "hero-title",
+   "prop": "font-weight",
+   "to": 800
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "section-text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "feature-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "example-text",
+   "prop": "color",
+   "to": "#C3CEDB"
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "line-height",
+   "to": "18px"
+  }
+ ],
+ "landingpage-materi-detail": [
+  {
+   "cls": "tag",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "creator",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "date-read",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "intro-text",
+   "prop": "line-height",
+   "to": "26px"
+  },
+  {
+   "cls": "text",
+   "prop": "line-height",
+   "to": "19px"
+  },
+  {
+   "cls": "text",
+   "prop": "color",
+   "to": "#C3CEDB"
+  },
+  {
+   "cls": "kp-title",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "share-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "nav-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "related-heading",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "rc-image",
+   "prop": "font-size",
+   "to": "8px"
+  },
+  {
+   "cls": "rc-image",
+   "prop": "font-weight",
+   "to": 400
+  },
+  {
+   "cls": "rc-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "rc-title",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "rc-meta",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "disclaimer",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "disclaimer",
+   "prop": "line-height",
+   "to": "15px"
+  },
+  {
+   "cls": "copyright",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "landingpage-materi": [
+  {
+   "cls": "breadcrumb",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "hero-title",
+   "prop": "font-size",
+   "to": "27px"
+  },
+  {
+   "cls": "hero-title",
+   "prop": "font-weight",
+   "to": 800
+  },
+  {
+   "cls": "hero-title",
+   "prop": "line-height",
+   "to": "34px"
+  },
+  {
+   "cls": "filter-pill",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "filter-pill",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "item-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "item-title",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "item-meta",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "pagination-info",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "footer-desc",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "footer-disclaimer",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "footer-disclaimer",
+   "prop": "line-height",
+   "to": "15px"
+  },
+  {
+   "cls": "footer-copyright",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "landingpage-referral": [
+  {
+   "cls": "section-heading",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "section-description",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "step-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "step-desc",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "tier-badge",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "point-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "point-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "tip-text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "tip-text",
+   "prop": "line-height",
+   "to": "19px"
+  }
+ ],
+ "landingpage-tentang": [
+  {
+   "cls": "breadcrumb",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "breadcrumb",
+   "prop": "color",
+   "to": "#75879C"
+  },
+  {
+   "cls": "main-heading",
+   "prop": "font-size",
+   "to": "30px"
+  },
+  {
+   "cls": "main-heading",
+   "prop": "font-weight",
+   "to": 800
+  },
+  {
+   "cls": "main-heading",
+   "prop": "line-height",
+   "to": "38px"
+  },
+  {
+   "cls": "quote-text",
+   "prop": "font-size",
+   "to": "18px"
+  },
+  {
+   "cls": "quote-text",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "quote-text",
+   "prop": "line-height",
+   "to": "27px"
+  },
+  {
+   "cls": "author-name",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "author-name",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "author-role",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-size",
+   "to": "30px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-weight",
+   "to": 800
+  },
+  {
+   "cls": "stat-desc",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "value-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "footer-tagline",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "nav-title",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "landingpage2": [
+  {
+   "cls": "nav-text",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "nav-text",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "btn",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "btn",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "lang-label",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "lang-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "footer-link",
+   "prop": "color",
+   "to": "#75879C"
+  }
+ ],
+ "loading-register": [
+  {
+   "cls": "title",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "title",
+   "prop": "line-height",
+   "to": "28px"
+  }
+ ],
+ "login": [
+  {
+   "cls": "hero-title",
+   "prop": "font-size",
+   "to": "24px"
+  },
+  {
+   "cls": "hero-title",
+   "prop": "line-height",
+   "to": "32px"
+  },
+  {
+   "cls": "captcha-text",
+   "prop": "font-size",
+   "to": "18px"
+  },
+  {
+   "cls": "captcha-hint",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "forgot-password",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "forgot-password",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "lupa-password": [
+  {
+   "cls": "form-label",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "form-label",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "form-helper",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "disclaimer-text",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "disclaimer-text",
+   "prop": "line-height",
+   "to": "17px"
+  }
+ ],
+ "masuk-harian": [
+  {
+   "cls": "title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "stat-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-size",
+   "to": "18px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "day-amt",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "day-lbl",
+   "prop": "color",
+   "to": "#FFFFFF"
+  },
+  {
+   "cls": "day-amt",
+   "prop": "color",
+   "to": "#D3DCE7"
+  },
+  {
+   "cls": "wb-footer",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "action-btn",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "cal-cell",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "menu-notif": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "notification-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "notification-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "notification-title",
+   "prop": "line-height",
+   "to": "22px"
+  }
+ ],
+ "misi-rewards": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "stat-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-size",
+   "to": "18px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "howto-note",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "howto-note",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "howto-note",
+   "prop": "color",
+   "to": "#8597AB"
+  },
+  {
+   "cls": "mission-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "mission-desc",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "amount",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "amount",
+   "prop": "color",
+   "to": "#FFFFFF"
+  },
+  {
+   "cls": "currency",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "reward-status",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "claim-button",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "mission-desc",
+   "prop": "color",
+   "to": "#C9D4E1"
+  },
+  {
+   "cls": "mission-title",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "mission-title",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "amount",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "status-circle",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "notes-text",
+   "prop": "line-height",
+   "to": "18px"
+  }
+ ],
+ "pasar-detail": [
+  {
+   "cls": "title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "title",
+   "prop": "line-height",
+   "to": "24px"
+  },
+  {
+   "cls": "logo-circle",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "coin-name",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "apr-value",
+   "prop": "font-size",
+   "to": "24px"
+  },
+  {
+   "cls": "apr-value",
+   "prop": "line-height",
+   "to": "30px"
+  },
+  {
+   "cls": "apr-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "chart-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "filter",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "ai-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "ai-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "ai-text",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "currency",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "input-limits",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "font-medium",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "ob-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "ob-pair",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "footer-price",
+   "prop": "font-size",
+   "to": "16px"
+  },
+  {
+   "cls": "footer-note",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "pasar": [
+  {
+   "cls": "amount",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "amount",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "currency",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "chip",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "chip",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "apr-value",
+   "prop": "font-size",
+   "to": "16px"
+  },
+  {
+   "cls": "apr-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "vol-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "vol-value",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "quota-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "btn-mulai",
+   "prop": "font-size",
+   "to": "13px"
+  }
+ ],
+ "pencarian": [
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "asset-icon-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "asset-icon-text",
+   "prop": "font-weight",
+   "to": 400
+  },
+  {
+   "cls": "asset-icon-text",
+   "prop": "color",
+   "to": "#D3DCE7"
+  },
+  {
+   "cls": "asset-name",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "asset-name",
+   "prop": "font-weight",
+   "to": 400
+  },
+  {
+   "cls": "asset-name",
+   "prop": "color",
+   "to": "#D3DCE7"
+  },
+  {
+   "cls": "asset-subtitle",
+   "prop": "color",
+   "to": "#D3DCE7"
+  },
+  {
+   "cls": "asset-subtitle",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "apr-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "volume-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "volume-value",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "quota-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "action-btn",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "action-btn",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "perangkat-login": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "info-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "app-version",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "status-text",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "status-text",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "detail-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "section-title-inline",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "section-title-inline",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "btn-logout",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "btn-logout",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "perjanjian-klien": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "intro-text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "contact-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "contact-desc",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "pilihan-bank": [
+  {
+   "cls": "list-group-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "list-group-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "bank-name",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "bank-name",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "btn-submit",
+   "prop": "font-size",
+   "to": "16px"
+  },
+  {
+   "cls": "btn-submit",
+   "prop": "color",
+   "to": "#FFFFFF"
+  }
+ ],
+ "portofolio": [
+  {
+   "cls": "title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "legend-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "detail-label",
+   "prop": "color",
+   "to": "#D3DCE7"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "color",
+   "to": "#3ECF8E"
+  },
+  {
+   "cls": "btn-close",
+   "prop": "font-size",
+   "to": "13px"
+  }
+ ],
+ "poster-undangan": [
+  {
+   "cls": "info-code",
+   "prop": "font-size",
+   "to": "18px"
+  },
+  {
+   "cls": "qr-text",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "btn-close",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "btn-close",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "btn-close",
+   "prop": "color",
+   "to": "#A9B7C8"
+  }
+ ],
+ "profil-saya-1": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "btn-change-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "btn-change-text",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "data-label",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "data-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "data-value",
+   "prop": "color",
+   "to": "#8597AB"
+  },
+  {
+   "cls": "empty-state-title",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "profil-saya-2": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "btn-change-photo",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "btn-change-photo",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "data-label",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "data-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "data-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "data-value",
+   "prop": "color",
+   "to": "#8597AB"
+  },
+  {
+   "cls": "rank-text",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "section-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "card-title",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "badge-utama",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "btn-ubah",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "btn-ubah",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "card-contact",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "card-address",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "card-address",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "note-text",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "program-referral": [
+  {
+   "cls": "text-base",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "text-xs",
+   "prop": "line-height",
+   "to": "15px"
+  },
+  {
+   "cls": "text-sm",
+   "prop": "line-height",
+   "to": "16px"
+  },
+  {
+   "cls": "text-sm",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "text-base",
+   "prop": "line-height",
+   "to": "13px"
+  },
+  {
+   "cls": "text-xl",
+   "prop": "font-size",
+   "to": "26px"
+  },
+  {
+   "cls": "text-tertiary",
+   "prop": "color",
+   "to": "#A9B7C8"
+  }
+ ],
+ "rank": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "hero-title",
+   "prop": "font-size",
+   "to": "26px"
+  },
+  {
+   "cls": "label-current",
+   "prop": "color",
+   "to": "#FFD77A"
+  },
+  {
+   "cls": "progress-desc",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "list-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "rank-name",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "rank-name",
+   "prop": "font-weight",
+   "to": 400
+  },
+  {
+   "cls": "req-value",
+   "prop": "color",
+   "to": "#FFD77A"
+  },
+  {
+   "cls": "info-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "info-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "info-title",
+   "prop": "color",
+   "to": "#A9B7C8"
+  }
+ ],
+ "register-1": [
+  {
+   "cls": "form-label",
+   "prop": "font-size",
+   "to": "13px"
+  }
+ ],
+ "register-2": [
+  {
+   "cls": "main-title",
+   "prop": "font-size",
+   "to": "24px"
+  },
+  {
+   "cls": "captcha-text",
+   "prop": "font-size",
+   "to": "18px"
+  },
+  {
+   "cls": "submit-btn",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "rekening-bank-1": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "empty-state-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "rekening-bank-2": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "info-text",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "info-text",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "bank-name",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "account-name",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "detail-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "limit-text",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "rekening-bank-3": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "placeholder",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "toggle-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "toggle-subtitle",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "riwayat-absen": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "summary-amount",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "summary-days",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "date-label",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "date-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "hc-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "hc-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "hc-currency",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "hc-currency",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "hc-status",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "hc-detail-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "hc-detail-value",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "riwayat-deposit": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "summary-amount",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "summary-amount",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "summary-stats",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "date-label",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "tx-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "tx-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "tx-currency",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "tx-currency",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "tx-detail-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "tx-detail-value",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "page-number",
+   "prop": "font-size",
+   "to": "12px"
+  }
+ ],
+ "riwayat-hadiah": [
+  {
+   "cls": "text-xs",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "text-xs",
+   "prop": "line-height",
+   "to": "13px"
+  },
+  {
+   "cls": "text-xl",
+   "prop": "line-height",
+   "to": "26px"
+  },
+  {
+   "cls": "text-sm",
+   "prop": "line-height",
+   "to": "15px"
+  },
+  {
+   "cls": "text-base",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "text-base",
+   "prop": "line-height",
+   "to": "18px"
+  },
+  {
+   "cls": "status-pill",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "riwayat-keuntungan": [
+  {
+   "cls": "title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "summary-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "summary-count",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "date-label",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "tab",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "tx-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "tx-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "tx-date",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "tx-detail-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "tx-detail-value",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "tx-detail-value",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "pagination-info",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "riwayat-komisi": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "summary-label",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "summary-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "date-field-label",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "tab-btn",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "card-datetime",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "card-badge",
+   "prop": "font-size",
+   "to": "10px"
+  }
+ ],
+ "riwayat-lainnya": [
+  {
+   "cls": "text-xl",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "tab-btn",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "tab-btn",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "tc-status",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "tc-status",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "text-value",
+   "prop": "color",
+   "to": "#A9B7C8"
+  }
+ ],
+ "riwayat-misi": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "summary-value",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "summary-value",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "summary-badge",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "date-label",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "mission-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "currency",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "detail-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "pagination-text",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "riwayat-penarikan": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "summary-amount",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "summary-count",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "filter-label",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "date-title",
+   "prop": "font-size",
+   "to": "9px"
+  },
+  {
+   "cls": "date-value",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "date-value",
+   "prop": "line-height",
+   "to": "15px"
+  },
+  {
+   "cls": "tab-btn",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "tab-btn",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "tc-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "tc-currency",
+   "prop": "font-size",
+   "to": "10px"
+  },
+  {
+   "cls": "tc-currency",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "status-badge",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "tc-detail-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "tc-detail-value",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "pagination-info",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "roda-keberuntungan": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "main-title",
+   "prop": "font-size",
+   "to": "20px"
+  },
+  {
+   "cls": "main-title",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "sub-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "wheel-text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "wheel-text",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "wheel-text",
+   "prop": "color",
+   "to": "#0C1A2D"
+  },
+  {
+   "cls": "spin-btn",
+   "prop": "font-size",
+   "to": "14px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "syarat-ketentuan": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "term-number",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "syarat-layanan": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  }
+ ],
+ "tarik": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "history-label",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "balance-value",
+   "prop": "font-size",
+   "to": "26px"
+  },
+  {
+   "cls": "balance-value",
+   "prop": "line-height",
+   "to": "32px"
+  },
+  {
+   "cls": "balance-currency",
+   "prop": "font-size",
+   "to": "16px"
+  },
+  {
+   "cls": "balance-currency",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "text-caption",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "input-hint",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "detail-label",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "detail-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "detail-label-bold",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "detail-value-bold",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "notes-title",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "teman-diundang": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "tab-title",
+   "prop": "color",
+   "to": "#FFFFFF"
+  },
+  {
+   "cls": "tab-count",
+   "prop": "color",
+   "to": "#A9B7C8"
+  },
+  {
+   "cls": "tab-title",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "tab-description",
+   "prop": "color",
+   "to": "#8597AB"
+  },
+  {
+   "cls": "filter-btn",
+   "prop": "font-weight",
+   "to": 600
+  },
+  {
+   "cls": "status-text",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "pagination-info",
+   "prop": "font-size",
+   "to": "11px"
+  }
+ ],
+ "tentang-kami": [
+  {
+   "cls": "header-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "header-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "hero-desc",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "hero-desc",
+   "prop": "line-height",
+   "to": "21px"
+  },
+  {
+   "cls": "stat-value",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "stat-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-size",
+   "to": "15px"
+  },
+  {
+   "cls": "section-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "vm-subtitle",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "vm-text",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "vm-text",
+   "prop": "line-height",
+   "to": "20px"
+  },
+  {
+   "cls": "timeline-date",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "timeline-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "timeline-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "timeline-desc",
+   "prop": "line-height",
+   "to": "17px"
+  },
+  {
+   "cls": "service-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "service-desc",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "service-desc",
+   "prop": "line-height",
+   "to": "16px"
+  },
+  {
+   "cls": "feature-title",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "feature-desc",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "feature-desc",
+   "prop": "line-height",
+   "to": "17px"
+  },
+  {
+   "cls": "legal-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "legal-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "legal-value",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "cert-btn",
+   "prop": "font-size",
+   "to": "7px"
+  },
+  {
+   "cls": "cert-btn",
+   "prop": "font-weight",
+   "to": 400
+  },
+  {
+   "cls": "team-name",
+   "prop": "font-size",
+   "to": "12px"
+  },
+  {
+   "cls": "team-name",
+   "prop": "line-height",
+   "to": "15px"
+  },
+  {
+   "cls": "team-role",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "contact-label",
+   "prop": "font-size",
+   "to": "11px"
+  },
+  {
+   "cls": "contact-value",
+   "prop": "font-size",
+   "to": "13px"
+  },
+  {
+   "cls": "contact-value",
+   "prop": "font-weight",
+   "to": 500
+  },
+  {
+   "cls": "contact-value",
+   "prop": "line-height",
+   "to": "18px"
+  }
+ ],
+ "ubah-kata-sandi": [
+  {
+   "cls": "page-title",
+   "prop": "font-size",
+   "to": "17px"
+  },
+  {
+   "cls": "page-title",
+   "prop": "font-weight",
+   "to": 700
+  },
+  {
+   "cls": "requirements-title",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ],
+ "welcome-page": [
+  {
+   "cls": "heading",
+   "prop": "font-size",
+   "to": "28px"
+  },
+  {
+   "cls": "heading",
+   "prop": "line-height",
+   "to": "36px"
+  },
+  {
+   "cls": "btn-primary",
+   "prop": "font-weight",
+   "to": 600
+  }
+ ]
+}

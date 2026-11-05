@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  background-attachment: fixed;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 412px;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Utility Typography Classes */
+.text-muted { color: #75879c; }
+.text-value { color: #c3cedb; }
+.text-light-muted { color: #a9b7c8; }
+.text-blue-muted { color: #8597ab; }
+.text-success { color: #3ecf8e; }
+.text-white { color: #ffffff; }
+.text-dark { color: #0c1a2d; }
+
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+.text-xs { font-size: 11px; }
+.text-sm { font-size: 13px; }
+.text-base { font-size: 15px; }
+.text-lg { font-size: 18px; }
+.text-xl { font-size: 24px; }

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header .app-container {
+    min-height: auto;
+    padding-bottom: 0;
+  }
+  .top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px 0;
+  }
+  .icon-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .back-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #1f3048;
+    border-radius: 20px;
+  }
+  .header-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    flex: 1;
+  }
+  .header-spacer {
+    width: 40px;
+    height: 40px;
+  }
+
+/* CSS for section section:InfoBanner */
+#section-info-banner .app-container {
+    min-height: auto;
+    padding-bottom: 0;
+    background: transparent;
+  }
+  .info-banner {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 16px 0;
+  }
+  .info-icon {
+    padding-top: 2px;
+    display: flex;
+  }
+  .info-text {
+    color: #a9b7c8;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+/* CSS for section section:CurrentDevice */
+#section-current-device .app-container {
+    min-height: auto;
+    padding-bottom: 0;
+    background: transparent;
+  }
+  .section-title {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 26px 16px 12px;
+  }
+  .device-card {
+    margin: 0 16px;
+    border-radius: 18px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .current-device {
+    background: linear-gradient(135deg, #24426A 0%, #1A3150 55%, #12233A 100%);
+  }
+  .device-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .device-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .device-title-area {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+  }
+  .device-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .app-version {
+    color: #8597ab;
+    font-size: 12px;
+  }
+  .status-active {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2px;
+  }
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #3ecf8e;
+    border-radius: 3px;
+  }
+  .status-text {
+    color: #3ecf8e;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .device-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 52px; /* Align with text, skipping icon */
+  }
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .detail-label {
+    color: #75879c;
+    font-size: 12px;
+  }
+  .detail-value {
+    color: #c3cedb;
+    font-size: 12px;
+    text-align: right;
+  }
+
+/* CSS for section section:OtherDevices */
+#section-other-devices .app-container {
+    min-height: auto;
+    padding-bottom: 0;
+    background: transparent;
+  }
+  .other-devices-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 26px 16px 12px;
+  }
+  .section-title-inline {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .device-count {
+    color: #8597ab;
+    font-size: 12px;
+  }
+  .other-device-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .other-device-item {
+    margin: 0 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .other-device-item:last-child {
+    border-bottom: none;
+  }
+  .device-icon-wrapper-solid {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1f3048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .btn-logout {
+    background: transparent;
+    border: 1px solid rgba(242, 102, 122, 0.45);
+    border-radius: 14px;
+    padding: 6px 12px;
+    color: #f2667a;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .btn-logout-all {
+    margin: 22px 16px 0;
+    width: calc(100% - 32px);
+    height: 44px;
+    background: transparent;
+    border: 1px solid rgba(242, 102, 122, 0.45);
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #f2667a;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+/* CSS for section section:Notes */
+#section-notes .app-container {
+    min-height: auto;
+    background: transparent;
+  }
+  .notes-container {
+    padding: 26px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .notes-title {
+    color: #a9b7c8;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 2px;
+  }
+  .notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .note-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .note-bullet-wrapper {
+    padding-top: 6px;
+    display: flex;
+  }
+  .note-bullet {
+    width: 6px;
+    height: 6px;
+    background-color: #51657e;
+    border-radius: 2px;
+    display: block;
+  }
+  .note-text {
+    color: #75879c;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <div class="app-container">
+    <header class="top-header">
+      <button class="icon-btn back-btn" aria-label="Go back">
+        <img src="images/94_404.svg" alt="Back">
+      </button>
+      <h1 class="header-title">Perangkat Login</h1>
+      <div class="header-spacer"></div>
+    </header>
+  </div>
+</section>
+<section id="section-info-banner">
+  <div class="app-container">
+    <div class="info-banner">
+      <div class="info-icon">
+        <img src="images/94_412.svg" alt="Info">
+      </div>
+      <p class="info-text">Daftar sesi login aktif di akunmu. Keluarkan sesi yang bukan kamu untuk menjaga keamanan akun.</p>
+    </div>
+  </div>
+</section>
+<section id="section-current-device">
+  <div class="app-container">
+    <h2 class="section-title">Perangkat ini</h2>
+    <div class="device-card current-device">
+      <div class="device-header">
+        <div class="device-icon-wrapper">
+          <img src="images/94_424.svg" alt="Device Icon">
+        </div>
+        <div class="device-title-area">
+          <h3 class="device-name">Perangkat Android</h3>
+          <span class="app-version">Aplikasi v1.0.0</span>
+          <div class="status-active">
+            <span class="status-dot"></span>
+            <span class="status-text">Aktif sekarang</span>
+          </div>
+        </div>
+      </div>
+      <div class="device-details">
+        <div class="detail-row">
+          <span class="detail-label">Lokasi</span>
+          <span class="detail-value">Jakarta, Indonesia</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Alamat IP</span>
+          <span class="detail-value">103.***.**.21</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Masuk sejak</span>
+          <span class="detail-value">27-10-2026 08:14 WIB</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-other-devices">
+  <div class="app-container">
+    <div class="other-devices-header">
+      <h2 class="section-title-inline">Perangkat lain</h2>
+      <span class="device-count">2 perangkat</span>
+    </div>
+    
+    <div class="other-device-list">
+      <!-- Device 1 -->
+      <div class="other-device-item">
+        <div class="device-header">
+          <div class="device-icon-wrapper-solid">
+            <img src="images/94_459.svg" alt="iOS Device">
+          </div>
+          <div class="device-title-area">
+            <h3 class="device-name">Perangkat iOS</h3>
+            <span class="app-version">Aplikasi v1.0.0</span>
+          </div>
+          <button class="btn-logout">Keluarkan</button>
+        </div>
+        <div class="device-details">
+          <div class="detail-row">
+            <span class="detail-label">Lokasi</span>
+            <span class="detail-value">Bandung, Indonesia</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Alamat IP</span>
+            <span class="detail-value">36.***.**.104</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Terakhir aktif</span>
+            <span class="detail-value">25-10-2026 21:40 WIB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Device 2 -->
+      <div class="other-device-item">
+        <div class="device-header">
+          <div class="device-icon-wrapper-solid">
+            <img src="images/94_489.svg" alt="Android Device">
+          </div>
+          <div class="device-title-area">
+            <h3 class="device-name">Perangkat Android</h3>
+            <span class="app-version">Aplikasi v0.9.8</span>
+          </div>
+          <button class="btn-logout">Keluarkan</button>
+        </div>
+        <div class="device-details">
+          <div class="detail-row">
+            <span class="detail-label">Lokasi</span>
+            <span class="detail-value">Jakarta, Indonesia</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Alamat IP</span>
+            <span class="detail-value">114.***.**.7</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Terakhir aktif</span>
+            <span class="detail-value">19-10-2026 10:02 WIB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn-logout-all">
+      <img src="images/94_517.svg" alt="Logout All">
+      <span>Keluar dari Semua Perangkat Lain</span>
+    </button>
+  </div>
+</section>
+<section id="section-notes">
+  <div class="app-container">
+    <div class="notes-container">
+      <h4 class="notes-title">Catatan</h4>
+      <ul class="notes-list">
+        <li class="note-item">
+          <div class="note-bullet-wrapper">
+            <span class="note-bullet"></span>
+          </div>
+          <p class="note-text">Jika ada perangkat yang tidak kamu kenali, segera keluarkan dan ubah kata sandi.</p>
+        </li>
+        <li class="note-item">
+          <div class="note-bullet-wrapper">
+            <span class="note-bullet"></span>
+          </div>
+          <p class="note-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+</body>
+</html>

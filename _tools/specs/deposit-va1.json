@@ -1,0 +1,207 @@
+{
+ "slug": "deposit-va1",
+ "id": "29:185",
+ "frameName": "Deposit va 1",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "BRI Virtual Account",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    47,
+    -295,
+    162,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total Penyetoran",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -62,
+    -241,
+    380,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100.000",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 24.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -43,
+    -198,
+    310,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    277,
+    -194,
+    22,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50.000",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -38,
+    -134,
+    42,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "100.000",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    55,
+    -134,
+    49,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "500.000",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    152,
+    -134,
+    49,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1.000.000",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    245,
+    -134,
+    58,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Minimum isi ulang 50.000 IDR, maksimum 50.000.000 IDR",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -35,
+    -80,
+    237,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanpa biaya layanan untuk setiap isi ulang",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -35,
+    -36,
+    241,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Selanjutnya",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    86,
+    31,
+    85,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pembayaran aman & terlindungi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    38,
+    102,
+    199,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Diproses oleh mitra pembayaran pihak ketiga resmi. Data dan transaksimu terenkripsi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    38,
+    122,
+    234,
+    32
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

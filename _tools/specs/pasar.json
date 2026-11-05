@@ -1,0 +1,1032 @@
+{
+ "slug": "pasar",
+ "id": "57:1823",
+ "frameName": "Pasar 1",
+ "size": [
+  412,
+  1439
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Pasar",
+   "size": 22,
+   "weight": 700,
+   "lineHeight": 30,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2990,
+    3117,
+    334,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding Analysis · pilih produk dan pantau pasarnya!",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2990,
+    3155,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saatnya kembangkan asetmu",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 23,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2990,
+    3192,
+    128,
+    69
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Temukan pilihan holding yang sesuai dan pantau perkembangan asetmu dalam satu platform.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2990,
+    3267,
+    128,
+    64
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2836,
+    3206,
+    93,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dipakai untuk mulai holding.",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2836,
+    3226,
+    212,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.500.000",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2836,
+    3248,
+    72,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 9,
+   "weight": 500,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2761,
+    3250,
+    15,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Isi Ulang",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2820,
+    3285,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2836,
+    3332,
+    93,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bisa ditarik ke rekeningmu.",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2836,
+    3352,
+    212,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9.200.000",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2836,
+    3374,
+    72,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 9,
+   "weight": 500,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2761,
+    3376,
+    15,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tarik",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2819,
+    3411,
+    29,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sedang di-holding 3.000.000 IDR",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2990,
+    3460,
+    192,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Riwayat Holding",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2718,
+    3460,
+    94,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua Produk",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2990,
+    3508,
+    121,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "APR tertinggi",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2707,
+    3513,
+    71,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2976,
+    3556,
+    52,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2888,
+    3556,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Stablecoin",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2802,
+    3556,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT",
+   "size": 9,
+   "weight": 600,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2982,
+    3618,
+    25,
+    11
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "USDT",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2940,
+    3605,
+    42,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2884,
+    3605,
+    38,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2940,
+    3632,
+    80,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2843,
+    3632,
+    46,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2659,
+    3607,
+    49,
+    22
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2650,
+    3629,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Grafik APR · 30 hari",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2990,
+    3657,
+    92,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "▲ 0,35%",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2654,
+    3657,
+    44,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume 24J",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2971,
+    3733,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12,4 Jt USDT",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2903,
+    3733,
+    69,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kuota 72%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2665,
+    3733,
+    55,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Imbal hasil stabil, cocok untuk simpanan jangka panjang…",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2958,
+    3773,
+    326,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mulai Holding",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2843,
+    3815,
+    86,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "USDC",
+   "size": 9,
+   "weight": 600,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2983,
+    3904,
+    26,
+    11
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "USDC",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2940,
+    3891,
+    43,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2883,
+    3891,
+    38,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2940,
+    3918,
+    80,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2843,
+    3918,
+    46,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7,80%",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2657,
+    3893,
+    47,
+    22
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2650,
+    3915,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Grafik APR · 30 hari",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2990,
+    3943,
+    92,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "▲ 0,09%",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2654,
+    3943,
+    44,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume 24J",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2971,
+    4019,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,1 Jt USDC",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2903,
+    4019,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kuota 58%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2666,
+    4019,
+    56,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet consectetur…",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2958,
+    4059,
+    326,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mulai Holding",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2843,
+    4101,
+    86,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "BTC",
+   "size": 9,
+   "weight": 600,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2979,
+    4190,
+    19,
+    11
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "BTC",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2940,
+    4177,
+    31,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2895,
+    4177,
+    38,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2940,
+    4204,
+    80,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2843,
+    4204,
+    46,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3,20%",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2659,
+    4179,
+    49,
+    22
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2650,
+    4201,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Grafik APR · 30 hari",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2990,
+    4229,
+    92,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "▲ 0,18%",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2651,
+    4229,
+    41,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume 24J",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2971,
+    4305,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "182 BTC",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2903,
+    4305,
+    45,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kuota 45%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2666,
+    4305,
+    56,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Duis aute irure dolor in reprehenderit…",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2958,
+    4345,
+    326,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mulai Holding",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2843,
+    4387,
+    86,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Beranda",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2987,
+    4494,
+    44,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Feed",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2895,
+    4494,
+    26,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pasar",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2815,
+    4500,
+    31,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Aset",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2730,
+    4494,
+    25,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Akun",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2649,
+    4494,
+    27,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

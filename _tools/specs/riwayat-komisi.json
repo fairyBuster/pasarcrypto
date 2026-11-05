@@ -1,0 +1,1977 @@
+{
+ "slug": "riwayat-komisi",
+ "id": "85:861",
+ "frameName": "Riwayat komisi",
+ "size": [
+  412,
+  1864
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Riwayat Komisi",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1119,
+    4695,
+    126,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total komisi · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1190,
+    4748,
+    248,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.350 Poin",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1190,
+    4765,
+    248,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "58 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -930,
+    4763,
+    64,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1246,
+    4811,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1211,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1211,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1009,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1009,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1232,
+    4898,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 1",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1156,
+    4898,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1080,
+    4898,
+    41,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 3",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1003,
+    4898,
+    42,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komisi dari Us****01",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    4949,
+    263,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 08:31:04 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    4970,
+    263,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+64 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -923,
+    4946,
+    57,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -913,
+    4971,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    4996,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****01 · Level 1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -959,
+    4996,
+    93,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5017,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0812 **** 4471",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -946,
+    5017,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5038,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komisi transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -950,
+    5038,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5059,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4.250.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -940,
+    5059,
+    74,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5080,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610259555",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -965,
+    5080,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Komisi dari Ma****ns",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    5132,
+    265,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 11:36:38 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5153,
+    265,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+18 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -921,
+    5129,
+    55,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -914,
+    5154,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5179,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ma****ns · Level 2",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -963,
+    5179,
+    97,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5200,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0812 **** 8830",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -948,
+    5200,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5221,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komisi transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -950,
+    5221,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5242,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.750.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -938,
+    5242,
+    72,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5263,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610256220",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -965,
+    5263,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Komisi dari Ke****ya",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    5315,
+    255,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24-10-2026 16:39:07 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5336,
+    255,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+200 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -931,
+    5312,
+    65,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -913,
+    5337,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5362,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ke****ya · Level 1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -959,
+    5362,
+    93,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5383,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0821 **** 3308",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -948,
+    5383,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5404,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus trading pertama",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -985,
+    5404,
+    119,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5425,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12.800.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -946,
+    5425,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5446,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610243960",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -966,
+    5446,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Komisi dari Ok****vi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    5498,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24-10-2026 18:10:40 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5519,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+6 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -914,
+    5495,
+    48,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -913,
+    5520,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5545,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ok****vi · Level 3",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -958,
+    5545,
+    92,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5566,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0852 **** 7783",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -948,
+    5566,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5587,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komisi transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -950,
+    5587,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5608,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.640.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -941,
+    5608,
+    75,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5629,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610246705",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -965,
+    5629,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Komisi dari Ra****na",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    5681,
+    263,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "22-10-2026 21:59:21 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5702,
+    263,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+50 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -923,
+    5678,
+    57,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -913,
+    5703,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5728,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ra****na · Level 1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -959,
+    5728,
+    93,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5749,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0857 **** 1290",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -947,
+    5749,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5770,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus mendaftar",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -956,
+    5770,
+    90,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5791,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -872,
+    5791,
+    6,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5812,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610226678",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -965,
+    5812,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Komisi dari An****ri",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    5864,
+    255,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "20-10-2026 20:38:59 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5885,
+    255,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+200 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -931,
+    5861,
+    65,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -913,
+    5886,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5911,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "An****ri · Level 1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -954,
+    5911,
+    88,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5932,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0878 **** 6015",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -947,
+    5932,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5953,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus trading pertama",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -985,
+    5953,
+    119,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5974,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "950.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -931,
+    5974,
+    65,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    5995,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610206023",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -966,
+    5995,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Komisi dari Yu****di",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    6047,
+    265,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19-10-2026 11:06:10 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6068,
+    265,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+31 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -921,
+    6044,
+    55,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -914,
+    6069,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6094,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Yu****di · Level 2",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -958,
+    6094,
+    92,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6115,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0819 **** 2268",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -947,
+    6115,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6136,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komisi transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -950,
+    6136,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6157,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6.300.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -941,
+    6157,
+    75,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6178,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610192075",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -963,
+    6178,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Komisi dari Jo****ko",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1198,
+    6230,
+    263,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "18-10-2026 22:52:11 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6251,
+    263,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+35 Poin",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -923,
+    6227,
+    57,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -913,
+    6252,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6277,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jo****ko · Level 1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -958,
+    6277,
+    92,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6298,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0838 **** 5167",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -947,
+    6298,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6319,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komisi transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -950,
+    6319,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume trading teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6340,
+    114,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.100.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -938,
+    6340,
+    72,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1198,
+    6361,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KM2610188024",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -964,
+    6361,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1129,
+    6422,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1091,
+    6422,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1052,
+    6422,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "…",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1022,
+    6422,
+    10,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "8",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -990,
+    6422,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–8 dari 58 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1145,
+    6455,
+    179,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

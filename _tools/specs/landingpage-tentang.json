@@ -1,0 +1,582 @@
+{
+ "slug": "landingpage-tentang",
+ "id": "105:223",
+ "frameName": "Landing page tentang",
+ "size": [
+  412,
+  2401
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Beranda › Tentang Kami",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -6512,
+    -1552,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami percaya aset kripto bisa dipahami semua orang.",
+   "size": 30,
+   "weight": 800,
+   "lineHeight": 38,
+   "letterSpacing": -0.6000000238418579,
+   "color": "#FFFFFF",
+   "box": [
+    -6512,
+    -1527,
+    380,
+    114
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "CERITA KAMI",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 2,
+   "color": "#8FA6C2",
+   "box": [
+    -6512,
+    -1023,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "PasarCryptoIDN lahir dari keinginan sederhana: membuat aset kripto terasa dekat, aman, dan mudah dipahami oleh siapa saja, bukan hanya mereka yang sudah berpengalaman.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 25,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -6512,
+    -983,
+    380,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami memahami bahwa dunia kripto sering kali terasa rumit bagi sebagian orang. Karena itu, kami ingin menghadirkan pengalaman yang lebih sederhana, transparan, dan nyaman, mulai dari mengenal aset kripto hingga mengelola portofolio digital.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 25,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -6512,
+    -856,
+    380,
+    150
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "“Kami ingin setiap orang bisa mengenal aset kripto dengan tenang dan percaya diri.”",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 27,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6491,
+    -665,
+    359,
+    81
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Samuel Montgomery",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6440,
+    -566,
+    131,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pendiri PasarCryptoIDN",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6440,
+    -548,
+    123,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DALAM ANGKA",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 2,
+   "color": "#8FA6C2",
+   "box": [
+    -6512,
+    -472,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2017",
+   "size": 30,
+   "weight": 800,
+   "lineHeight": 34,
+   "letterSpacing": -0.5,
+   "color": null,
+   "box": [
+    -6512,
+    -420,
+    72,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tahun berdiri",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6370,
+    -406,
+    81,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100 Rb+",
+   "size": 30,
+   "weight": 800,
+   "lineHeight": 34,
+   "letterSpacing": -0.5,
+   "color": null,
+   "box": [
+    -6512,
+    -357,
+    121,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pengguna bergabung",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6370,
+    -343,
+    132,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24/7",
+   "size": 30,
+   "weight": 800,
+   "lineHeight": 34,
+   "letterSpacing": -0.5,
+   "color": null,
+   "box": [
+    -6512,
+    -294,
+    68,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sistem berjalan",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6370,
+    -280,
+    95,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "08–22",
+   "size": 30,
+   "weight": 800,
+   "lineHeight": 34,
+   "letterSpacing": -0.5,
+   "color": null,
+   "box": [
+    -6512,
+    -231,
+    93,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Layanan bantuan setiap hari (WIB)",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6370,
+    -231,
+    173,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "YANG KAMI PEGANG",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 2,
+   "color": "#8FA6C2",
+   "box": [
+    -6512,
+    -112,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sederhana",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6400,
+    -59,
+    85,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami membuat aset kripto mudah dipahami, tanpa istilah yang membingungkan.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6400,
+    -36,
+    191,
+    54
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terbuka",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6400,
+    66,
+    65,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap transaksi dan imbal hasil bisa kamu lihat dengan jelas.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6400,
+    89,
+    205,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Peduli",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6400,
+    182,
+    49,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami mendengar masukan pengguna dan terus memperbaiki layanan.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6400,
+    205,
+    210,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6512,
+    398,
+    380,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Produk",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6512,
+    456,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6512,
+    483,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6512,
+    508,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Referral",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6512,
+    533,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perusahaan",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6380,
+    456,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang Kami",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6380,
+    483,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pusat Bantuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6380,
+    508,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Legal",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6248,
+    456,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6248,
+    483,
+    116,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6248,
+    523,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian Klien",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6248,
+    548,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -6512,
+    646,
+    325,
+    45
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "© 2026 PasarCryptoIDN. Hak cipta dilindungi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -6512,
+    703,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

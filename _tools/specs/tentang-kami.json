@@ -1,0 +1,1212 @@
+{
+ "slug": "tentang-kami",
+ "id": "94:590",
+ "frameName": "Tentang kami",
+ "size": [
+  412,
+  2769
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Tentang Kami",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6193,
+    4695,
+    115,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "[Nama Aplikasi]",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6172,
+    4867,
+    157,
+    26
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Platform aset kripto untuk semua orang",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6138,
+    4897,
+    224,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "[Nama Aplikasi] adalah platform yang membantu kamu menyimpan dan mengembangkan aset kripto dengan mudah, aman, dan transparan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    6091,
+    4930,
+    319,
+    84
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2026",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 20.6,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6076,
+    5049,
+    45,
+    21
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Berdiri",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6081,
+    5072,
+    34,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "100 Rb+",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 20.6,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6190,
+    5049,
+    70,
+    21
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pengguna",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6198,
+    5072,
+    53,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "24/7",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 20.6,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6332,
+    5049,
+    39,
+    21
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Sistem aktif",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6321,
+    5072,
+    62,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Visi & Misi",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    5128,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "VISI",
+   "size": 10,
+   "weight": 700,
+   "lineHeight": 12.1,
+   "letterSpacing": 1.5,
+   "color": "#8FA6C2",
+   "box": [
+    6060,
+    5160,
+    380,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Menjadi platform aset kripto paling tepercaya dan mudah digunakan oleh masyarakat Indonesia.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    6060,
+    5176,
+    380,
+    40
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "MISI",
+   "size": 10,
+   "weight": 700,
+   "lineHeight": 12.1,
+   "letterSpacing": 1.5,
+   "color": "#8FA6C2",
+   "box": [
+    6060,
+    5230,
+    380,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Menyediakan produk holding yang aman dan transparan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    6074,
+    5248,
+    275,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Membuat investasi kripto mudah dipahami oleh semua kalangan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    6074,
+    5292,
+    290,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Memberikan layanan pelanggan yang cepat dan ramah.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    6074,
+    5336,
+    294,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjalanan Kami",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    5402,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jan 2026",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8FA6C2",
+   "box": [
+    6086,
+    5436,
+    51,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perusahaan didirikan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6086,
+    5451,
+    133,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6086,
+    5469,
+    158,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jun 2026",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8FA6C2",
+   "box": [
+    6086,
+    5502,
+    51,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Peluncuran versi beta",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6086,
+    5517,
+    137,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Uji coba bersama komunitas awal.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6086,
+    5535,
+    193,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Okt 2026",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8FA6C2",
+   "box": [
+    6086,
+    5568,
+    50,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Peluncuran resmi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6086,
+    5583,
+    110,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aplikasi tersedia untuk umum di Android & iOS.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6086,
+    5601,
+    266,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2027",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8FA6C2",
+   "box": [
+    6086,
+    5634,
+    28,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ekspansi produk",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6086,
+    5649,
+    105,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rencana produk dan layanan baru.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6086,
+    5667,
+    196,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Layanan Kami",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    5729,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    5805,
+    158,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Produk imbal hasil fleksibel & terkunci",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6060,
+    5823,
+    158,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit & Tarik",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6230,
+    5805,
+    158,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Via QRIS dan transfer bank",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6230,
+    5823,
+    158,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Hadiah",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    5915,
+    158,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Misi, absen, roda keberuntungan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6060,
+    5933,
+    158,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komunitas",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6230,
+    5915,
+    158,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Berbagi berita & pendapat di Feed",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6230,
+    5933,
+    158,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kenapa [Nama Aplikasi]?",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    5993,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aman & terlindungi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6110,
+    6025,
+    120,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dana dan data pengguna dijaga dengan standar keamanan berlapis.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6110,
+    6045,
+    273,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transparan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6110,
+    6093,
+    72,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua transaksi, imbal hasil, dan biaya tercatat jelas di aplikasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6110,
+    6113,
+    270,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Cepat & mudah",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6110,
+    6161,
+    97,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit, penarikan, dan holding bisa dilakukan dalam hitungan menit.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6110,
+    6181,
+    263,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bantuan setiap hari",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6110,
+    6229,
+    122,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tim kami siap membantu kamu melalui live chat.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6110,
+    6249,
+    273,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Legalitas & Keamanan",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    6295,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Badan hukum",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    6336,
+    71,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "[Nama Perusahaan]",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    6351,
+    123,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nomor izin usaha",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    6395,
+    90,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "XXX/XXXX/2026",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    6410,
+    103,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pengawasan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    6454,
+    67,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "[Nama Lembaga Pengawas]",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    6469,
+    175,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Enkripsi data",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    6513,
+    68,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Standar enkripsi industri",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    6528,
+    152,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penyimpanan aset",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    6572,
+    96,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Cold wallet & multi-signature",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    6587,
+    180,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "SERTIFIKAT",
+   "size": 7,
+   "weight": 400,
+   "lineHeight": 8.5,
+   "letterSpacing": 0.5,
+   "color": "#75879C",
+   "box": [
+    6099,
+    6657,
+    44,
+    8
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "SERTIFIKAT",
+   "size": 7,
+   "weight": 400,
+   "lineHeight": 8.5,
+   "letterSpacing": 0.5,
+   "color": "#75879C",
+   "box": [
+    6228,
+    6657,
+    44,
+    8
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "SERTIFIKAT",
+   "size": 7,
+   "weight": 400,
+   "lineHeight": 8.5,
+   "letterSpacing": 0.5,
+   "color": "#75879C",
+   "box": [
+    6357,
+    6657,
+    44,
+    8
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tim Kami",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    6721,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Samuel Montgomery",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    6842,
+    121,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "CEO",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6109,
+    6859,
+    23,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Felix Tanduwijaya",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6199,
+    6843,
+    103,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "CTO",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6238,
+    6860,
+    24,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Vivienne Sinclair",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6332,
+    6843,
+    97,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "COO",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6368,
+    6860,
+    25,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Berizin oleh",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6054,
+    6901,
+    386,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hubungi Kami",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6060,
+    6995,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Email",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    7036,
+    28,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "support@namaaplikasi.com",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    7051,
+    173,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Website",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    7095,
+    42,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "www.namaaplikasi.com",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    7110,
+    147,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Alamat kantor",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    7153,
+    73,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jl. Lorem Ipsum No. 1, Jakarta Selatan, DKI Jakarta 12345",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    7168,
+    264,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jam layanan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    6106,
+    7230,
+    65,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap hari, 08.00 – 22.00 WIB",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6106,
+    7245,
+    188,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "PasarCryptoIDN Versi aplikasi 1.0.0",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    6203,
+    7303,
+    95,
+    34
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<title>Notification</title>
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:NotificationModal */
+.notification-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.7);
+    padding: 20px;
+  }
+
+  .notification-card {
+    background: linear-gradient(to bottom left, #1D3350, #14263D);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 312px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .notification-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #F5F8FB, #C9D4E1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .success-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .notification-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  .notification-body {
+    /* The gap between body and header is 12px (from parent) + 12px (from figma) = 24px.
+       The parent gap is 12px, so we add 12px margin-top.
+       72px (body y) - 20px (parent padding) - 40px (header height) = 12px */
+    margin-top: 12px;
+  }
+
+  .notification-text {
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+  }
+
+  .notification-footer {
+    display: flex;
+    justify-content: flex-end;
+    /* The gap between footer and body is 12px (parent) + 12px (from figma) = 24px.
+       160px (footer y) - 20px (parent padding) - 40px (header height) - 12px (gap) - 76px (body height) = 12px */
+    margin-top: 12px;
+    padding-top: 4px;
+  }
+
+  .close-button {
+    background: linear-gradient(to bottom, #F5F8FB, #C9D4E1);
+    border: none;
+    border-radius: 18px;
+    padding: 10px 22px;
+    color: #0c1a2d;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="notification-modal" class="notification-overlay">
+  <div class="notification-card">
+    <header class="notification-header">
+      <div class="icon-container">
+        <img src="images/63_1096.svg" alt="Success Icon" class="success-icon">
+      </div>
+      <h2 class="notification-title">Holding Berhasil</h2>
+    </header>
+    <div class="notification-body">
+      <p class="notification-text">Holding USDT sebesar 1.000.000 IDR berhasil. Imbal hasil mulai dibagikan pada 26-10-2026. Pantau perkembangannya di Holding Saya.</p>
+    </div>
+    <footer class="notification-footer">
+      <button class="close-button">Tutup</button>
+    </footer>
+  </div>
+</section>
+</body>
+</html>

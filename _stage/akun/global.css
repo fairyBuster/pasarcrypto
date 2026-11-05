@@ -1,0 +1,58 @@
+body {
+  margin: 0 auto;
+  max-width: 412px;
+  background: linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 80px;
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Shared List Styles for Menus */
+.list-section {
+  padding: 26px 16px 0;
+}
+.list-section-title {
+  font-size: 14px;
+  color: #8597ab;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 13px 0;
+  border-bottom: 1px solid #1c2d44;
+  gap: 12px;
+  cursor: pointer;
+}
+.list-item:last-child {
+  border-bottom: none;
+}
+.list-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #1f3048;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.list-label {
+  font-size: 14px;
+  color: #ffffff;
+  flex-grow: 1;
+}
+.list-value {
+  font-size: 12px;
+  color: #8597ab;
+}

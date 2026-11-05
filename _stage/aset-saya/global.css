@@ -1,0 +1,18 @@
+html {
+  background-color: #000000;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 412px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}

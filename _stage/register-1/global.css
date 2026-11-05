@@ -1,0 +1,30 @@
+html {
+  background-color: #000000;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 412px;
+  background-color: #0c1a2d;
+  background-image: 
+    radial-gradient(circle at 70% 0%, rgba(78, 108, 142, 0.55) 0%, transparent 50%),
+    radial-gradient(circle at 60% 20%, rgba(44, 72, 104, 0.45) 0%, transparent 50%),
+    linear-gradient(180deg, #0c1a2d 0%, #13263d 38%, #0f2036 70%, #0a1626 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button {
+  font-family: inherit;
+}

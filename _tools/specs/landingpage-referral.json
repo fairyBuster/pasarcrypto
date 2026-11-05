@@ -1,0 +1,687 @@
+{
+ "slug": "landingpage-referral",
+ "id": "105:656",
+ "frameName": "Landing page referral",
+ "size": [
+  412,
+  2160
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Beranda › Program Referral",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -4775,
+    -1537,
+    380,
+    21
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mengenal program referral",
+   "size": 27,
+   "weight": 800,
+   "lineHeight": 34,
+   "letterSpacing": -0.5,
+   "color": "#FFFFFF",
+   "box": [
+    -4775,
+    -1506,
+    380,
+    68
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pelajari bagaimana program referral bekerja dan apa saja yang bisa kamu dapatkan dengan mengajak teman.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -4775,
+    -1428,
+    380,
+    63
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Apa itu program referral?",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -4775,
+    -1101,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program referral adalah program untuk mengajak teman bergabung menggunakan link atau kode undangan milikmu. Setiap teman yang bergabung dan aktif akan memberimu poin.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -4775,
+    -1068,
+    380,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Cara kerjanya",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -4775,
+    -948,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagikan link undangan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4725,
+    -893,
+    153,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap akun memiliki link dan kode undangan unik.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4725,
+    -873,
+    254,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman bergabung",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4725,
+    -808,
+    123,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman mendaftar menggunakan link atau kodemu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4725,
+    -788,
+    235,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dapatkan poin",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4725,
+    -723,
+    98,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin bertambah saat teman mendaftar dan mulai aktif.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4725,
+    -703,
+    277,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tingkatan teman",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -4775,
+    -613,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman yang kamu undang terbagi menjadi tiga level.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -4775,
+    -580,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 1",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4758,
+    -538,
+    37,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Teman yang mendaftar langsung menggunakan link atau kode undanganmu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -4693,
+    -542,
+    243,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 2",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4759,
+    -488,
+    38,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Teman yang diundang oleh teman Level 1 kamu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -4693,
+    -492,
+    234,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 3",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4759,
+    -438,
+    39,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Teman yang diundang oleh teman Level 2 kamu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -4693,
+    -442,
+    236,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jenis poin",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -4775,
+    -366,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman mendaftar",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4758,
+    -308,
+    346,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin diberikan saat teman berhasil mendaftar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4758,
+    -289,
+    346,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman mulai aktif",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4758,
+    -249,
+    346,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin tambahan saat teman mulai bertransaksi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4758,
+    -230,
+    346,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aktivitas berkelanjutan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4758,
+    -190,
+    346,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin dari aktivitas teman selanjutnya.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4758,
+    -171,
+    346,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tips mengajak teman",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -4775,
+    -99,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ceritakan pengalamanmu menggunakan aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -4759,
+    -60,
+    300,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagikan link undangan lewat media sosial atau pesan pribadi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -4759,
+    -31,
+    285,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bantu temanmu memahami cara memulai.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -4759,
+    17,
+    257,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4775,
+    187,
+    380,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Produk",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4775,
+    245,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4775,
+    272,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4775,
+    297,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Referral",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4775,
+    322,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perusahaan",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4643,
+    245,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang Kami",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4643,
+    272,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pusat Bantuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4643,
+    297,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Legal",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4511,
+    245,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4511,
+    272,
+    116,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4511,
+    312,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian Klien",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4511,
+    337,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -4775,
+    435,
+    325,
+    45
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "© 2026 PasarCryptoIDN. Hak cipta dilindungi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -4775,
+    492,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

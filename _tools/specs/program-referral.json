@@ -1,0 +1,627 @@
+{
+ "slug": "program-referral",
+ "id": "50:412",
+ "frameName": "Program referral",
+ "size": [
+  412,
+  1127
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Program Referral",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    910,
+    1245,
+    141,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ajak teman, dapat bonus poin",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 28,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    790,
+    1331,
+    243,
+    56
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin didapat",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    790,
+    1410,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.350",
+   "size": 24,
+   "weight": 600,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    790,
+    1425,
+    64,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    859,
+    1428,
+    28,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman diundang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    790,
+    1472,
+    157,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    790,
+    1489,
+    157,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sudah trading",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    962,
+    1472,
+    157,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    962,
+    1489,
+    157,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    807,
+    1546,
+    29,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KNZ8F2",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 1.5,
+   "color": "#FFFFFF",
+   "box": [
+    863,
+    1545,
+    217,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Salin",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1122,
+    1546,
+    29,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tautan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    807,
+    1600,
+    39,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "namaaplikasi.com/ref/KNZ8F2",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    863,
+    1599,
+    217,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Salin",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1122,
+    1600,
+    29,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagikan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    913,
+    1659,
+    55,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Poster",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1112,
+    1659,
+    42,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus per teman",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    790,
+    1719,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dapatkan minimal",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    806,
+    1769,
+    348,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50000",
+   "size": 26,
+   "weight": 600,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    803,
+    1792,
+    96,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR per teman",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    892,
+    1796,
+    94,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 1",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    822,
+    1856,
+    273,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "est. 33%",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1103,
+    1856,
+    51,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 2",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    822,
+    1879,
+    281,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "est. 2%",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1111,
+    1879,
+    43,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 3",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    822,
+    1902,
+    283,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "est. 1%",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1113,
+    1902,
+    41,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ada juga bonus saldo IDR lainnya",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    790,
+    1947,
+    191,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lihat Misi Rewards",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    1043,
+    1947,
+    109,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman diundang",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    790,
+    1992,
+    123,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lihat semua",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    1083,
+    1995,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    790,
+    2024,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    790,
+    2039,
+    99,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 2",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    935,
+    2024,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    935,
+    2039,
+    99,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 3",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1081,
+    2024,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1081,
+    2039,
+    99,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    790,
+    2085,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagikan kode atau tautan referral untuk mengundang teman.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    804,
+    2109,
+    344,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus referral diberikan setelah teman yang diundang menyelesaikan trading pertama. Bonus dihitung berdasarkan level referral dan ketentuan program yang berlaku.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    804,
+    2133,
+    374,
+    54
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap pengguna hanya dapat terdaftar melalui satu kode referral. Bonus yang memenuhi syarat akan otomatis ditambahkan ke saldo akun.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    804,
+    2193,
+    364,
+    54
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

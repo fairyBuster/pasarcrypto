@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:MainScreen */
+.main-layer {
+    background: linear-gradient(180deg, #0c1a2d 0%, #13263d 38%, #0f2036 70%, #0a1626 100%);
+    overflow-y: auto;
+    padding-bottom: 40px;
+  }
+  .top-bar {
+    padding: 20px 16px 0;
+    display: flex;
+  }
+  .icon-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-section {
+    padding: 24px 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .icon-container.lock-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .main-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .main-subtitle {
+    color: #a9b7c8;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .form-section {
+    padding: 28px 16px 40px;
+  }
+  .form-overlay {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group label {
+    color: #d3dce7;
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .input-wrapper {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 25px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 10px;
+  }
+  .input-wrapper input {
+    color: #75879c;
+    font-size: 14px;
+  }
+  .input-wrapper input::placeholder {
+    color: #75879c;
+  }
+  .trailing-icon {
+    margin-left: auto;
+  }
+  .helper-text {
+    color: #8597ab;
+    font-size: 12px;
+    margin-top: 6px;
+    line-height: 1.4;
+  }
+  .help-box {
+    background-color: rgba(201, 212, 225, 0.1);
+    border-radius: 16px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .help-box p {
+    color: #d3dce7;
+    font-size: 12px;
+    line-height: 1.4;
+    flex: 1;
+  }
+  .gradient-btn {
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    border-radius: 16px;
+    height: 32px;
+    padding: 0 14px;
+    color: #0c1a2d;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+/* CSS for section section:ChatModal */
+.chat-layer {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 24px;
+  }
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 9, 18, 0.85);
+    z-index: 1;
+  }
+  .chat-bottom-sheet {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, #1d3350 0%, #14263d 100%);
+    border-radius: 24px;
+    box-shadow: 0px 24px 60px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+    margin: 0 16px;
+  }
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    gap: 12px;
+  }
+  .avatar-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  .avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .status-dot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 11px;
+    height: 11px;
+    background-color: #3ecf8e;
+    border: 2px solid #1d3350;
+    border-radius: 50%;
+  }
+  .header-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .chat-title {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .chat-status {
+    color: #8fc9ad;
+    font-size: 12px;
+  }
+  .close-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chat-messages {
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+  }
+  .message {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+  }
+  .bot-message {
+    align-self: flex-start;
+  }
+  .user-message {
+    align-self: flex-end;
+    align-items: flex-end;
+  }
+  .bot-message .bubble {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 16px 16px 16px 4px;
+    padding: 10px 14px;
+  }
+  .user-message .bubble {
+    background: linear-gradient(to right, #f5f8fb, #c9d4e1);
+    border-radius: 16px 16px 4px 16px;
+    padding: 10px 14px;
+  }
+  .bot-message .bubble p {
+    color: #e6ecf3;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .user-message .bubble p {
+    color: #0c1a2d;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .time {
+    color: #75879c;
+    font-size: 10px;
+    margin-top: 4px;
+  }
+  .code-box {
+    background-color: rgba(201, 212, 225, 0.12);
+    border-radius: 14px;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    width: 100%;
+  }
+  .code-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  .copy-btn {
+    color: #c9d4e1;
+    font-size: 12px;
+  }
+  .quick-replies {
+    padding: 0 14px 10px;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+  }
+  .quick-replies::-webkit-scrollbar {
+    display: none;
+  }
+  .reply-chip {
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 15px;
+    padding: 6px 12px;
+    color: #d3dce7;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .chat-input-area {
+    padding: 10px 14px 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .input-box {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 23px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+  .input-box input {
+    color: #75879c;
+    font-size: 14px;
+  }
+  .input-box input::placeholder {
+    color: #75879c;
+  }
+  .attach-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .send-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="main-screen" class="screen-layer main-layer">
+  <div class="top-bar">
+    <button class="icon-btn back-btn">
+      <img src="images/6_422.svg" alt="Back">
+    </button>
+  </div>
+  
+  <div class="header-section">
+    <div class="icon-container lock-icon">
+      <img src="images/6_426.svg" alt="Lock">
+    </div>
+    <h1 class="main-title">Lupa Kata Sandi?</h1>
+    <p class="main-subtitle">Jangan khawatir, kami bantu. Silakan minta kode verifikasi ke tim kami, lalu masukkan bersama kata sandi barumu di bawah ini.</p>
+  </div>
+
+  <div class="form-section">
+    <div class="form-overlay">
+      <div class="form-group">
+        <label>Email / Nomor Telepon</label>
+        <div class="input-wrapper">
+          <img src="images/6_443.svg" alt="User">
+          <input type="text" placeholder="Email atau no. telepon" value="Email atau no. telepon" readonly>
+        </div>
+        <p class="helper-text">Pastikan sama dengan yang kamu gunakan saat mendaftar.</p>
+      </div>
+
+      <div class="form-group">
+        <label>Kode Verifikasi</label>
+        <div class="input-wrapper">
+          <img src="images/6_455.svg" alt="Key">
+          <input type="text" placeholder="Masukkan kode verifikasi" value="Masukkan kode verifikasi" readonly>
+        </div>
+        <div class="help-box">
+          <img src="images/6_462.svg" alt="Info">
+          <p>Belum punya kode?<br>Tim kami siap membantu.</p>
+          <button class="gradient-btn">Minta Bantuan</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Kata Sandi Baru</label>
+        <div class="input-wrapper">
+          <img src="images/6_472.svg" alt="Lock">
+          <input type="password" placeholder="Minimal 8 karakter" value="Minimal 8 karakter" readonly>
+          <img src="images/6_478.svg" alt="Eye" class="trailing-icon">
+        </div>
+        <p class="helper-text">Gunakan kombinasi huruf besar, huruf kecil, dan angka.</p>
+      </div>
+
+      <div class="form-group">
+        <label>Konfirmasi Kata Sandi Baru</label>
+        <div class="input-wrapper">
+          <img src="images/6_472.svg" alt="Lock">
+          <input type="password" placeholder="Konfirmasi kata sandi" readonly>
+          <img src="images/6_478.svg" alt="Eye" class="trailing-icon">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="chat-modal" class="screen-layer chat-layer">
+  <div class="dark-overlay"></div>
+  <div class="chat-bottom-sheet">
+    <div class="chat-header">
+      <div class="avatar-container">
+        <div class="avatar">
+          <img src="images/6_490.svg" alt="Avatar">
+        </div>
+        <div class="status-dot"></div>
+      </div>
+      <div class="header-info">
+        <h2 class="chat-title">Tim Bantuan</h2>
+        <span class="chat-status">Online</span>
+      </div>
+      <button class="close-btn">
+        <img src="images/6_501.svg" alt="Close">
+      </button>
+    </div>
+
+    <div class="chat-messages">
+      <div class="message bot-message">
+        <div class="bubble">
+          <p>Halo! 👋 Ada yang bisa kami bantu hari ini?</p>
+        </div>
+        <span class="time">10.21</span>
+      </div>
+
+      <div class="message user-message">
+        <div class="bubble">
+          <p>Halo kak, saya lupa kata sandi. Nomor saya 0812 3456 7890, boleh minta kode verifikasinya?</p>
+        </div>
+        <span class="time">10.22 · Dibaca</span>
+      </div>
+
+      <div class="message bot-message">
+        <div class="bubble">
+          <p>Terima kasih, data sudah kami cek. Berikut kode verifikasimu, berlaku 10 menit:</p>
+        </div>
+        <div class="code-box">
+          <span class="code-text">482915</span>
+          <button class="copy-btn">Salin</button>
+        </div>
+        <span class="time">10.23</span>
+      </div>
+    </div>
+
+    <div class="quick-replies">
+      <button class="reply-chip">Lupa kata sandi</button>
+      <button class="reply-chip">Kode tidak masuk</button>
+    </div>
+
+    <div class="chat-input-area">
+      <div class="input-box">
+        <input type="text" placeholder="Tulis pesan…">
+        <button class="attach-btn">
+          <img src="images/6_538.svg" alt="Attach">
+        </button>
+      </div>
+      <button class="send-btn">
+        <img src="images/6_541.svg" alt="Send">
+      </button>
+    </div>
+  </div>
+</section>
+</body>
+</html>

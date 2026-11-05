@@ -1,0 +1,402 @@
+{
+ "slug": "chat-cs",
+ "id": "6:417",
+ "frameName": "Chat cs",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 93,
+ "texts": [
+  {
+   "text": "Lupa Kata Sandi?",
+   "size": 24,
+   "weight": 700,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2178,
+    -1464,
+    203,
+    32
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Jangan khawatir, kami bantu. Silakan minta kode verifikasi ke tim kami, lalu masukkan bersama kata sandi barumu di bawah ini.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2144,
+    -1424,
+    270,
+    84
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Email / Nomor Telepon",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2109,
+    -1288,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Email atau no. telepon",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2155,
+    -1247,
+    276,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pastikan sama dengan yang kamu gunakan saat mendaftar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    2127,
+    -1208,
+    322,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode Verifikasi",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2109,
+    -1158,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan kode verifikasi",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2155,
+    -1117,
+    276,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Belum punya kode? Tim kami siap membantu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2149,
+    -1062,
+    164,
+    51
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Minta Bantuan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2337,
+    -1044,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kata Sandi Baru",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2109,
+    -981,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Minimal 8 karakter",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2155,
+    -940,
+    248,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Gunakan kombinasi huruf besar, huruf kecil, dan angka.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    2127,
+    -901,
+    322,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Konfirmasi Kata Sandi Baru",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2109,
+    -851,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tim Bantuan",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2157,
+    -1455,
+    252,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Online",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8FC9AD",
+   "box": [
+    2157,
+    -1435,
+    252,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Halo! 👋 Ada yang bisa kami bantu hari ini?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    2117,
+    -1338,
+    210,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10.21",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2103,
+    -1286,
+    25,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Halo kak, saya lupa kata sandi. Nomor saya 0812 3456 7890, boleh minta kode verifikasinya?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2213,
+    -1252,
+    220,
+    57
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10.22 · Dibaca",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2388,
+    -1181,
+    67,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terima kasih, data sudah kami cek. Berikut kode verifikasimu, berlaku 10 menit:",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    2117,
+    -1147,
+    225,
+    57
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "482915",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 21.8,
+   "letterSpacing": 4,
+   "color": "#FFFFFF",
+   "box": [
+    2117,
+    -1064,
+    88,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Salin",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    2316,
+    -1059,
+    26,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10.23",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2103,
+    -1028,
+    26,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lupa kata sandi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2115,
+    -994,
+    90,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode tidak masuk",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2237,
+    -994,
+    101,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tulis pesan…",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2119,
+    -936,
+    238,
+    17
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

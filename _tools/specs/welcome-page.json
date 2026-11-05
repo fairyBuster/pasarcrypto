@@ -1,0 +1,132 @@
+{
+ "slug": "welcome-page",
+ "id": "1:3",
+ "frameName": "Welcome page",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Selamat Datang",
+   "size": 28,
+   "weight": 700,
+   "lineHeight": 36,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2917,
+    -1019,
+    217,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Daftar sekarang dan mulai dapatkan penghasilan dari koneksimu.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2949,
+    -977,
+    280,
+    42
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Daftar",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2833,
+    -908,
+    49,
+    19
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Sudah punya akun? Masuk",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2898,
+    -853,
+    179,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Dengan mengetuk Daftar, saya menyetujui",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2948,
+    -821,
+    240,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Syarat",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2707,
+    -821,
+    38,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Layanan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2899,
+    -803,
+    49,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "dan Kebijakan Privasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2850,
+    -803,
+    130,
+    18
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

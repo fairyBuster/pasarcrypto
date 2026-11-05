@@ -1,0 +1,13 @@
+# dependencies and build output
+node_modules/
+dist/
+
+# archives and logs
+*.zip
+*.log
+
+# local environment and OS noise
+.env
+.env.*
+Thumbs.db
+.DS_Store

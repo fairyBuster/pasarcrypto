@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(100% 100% at 50% 0%, rgba(78, 108, 142, 0.6) 0%, rgba(78, 108, 142, 0) 100%),
+              radial-gradient(100% 100% at 50% 0%, rgba(44, 72, 104, 0.45) 0%, rgba(44, 72, 104, 0) 100%),
+              linear-gradient(180deg, #0c1a2d 0%, #13263d 18%, #0f2036 50%, #0c1b2e 80%, #0a1626 100%);
+  background-attachment: fixed;
+  background-color: #0a1626;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  max-width: 412px;
+  margin: 0 auto;
+  position: relative;
+}

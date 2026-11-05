@@ -1,0 +1,1527 @@
+{
+ "slug": "riwayat-absen",
+ "id": "85:2511",
+ "frameName": "Riwayat absen",
+ "size": [
+  412,
+  1457
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Riwayat Absen",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    618,
+    4695,
+    124,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total bonus absen · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    546,
+    4748,
+    265,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19.000 IDR",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    546,
+    4765,
+    265,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19 absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    823,
+    4763,
+    47,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    490,
+    4811,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    525,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    525,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    727,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    727,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen hari ke-19",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    4906,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 17:10:43 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    4927,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    4902,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    4903,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    4928,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    4953,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    835,
+    4953,
+    35,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    4974,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    4974,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    4995,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    4995,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen hari ke-18",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    5048,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24-10-2026 07:43:33 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5069,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    5044,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    5045,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    5070,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5095,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "18 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    835,
+    5095,
+    35,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5116,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    5116,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5137,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    5137,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen hari ke-17",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    5190,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23-10-2026 13:26:58 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5211,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    5186,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    5187,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    5212,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5237,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "17 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    836,
+    5237,
+    34,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5258,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    5258,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5279,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    5279,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen hari ke-16",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    5332,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "22-10-2026 11:47:37 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5353,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    5328,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    5329,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    5354,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5379,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "16 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    835,
+    5379,
+    35,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5400,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    5400,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5421,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    5421,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen hari ke-15",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    5474,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "21-10-2026 06:56:22 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5495,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    5470,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    5471,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    5496,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5521,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "15 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    835,
+    5521,
+    35,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5542,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    5542,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5563,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    5563,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen hari ke-14",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    5616,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "20-10-2026 21:32:24 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5637,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    5612,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    5613,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    5638,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5663,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "14 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    835,
+    5663,
+    35,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5684,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    5684,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5705,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    5705,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen hari ke-13",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    5758,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19-10-2026 13:59:56 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5779,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    5754,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    5755,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    5780,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5805,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "13 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    835,
+    5805,
+    35,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5826,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    5826,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5847,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    5847,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen hari ke-12",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    538,
+    5900,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "18-10-2026 13:10:35 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5921,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    810,
+    5896,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    853,
+    5897,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    823,
+    5922,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Total absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5947,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    835,
+    5947,
+    35,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bonus absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5968,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    821,
+    5968,
+    49,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    538,
+    5989,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    793,
+    5989,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    638,
+    6050,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    676,
+    6050,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    715,
+    6050,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–8 dari 19 absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    599,
+    6083,
+    163,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

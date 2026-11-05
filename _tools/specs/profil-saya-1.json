@@ -1,0 +1,312 @@
+{
+ "slug": "profil-saya-1",
+ "id": "89:3291",
+ "frameName": "Profil saya 1",
+ "size": [
+  412,
+  958
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Profil Saya",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1498,
+    4695,
+    88,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ubah foto profil",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    1497,
+    4867,
+    90,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Data Akun",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1352,
+    4910,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Username",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1352,
+    4952,
+    63,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Username",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1643,
+    4952,
+    65,
+    16
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "ID Pengguna",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1352,
+    4997,
+    79,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KNZ8F2",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1658,
+    4997,
+    51,
+    16
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor HP",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1352,
+    5042,
+    63,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0812 **** 4471",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1608,
+    5042,
+    98,
+    16
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Email",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1352,
+    5087,
+    33,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "us****@gmail.com",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1584,
+    5087,
+    122,
+    16
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rank",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1352,
+    5135,
+    31,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Gold",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1671,
+    5137,
+    26,
+    13
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Bergabung sejak",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1352,
+    5183,
+    103,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1657,
+    5183,
+    75,
+    16
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Alamat Pengiriman",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1352,
+    5241,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dipakai untuk mengirim hadiah barang dari Roda Keberuntungan dan program lainnya.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1352,
+    5264,
+    380,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Belum ada alamat pengiriman",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1442,
+    5451,
+    200,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tambahkan alamat agar hadiah barang yang kamu menangkan bisa langsung dikirim.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1431,
+    5475,
+    221,
+    54
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tambah Alamat",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1504,
+    5553,
+    98,
+    16
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 16px 0;
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1f3048;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.page-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.spacer {
+  width: 40px;
+  height: 40px;
+}
+
+/* CSS for section section:Search */
+.search-section {
+  padding: 18px 16px 0;
+}
+
+.search-bar {
+  height: 46px;
+  background-color: #1f3048;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 10px;
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  flex: 1;
+  outline: none;
+  width: 100%;
+}
+
+.search-input::placeholder {
+  color: #75879c;
+}
+
+/* CSS for section section:FAQ */
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-top: 22px;
+}
+
+.faq-category {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #5a82bf 0%, #2c4c80 100%);
+}
+
+.category-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  flex: 1;
+}
+
+.category-count {
+  font-size: 12px;
+  color: #8597ab;
+}
+
+.faq-list {
+  background: linear-gradient(180deg, #1c2e46 0%, #16273d 100%);
+  border-radius: 18px;
+  padding: 0 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-item {
+  padding: 13px 0;
+  border-bottom: 1px solid #24364e;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-item:last-child,
+.faq-item.expanded {
+  border-bottom: none;
+}
+
+.faq-question {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.question-text {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #ffffff;
+  flex: 1;
+  font-weight: 500;
+}
+
+.chevron-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #24364e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.chevron-icon.active {
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+}
+
+.faq-answer {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #ffffff;
+  opacity: 0.85;
+  padding-right: 20px;
+}
+
+/* CSS for section section:LiveChat */
+.live-chat-section {
+  padding: 26px 16px 0;
+}
+
+.live-chat-banner {
+  background: linear-gradient(135deg, #2c4c80 0%, #1f3a62 50%, #152a46 100%);
+  border-radius: 22px;
+  position: relative;
+  display: flex;
+  min-height: 179px;
+}
+
+.banner-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  width: 65%;
+}
+
+.banner-subtitle {
+  color: #9fc0ec;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.banner-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 5px 0 0 0;
+  line-height: 1.3;
+}
+
+.banner-badges {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin-top: 21px;
+}
+
+.badge {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 11px;
+  height: 22px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #e6ecf3;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #3ecf8e;
+  border-radius: 3px;
+}
+
+.chat-btn {
+  margin-top: 30px;
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  border-radius: 18px;
+  padding: 10px 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: none;
+  color: #0c1a2d;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.banner-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 162px;
+  height: 163px;
+  object-fit: contain;
+  z-index: 1;
+  pointer-events: none;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header">
+    <button class="icon-btn">
+      <img src="images/20_580.svg" alt="Back">
+    </button>
+    <h1 class="page-title">Pusat Bantuan</h1>
+    <div class="spacer"></div>
+  </header>
+</section>
+<section id="section-search">
+  <div class="search-section">
+    <div class="search-bar">
+      <img src="images/20_587.svg" alt="Search">
+      <input type="text" placeholder="Cari pertanyaan…" class="search-input">
+    </div>
+  </div>
+</section>
+<section id="section-faq">
+  <div class="faq-section">
+    <!-- Category 1: Akun -->
+    <div class="faq-category">
+      <div class="category-header">
+        <div class="category-icon">
+          <img src="images/20_595.svg" alt="Akun">
+        </div>
+        <h2 class="category-title">Akun</h2>
+        <span class="category-count">3 artikel</span>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="question-text">Bagaimana cara mendaftar akun?</span>
+            <div class="chevron-icon">
+              <img src="images/20_608.svg" alt="Expand">
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="question-text">Bagaimana cara mengubah username?</span>
+            <div class="chevron-icon">
+              <img src="images/20_615.svg" alt="Expand">
+            </div>
+          </div>
+        </div>
+        <div class="faq-item expanded">
+          <div class="faq-question">
+            <span class="question-text">Saya lupa kata sandi, apa yang harus dilakukan?</span>
+            <div class="chevron-icon active">
+              <img src="images/20_622.svg" alt="Collapse">
+            </div>
+          </div>
+          <div class="faq-answer">
+            Ketuk Lupa kata sandi? di halaman Masuk. Minta kode verifikasi ke tim kami melalui Live Chat, lalu masukkan kode tersebut dan buat kata sandi baru.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 2: Saldo & Transaksi -->
+    <div class="faq-category">
+      <div class="category-header">
+        <div class="category-icon">
+          <img src="images/20_630.svg" alt="Saldo & Transaksi">
+        </div>
+        <h2 class="category-title">Saldo & Transaksi</h2>
+        <span class="category-count">3 artikel</span>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="question-text">Apa bedanya Saldo Isi Ulang, Tersedia, dan Digunakan?</span>
+            <div class="chevron-icon">
+              <img src="images/20_644.svg" alt="Expand">
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="question-text">Bagaimana cara melakukan deposit?</span>
+            <div class="chevron-icon">
+              <img src="images/20_651.svg" alt="Expand">
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="question-text">Berapa lama proses penarikan dana?</span>
+            <div class="chevron-icon">
+              <img src="images/20_657.svg" alt="Expand">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 3: Poin & Feed -->
+    <div class="faq-category">
+      <div class="category-header">
+        <div class="category-icon">
+          <img src="images/20_663.svg" alt="Poin & Feed">
+        </div>
+        <h2 class="category-title">Poin & Feed</h2>
+        <span class="category-count">2 artikel</span>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="question-text">Bagaimana cara mendapatkan poin dari Feed?</span>
+            <div class="chevron-icon">
+              <img src="images/20_675.svg" alt="Expand">
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="question-text">Poin bisa ditukar dengan apa saja?</span>
+            <div class="chevron-icon">
+              <img src="images/20_681.svg" alt="Expand">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-livechat">
+  <div class="live-chat-section">
+    <div class="live-chat-banner">
+      <div class="banner-content">
+        <span class="banner-subtitle">LIVE CHAT</span>
+        <h2 class="banner-title">Ngobrol langsung<br>dengan tim kami</h2>
+        <div class="banner-badges">
+          <div class="badge">
+            <span class="status-dot"></span>
+            <span>Online</span>
+          </div>
+          <div class="badge">
+            <span>Respon cepat</span>
+          </div>
+        </div>
+        <button class="chat-btn">
+          Mulai Chat
+          <img src="images/20_697.svg" alt="Arrow Right">
+        </button>
+      </div>
+      <img src="images/67f3b95004ddbd655e38a0dcb55712df0163820c.png" alt="Hand pointing" class="banner-image">
+    </div>
+  </div>
+</section>
+</body>
+</html>

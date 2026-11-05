@@ -1,0 +1,762 @@
+{
+ "slug": "riwayat-misi",
+ "id": "85:441",
+ "frameName": "Riwayat misi",
+ "size": [
+  412,
+  838
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Riwayat Misi",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1976,
+    4695,
+    105,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total hadiah misi · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2058,
+    4748,
+    281,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "175.000 IDR",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2058,
+    4765,
+    281,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3 misi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1765,
+    4763,
+    31,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2114,
+    4811,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2079,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2079,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1877,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1877,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Menyelesaikan misi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2066,
+    4906,
+    240,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 22:46:30 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    4927,
+    240,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+100.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1812,
+    4902,
+    62,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1751,
+    4903,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1781,
+    4928,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Target diselesaikan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    4953,
+    101,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3 teman trading",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1817,
+    4953,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    4974,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1798,
+    4974,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    4995,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1811,
+    4995,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5016,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "MS2610251463",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1832,
+    5016,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Menyelesaikan misi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2066,
+    5069,
+    246,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "21-10-2026 11:57:53 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5090,
+    246,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+50.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1805,
+    5065,
+    55,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1751,
+    5066,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1781,
+    5091,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Target diselesaikan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5116,
+    101,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2 teman trading",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1817,
+    5116,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5137,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1798,
+    5137,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5158,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1811,
+    5158,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5179,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "MS2610216992",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1832,
+    5179,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Menyelesaikan misi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2066,
+    5232,
+    247,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "18-10-2026 20:09:56 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5253,
+    247,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+25.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1804,
+    5228,
+    54,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1751,
+    5229,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1781,
+    5254,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Target diselesaikan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5279,
+    101,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1 teman trading",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1815,
+    5279,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5300,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1798,
+    5300,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5321,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1811,
+    5321,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2066,
+    5342,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "MS2610187041",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1830,
+    5342,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1927,
+    5403,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–3 dari 3 misi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1997,
+    5436,
+    147,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

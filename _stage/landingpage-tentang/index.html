@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.logo {
+  width: 51px;
+  height: 51px;
+  object-fit: contain;
+}
+.menu-toggle {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #1f3048;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+.menu-toggle img {
+  width: 16px;
+  height: 16px;
+}
+
+/* CSS for section section:Hero */
+.hero-section {
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-content {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.breadcrumb {
+  font-size: 12px;
+  color: #a9b7c8;
+}
+.main-heading {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+.hero-image-wrapper {
+  margin-top: 24px;
+  width: 100%;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-img {
+  position: absolute;
+  top: -64px;
+  left: 0;
+  width: 412px;
+  height: 412px;
+  object-fit: cover;
+}
+
+/* CSS for section section:Story */
+.story-section {
+  padding: 40px 16px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #8fa6c2;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+}
+.story-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.story-text p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #c3cedb;
+  margin: 0;
+}
+.quote-container {
+  margin-top: 22px;
+  padding-left: 18px;
+  border-left: 2px solid #8fb4ea;
+}
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.quote-text {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+.quote-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.author-img {
+  width: 41px;
+  height: 39px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.author-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.author-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.author-role {
+  font-size: 12px;
+  color: #8597ab;
+}
+
+/* CSS for section section:Stats */
+.stats-section {
+  padding: 40px 16px 10px;
+}
+.stats-list {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.stat-row {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #1c2d44;
+}
+.stat-row.no-border {
+  border-bottom: none;
+}
+.stat-value {
+  width: 128px;
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f5f8fb 0%, #8fb4ea 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stat-desc {
+  flex: 1;
+  font-size: 14px;
+  color: #a9b7c8;
+  line-height: 1.3;
+}
+
+/* CSS for section section:Values */
+.values-section {
+  padding: 40px 16px;
+}
+.values-list {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.value-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.value-img {
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.value-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+.value-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+.value-text {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #8597ab;
+  margin: 0;
+}
+
+/* CSS for section section:Footer */
+.site-footer {
+  position: relative;
+  margin-top: 40px;
+}
+.footer-overlay {
+  background-color: rgba(4, 9, 18, 0.35);
+  border-top: 1px solid #1c2d44;
+  padding: 28px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+.footer-tagline {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #8597ab;
+  margin: 0;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  gap: 16px;
+}
+.nav-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.nav-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nav-list a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #8597ab;
+}
+.app-downloads {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+.store-badge {
+  height: 22px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.footer-disclaimer {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(201, 212, 225, 0.14);
+}
+.footer-disclaimer p {
+  font-size: 11px;
+  line-height: 1.4;
+  color: #51657e;
+  margin: 0;
+}
+.footer-copyright {
+  margin-top: 16px;
+}
+.footer-copyright p {
+  font-size: 11px;
+  color: #75879c;
+  margin: 0;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="header">
+  <header class="site-header">
+    <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="PasarCrypto Logo" class="logo">
+    <button class="menu-toggle">
+      <img src="images/105_230.svg" alt="Menu">
+    </button>
+  </header>
+</section>
+<section id="hero" class="hero-section">
+  <div class="hero-content">
+    <div class="breadcrumb">Beranda › Tentang Kami</div>
+    <h1 class="main-heading">Kami percaya aset kripto bisa dipahami semua orang.</h1>
+  </div>
+  <div class="hero-image-wrapper">
+    <img src="images/0424b57ed5f7d1b899468f3f025b35c6a632b005.png" alt="Golden XAUUSD247 Market Tile" class="hero-img">
+  </div>
+</section>
+<section id="story" class="story-section">
+  <h2 class="section-label">CERITA KAMI</h2>
+  <div class="story-text">
+    <p>PasarCryptoIDN lahir dari keinginan sederhana: membuat aset kripto terasa dekat, aman, dan mudah dipahami oleh siapa saja, bukan hanya mereka yang sudah berpengalaman.</p>
+    <p>Kami memahami bahwa dunia kripto sering kali terasa rumit bagi sebagian orang. Karena itu, kami ingin menghadirkan pengalaman yang lebih sederhana, transparan, dan nyaman, mulai dari mengenal aset kripto hingga mengelola portofolio digital.</p>
+  </div>
+  <div class="quote-container">
+    <div class="quote-content">
+      <p class="quote-text">“Kami ingin setiap orang bisa mengenal aset kripto dengan tenang dan percaya diri.”</p>
+      <div class="quote-author">
+        <img src="images/6a58c276c3bd7f2ce87144fbcb01b832d8cfdbae.png" alt="Samuel Montgomery" class="author-img">
+        <div class="author-details">
+          <span class="author-name">Samuel Montgomery</span>
+          <span class="author-role">Pendiri PasarCryptoIDN</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="stats" class="stats-section">
+  <h2 class="section-label">DALAM ANGKA</h2>
+  <div class="stats-list">
+    <div class="stat-row">
+      <div class="stat-value">2017</div>
+      <div class="stat-desc">Tahun berdiri</div>
+    </div>
+    <div class="stat-row">
+      <div class="stat-value">100 Rb+</div>
+      <div class="stat-desc">Pengguna bergabung</div>
+    </div>
+    <div class="stat-row">
+      <div class="stat-value">24/7</div>
+      <div class="stat-desc">Sistem berjalan</div>
+    </div>
+    <div class="stat-row no-border">
+      <div class="stat-value">08–22</div>
+      <div class="stat-desc">Layanan bantuan setiap hari<br>(WIB)</div>
+    </div>
+  </div>
+</section>
+<section id="values" class="values-section">
+  <h2 class="section-label">YANG KAMI PEGANG</h2>
+  <div class="values-list">
+    <div class="value-card">
+      <img src="images/d6080c20e4bddf3f89153e4abbd65e8b6a89c76e.png" alt="Sederhana" class="value-img">
+      <div class="value-info">
+        <h3 class="value-title">Sederhana</h3>
+        <p class="value-text">Kami membuat aset kripto mudah dipahami, tanpa istilah yang membingungkan.</p>
+      </div>
+    </div>
+    <div class="value-card">
+      <img src="images/b6027892dca8c2992588a70f8e613e17312c9002.png" alt="Terbuka" class="value-img">
+      <div class="value-info">
+        <h3 class="value-title">Terbuka</h3>
+        <p class="value-text">Setiap transaksi dan imbal hasil bisa kamu lihat dengan jelas.</p>
+      </div>
+    </div>
+    <div class="value-card">
+      <img src="images/9c20e511acfbd3f87be2781b987c3c4f34072c9a.png" alt="Peduli" class="value-img">
+      <div class="value-info">
+        <h3 class="value-title">Peduli</h3>
+        <p class="value-text">Kami mendengar masukan pengguna dan terus memperbaiki layanan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="footer">
+  <footer class="site-footer">
+    <div class="footer-overlay">
+      <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="PasarCrypto Logo" class="footer-logo">
+      <p class="footer-tagline">Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.</p>
+      
+      <div class="footer-nav">
+        <div class="nav-col">
+          <h4 class="nav-title">Produk</h4>
+          <ul class="nav-list">
+            <li><a href="#">Holding</a></li>
+            <li><a href="#">Hadiah</a></li>
+            <li><a href="#">Program Referral</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <h4 class="nav-title">Perusahaan</h4>
+          <ul class="nav-list">
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Pusat Bantuan</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <h4 class="nav-title">Legal</h4>
+          <ul class="nav-list">
+            <li><a href="#">Syarat & Ketentuan</a></li>
+            <li><a href="#">Kebijakan Privasi</a></li>
+            <li><a href="#">Perjanjian Klien</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="app-downloads">
+        <img src="images/0df4ee1cbf5b1725acac2d9d08fb45019361fa6e.png" alt="Get it on Google Play" class="store-badge">
+        <img src="images/77d24c42cf84c32b2b4b166aa82a20eab63965b9.png" alt="Download on the App Store" class="store-badge">
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="footer-copyright">
+        <p>© 2026 PasarCryptoIDN. Hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+</section>
+</body>
+</html>

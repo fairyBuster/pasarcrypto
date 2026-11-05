@@ -1,0 +1,447 @@
+{
+ "slug": "landingpage-bantuan",
+ "id": "105:376",
+ "frameName": "Landing page bantuan",
+ "size": [
+  412,
+  1233
+ ],
+ "overlap": 93,
+ "texts": [
+  {
+   "text": "Beranda › Pusat Bantuan",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6077,
+    -1537,
+    380,
+    21
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ada yang bisa kami bantu?",
+   "size": 27,
+   "weight": 800,
+   "lineHeight": 34,
+   "letterSpacing": -0.5,
+   "color": "#FFFFFF",
+   "box": [
+    -6077,
+    -1506,
+    380,
+    68
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tinggalkan pesan melalui formulir di bawah. Tim kami akan menghubungimu melalui email.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6077,
+    -1428,
+    380,
+    42
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nama",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -6077,
+    -1362,
+    34,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -6041,
+    -1362,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan nama kamu",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -6062,
+    -1324,
+    137,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Email",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -6077,
+    -1277,
+    32,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -6043,
+    -1277,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan email kamu",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -6062,
+    -1239,
+    136,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pesan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -6077,
+    -1192,
+    36,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -6039,
+    -1192,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tulis pertanyaan atau kendala kamu…",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -6062,
+    -1155,
+    231,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0/500",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -5729,
+    -1033,
+    32,
+    13
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kirim Pesan",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -5931,
+    -985,
+    88,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tim kami akan membalas melalui email dalam waktu maksimal 1×24 jam pada hari kerja.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6053,
+    -936,
+    295,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6077,
+    -745,
+    380,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Produk",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6077,
+    -687,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6077,
+    -660,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6077,
+    -635,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Referral",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6077,
+    -610,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perusahaan",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5945,
+    -687,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang Kami",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5945,
+    -660,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pusat Bantuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5945,
+    -635,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Legal",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5813,
+    -687,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5813,
+    -660,
+    116,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5813,
+    -620,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian Klien",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5813,
+    -595,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -6077,
+    -497,
+    325,
+    45
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "© 2026 PasarCryptoIDN. Hak cipta dilindungi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -6077,
+    -440,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

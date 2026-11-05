@@ -1,0 +1,267 @@
+{
+ "slug": "rekening-bank-2",
+ "id": "92:75",
+ "frameName": "Rekening bank 2",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Rekening Bank",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3193,
+    4695,
+    123,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Rekening ini dipakai sebagai tujuan penarikan saldo kamu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3090,
+    4747,
+    292,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank BRI",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3080,
+    4813,
+    60,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Utama",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    3156,
+    4815,
+    32,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3080,
+    4834,
+    318,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nomor rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3080,
+    4876,
+    83,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7810 **** 9031",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 19.4,
+   "letterSpacing": 1,
+   "color": "#FFFFFF",
+   "box": [
+    3080,
+    4891,
+    133,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank BCA",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3081,
+    4955,
+    316,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3081,
+    4975,
+    316,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nomor rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3081,
+    5017,
+    83,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5230 **** 1187",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 19.4,
+   "letterSpacing": 1,
+   "color": "#FFFFFF",
+   "box": [
+    3081,
+    5032,
+    132,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tambah Rekening",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    3210,
+    5095,
+    112,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Maksimal 3 rekening · 2 dari 3 terpakai",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3154,
+    5134,
+    201,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3064,
+    5173,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nama pemilik rekening harus sama dengan nama akun kamu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3078,
+    5197,
+    308,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan hanya bisa dilakukan ke rekening yang sudah terdaftar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3078,
+    5239,
+    277,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3078,
+    5281,
+    314,
+    18
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

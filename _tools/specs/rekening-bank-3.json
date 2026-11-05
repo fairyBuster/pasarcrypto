@@ -1,0 +1,297 @@
+{
+ "slug": "rekening-bank-3",
+ "id": "92:77",
+ "frameName": "Rekening bank 3",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 98,
+ "texts": [
+  {
+   "text": "Tambah Rekening",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3608,
+    4695,
+    149,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pastikan data rekening benar agar penarikan tidak gagal.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3518,
+    4747,
+    285,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3492,
+    4799,
+    29,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    3523,
+    4799,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih bank",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3507,
+    4837,
+    59,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nomor rekening",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3492,
+    4884,
+    93,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    3587,
+    4884,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan nomor rekening",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3507,
+    4922,
+    162,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nama pemilik rekening",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3492,
+    4969,
+    132,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    3626,
+    4969,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3507,
+    5007,
+    63,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Otomatis sesuai nama akun kamu dan tidak bisa diubah.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3492,
+    5044,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jadikan rekening utama",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3492,
+    5077,
+    328,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dipakai otomatis saat penarikan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3492,
+    5095,
+    328,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Simpan Rekening",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3624,
+    5146,
+    117,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3492,
+    5202,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nama pemilik rekening harus sama dengan nama akun kamu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3506,
+    5226,
+    308,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan hanya bisa dilakukan ke rekening yang sudah terdaftar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3506,
+    5268,
+    277,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3506,
+    5310,
+    314,
+    18
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "slug": "portofolio",
+ "id": "68:1183",
+ "frameName": "Popup portofolio",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Portofolio",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1008,
+    3343,
+    82,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ringkasan holding kamu saat ini",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    959,
+    3371,
+    181,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Stablecoin",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1069,
+    3424,
+    86,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50%",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1163,
+    3424,
+    26,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1069,
+    3449,
+    75,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "33,3%",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1152,
+    3449,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1069,
+    3474,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "16,7%",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1155,
+    3474,
+    34,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Total di-holding",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    909,
+    3533,
+    97,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3.000.000 IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1097,
+    3533,
+    92,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Stablecoin",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    909,
+    3572,
+    65,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.500.000 IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1100,
+    3572,
+    89,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    909,
+    3611,
+    53,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000.000 IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1100,
+    3611,
+    89,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    909,
+    3650,
+    54,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "500.000 IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1109,
+    3650,
+    80,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Total imbal hasil",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    909,
+    3689,
+    99,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+184.250 IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    1103,
+    3689,
+    86,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tutup",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1130,
+    3740,
+    37,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

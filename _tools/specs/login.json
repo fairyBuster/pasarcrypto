@@ -1,0 +1,252 @@
+{
+ "slug": "login",
+ "id": "6:227",
+ "frameName": "Login",
+ "size": [
+  412,
+  1271
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Selamat Datang Kembali",
+   "size": 24,
+   "weight": 700,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -407,
+    -1309,
+    286,
+    32
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Masuk ke akunmu untuk melanjutkan.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -388,
+    -1271,
+    248,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Username / Email / Nomor Telepon",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -434,
+    -1199,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Username, email, atau no. telepon",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -388,
+    -1159,
+    225,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kata Sandi",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -434,
+    -1107,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan kata sandi",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -388,
+    -1067,
+    248,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode Captcha",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -434,
+    -1015,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan kode",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -416,
+    -975,
+    168,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7K4P",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 21.8,
+   "letterSpacing": 1,
+   "color": "#1A2C44",
+   "box": [
+    -206,
+    -977,
+    50,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ketik ulang kode yang tampil di kotak sebelah kanan ke kolom ini. Kode tidak bisa dibaca? Ketuk ikon putar untuk mengganti kode baru.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -416,
+    -935,
+    322,
+    48
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ingat saya",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -406,
+    -871,
+    63,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lupa kata sandi?",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -200,
+    -871,
+    106,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masuk",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -290,
+    -785,
+    52,
+    19
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Belum punya akun? Daftar",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -351,
+    -729,
+    175,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Data yang kamu masukkan hanya digunakan untuk keperluan akses login ke akunmu. Kami tidak akan membagikan, menjual, atau menggunakan data kamu untuk tujuan lain tanpa persetujuan darimu.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#7F90A5",
+   "box": [
+    -419,
+    -688,
+    309,
+    68
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Dengan masuk, saya menyatakan bahwa saya sudah dewasa dan menerima ketentuan- ketentuan Perjanjian Klien dan Kebijakan Privasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -414,
+    -584,
+    260,
+    72
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

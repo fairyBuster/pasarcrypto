@@ -1,0 +1,1227 @@
+{
+ "slug": "home",
+ "id": "8:1038",
+ "frameName": "Home",
+ "size": [
+  412,
+  1456
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Selamat sore 👋",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2932,
+    -294,
+    205,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Username",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2932,
+    -278,
+    205,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Total Aset",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2983,
+    -214,
+    57,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12.450.000",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 28,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -2983,
+    -197,
+    112,
+    28
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2867,
+    -188,
+    20,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "≈ 768,42 USDT",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2983,
+    -169,
+    251,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "P&L Hari Ini",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2983,
+    -149,
+    65,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0,00 IDR (0,00%)",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2914,
+    -149,
+    98,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2702,
+    -198,
+    49,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2965,
+    -103,
+    232,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.000.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2723,
+    -105,
+    67,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2653,
+    -104,
+    18,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tersedia",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2965,
+    -68,
+    232,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9.200.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2723,
+    -70,
+    67,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2653,
+    -69,
+    18,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Digunakan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2965,
+    -33,
+    235,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.250.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2720,
+    -35,
+    64,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2653,
+    -34,
+    18,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tarik",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2969,
+    79,
+    28,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Misi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2872,
+    78,
+    23,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Lucky Rewards",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2804,
+    76,
+    87,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Masuk harian",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2693,
+    75,
+    76,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "BANNER",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 1,
+   "color": "#8597AB",
+   "box": [
+    -2834,
+    159,
+    50,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1/4",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2654,
+    126,
+    17,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Referral",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2983,
+    261,
+    153,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ajak Teman, Dapat Bonus Poin",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2983,
+    282,
+    153,
+    63
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mulai",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2969,
+    363,
+    32,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fear & Greed",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2790,
+    257,
+    74,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 24.2,
+   "letterSpacing": 0,
+   "color": "#E9C46A",
+   "box": [
+    -2731,
+    310,
+    27,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Netral",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2725,
+    334,
+    29,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Trending",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2790,
+    392,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "XAU",
+   "size": 7,
+   "weight": 700,
+   "lineHeight": 8.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2788,
+    423,
+    16,
+    8
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Nama produk",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2764,
+    421,
+    71,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-1,75%",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -2682,
+    421,
+    36,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HYP",
+   "size": 7,
+   "weight": 700,
+   "lineHeight": 8.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2787,
+    453,
+    15,
+    8
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Nama produk",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2764,
+    451,
+    71,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+0,09%",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2687,
+    451,
+    42,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding Analysis",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2999,
+    517,
+    140,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT",
+   "size": 10,
+   "weight": 700,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2978,
+    586,
+    28,
+    12
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "USDT",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2935,
+    575,
+    44,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2877,
+    579,
+    38,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Steady Returns",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2935,
+    595,
+    87,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2773,
+    574,
+    46,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2772,
+    597,
+    45,
+    13
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume 24J",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2963,
+    625,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12,4 Jt USDT",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2802,
+    625,
+    75,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kuota terisi 72%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2983,
+    658,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sisa 28%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2775,
+    658,
+    48,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Imbal hasil stabil, cocok untuk simpanan jangka panjang…",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2951,
+    696,
+    202,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT",
+   "size": 10,
+   "weight": 700,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2680,
+    586,
+    28,
+    12
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "USDT",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2637,
+    575,
+    44,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2579,
+    579,
+    38,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Steady Returns",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2637,
+    595,
+    87,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2475,
+    574,
+    46,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2474,
+    597,
+    45,
+    13
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Volume 24J",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2665,
+    625,
+    67,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12,4 Jt USDT",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    625,
+    75,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kuota terisi 72%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2685,
+    658,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sisa 28%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2477,
+    658,
+    48,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Imbal hasil stabil, cocok untuk simpanan jangka panjang…",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2653,
+    696,
+    202,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sorotan Pasar",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2999,
+    756,
+    117,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Layer 1",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 21.8,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2989,
+    806,
+    128,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+0,07%",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2989,
+    830,
+    128,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+16",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2937,
+    1006,
+    18,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "SOL Eco",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2837,
+    806,
+    106,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1,07%",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2837,
+    824,
+    106,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+17",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2799,
+    858,
+    17,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DeFi",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2707,
+    806,
+    78,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+0,06%",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2707,
+    824,
+    78,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+19",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2683,
+    858,
+    18,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Meme",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2837,
+    898,
+    106,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+0,79%",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2837,
+    916,
+    106,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+12",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2785,
+    1006,
+    18,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "AI",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2707,
+    898,
+    78,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-0,62%",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -2707,
+    916,
+    78,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lainnya",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2707,
+    998,
+    78,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Beranda",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2996,
+    1099,
+    45,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Feed",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2904,
+    1099,
+    26,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pasar",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2824,
+    1105,
+    30,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Aset",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2739,
+    1099,
+    25,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Akun",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2658,
+    1099,
+    27,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

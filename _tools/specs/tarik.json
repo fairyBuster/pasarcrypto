@@ -1,0 +1,327 @@
+{
+ "slug": "tarik",
+ "id": "33:2",
+ "frameName": "Tarik",
+ "size": [
+  412,
+  963
+ ],
+ "overlap": 97,
+ "texts": [
+  {
+   "text": "Tarik IDR",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2846,
+    1245,
+    74,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Riwayat Penarikan",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2937,
+    1319,
+    276,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ditarik ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2988,
+    1440,
+    372,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031 · Username",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2988,
+    1454,
+    372,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jumlah penarikan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2856,
+    1532,
+    100,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "IDR",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2929,
+    1576,
+    27,
+    19
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Masukkan nominal",
+   "size": 22,
+   "weight": 600,
+   "lineHeight": 26.6,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -2882,
+    1572,
+    199,
+    27
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Min. 50.000 IDR · Maks. 50.000.000 IDR per transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2944,
+    1624,
+    277,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Biaya administrasi",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2992,
+    1678,
+    111,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2654,
+    1678,
+    34,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Estimasi proses",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2992,
+    1710,
+    96,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Maks. 1×24 jam",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2718,
+    1710,
+    98,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kamu terima",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2992,
+    1747,
+    80,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2654,
+    1747,
+    34,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tarik Sekarang",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2857,
+    1809,
+    102,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2992,
+    1853,
+    372,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pastikan alamat dan jaringan penarikan yang dipilih sudah benar sebelum melanjutkan transaksi. Penarikan akan diproses setelah melalui verifikasi sistem dan dapat membutuhkan waktu sesuai kondisi jaringan blockchain serta metode penarikan yang digunakan. Transaksi yang telah berhasil diproses tidak dapat dibatalkan. Pastikan seluruh informasi penarikan sudah sesuai untuk menghindari kesalahan pengiriman aset.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2992,
+    1872,
+    372,
+    119
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Diproses mitra pembayaran resmi · Transaksi terenkripsi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2945,
+    2016,
+    291,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Saldo tersedia untuk ditarik",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2989,
+    1377,
+    156,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9.200.000",
+   "size": 26,
+   "weight": 700,
+   "lineHeight": 32,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -2989,
+    1397,
+    134,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2852,
+    1401,
+    22,
+    32
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

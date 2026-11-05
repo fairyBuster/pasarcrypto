@@ -1,0 +1,1182 @@
+{
+ "slug": "masuk-harian",
+ "id": "49:171",
+ "frameName": "Masuk harian",
+ "size": [
+  412,
+  971
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Absen Harian",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    82,
+    1245,
+    113,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Absen tiap hari, bonusnya terus naik",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 28,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -52,
+    1304,
+    245,
+    56
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen 7 hari berturut-turut untuk bonus terbesar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -52,
+    1366,
+    245,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen beruntun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -52,
+    1425,
+    156,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -52,
+    1442,
+    12,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "hari",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -36,
+    1444,
+    22,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus bulan ini",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    121,
+    1425,
+    156,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "31.000",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    121,
+    1442,
+    61,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    185,
+    1444,
+    20,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus 7 Hari",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -52,
+    1496,
+    93,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari ke-4 dari 7",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    240,
+    1499,
+    88,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -46,
+    1576,
+    30,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari 1",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -43,
+    1592,
+    24,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    10,
+    1576,
+    30,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari 2",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    12,
+    1592,
+    26,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.000",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    66,
+    1576,
+    32,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari 3",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    69,
+    1592,
+    26,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    134,
+    1541,
+    9,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2.000",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    122,
+    1576,
+    32,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari 4",
+   "size": 9,
+   "weight": 600,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    125,
+    1592,
+    27,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    190,
+    1541,
+    9,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3.000",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    178,
+    1576,
+    32,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari 5",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    181,
+    1592,
+    26,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    246,
+    1541,
+    9,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3.000",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    235,
+    1576,
+    32,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari 6",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    238,
+    1592,
+    26,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    303,
+    1541,
+    8,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "10.000",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    288,
+    1576,
+    38,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari 7",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    295,
+    1592,
+    25,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua bonus dalam IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    201,
+    1613,
+    127,
+    13
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Absen Sekarang",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    82,
+    1658,
+    112,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Bonus hari ini 2.000 IDR",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    70,
+    1700,
+    137,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Oktober 2026",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -52,
+    1743,
+    103,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "17 hari absen",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    253,
+    1746,
+    75,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -43,
+    1781,
+    20,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Sel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    16,
+    1781,
+    17,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Rab",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    71,
+    1781,
+    21,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Kam",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    127,
+    1781,
+    23,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Jum",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    184,
+    1781,
+    22,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Sab",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    242,
+    1781,
+    21,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Min",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    300,
+    1781,
+    19,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    135,
+    1813,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    191,
+    1813,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    248,
+    1813,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "4",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    305,
+    1813,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "5",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -37,
+    1853,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "6",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    20,
+    1853,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "7",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    78,
+    1853,
+    7,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "8",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    134,
+    1853,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "9",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    191,
+    1853,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "10",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    245,
+    1853,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "11",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    303,
+    1853,
+    12,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "12",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -40,
+    1893,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "13",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    17,
+    1893,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "14",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    74,
+    1893,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "15",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    131,
+    1893,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "16",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    188,
+    1893,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "17",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    246,
+    1893,
+    13,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "18",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    303,
+    1893,
+    13,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "19",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -40,
+    1933,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "20",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    17,
+    1933,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "21",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    74,
+    1933,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "22",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    131,
+    1933,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "23",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    187,
+    1933,
+    16,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "24",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    244,
+    1933,
+    16,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "25",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    302,
+    1933,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "26",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -40,
+    1973,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "27",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    17,
+    1973,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "28",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    74,
+    1973,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "29",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    131,
+    1973,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "30",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    187,
+    1973,
+    16,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "31",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    245,
+    1973,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Sudah absen",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -36,
+    2009,
+    68,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari ini",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    64,
+    2009,
+    36,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terlewat",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    132,
+    2009,
+    45,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -52,
+    2046,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen hanya dapat dilakukan 1 kali setiap hari.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -38,
+    2070,
+    264,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus harian akan otomatis ditambahkan ke Saldo Tersedia setelah berhasil absen.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -38,
+    2094,
+    370,
+    36
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

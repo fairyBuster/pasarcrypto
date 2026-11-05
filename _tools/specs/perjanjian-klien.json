@@ -1,0 +1,492 @@
+{
+ "slug": "perjanjian-klien",
+ "id": "7:819",
+ "frameName": "Perjanjian Klien",
+ "size": [
+  412,
+  1825
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Perjanjian Klien",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3911,
+    -1612,
+    129,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Terakhir diperbarui: DD Bulan YYYY",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3875,
+    -1552,
+    201,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Perjanjian Klien ini merupakan kesepakatan antara kamu sebagai Klien dan [Nama Perusahaan] sebagai penyedia layanan [Nama Aplikasi].",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3801,
+    -1495,
+    283,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3813,
+    -1353,
+    6,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Para Pihak",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -1353,
+    72,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian ini dibuat antara pengguna yang telah terdaftar (\"Klien\") dan [Nama Perusahaan] (\"Penyedia Layanan\").",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -1324,
+    308,
+    60
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3813,
+    -1227,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Persyaratan Klien",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -1227,
+    119,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Klien wajib berusia minimal 18 tahun, cakap secara hukum, dan telah menyelesaikan proses pendaftaran dengan data yang benar.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -1198,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3812,
+    -1081,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Hak & Kewajiban Klien",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -1081,
+    150,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Klien berhak menggunakan layanan sesuai ketentuan yang berlaku. Klien wajib menjaga keamanan akun dan mematuhi seluruh syarat yang ditetapkan oleh Penyedia Layanan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -1052,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3812,
+    -915,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Hak & Kewajiban Penyedia Layanan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -915,
+    238,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penyedia Layanan wajib menyediakan layanan sesuai yang dijanjikan dan menjaga kerahasiaan data Klien. Penyedia Layanan berhak menolak atau membatasi transaksi yang mencurigakan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -886,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3812,
+    -749,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Transaksi & Saldo",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -749,
+    120,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap transaksi yang dilakukan melalui akun Klien dianggap sah dan dilakukan oleh Klien. Klien bertanggung jawab memastikan saldo mencukupi sebelum bertransaksi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -720,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3812,
+    -583,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Risiko",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -583,
+    41,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Klien memahami bahwa setiap penggunaan layanan memiliki risiko. Klien bertanggung jawab penuh atas keputusan yang diambil dalam menggunakan layanan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -554,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3813,
+    -417,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Penyelesaian Sengketa",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -417,
+    157,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap perselisihan akan diselesaikan terlebih dahulu secara musyawarah. Jika tidak tercapai kesepakatan, penyelesaian dilakukan sesuai hukum yang berlaku di Indonesia.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -388,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3812,
+    -251,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Masa Berlaku Perjanjian",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -251,
+    162,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian ini berlaku sejak Klien menyelesaikan pendaftaran dan tetap berlaku hingga akun ditutup oleh Klien atau Penyedia Layanan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -222,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3812,
+    -105,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pernyataan Persetujuan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3837,
+    -105,
+    162,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dengan mendaftar, Klien menyatakan telah dewasa, telah membaca dan memahami isi Perjanjian ini, serta menyetujui seluruh ketentuannya.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3837,
+    -76,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ada pertanyaan?",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3801,
+    66,
+    107,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hubungi tim kami melalui menu Bantuan di aplikasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3801,
+    83,
+    241,
+    36
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

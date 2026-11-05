@@ -1,0 +1,57 @@
+{
+ "slug": "notifikasi-nomor-tdk-ada",
+ "id": "8:948",
+ "frameName": "Notifikasi nomor tdk ada",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Nomor Tidak Terdaftar",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    49,
+    -1253,
+    177,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nomor ponsel yang kamu masukkan belum terdaftar. Periksa kembali nomornya, atau daftar akun baru terlebih dahulu.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -3,
+    -1210,
+    324,
+    57
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tutup",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    262,
+    -1127,
+    37,
+    16
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

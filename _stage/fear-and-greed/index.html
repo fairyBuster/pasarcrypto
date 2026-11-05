@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 16px 0;
+}
+.back-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1f3048;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+.page-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.header-spacer {
+  width: 40px;
+}
+
+/* CSS for section section:Gauge */
+.gauge-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+.gauge-visual {
+  position: relative;
+  width: 260px;
+  height: 146px;
+}
+.gauge-arc {
+  position: absolute;
+}
+.arc-1 { left: 26px; top: 56.3px; width: 28.6px; height: 69.1px; }
+.arc-2 { left: 58.3px; top: 25.7px; width: 52.9px; height: 26.9px; }
+.arc-3 { left: 116.3px; top: 24px; width: 30.6px; height: 1.4px; }
+.arc-4 { left: 152px; top: 26.4px; width: 52px; height: 28.5px; }
+.arc-5 { left: 207.6px; top: 58.7px; width: 26.4px; height: 66.7px; }
+.gauge-pointer {
+  position: absolute;
+  left: 121px;
+  top: 15px;
+  width: 18px;
+  height: 18px;
+  z-index: 2;
+}
+.gauge-center-text {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gauge-score {
+  font-size: 53px;
+  font-weight: 700;
+  color: #e9c46a;
+  line-height: 1;
+}
+.gauge-status {
+  font-size: 17px;
+  color: #d3dce7;
+  margin-top: 1px;
+}
+.gauge-timestamp {
+  font-size: 13px;
+  color: #75879c;
+  margin-top: 6px;
+}
+
+/* CSS for section section:Stats */
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 22px 16px 0;
+}
+.stat-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.stat-block:nth-child(3) {
+  padding-left: 15px;
+}
+.stat-block:nth-child(5) {
+  padding-left: 15px;
+}
+.stat-divider {
+  width: 1px;
+  background-color: rgba(201, 212, 225, 0.18);
+  height: 56px;
+}
+.stat-title {
+  font-size: 13px;
+  color: #8597ab;
+}
+.stat-value {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 4px;
+  line-height: 1;
+}
+.stat-label {
+  font-size: 13px;
+  color: #a9b7c8;
+  margin-top: 13px;
+}
+.text-yellow { color: #e9c46a; }
+.text-green { color: #9bd36e; }
+.text-orange { color: #f29a6a; }
+
+/* CSS for section section:History */
+#section-history {
+  padding: 30px 16px 0;
+}
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.time-filters {
+  display: flex;
+  background-color: #1f3048;
+  border-radius: 16px;
+  padding: 3px;
+  gap: 4px;
+}
+.filter-btn {
+  padding: 6px 10px;
+  border-radius: 13px;
+  font-size: 13px;
+  color: #a9b7c8;
+  cursor: pointer;
+  line-height: 1;
+}
+.filter-btn.active {
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  color: #0c1a2d;
+  font-weight: 600;
+}
+.chart-area {
+  position: relative;
+  width: 380px;
+  max-width: 100%;
+  height: 140px;
+  margin: 0 auto;
+}
+.chart-layer { position: absolute; }
+.chart-layer:nth-child(1) { left: 0px; top: 92px; width: 380px; height: 28px; }
+.chart-layer:nth-child(2) { left: 0px; top: 69.6px; width: 380px; height: 22.4px; }
+.chart-layer:nth-child(3) { left: 0px; top: 57.3px; width: 380px; height: 12.3px; }
+.chart-layer:nth-child(4) { left: 0px; top: 34.9px; width: 380px; height: 22.4px; }
+.chart-layer:nth-child(5) { left: 0px; top: 8px; width: 380px; height: 26.9px; }
+.chart-layer:nth-child(6) { left: 0px; top: 92px; width: 380px; height: 0px; }
+.chart-layer:nth-child(7) { left: 0px; top: 64px; width: 380px; height: 0px; }
+.chart-layer:nth-child(8) { left: 0px; top: 36px; width: 380px; height: 0px; }
+.chart-layer:nth-child(9) { left: 0px; top: 49.4px; width: 378.8px; height: 70.6px; }
+.chart-layer:nth-child(10) { left: 0px; top: 49.4px; width: 378.8px; height: 33.6px; }
+.chart-layer:nth-child(11) { left: 372.5px; top: 59.5px; width: 10.4px; height: 9px; }
+
+.x-axis {
+  position: absolute;
+  top: 126px;
+  left: 0;
+  width: 100%;
+  height: 12px;
+}
+.x-axis span {
+  position: absolute;
+  font-size: 12px;
+  color: #75879c;
+  top: 0;
+}
+.x-axis span:nth-child(1) { left: 0; }
+.x-axis span:nth-child(2) { left: 172px; }
+.x-axis span:nth-child(3) { left: 343px; }
+
+/* CSS for section section:Scale */
+#section-scale {
+  padding: 30px 16px 0;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.scale-list {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.scale-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+}
+.scale-row:last-child {
+  border-bottom: none;
+}
+.scale-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+.bg-red { background-color: #f2667a; }
+.bg-orange { background-color: #f29a6a; }
+.bg-yellow { background-color: #e9c46a; }
+.bg-green { background-color: #9bd36e; }
+.bg-dark-green { background-color: #3ecf8e; }
+
+.scale-name {
+  font-size: 16px;
+  color: #a9b7c8;
+}
+.text-white {
+  color: #ffffff;
+}
+.scale-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #75879c;
+}
+.badge-now {
+  background-color: rgba(233, 196, 106, 0.16);
+  color: #e9c46a;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+
+/* CSS for section section:Explanation */
+#section-explanation {
+  padding: 30px 16px 0;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.explanation-text {
+  font-size: 14px;
+  color: #a9b7c8;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 16px;
+}
+.tag {
+  background-color: #1f3048;
+  color: #d3dce7;
+  font-size: 15px;
+  padding: 6px 12px;
+  border-radius: 15px;
+}
+
+/* CSS for section section:Notes */
+#section-notes {
+  padding: 26px 16px 28px;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.notes-list {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.note-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.note-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: #51657e;
+  border-radius: 3px;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+.note-text {
+  font-size: 13px;
+  color: #75879c;
+  line-height: 1.5;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="site-header">
+    <button class="back-btn">
+      <img src="images/54_1441.svg" alt="Back">
+    </button>
+    <h1 class="page-title">Fear & Greed</h1>
+    <div class="header-spacer"></div>
+  </header>
+</section>
+<section id="section-gauge">
+  <div class="gauge-wrapper">
+    <div class="gauge-visual">
+      <!--merged image-->
+      <img src="images/54_1449.svg" class="gauge-arc arc-1" alt="">
+      <img src="images/54_1450.svg" class="gauge-arc arc-2" alt="">
+      <img src="images/54_1451.svg" class="gauge-arc arc-3" alt="">
+      <img src="images/54_1452.svg" class="gauge-arc arc-4" alt="">
+      <img src="images/54_1453.svg" class="gauge-arc arc-5" alt="">
+      <img src="images/54_1454.svg" class="gauge-pointer" alt="">
+      <div class="gauge-center-text">
+        <div class="gauge-score">50</div>
+        <div class="gauge-status">Neutral</div>
+      </div>
+    </div>
+    <div class="gauge-timestamp">Diperbarui 25-10-2026 07:00 WIB</div>
+  </div>
+</section>
+<section id="section-stats">
+  <div class="stats-container">
+    <div class="stat-block">
+      <div class="stat-title">Kemarin</div>
+      <div class="stat-value text-yellow">46</div>
+      <div class="stat-label">Neutral</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-block">
+      <div class="stat-title">Minggu lalu</div>
+      <div class="stat-value text-green">62</div>
+      <div class="stat-label">Greed</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-block">
+      <div class="stat-title">Bulan lalu</div>
+      <div class="stat-value text-orange">38</div>
+      <div class="stat-label">Fear</div>
+    </div>
+  </div>
+</section>
+<section id="section-history">
+  <div class="history-header">
+    <h2 class="section-title">Riwayat</h2>
+    <div class="time-filters">
+      <div class="filter-btn">7H</div>
+      <div class="filter-btn active">30H</div>
+      <div class="filter-btn">1T</div>
+    </div>
+  </div>
+  <div class="chart-area">
+    <!--merged image-->
+    <img src="images/54_1497.svg" class="chart-layer" alt="">
+    <img src="images/54_1498.svg" class="chart-layer" alt="">
+    <img src="images/54_1499.svg" class="chart-layer" alt="">
+    <img src="images/54_1500.svg" class="chart-layer" alt="">
+    <img src="images/54_1501.svg" class="chart-layer" alt="">
+    <img src="images/54_1502.svg" class="chart-layer" alt="">
+    <img src="images/54_1503.svg" class="chart-layer" alt="">
+    <img src="images/54_1504.svg" class="chart-layer" alt="">
+    <img src="images/54_1505.svg" class="chart-layer" alt="">
+    <img src="images/54_1506.svg" class="chart-layer" alt="">
+    <img src="images/54_1507.svg" class="chart-layer" alt="">
+    
+    <div class="x-axis">
+      <span>25 Sep</span>
+      <span>10 Okt</span>
+      <span>25 Okt</span>
+    </div>
+  </div>
+</section>
+<section id="section-scale">
+  <h2 class="section-title">Arti skala</h2>
+  <div class="scale-list">
+    <div class="scale-row">
+      <div class="scale-left">
+        <div class="dot bg-red"></div>
+        <div class="scale-name">Extreme Fear</div>
+      </div>
+      <div class="scale-right">0–24</div>
+    </div>
+    <div class="scale-row">
+      <div class="scale-left">
+        <div class="dot bg-orange"></div>
+        <div class="scale-name">Fear</div>
+      </div>
+      <div class="scale-right">25–44</div>
+    </div>
+    <div class="scale-row">
+      <div class="scale-left">
+        <div class="dot bg-yellow"></div>
+        <div class="scale-name text-white">Neutral</div>
+      </div>
+      <div class="scale-right">
+        <span class="scale-range">45–55</span>
+        <span class="badge-now">Sekarang</span>
+      </div>
+    </div>
+    <div class="scale-row">
+      <div class="scale-left">
+        <div class="dot bg-green"></div>
+        <div class="scale-name">Greed</div>
+      </div>
+      <div class="scale-right">56–75</div>
+    </div>
+    <div class="scale-row">
+      <div class="scale-left">
+        <div class="dot bg-dark-green"></div>
+        <div class="scale-name">Extreme Greed</div>
+      </div>
+      <div class="scale-right">76–100</div>
+    </div>
+  </div>
+</section>
+<section id="section-explanation">
+  <h2 class="section-title">Apa itu Fear & Greed?</h2>
+  <p class="explanation-text">
+    Indeks yang mengukur sentimen pasar kripto dari 0 sampai 100. Angka rendah berarti pasar sedang takut, angka tinggi berarti pasar sedang serakah.
+  </p>
+  <div class="tags-container">
+    <span class="tag">Volatilitas</span>
+    <span class="tag">Volume pasar</span>
+    <span class="tag">Media sosial</span>
+    <span class="tag">Dominasi BTC</span>
+    <span class="tag">Tren pencarian</span>
+  </div>
+</section>
+<section id="section-notes">
+  <h2 class="section-title">Catatan</h2>
+  <div class="notes-list">
+    <div class="note-item">
+      <div class="note-bullet"></div>
+      <div class="note-text">Fear & Greed Index menunjukkan sentimen pasar kripto dalam skala 0–100. Nilai indeks dapat berubah mengikuti kondisi dan aktivitas pasar.</div>
+    </div>
+    <div class="note-item">
+      <div class="note-bullet"></div>
+      <div class="note-text">Data diperbarui secara berkala dan dapat berbeda dari kondisi pasar secara langsung. Indeks ini hanya sebagai informasi, bukan rekomendasi untuk membeli atau menjual aset kripto.</div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

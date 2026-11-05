@@ -1,0 +1,447 @@
+{
+ "slug": "kebijakan-privasi",
+ "id": "6:732",
+ "frameName": "Kebijakan privasi",
+ "size": [
+  412,
+  1634
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Kebijakan Privasi",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3480,
+    -1612,
+    142,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Terakhir diperbarui: DD Bulan YYYY",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3451,
+    -1546,
+    201,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Kami menghargai privasimu. Kebijakan ini menjelaskan bagaimana data kamu dikumpulkan, digunakan, dan dilindungi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3377,
+    -1482,
+    253,
+    60
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3389,
+    -1354,
+    6,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Data yang Kami Kumpulkan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -1355,
+    185,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami mengumpulkan data yang kamu berikan saat mendaftar dan menggunakan Aplikasi, seperti username, nomor telepon, email, serta data aktivitas penggunaan Aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -1325,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3389,
+    -1188,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Cara Kami Menggunakan Data",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -1189,
+    205,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Data digunakan untuk proses pendaftaran, verifikasi akun, akses login, pemulihan akun, menjalankan layanan, serta meningkatkan kualitas Aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -1159,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3388,
+    -1042,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Keamanan Data",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -1043,
+    106,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami menerapkan langkah-langkah keamanan yang wajar untuk melindungi data kamu dari akses, perubahan, atau pengungkapan yang tidak sah.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -1013,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3388,
+    -896,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pembagian Data kepada Pihak Ketiga",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -897,
+    251,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami tidak menjual data kamu. Data hanya dapat dibagikan kepada pihak ketiga apabila diperlukan untuk menjalankan layanan, diwajibkan oleh hukum, atau dengan persetujuan darimu.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -867,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3388,
+    -730,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Hak Pengguna atas Data",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -731,
+    166,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kamu berhak mengakses, memperbarui, dan meminta penghapusan data pribadimu dengan menghubungi tim kami melalui menu Bantuan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -701,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3388,
+    -584,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Penyimpanan Data",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -585,
+    127,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Data disimpan selama akunmu masih aktif atau selama diperlukan untuk memenuhi kewajiban hukum yang berlaku.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -555,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3389,
+    -438,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Cookie & Teknologi Serupa",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -439,
+    182,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aplikasi dapat menggunakan cookie atau teknologi serupa untuk menyimpan preferensi dan meningkatkan pengalaman penggunaan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -409,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3388,
+    -292,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Perubahan Kebijakan Privasi",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3413,
+    -293,
+    192,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi ini dapat diperbarui sewaktu-waktu. Perubahan akan diinformasikan melalui Aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3413,
+    -263,
+    308,
+    60
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ada pertanyaan?",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3377,
+    -135,
+    107,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hubungi tim kami melalui menu Bantuan di aplikasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3377,
+    -118,
+    241,
+    36
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

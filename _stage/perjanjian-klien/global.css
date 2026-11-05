@@ -1,0 +1,16 @@
+html {
+  background-color: #0a1626;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 412px;
+  min-height: 100vh;
+  background: radial-gradient(50% 50% at 50% 0%, rgba(78, 108, 142, 0.55) 0%, rgba(78, 108, 142, 0) 100%), linear-gradient(180deg, #0C1A2D 0%, #13263D 30%, #0F2036 70%, #0A1626 100%);
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+* {
+  box-sizing: border-box;
+}

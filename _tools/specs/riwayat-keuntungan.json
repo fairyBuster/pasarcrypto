@@ -1,0 +1,1857 @@
+{
+ "slug": "riwayat-keuntungan",
+ "id": "85:1320",
+ "frameName": "Riwayat keuntungan",
+ "size": [
+  412,
+  1704
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Riwayat Keuntungan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -702,
+    4695,
+    172,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total keuntungan · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -750,
+    4747,
+    243,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "184.250 IDR",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -750,
+    4779,
+    243,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "216 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -495,
+    4770,
+    69,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -806,
+    4825,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -771,
+    4856,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -771,
+    4867,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -569,
+    4856,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -569,
+    4867,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -792,
+    4912,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -716,
+    4912,
+    51,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -629,
+    4912,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Stablecoin",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -543,
+    4912,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Imbal hasil USDT",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    4964,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    4985,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+349",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -478,
+    4960,
+    35,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    4961,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    4986,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5011,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT · Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -545,
+    5011,
+    119,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5032,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -472,
+    5032,
+    46,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5053,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.500.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -498,
+    5053,
+    72,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5074,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -458,
+    5074,
+    32,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Imbal hasil SOL",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    5127,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5148,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+175",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5123,
+    31,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    5124,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5149,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5174,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "SOL · Growth Plus",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -520,
+    5174,
+    94,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5195,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci 30 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -510,
+    5195,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5216,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -499,
+    5216,
+    73,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5237,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6,40%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -459,
+    5237,
+    33,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Imbal hasil BTC",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    5290,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5311,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+44",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -469,
+    5286,
+    27,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    5287,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5312,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5337,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BTC · Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -537,
+    5337,
+    111,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5358,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -472,
+    5358,
+    46,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5379,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "500.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -491,
+    5379,
+    65,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5400,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3,20%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -459,
+    5400,
+    33,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Imbal hasil USDT",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    5453,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5474,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+349",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -478,
+    5449,
+    35,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    5450,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5475,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5500,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT · Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -545,
+    5500,
+    119,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5521,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -472,
+    5521,
+    46,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5542,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.500.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -498,
+    5542,
+    72,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5563,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -458,
+    5563,
+    32,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Imbal hasil SOL",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    5616,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5637,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+175",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5612,
+    31,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    5613,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5638,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5663,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "SOL · Growth Plus",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -520,
+    5663,
+    94,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5684,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci 30 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -510,
+    5684,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5705,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -499,
+    5705,
+    73,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5726,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6,40%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -459,
+    5726,
+    33,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Imbal hasil BTC",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    5779,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5800,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+44",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -469,
+    5775,
+    27,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    5776,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5801,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5826,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BTC · Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -537,
+    5826,
+    111,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5847,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -472,
+    5847,
+    46,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5868,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "500.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -491,
+    5868,
+    65,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5889,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3,20%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -459,
+    5889,
+    33,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Imbal hasil USDT",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    5942,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5963,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+349",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -478,
+    5938,
+    35,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    5939,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    5964,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    5989,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT · Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -545,
+    5989,
+    119,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6010,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -472,
+    6010,
+    46,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6031,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.500.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -498,
+    6031,
+    72,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6052,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -458,
+    6052,
+    32,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Imbal hasil SOL",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -758,
+    6105,
+    266,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23-10-2026 07:00:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6126,
+    266,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+175",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    6101,
+    31,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -443,
+    6102,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -473,
+    6127,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Produk",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6152,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "SOL · Growth Plus",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -520,
+    6152,
+    94,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6173,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci 30 hari",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -510,
+    6173,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6194,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -499,
+    6194,
+    73,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -758,
+    6215,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6,40%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -459,
+    6215,
+    33,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -689,
+    6276,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -651,
+    6276,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -613,
+    6276,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "…",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -582,
+    6276,
+    10,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "27",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -554,
+    6276,
+    15,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–8 dari 216 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -708,
+    6309,
+    185,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "notif-saldo-tdk-ckup",
+ "id": "8:1037",
+ "frameName": "Notifikasi saldo tidak mencukupi",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Saldo Tidak Mencukupi",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2919,
+    -2279,
+    183,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo kamu belum cukup untuk melanjutkan transaksi ini. Silakan isi saldo terlebih dahulu, lalu coba lagi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2971,
+    -2236,
+    324,
+    57
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tutup",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2706,
+    -2153,
+    37,
+    16
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "slug": "roda-keberuntungan",
+ "id": "42:344",
+ "frameName": "Roda keberuntungan",
+ "size": [
+  412,
+  941
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Putar rodanya, raih bonus saldo",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 28,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -894,
+    1299,
+    380,
+    28
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah utama hingga 500.000 IDR.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -894,
+    1333,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kesempatan kamu 2x",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -894,
+    1371,
+    133,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "500.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -712,
+    1459,
+    16,
+    73
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "10.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -684,
+    1483,
+    49,
+    60
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "50.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -666,
+    1536,
+    66,
+    35
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "5.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -665,
+    1586,
+    57,
+    32
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "100.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -695,
+    1606,
+    55,
+    67
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "15.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -722,
+    1621,
+    16,
+    61
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "250.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -787,
+    1599,
+    55,
+    68
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "20.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -818,
+    1575,
+    66,
+    35
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "75.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -814,
+    1527,
+    65,
+    35
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "25.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -776,
+    1477,
+    50,
+    60
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Putar Sekarang",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -756,
+    1758,
+    105,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1 kali putar menggunakan 1 kesempatan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -817,
+    1800,
+    227,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -899,
+    1842,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap kelipatan deposit Rp100.000 mendapatkan 1 kesempatan putar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -885,
+    1866,
+    377,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kesempatan putar akan otomatis bertambah setelah deposit berhasil.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -885,
+    1908,
+    383,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap putaran menggunakan 1 kesempatan yang tersedia. Kesempatan putar yang belum digunakan akan tetap tersimpan di akun.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -885,
+    1950,
+    379,
+    54
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -792,
+    1245,
+    176,
+    24
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

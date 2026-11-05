@@ -1,0 +1,1317 @@
+{
+ "slug": "rank",
+ "id": "89:2851",
+ "frameName": "Rank",
+ "size": [
+  412,
+  2073
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Rank Saya",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1071,
+    4695,
+    86,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Rank kamu saat ini",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1061,
+    4871,
+    106,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Gold",
+   "size": 26,
+   "weight": 700,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1084,
+    4888,
+    60,
+    32
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Gold",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    924,
+    4940,
+    27,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "62,4 Jt / 100 Jt IDR",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1048,
+    4940,
+    110,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Platinum",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1255,
+    4940,
+    49,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kurang 37.600.000 IDR transaksi lagi untuk naik ke Platinum",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    969,
+    4981,
+    290,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Mulai Trading",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1081,
+    5047,
+    92,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tingkatan Rank",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    924,
+    5107,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10 tingkatan rank dari total trading dan deposit kamu",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    924,
+    5129,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bronze",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    5166,
+    247,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rank awal untuk semua pengguna yang baru bergabung.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    5188,
+    247,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "✓ Tercapai",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    1242,
+    5171,
+    53,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5230,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1275,
+    5230,
+    29,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Tercapai pada",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5250,
+    74,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    1241,
+    5250,
+    63,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Silver",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    5294,
+    247,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk pengguna yang mulai aktif melakukan trading dan deposit.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    5316,
+    247,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "✓ Tercapai",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    1242,
+    5299,
+    53,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5358,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5 Jt IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1263,
+    5358,
+    41,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Tercapai pada",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5378,
+    74,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "08-10-2026",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    1240,
+    5378,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Gold",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    976,
+    5429,
+    242,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk pengguna aktif dengan transaksi rutin setiap bulannya.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    976,
+    5451,
+    242,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rank kamu",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1239,
+    5434,
+    54,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5493,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25 Jt IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1254,
+    5493,
+    48,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Tercapai pada",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5513,
+    74,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "17-10-2026",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    1240,
+    5513,
+    62,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Platinum",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    5563,
+    244,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk trader yang konsisten dengan volume transaksi tinggi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    5585,
+    244,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1253,
+    5568,
+    42,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5627,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100 Jt IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1250,
+    5627,
+    54,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kurang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5647,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "37,6 Jt IDR lagi",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1226,
+    5647,
+    78,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Emerald",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    5691,
+    244,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk trader berpengalaman yang aktif di berbagai produk.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    5713,
+    244,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1253,
+    5696,
+    42,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5755,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "250 Jt IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1249,
+    5755,
+    55,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kurang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5775,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "187,6 Jt IDR lagi",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1221,
+    5775,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Ruby",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    5819,
+    244,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk trader dengan aktivitas transaksi yang sangat tinggi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    5841,
+    244,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1253,
+    5824,
+    42,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5883,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "500 Jt IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1249,
+    5883,
+    55,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kurang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    5903,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "437,6 Jt IDR lagi",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1219,
+    5903,
+    85,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Sapphire",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    5947,
+    244,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk trader profesional dengan volume transaksi besar.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    5969,
+    244,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1253,
+    5952,
+    42,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6011,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1 M IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1265,
+    6011,
+    39,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kurang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6031,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "937,6 Jt IDR lagi",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1219,
+    6031,
+    85,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diamond",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    6075,
+    244,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk trader elit dengan total transaksi miliaran rupiah.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    6097,
+    244,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1253,
+    6080,
+    42,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6139,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2,5 M IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1253,
+    6139,
+    51,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kurang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6159,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2,44 M IDR lagi",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1224,
+    6159,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Master",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    6203,
+    244,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Untuk trader papan atas dengan pencapaian luar biasa.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    6225,
+    244,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1253,
+    6208,
+    42,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6267,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5 M IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1263,
+    6267,
+    41,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kurang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6287,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4,94 M IDR lagi",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1224,
+    6287,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Legend",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    974,
+    6331,
+    244,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rank tertinggi, puncak pencapaian trader di [Nama Aplikasi].",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    974,
+    6353,
+    244,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1253,
+    6336,
+    42,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat minimal",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6395,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10 M IDR",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    1258,
+    6395,
+    46,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Kurang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1026,
+    6415,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9,94 M IDR lagi",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    1224,
+    6415,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Cara naik rank",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    924,
+    6474,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lakukan trading atau deposit di aplikasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    942,
+    6506,
+    231,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap transaksi menambah total transaksi kamu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    942,
+    6536,
+    281,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rank naik otomatis saat total transaksi mencapai syarat rank berikutnya.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    942,
+    6566,
+    277,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    924,
+    6628,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    938,
+    6652,
+    314,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    938,
+    6676,
+    303,
+    36
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

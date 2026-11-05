@@ -1,0 +1,942 @@
+{
+ "slug": "riwayat-lainnya",
+ "id": "85:631",
+ "frameName": "Riwayat lainnya",
+ "size": [
+  412,
+  1012
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Riwayat Lainnya",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1563,
+    4695,
+    135,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total transaksi lainnya · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1630,
+    4747,
+    254,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.500.000 IDR",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1630,
+    4779,
+    254,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1364,
+    4770,
+    58,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1686,
+    4825,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1651,
+    4856,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1651,
+    4867,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1449,
+    4856,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1449,
+    4867,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1672,
+    4912,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Refund",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1596,
+    4912,
+    41,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penyesuaian",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1519,
+    4912,
+    73,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Refund saldo",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1638,
+    4964,
+    237,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "15-10-2026 17:49:27 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    4985,
+    237,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+500.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1386,
+    4960,
+    64,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1323,
+    4961,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1353,
+    4986,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5011,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Refund",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1343,
+    5011,
+    37,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5032,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan gagal dikembalikan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1460,
+    5032,
+    154,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Dikembalikan ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5053,
+    85,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1383,
+    5053,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5074,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "LN2610158937",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1401,
+    5074,
+    79,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Refund saldo",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1638,
+    5127,
+    227,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "11-10-2026 17:57:54 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5148,
+    227,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1395,
+    5123,
+    73,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1323,
+    5124,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1353,
+    5149,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5174,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Refund",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1343,
+    5174,
+    37,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5195,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding dibatalkan sistem",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1440,
+    5195,
+    134,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Dikembalikan ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5216,
+    85,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1383,
+    5216,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5237,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "LN2610118812",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1398,
+    5237,
+    76,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penyesuaian saldo",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1638,
+    5290,
+    254,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "09-10-2026 12:08:34 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5311,
+    254,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+5.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1369,
+    5286,
+    47,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1323,
+    5287,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1353,
+    5312,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5337,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penyesuaian",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1372,
+    5337,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5358,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Koreksi oleh sistem",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1407,
+    5358,
+    101,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5379,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "LN2610095521",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1401,
+    5379,
+    79,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penyesuaian saldo",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1638,
+    5432,
+    257,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "09-10-2026 10:49:46 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5453,
+    257,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-5.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1366,
+    5428,
+    44,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1323,
+    5429,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1353,
+    5454,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5479,
+    28,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penyesuaian",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1372,
+    5479,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5500,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Koreksi oleh sistem",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1407,
+    5500,
+    101,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1638,
+    5521,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "LN2610091167",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -1400,
+    5521,
+    78,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1499,
+    5582,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–4 dari 4 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1582,
+    5615,
+    173,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

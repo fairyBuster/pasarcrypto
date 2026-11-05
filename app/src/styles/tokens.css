@@ -1,0 +1,38 @@
+/* Design tokens read from the PSCRYP Figma file (yj83yK7rlsIKgJXKQ3H4Uy).
+   Screens keep their original literal values; these are the canonical reference. */
+:root {
+  /* surfaces */
+  --ink-950: #0a1626;
+  --ink-900: #0c1a2d;
+  --ink-850: #0f2036;
+  --ink-800: #13263d;
+  --ink-700: #1f3048;
+  --surface-page: #0f172a;
+
+  /* neutrals */
+  --slate-50: #e6ecf3;
+  --slate-100: #d3dce7;
+  --slate-200: #a9b7c8;
+  --slate-300: #8597ab;
+  --white: #ffffff;
+
+  /* brand — champagne metallic gradient used on all primary CTAs */
+  --brand-900: #625853;
+  --brand-500: #bdac9f;
+  --brand-100: #686868;
+  --brand-gradient: linear-gradient(270deg, #625853 0%, #bdac9f 46.63%, #686868 100%);
+
+  /* type */
+  --font-family: 'Inter', sans-serif;
+  --fs-display: 24px;
+  --fs-title: 20px;
+  --fs-body: 14px;
+  --fs-caption: 12px;
+  --lh-tight: 1.2;
+  --lh-body: 1.5;
+
+  /* shape + depth */
+  --radius-pill: 26px;
+  --radius-card: 16px;
+  --shadow-frame: 0 0 20px rgba(0, 0, 0, 0.3);
+}

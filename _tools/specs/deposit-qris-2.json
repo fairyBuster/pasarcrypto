@@ -1,0 +1,312 @@
+{
+ "slug": "deposit-qris-2",
+ "id": "29:184",
+ "frameName": "Deposit qris 2",
+ "size": [
+  412,
+  994
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Detail Pembayaran",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -377,
+    -295,
+    156,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ikuti instruksi di bawah ini untuk menyelesaikan penyetoran dana.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -489,
+    -245,
+    380,
+    40
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bayar sebelum",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -195,
+    -175,
+    70,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "00:14:56",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.5,
+   "color": "#FFFFFF",
+   "box": [
+    -195,
+    -159,
+    62,
+    16
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "QR CODE",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 1,
+   "color": "#8597AB",
+   "box": [
+    -327,
+    -29,
+    56,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Download",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -318,
+    103,
+    63,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total Penyetoran",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#C3CFDD",
+   "box": [
+    -473,
+    160,
+    104,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -204,
+    160,
+    79,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Transaksi",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#C3CFDD",
+   "box": [
+    -473,
+    201,
+    111,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23 Okt 2026, 22:19",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -246,
+    201,
+    121,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang Saat Ini",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -473,
+    242,
+    153,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.000.000 IDR",
+   "size": 14,
+   "weight": 700,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -226,
+    242,
+    101,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pembayaran aman & terlindungi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -389,
+    311,
+    199,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Diproses oleh mitra pembayaran pihak ketiga resmi. Data dan transaksimu terenkripsi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -389,
+    331,
+    234,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Panduan Penyetoran",
+   "size": 14,
+   "weight": 700,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -489,
+    402,
+    380,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Buka aplikasi dompet digital atau mobile banking yang mendukung QRIS, lalu pilih scan QR.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -473,
+    429,
+    308,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Arahkan kamera ke QR Code di atas hingga terbaca.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -473,
+    475,
+    296,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Periksa nominal pembayaran, lalu konfirmasi transaksi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -473,
+    503,
+    309,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo akan masuk otomatis setelah pembayaran berhasil.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -473,
+    531,
+    274,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saya Sudah Bayar",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -364,
+    604,
+    130,
+    18
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

@@ -1,0 +1,726 @@
+{
+ "akun": {
+  "id": "71:2",
+  "name": "Akun",
+  "size": [
+   412,
+   2348
+  ],
+  "score": 2
+ },
+ "alamat-pengiriman": {
+  "id": "89:3384",
+  "name": "Alamat",
+  "size": [
+   412,
+   1241
+  ],
+  "score": 0.95
+ },
+ "aset-kosong": {
+  "id": "68:1524",
+  "name": "Aset kosong",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "aset-saya": {
+  "id": "64:1107",
+  "name": "Aset saya",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "bahasa": {
+  "id": "94:536",
+  "name": "Bahasa",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "buat-postingan": {
+  "id": "57:1743",
+  "name": "Buat postingan",
+  "size": [
+   412,
+   890
+  ],
+  "score": 2
+ },
+ "chat-cs": {
+  "id": "6:417",
+  "name": "Chat cs",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "deposit-metode": {
+  "id": "23:66",
+  "name": "Deposit metode",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "deposit-qris-1": {
+  "id": "29:127",
+  "name": "Deposit qris 1",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "deposit-qris-2": {
+  "id": "29:184",
+  "name": "Deposit qris 2",
+  "size": [
+   412,
+   994
+  ],
+  "score": 2
+ },
+ "deposit-va1": {
+  "id": "29:185",
+  "name": "Deposit va 1",
+  "size": [
+   412,
+   917
+  ],
+  "score": 1.67
+ },
+ "deposit-va2": {
+  "id": "29:242",
+  "name": "Deposit va 2",
+  "size": [
+   412,
+   917
+  ],
+  "score": 1.67
+ },
+ "faq": {
+  "id": "17:573",
+  "name": "FAQ",
+  "size": [
+   412,
+   1080
+  ],
+  "score": 2
+ },
+ "fear-and-greed": {
+  "id": "54:1436",
+  "name": "Fear and Greed",
+  "size": [
+   412,
+   1217
+  ],
+  "score": 2
+ },
+ "feed": {
+  "id": "57:1588",
+  "name": "Feed",
+  "size": [
+   412,
+   1389
+  ],
+  "score": 2
+ },
+ "kebijakan-privasi": {
+  "id": "6:732",
+  "name": "Kebijakan privasi",
+  "size": [
+   412,
+   1634
+  ],
+  "score": 2
+ },
+ "konfirmasi-pembelian": {
+  "id": "63:1037",
+  "name": "Konfirmasi pembelian",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "konfirmasi-tarik": {
+  "id": "39:87",
+  "name": "Konfirmasi tarik",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "landingpage-1": {
+  "id": "102:95",
+  "name": "Landing page 1",
+  "size": [
+   412,
+   3106
+  ],
+  "score": 1.67
+ },
+ "landingpage-bantuan": {
+  "id": "105:376",
+  "name": "Landing page bantuan",
+  "size": [
+   412,
+   1233
+  ],
+  "score": 1.67
+ },
+ "landingpage-hadiah": {
+  "id": "102:542",
+  "name": "Landing page hadiah",
+  "size": [
+   412,
+   2412
+  ],
+  "score": 1.67
+ },
+ "landingpage-holding": {
+  "id": "102:362",
+  "name": "Landing page holding ",
+  "size": [
+   412,
+   2282
+  ],
+  "score": 1.67
+ },
+ "landingpage-materi": {
+  "id": "105:476",
+  "name": "Landing page materi",
+  "size": [
+   412,
+   1771
+  ],
+  "score": 1.67
+ },
+ "landingpage-materi-detail": {
+  "id": "105:833",
+  "name": "Landing page materi detail",
+  "size": [
+   412,
+   2725
+  ],
+  "score": 1.75
+ },
+ "landingpage-referral": {
+  "id": "105:656",
+  "name": "Landing page referral",
+  "size": [
+   412,
+   2160
+  ],
+  "score": 1.67
+ },
+ "landingpage-tentang": {
+  "id": "105:223",
+  "name": "Landing page tentang",
+  "size": [
+   412,
+   2401
+  ],
+  "score": 1.67
+ },
+ "landingpage2": {
+  "id": "99:2",
+  "name": "Landing page 2",
+  "size": [
+   412,
+   917
+  ],
+  "score": 1.33
+ },
+ "loading-register": {
+  "id": "6:203",
+  "name": "Loading register",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "login": {
+  "id": "6:227",
+  "name": "Login",
+  "size": [
+   412,
+   1271
+  ],
+  "score": 2
+ },
+ "lupa-password": {
+  "id": "6:321",
+  "name": "Lupa password",
+  "size": [
+   412,
+   1384
+  ],
+  "score": 2
+ },
+ "masuk-harian": {
+  "id": "49:171",
+  "name": "Masuk harian",
+  "size": [
+   412,
+   971
+  ],
+  "score": 2
+ },
+ "menu-notif": {
+  "id": "8:913",
+  "name": "Notifikasi berhasil",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0.5
+ },
+ "misi-rewards": {
+  "id": "42:2",
+  "name": "Misi Rewards",
+  "size": [
+   412,
+   1759
+  ],
+  "score": 2
+ },
+ "notif-saldo-tdk-ckup": {
+  "id": "8:948",
+  "name": "Notifikasi nomor tdk ada",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0.5
+ },
+ "notifikasi-absen": {
+  "id": "49:395",
+  "name": "Notifikasi absen",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "notifikasi-berhasil-daftar": {
+  "id": "8:913",
+  "name": "Notifikasi berhasil",
+  "size": [
+   412,
+   917
+  ],
+  "score": 1.12
+ },
+ "notifikasi-berhasil-pembelian": {
+  "id": "8:913",
+  "name": "Notifikasi berhasil",
+  "size": [
+   412,
+   917
+  ],
+  "score": 1.12
+ },
+ "notifikasi-brhasil-ubah-sandi": {
+  "id": "8:966",
+  "name": "Notifikasi kata sandi salah",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0.5
+ },
+ "notifikasi-gagal-daftar": {
+  "id": "8:930",
+  "name": "Notifikasi gagal register",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0.67
+ },
+ "notifikasi-kata-sandi-salah": {
+  "id": "8:966",
+  "name": "Notifikasi kata sandi salah",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "notifikasi-keluar": {
+  "id": "8:913",
+  "name": "Notifikasi berhasil",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0.5
+ },
+ "notifikasi-misi": {
+  "id": "42:327",
+  "name": "Notifikasi misi",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "notifikasi-nomor-tdk-ada": {
+  "id": "8:948",
+  "name": "Notifikasi nomor tdk ada",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "notifikasi-penarikan": {
+  "id": "40:125",
+  "name": "Notifikasi penarikan",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "notifikasi-roda": {
+  "id": "49:154",
+  "name": "Notifikasi roda",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "notifikasi-universal": {
+  "id": "8:1039",
+  "name": "Notifikasi universal",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "pasar": {
+  "id": "57:1823",
+  "name": "Pasar 1",
+  "size": [
+   412,
+   1439
+  ],
+  "score": 0.95
+ },
+ "pasar-detail": {
+  "id": "63:807",
+  "name": "Pasar detail",
+  "size": [
+   412,
+   1393
+  ],
+  "score": 2
+ },
+ "pencarian": {
+  "id": "1:3",
+  "name": "Welcome page",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0
+ },
+ "perangkat-login": {
+  "id": "94:399",
+  "name": "Perangkat login",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "perjanjian-klien": {
+  "id": "7:819",
+  "name": "Perjanjian Klien",
+  "size": [
+   412,
+   1825
+  ],
+  "score": 2
+ },
+ "pilihan-bank": {
+  "id": "91:2",
+  "name": "Pilihan bank",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "popup-home": {
+  "id": "15:310",
+  "name": "Popup home",
+  "size": [
+   360,
+   800
+  ],
+  "score": 2
+ },
+ "portofolio": {
+  "id": "68:1183",
+  "name": "Popup portofolio",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0.95
+ },
+ "poster-undangan": {
+  "id": "52:576",
+  "name": "Poster",
+  "size": [
+   412,
+   917
+  ],
+  "score": 0.95
+ },
+ "profil-saya-1": {
+  "id": "89:3291",
+  "name": "Profil saya 1",
+  "size": [
+   412,
+   958
+  ],
+  "score": 2
+ },
+ "profil-saya-2": {
+  "id": "89:3187",
+  "name": "Profil saya 2",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "program-referral": {
+  "id": "50:412",
+  "name": "Program referral",
+  "size": [
+   412,
+   1127
+  ],
+  "score": 2
+ },
+ "rank": {
+  "id": "89:2851",
+  "name": "Rank",
+  "size": [
+   412,
+   2073
+  ],
+  "score": 2
+ },
+ "register-1": {
+  "id": "6:29",
+  "name": "Register 1",
+  "size": [
+   412,
+   1021
+  ],
+  "score": 2
+ },
+ "register-2": {
+  "id": "6:88",
+  "name": "Register 2",
+  "size": [
+   412,
+   1234
+  ],
+  "score": 2
+ },
+ "rekening-bank-1": {
+  "id": "92:74",
+  "name": "Rekening bank 1",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "rekening-bank-2": {
+  "id": "92:75",
+  "name": "Rekening bank 2",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "rekening-bank-3": {
+  "id": "92:77",
+  "name": "Rekening bank 3",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "riwayat-absen": {
+  "id": "85:2511",
+  "name": "Riwayat absen",
+  "size": [
+   412,
+   1457
+  ],
+  "score": 2
+ },
+ "riwayat-deposit": {
+  "id": "85:2161",
+  "name": "Riwayat deposit",
+  "size": [
+   412,
+   1457
+  ],
+  "score": 2
+ },
+ "riwayat-hadiah": {
+  "id": "85:1705",
+  "name": "Riwayat hadiah",
+  "size": [
+   412,
+   1834
+  ],
+  "score": 2
+ },
+ "riwayat-keuntungan": {
+  "id": "85:1320",
+  "name": "Riwayat keuntungan",
+  "size": [
+   412,
+   1704
+  ],
+  "score": 2
+ },
+ "riwayat-komisi": {
+  "id": "85:861",
+  "name": "Riwayat komisi",
+  "size": [
+   412,
+   1864
+  ],
+  "score": 2
+ },
+ "riwayat-lainnya": {
+  "id": "85:631",
+  "name": "Riwayat lainnya",
+  "size": [
+   412,
+   1012
+  ],
+  "score": 2
+ },
+ "riwayat-misi": {
+  "id": "85:441",
+  "name": "Riwayat misi",
+  "size": [
+   412,
+   838
+  ],
+  "score": 2
+ },
+ "riwayat-penarikan": {
+  "id": "73:393",
+  "name": "Riwayat penarikan",
+  "size": [
+   412,
+   1869
+  ],
+  "score": 2
+ },
+ "roda-keberuntungan": {
+  "id": "42:344",
+  "name": "Roda keberuntungan",
+  "size": [
+   412,
+   941
+  ],
+  "score": 2
+ },
+ "syarat-ketentuan": {
+  "id": "6:544",
+  "name": "Syarat ketentuan",
+  "size": [
+   412,
+   2051
+  ],
+  "score": 2
+ },
+ "syarat-layanan": {
+  "id": "6:645",
+  "name": "Syarat layanan",
+  "size": [
+   412,
+   1708
+  ],
+  "score": 2
+ },
+ "tarik": {
+  "id": "33:2",
+  "name": "Tarik",
+  "size": [
+   412,
+   963
+  ],
+  "score": 2
+ },
+ "teman-diundang": {
+  "id": "52:623",
+  "name": "Teman diundang 1",
+  "size": [
+   412,
+   1217
+  ],
+  "score": 1.12
+ },
+ "tentang-kami": {
+  "id": "94:590",
+  "name": "Tentang kami",
+  "size": [
+   412,
+   2769
+  ],
+  "score": 2
+ },
+ "ubah-kata-sandi": {
+  "id": "93:293",
+  "name": "Ubah kata sandi",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "welcome-page": {
+  "id": "1:3",
+  "name": "Welcome page",
+  "size": [
+   412,
+   917
+  ],
+  "score": 2
+ },
+ "home": {
+  "id": "8:1038",
+  "name": "Home"
+ }
+}

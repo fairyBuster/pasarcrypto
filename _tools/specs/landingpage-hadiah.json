@@ -1,0 +1,717 @@
+{
+ "slug": "landingpage-hadiah",
+ "id": "102:542",
+ "frameName": "Landing page hadiah",
+ "size": [
+  412,
+  2412
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Beranda › Hadiah",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6949,
+    -1536,
+    380,
+    21
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mengenal program hadiah",
+   "size": 27,
+   "weight": 800,
+   "lineHeight": 34,
+   "letterSpacing": -0.5,
+   "color": "#FFFFFF",
+   "box": [
+    -6949,
+    -1505,
+    380,
+    68
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pelajari berbagai program hadiah yang tersedia, jenis hadiahnya, dan bagaimana cara mendapatkannya.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6949,
+    -1427,
+    380,
+    63
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program hadiah",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -6949,
+    -1064,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ada beberapa cara untuk mendapatkan hadiah selama menggunakan aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -6949,
+    -1031,
+    380,
+    40
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Misi",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -963,
+    28,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Selesaikan target tertentu, misalnya mengajak teman trading, untuk membuka hadiah.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -943,
+    262,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen harian",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -878,
+    90,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen setiap hari dan dapatkan bonus. Hitungan absen terus berjalan.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -858,
+    276,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Roda keberuntungan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -793,
+    142,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putar roda dengan kesempatan yang kamu miliki untuk mendapatkan hadiah acak.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -773,
+    275,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program referral",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -708,
+    111,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagikan link undangan dan dapatkan poin dari teman yang bergabung.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -688,
+    262,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin komunitas",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -623,
+    104,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dapatkan poin setiap kali membuat postingan di Feed.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -603,
+    273,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -6949,
+    -513,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -472,
+    83,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masuk ke Saldo Tersedia dan bisa langsung digunakan atau ditarik.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -452,
+    248,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -400,
+    30,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dikumpulkan dari referral dan aktivitas komunitas.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -380,
+    218,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah barang",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -328,
+    99,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dikirim ke alamat pengiriman yang kamu daftarkan.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -308,
+    228,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Cara mendapatkan hadiah",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -6949,
+    -232,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ikuti program",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -177,
+    91,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih program hadiah yang ingin kamu ikuti di aplikasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -157,
+    252,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Selesaikan aktivitas",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -92,
+    135,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lakukan aktivitas sesuai syarat masing-masing program.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    -72,
+    267,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah diterima",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6899,
+    -7,
+    107,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah otomatis masuk atau dikirim ke alamatmu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6899,
+    13,
+    219,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tips",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -6949,
+    103,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen setiap hari agar hitungan absenmu terus bertambah.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -6933,
+    142,
+    290,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lengkapi alamat pengiriman agar hadiah barang bisa langsung dikirim.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -6933,
+    190,
+    296,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Cek halaman misi secara berkala untuk melihat progresmu.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -6933,
+    238,
+    288,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6949,
+    423,
+    380,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Produk",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6949,
+    481,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6949,
+    508,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6949,
+    533,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Referral",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6949,
+    558,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perusahaan",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6817,
+    481,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang Kami",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6817,
+    508,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pusat Bantuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6817,
+    533,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Legal",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -6685,
+    481,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6685,
+    508,
+    116,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6685,
+    548,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian Klien",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -6685,
+    573,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -6949,
+    671,
+    325,
+    45
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "© 2026 PasarCryptoIDN. Hak cipta dilindungi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -6949,
+    728,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

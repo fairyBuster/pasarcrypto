@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:BankSelection */
+#section-bank-selection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-app-frame {
+    width: 100%;
+    max-width: 412px;
+    height: 917px;
+    max-height: 100vh;
+    background-color: #04090f;
+    background-image: url('images/3889fe6a84f2cf42e647d22ca911b0d0e952e3b7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  .bottom-sheet-modal {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, #1d3350 0%, #12233a 100%);
+    border-radius: 24px 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+
+  .drag-indicator {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .indicator-bar {
+    width: 40px;
+    height: 4px;
+    background-color: #51657e;
+    border-radius: 2px;
+  }
+
+  .modal-header {
+    padding: 14px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .modal-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .btn-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.22);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-close:active {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .search-bar-container {
+    padding: 14px 20px 0;
+    flex-shrink: 0;
+  }
+
+  .search-input-group {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.22);
+    border: 1px solid #2f4560;
+    border-radius: 21px;
+    height: 42px;
+    padding: 0 14px;
+    gap: 8px;
+  }
+
+  .icon-search {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+
+  .input-search {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+  }
+
+  .input-search::placeholder {
+    color: #75879c;
+  }
+
+  .bank-selection-list {
+    padding: 16px 20px 0;
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    /* Custom scrollbar for webkit */
+    scrollbar-width: thin;
+    scrollbar-color: #51657e transparent;
+  }
+
+  .bank-selection-list::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .bank-selection-list::-webkit-scrollbar-thumb {
+    background-color: #51657e;
+    border-radius: 4px;
+  }
+
+  .list-group-title {
+    color: #8597ab;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 12px 0;
+    flex-shrink: 0;
+  }
+
+  .list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-item {
+    border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+  }
+
+  .list-item:last-child {
+    border-bottom: none;
+  }
+
+  .bank-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .bank-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .radio-custom {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #51657e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  input[type="radio"]:checked + .radio-custom {
+    border: none;
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  }
+
+  .radio-custom img {
+    display: none;
+    width: 12px;
+    height: 12px;
+  }
+
+  input[type="radio"]:checked + .radio-custom img {
+    display: block;
+  }
+
+  .modal-footer {
+    padding: 12px 20px 24px;
+    flex-shrink: 0;
+  }
+
+  .btn-submit {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background: linear-gradient(90deg, #f5f8fb 0%, #c9d4e1 100%);
+    border: none;
+    color: #0c1a2d;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.2s ease;
+  }
+
+  .btn-submit:active {
+    opacity: 0.8;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-bank-selection">
+  <div class="mobile-app-frame">
+    <!-- Bottom Sheet Modal -->
+    <div class="bottom-sheet-modal">
+      <!-- Drag Handle -->
+      <div class="drag-indicator">
+        <div class="indicator-bar"></div>
+      </div>
+      
+      <!-- Header -->
+      <header class="modal-header">
+        <h2 class="modal-title">Pilih Bank</h2>
+        <button class="btn-close" aria-label="Close modal">
+          <img src="images/92_13.svg" alt="Close">
+        </button>
+      </header>
+
+      <!-- Search Bar -->
+      <div class="search-bar-container">
+        <div class="search-input-group">
+          <img src="images/92_17.svg" alt="Search" class="icon-search">
+          <input type="text" class="input-search" placeholder="Cari nama bank">
+        </div>
+      </div>
+
+      <!-- Bank List -->
+      <div class="bank-selection-list">
+        <h3 class="list-group-title">Semua bank</h3>
+        <ul class="list-group">
+          <li class="list-item">
+            <label class="bank-label">
+              <span class="bank-name">Bank BCA</span>
+              <input type="radio" name="selected_bank" value="bca" class="sr-only">
+              <span class="radio-custom"></span>
+            </label>
+          </li>
+          <li class="list-item">
+            <label class="bank-label">
+              <span class="bank-name">Bank BRI</span>
+              <input type="radio" name="selected_bank" value="bri" class="sr-only" checked>
+              <span class="radio-custom">
+                <img src="images/92_38.svg" alt="Selected">
+              </span>
+            </label>
+          </li>
+          <li class="list-item">
+            <label class="bank-label">
+              <span class="bank-name">Bank Mandiri</span>
+              <input type="radio" name="selected_bank" value="mandiri" class="sr-only">
+              <span class="radio-custom"></span>
+            </label>
+          </li>
+          <li class="list-item">
+            <label class="bank-label">
+              <span class="bank-name">Bank BNI</span>
+              <input type="radio" name="selected_bank" value="bni" class="sr-only">
+              <span class="radio-custom"></span>
+            </label>
+          </li>
+          <li class="list-item">
+            <label class="bank-label">
+              <span class="bank-name">Bank Syariah Indonesia (BSI)</span>
+              <input type="radio" name="selected_bank" value="bsi" class="sr-only">
+              <span class="radio-custom"></span>
+            </label>
+          </li>
+          <li class="list-item">
+            <label class="bank-label">
+              <span class="bank-name">CIMB Niaga</span>
+              <input type="radio" name="selected_bank" value="cimb" class="sr-only">
+              <span class="radio-custom"></span>
+            </label>
+          </li>
+          <li class="list-item">
+            <label class="bank-label">
+              <span class="bank-name">Bank Permata</span>
+              <input type="radio" name="selected_bank" value="permata" class="sr-only">
+              <span class="radio-custom"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Bottom Action Button -->
+      <div class="modal-footer">
+        <button class="btn-submit">Pilih Bank</button>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

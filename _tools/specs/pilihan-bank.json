@@ -1,0 +1,177 @@
+{
+ "slug": "pilihan-bank",
+ "id": "91:2",
+ "frameName": "Pilihan bank",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 87,
+ "texts": [
+  {
+   "text": "Pilih Bank",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5018,
+    77,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Cari nama bank",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3963,
+    5069,
+    96,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua bank",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3924,
+    5114,
+    372,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank BCA",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5145,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5202,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank Mandiri",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5259,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank BNI",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5316,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank Syariah Indonesia (BSI)",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5373,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "CIMB Niaga",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5430,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank Permata",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3924,
+    5487,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih Bank",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    4077,
+    5538,
+    66,
+    17
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

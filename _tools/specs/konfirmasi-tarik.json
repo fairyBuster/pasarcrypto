@@ -1,0 +1,207 @@
+{
+ "slug": "konfirmasi-tarik",
+ "id": "39:87",
+ "frameName": "Konfirmasi tarik",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Konfirmasi Penarikan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2477,
+    1470,
+    178,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pastikan data di bawah ini sudah benar sebelum melanjutkan.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2525,
+    1498,
+    274,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Nominal penarikan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2436,
+    1557,
+    97,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1.000.000",
+   "size": 28,
+   "weight": 500,
+   "lineHeight": 36,
+   "letterSpacing": -0.4000000059604645,
+   "color": "#FFFFFF",
+   "box": [
+    -2466,
+    1573,
+    131,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 36,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2331,
+    1578,
+    22,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2528,
+    1642,
+    93,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -2315,
+    1642,
+    67,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nomor rekening",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2528,
+    1681,
+    98,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7810 **** 9031",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -2350,
+    1681,
+    102,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bank",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2528,
+    1720,
+    31,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -2270,
+    1720,
+    22,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ya, Tarik Sekarang",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2450,
+    1779,
+    125,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Batal",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2404,
+    1821,
+    32,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

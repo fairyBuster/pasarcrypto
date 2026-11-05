@@ -1,0 +1,537 @@
+{
+ "slug": "alamat-pengiriman",
+ "id": "89:3384",
+ "frameName": "Alamat",
+ "size": [
+  412,
+  1241
+ ],
+ "overlap": 74,
+ "texts": [
+  {
+   "text": "Alamat Pengiriman",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2319,
+    4695,
+    158,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pastikan alamat sudah benar agar hadiah barang kamu terkirim tanpa kendala.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2234,
+    4747,
+    277,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Label alamat",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    4799,
+    74,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2284,
+    4799,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Contoh: Rumah, Kantor",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    4837,
+    143,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nama penerima",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    4884,
+    92,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2302,
+    4884,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan nama lengkap penerima",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    4922,
+    213,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nomor HP penerima",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    4969,
+    117,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2327,
+    4969,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Contoh: 0812 3456 7890",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5007,
+    154,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Provinsi",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    5054,
+    47,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2257,
+    5054,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih provinsi",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5092,
+    77,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kota / Kabupaten",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    5139,
+    101,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2311,
+    5139,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih kota atau kabupaten",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5177,
+    155,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kecamatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    5224,
+    65,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2275,
+    5224,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih kecamatan",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5262,
+    97,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kelurahan / Desa",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    5309,
+    99,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2309,
+    5309,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih kelurahan atau desa",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5347,
+    153,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode pos",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    5394,
+    54,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2264,
+    5394,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan kode pos",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5432,
+    123,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Alamat lengkap",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    5479,
+    91,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "*",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    2301,
+    5479,
+    7,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nama jalan, nomor rumah, RT/RW, gedung, lantai",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5516,
+    262,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Catatan untuk kurir",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2208,
+    5606,
+    113,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "(opsional)",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2325,
+    5606,
+    56,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Contoh: warna pagar, patokan rumah",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2223,
+    5644,
+    228,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jadikan alamat utama",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2208,
+    5695,
+    328,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah akan dikirim ke alamat ini",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    2208,
+    5713,
+    328,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Simpan Alamat",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2347,
+    5764,
+    102,
+    17
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

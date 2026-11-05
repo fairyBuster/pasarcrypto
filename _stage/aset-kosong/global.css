@@ -1,0 +1,37 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(55% 55% at 69.23% -4%, rgba(78, 108, 142, 0.55) 0%, rgba(78, 108, 142, 0) 100%), 
+              linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  background-attachment: fixed;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+section {
+  width: 100%;
+  max-width: 412px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-green {
+  color: #00d395;
+}

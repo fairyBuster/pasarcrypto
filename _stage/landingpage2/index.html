@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.site-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+  }
+  .close-btn {
+    background-color: #1f3048;
+    border: none;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .close-btn:hover {
+    background-color: #2a405f;
+  }
+
+/* CSS for section section:Navigation */
+.main-nav {
+    padding: 0 16px;
+    margin-top: 6px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-item {
+    border-bottom: 1px solid #1c2d44;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    width: 100%;
+    cursor: pointer;
+  }
+  .nav-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1f3048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+  .active-icon {
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  }
+  .nav-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    flex-grow: 1;
+  }
+  .nav-arrow {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+
+/* CSS for section section:Actions */
+.actions-wrapper {
+    padding: 24px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .btn {
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.2s;
+  }
+  .btn:hover {
+    opacity: 0.9;
+  }
+  .btn-primary {
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    border: none;
+    color: #0c1a2d;
+  }
+  .btn-secondary {
+    background-color: rgba(31, 48, 72, 0.5);
+    border: 1px solid rgba(201, 212, 225, 0.3);
+    color: #ffffff;
+  }
+
+/* CSS for section section:Footer */
+.site-footer {
+    padding: 40px 16px 28px;
+    display: flex;
+    flex-direction: column;
+  }
+  .language-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+  }
+  .lang-label {
+    color: #a9b7c8;
+    font-size: 14px;
+  }
+  .lang-dropdown {
+    background-color: #1f3048;
+    border: none;
+    border-radius: 16px;
+    height: 32px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  .lang-text {
+    color: #e6ecf3;
+    font-size: 13px;
+  }
+  .footer-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .footer-link {
+    color: #75879c;
+    font-size: 12px;
+    transition: color 0.2s;
+  }
+  .footer-link:hover {
+    color: #a9b7c8;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header" class="mobile-container">
+  <header class="site-header">
+    <button class="close-btn" aria-label="Close menu">
+      <img src="images/102_8.svg" alt="Close icon">
+    </button>
+  </header>
+</section>
+<section id="section-navigation" class="mobile-container">
+  <nav class="main-nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="#beranda" class="nav-link">
+          <div class="nav-icon active-icon">
+            <img src="images/102_14.svg" alt="Beranda icon">
+          </div>
+          <span class="nav-text">Beranda</span>
+          <img src="images/102_18.svg" alt="Arrow right" class="nav-arrow">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#holding" class="nav-link">
+          <div class="nav-icon">
+            <img src="images/102_22.svg" alt="Holding icon">
+          </div>
+          <span class="nav-text">Holding</span>
+          <img src="images/102_27.svg" alt="Arrow right" class="nav-arrow">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#hadiah" class="nav-link">
+          <div class="nav-icon">
+            <img src="images/102_31.svg" alt="Hadiah icon">
+          </div>
+          <span class="nav-text">Hadiah</span>
+          <img src="images/102_38.svg" alt="Arrow right" class="nav-arrow">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#referral" class="nav-link">
+          <div class="nav-icon">
+            <img src="images/102_42.svg" alt="Program Referral icon">
+          </div>
+          <span class="nav-text">Program Referral</span>
+          <img src="images/102_49.svg" alt="Arrow right" class="nav-arrow">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#tentang-kami" class="nav-link">
+          <div class="nav-icon">
+            <img src="images/102_53.svg" alt="Tentang Kami icon">
+          </div>
+          <span class="nav-text">Tentang Kami</span>
+          <img src="images/102_58.svg" alt="Arrow right" class="nav-arrow">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#pusat-bantuan" class="nav-link">
+          <div class="nav-icon">
+            <img src="images/102_62.svg" alt="Pusat Bantuan icon">
+          </div>
+          <span class="nav-text">Pusat Bantuan</span>
+          <img src="images/102_67.svg" alt="Arrow right" class="nav-arrow">
+        </a>
+      </li>
+    </ul>
+  </nav>
+</section>
+<section id="section-actions" class="mobile-container">
+  <div class="actions-wrapper">
+    <button class="btn btn-primary">Daftar Sekarang</button>
+    <button class="btn btn-secondary">Masuk</button>
+  </div>
+</section>
+<section id="section-footer" class="mobile-container">
+  <footer class="site-footer">
+    <div class="language-selector">
+      <span class="lang-label">Bahasa</span>
+      <button class="lang-dropdown">
+        <img src="images/102_80.svg" alt="Globe icon">
+        <span class="lang-text">Indonesia</span>
+        <img src="images/102_84.svg" alt="Dropdown arrow">
+      </button>
+    </div>
+    <div class="footer-links">
+      <a href="#syarat" class="footer-link">Syarat & Ketentuan</a>
+      <a href="#privasi" class="footer-link">Kebijakan Privasi</a>
+      <a href="#perjanjian" class="footer-link">Perjanjian Klien</a>
+    </div>
+  </footer>
+</section>
+</body>
+</html>

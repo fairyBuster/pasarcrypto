@@ -1,0 +1,57 @@
+{
+ "slug": "notifikasi-absen",
+ "id": "49:395",
+ "frameName": "Notifikasi absen",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Absen Berhasil",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    475,
+    1581,
+    118,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus absen hari ke-4 sebesar 2.000 IDR sudah masuk ke Saldo Tersedia. Absen lagi besok untuk dapat 3.000 IDR.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    423,
+    1624,
+    272,
+    57
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tutup",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    636,
+    1707,
+    37,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

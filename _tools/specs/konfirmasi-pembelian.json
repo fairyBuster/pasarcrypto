@@ -1,0 +1,297 @@
+{
+ "slug": "konfirmasi-pembelian",
+ "id": "63:1037",
+ "frameName": "Konfirmasi pembelian",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Konfirmasi Holding",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -754,
+    3359,
+    159,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pastikan data di bawah ini sudah benar sebelum melanjutkan.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -812,
+    3387,
+    274,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Nominal holding",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -717,
+    3446,
+    84,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1.000.000",
+   "size": 28,
+   "weight": 500,
+   "lineHeight": 36,
+   "letterSpacing": -0.4000000059604645,
+   "color": "#FFFFFF",
+   "box": [
+    -753,
+    3462,
+    131,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 36,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -618,
+    3467,
+    22,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Produk",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -815,
+    3531,
+    44,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT · Steady Returns",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -684,
+    3531,
+    149,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Periode",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -815,
+    3570,
+    48,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -594,
+    3570,
+    59,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -815,
+    3609,
+    52,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#3ECF8E",
+   "box": [
+    -576,
+    3609,
+    41,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Estimasi imbal hasil / hari",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -815,
+    3648,
+    154,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "233 IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#3ECF8E",
+   "box": [
+    -587,
+    3648,
+    52,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mulai dapat imbal hasil",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -815,
+    3687,
+    140,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "26-10-2026",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -615,
+    3687,
+    80,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dipotong dari",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -815,
+    3726,
+    84,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -632,
+    3726,
+    97,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ya, Mulai Holding",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -733,
+    3785,
+    117,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Batal",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -691,
+    3827,
+    32,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

@@ -1,0 +1,1992 @@
+{
+ "slug": "riwayat-hadiah",
+ "id": "85:1705",
+ "frameName": "Riwayat hadiah",
+ "size": [
+  412,
+  1834
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Riwayat Hadiah",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -252,
+    4695,
+    129,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total hadiah saldo · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -322,
+    4748,
+    261,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "180.000 IDR",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -322,
+    4765,
+    261,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "14 hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -49,
+    4763,
+    51,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -378,
+    4811,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -343,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -343,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -141,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -141,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -364,
+    4898,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -288,
+    4898,
+    33,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Barang",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -219,
+    4898,
+    41,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    4950,
+    246,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 09:28:51 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    4971,
+    246,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+50.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -69,
+    4946,
+    55,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -15,
+    4947,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -45,
+    4972,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    4997,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -56,
+    4997,
+    58,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5018,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -62,
+    5018,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5039,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-2",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -65,
+    5039,
+    67,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5060,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -75,
+    5060,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5081,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610257675",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -95,
+    5081,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    5133,
+    228,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23-10-2026 20:47:30 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5154,
+    228,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah barang",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    -90,
+    5130,
+    92,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diproses",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -48,
+    5155,
+    43,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5180,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tumbler [Nama Aplikasi]",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -125,
+    5180,
+    127,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5201,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Barang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -35,
+    5201,
+    37,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5222,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -64,
+    5222,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Pengiriman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5243,
+    58,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sedang dikemas",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -84,
+    5243,
+    86,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5264,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610231940",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -96,
+    5264,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    5317,
+    248,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "20-10-2026 21:18:03 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5338,
+    248,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+10.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -67,
+    5313,
+    53,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -15,
+    5314,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -45,
+    5339,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5364,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -55,
+    5364,
+    57,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5385,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -62,
+    5385,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5406,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -64,
+    5406,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5427,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -75,
+    5427,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5448,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610205226",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -96,
+    5448,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    5501,
+    254,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "18-10-2026 18:18:02 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5522,
+    254,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+5.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -61,
+    5497,
+    47,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -15,
+    5498,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -45,
+    5523,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5548,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -49,
+    5548,
+    51,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5569,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -62,
+    5569,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5590,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-2",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -65,
+    5590,
+    67,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5611,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -75,
+    5611,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5632,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610187873",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -94,
+    5632,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    5684,
+    228,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "16-10-2026 11:10:25 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5705,
+    228,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah barang",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    -90,
+    5681,
+    92,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -45,
+    5706,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5731,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Voucher belanja 100.000",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -127,
+    5731,
+    129,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5752,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Barang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -35,
+    5752,
+    37,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5773,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -64,
+    5773,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Pengiriman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5794,
+    58,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sudah diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -77,
+    5794,
+    79,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5815,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610162137",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -93,
+    5815,
+    79,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    5868,
+    240,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "13-10-2026 21:21:41 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5889,
+    240,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+100.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -76,
+    5864,
+    62,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -15,
+    5865,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -45,
+    5890,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5915,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -61,
+    5915,
+    63,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5936,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -62,
+    5936,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5957,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -64,
+    5957,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5978,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -75,
+    5978,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    5999,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610133393",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -96,
+    5999,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    6052,
+    249,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10-10-2026 10:47:46 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6073,
+    249,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+15.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -67,
+    6048,
+    53,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -15,
+    6049,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -45,
+    6074,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6099,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "15.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -54,
+    6099,
+    56,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6120,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bonus saldo",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -62,
+    6120,
+    64,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6141,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-2",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -65,
+    6141,
+    67,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6162,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -75,
+    6162,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6183,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610108847",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -95,
+    6183,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -330,
+    6235,
+    228,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "08-10-2026 08:16:08 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6256,
+    228,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah barang",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    -90,
+    6232,
+    92,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -45,
+    6257,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6282,
+    37,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kaos [Nama Aplikasi]",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -109,
+    6282,
+    111,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Jenis hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6303,
+    66,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Barang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -35,
+    6303,
+    37,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6324,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Putaran ke-1",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -64,
+    6324,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Pengiriman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6345,
+    58,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sudah diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -77,
+    6345,
+    79,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -330,
+    6366,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "HD2610089611",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -94,
+    6366,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -210,
+    6427,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -173,
+    6427,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–8 dari 14 hadiah",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -271,
+    6460,
+    166,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

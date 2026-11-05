@@ -1,0 +1,72 @@
+{
+ "slug": "notifikasi-keluar",
+ "id": "96:976",
+ "frameName": "popup keluar",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Keluar dari Akun?",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    6605,
+    5074,
+    147,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kamu perlu masuk kembali menggunakan nomor HP atau email dan kata sandi untuk mengakses akunmu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    6540,
+    5102,
+    275,
+    54
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ya, Keluar",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    6645,
+    5190,
+    67,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Batal",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    6662,
+    5232,
+    32,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

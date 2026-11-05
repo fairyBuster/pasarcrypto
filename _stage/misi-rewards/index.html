@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header-section {
+  padding: 20px 16px 0;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.back-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1f3048;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.header-placeholder {
+  width: 40px;
+  height: 40px;
+}
+
+/* CSS for section section:Hero */
+.hero-section {
+  padding: 2px 16px 0;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 101px;
+}
+.hero-text h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.hero-image {
+  width: 131px;
+  height: 128px;
+  position: relative;
+  top: -13.5px;
+}
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CSS for section section:Stats */
+.stats-section {
+  padding: 18px 16px 0;
+}
+.stats-container {
+  display: flex;
+  align-items: flex-start;
+}
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+.stat-item:last-child {
+  padding-left: 16px;
+}
+.stat-divider {
+  width: 1px;
+  height: 43px;
+  background-color: rgba(201, 212, 225, 0.18);
+}
+.stat-label {
+  font-size: 12px;
+  color: #8597ab;
+}
+.stat-value-group {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.stat-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.stat-unit {
+  font-size: 12px;
+  color: #a9b7c8;
+}
+
+/* CSS for section section:ReferralCode */
+.referral-section {
+  padding: 14px 16px 0;
+}
+.referral-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  border: 1px solid #51657e;
+  border-radius: 22px;
+  padding: 0 6px 0 16px;
+}
+.referral-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.referral-label {
+  font-size: 12px;
+  color: #8597ab;
+}
+.referral-code {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.copy-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 12px;
+  background-color: #1f3048;
+  border-radius: 16px;
+}
+.copy-button span {
+  font-size: 12px;
+  color: #e6ecf3;
+}
+
+/* CSS for section section:InviteButton */
+.invite-section {
+  padding: 12px 16px 0;
+}
+.invite-button {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  border-radius: 22px;
+}
+.invite-button span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0c1a2d;
+}
+
+/* CSS for section section:Banner */
+.banner-section {
+  padding: 12px 16px 0;
+}
+.banner-container {
+  width: 100%;
+  height: 143px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.banner-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CSS for section section:HowTo */
+.howto-section {
+  padding: 13px 16px 0;
+}
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.steps-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.5px;
+  flex: 1;
+}
+.step-number {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #5a82bf 0%, #2c4c80 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.step-text {
+  font-size: 10px;
+  color: #a9b7c8;
+  text-align: center;
+  line-height: 1.4;
+}
+.step-connector {
+  width: 16px;
+  height: 1px;
+  background-color: #51657e;
+  margin-top: 13px;
+}
+.howto-note {
+  font-size: 10px;
+  color: #a9b7c8;
+  line-height: 1.4;
+}
+
+/* CSS for section section:MissionList */
+.mission-section {
+  padding: 8px 16px 0;
+}
+.mission-section .section-title {
+  margin-bottom: 18px;
+}
+.mission-list {
+  display: flex;
+  flex-direction: column;
+}
+.mission-item {
+  display: flex;
+  min-height: 59px;
+}
+.mission-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32px;
+  margin-right: 12px;
+}
+.status-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  z-index: 1;
+}
+.status-circle.completed {
+  background: linear-gradient(135deg, #5a82bf 0%, #2c4c80 100%);
+  color: #ffffff;
+}
+.status-circle.active {
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  color: #0c1a2d;
+}
+.status-circle.in-progress {
+  background-color: #1f3048;
+  border: 2px solid #c9d4e1;
+  color: #ffffff;
+}
+.status-circle.locked {
+  background-color: #1a2a40;
+  border: 1px solid #2a3d56;
+  color: #75879c;
+}
+.status-circle.locked.final {
+  border: 1px solid #8597ab;
+}
+.status-line {
+  width: 2px;
+  flex-grow: 1;
+  background-color: #2f4560;
+}
+.status-line.completed {
+  background-color: #5a82bf;
+}
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-top: 6px;
+  padding-bottom: 18px;
+}
+.mission-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.mission-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.mission-title.locked-text {
+  color: #a9b7c8;
+}
+.mission-desc {
+  font-size: 12px;
+  color: #75879c;
+}
+.mission-desc.progress-text {
+  color: #c9d4e1;
+}
+.mission-reward {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.reward-amount {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.reward-amount .amount {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.reward-amount .currency {
+  font-size: 12px;
+  color: #8597ab;
+}
+.reward-amount.locked-text .amount {
+  color: #a9b7c8;
+}
+.reward-status {
+  font-size: 10px;
+}
+.reward-status.claimed {
+  color: #3ecf8e;
+}
+.reward-status.locked {
+  color: #75879c;
+}
+.claim-button {
+  height: 24px;
+  padding: 0 14px;
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #0c1a2d;
+}
+.progress-bar-container {
+  width: 64px;
+  padding-top: 4px;
+}
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #22344b;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #5a82bf 0%, #c9d4e1 100%);
+  border-radius: 2px;
+}
+
+/* CSS for section section:Notes */
+.notes-section {
+  padding: 2px 16px 28px;
+}
+.notes-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a9b7c8;
+  margin-bottom: 3.5px;
+}
+.notes-text {
+  font-size: 12px;
+  color: #75879c;
+  line-height: 1.4;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header" class="header-section">
+  <div class="header-container">
+    <button class="back-button">
+      <img src="images/42_7.svg" alt="Back">
+    </button>
+    <h1 class="header-title">Misi Rewards</h1>
+    <div class="header-placeholder"></div>
+  </div>
+</section>
+<section id="section-hero" class="hero-section">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h2>Ajak teman gabung,<br>hadiahnya makin besar</h2>
+    </div>
+    <div class="hero-image">
+      <img src="images/4399a391de9eb5f41691432c1256ae7b473a594e.png" alt="Hero Image">
+    </div>
+  </div>
+</section>
+<section id="section-stats" class="stats-section">
+  <div class="stats-container">
+    <div class="stat-item">
+      <span class="stat-label">Teman trading</span>
+      <div class="stat-value-group">
+        <span class="stat-value">3</span>
+        <span class="stat-unit">orang</span>
+      </div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-label">Total hadiah didapat</span>
+      <div class="stat-value-group">
+        <span class="stat-value">75.000</span>
+        <span class="stat-unit">IDR</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-referral-code" class="referral-section">
+  <div class="referral-container">
+    <div class="referral-info">
+      <span class="referral-label">Kode undangan</span>
+      <span class="referral-code">KNZ8F2</span>
+    </div>
+    <button class="copy-button">
+      <img src="images/42_38.svg" alt="Copy">
+      <span>Salin</span>
+    </button>
+  </div>
+</section>
+<section id="section-invite-button" class="invite-section">
+  <button class="invite-button">
+    <img src="images/42_44.svg" alt="Invite">
+    <span>Undang Teman</span>
+  </button>
+</section>
+<section id="section-banner" class="banner-section">
+  <div class="banner-container">
+    <img src="images/76fb80f2224eae360df80bca6541509f6cd871c2.png" alt="Level Up Your Crypto Journey">
+  </div>
+</section>
+<section id="section-howto" class="howto-section">
+  <h3 class="section-title">Cara dapat hadiah</h3>
+  <div class="steps-container">
+    <div class="step-item">
+      <div class="step-number">1</div>
+      <p class="step-text">Bagikan kode<br>undanganmu</p>
+    </div>
+    <div class="step-connector"></div>
+    <div class="step-item">
+      <div class="step-number">2</div>
+      <p class="step-text">Teman daftar &<br>mulai trading</p>
+    </div>
+    <div class="step-connector"></div>
+    <div class="step-item">
+      <div class="step-number">3</div>
+      <p class="step-text">Klaim bonus saldo<br>di sini</p>
+    </div>
+  </div>
+  <p class="howto-note">Setiap misi memberi bonus saldo IDR yang masuk ke Saldo Tersedia setelah diklaim. Hadiah tiap misi bisa diklaim satu kali.</p>
+</section>
+<section id="section-mission-list" class="mission-section">
+  <h3 class="section-title">Daftar Misi</h3>
+  <div class="mission-list">
+    
+    <!-- Mission 1 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle completed">1</div>
+        <div class="status-line completed"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title">1 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount">
+            <span class="amount">25.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status claimed">✓ Diklaim</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 2 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle completed">2</div>
+        <div class="status-line completed"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title">2 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount">
+            <span class="amount">50.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status claimed">✓ Diklaim</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 3 (Active) -->
+    <div class="mission-item active">
+      <div class="mission-status">
+        <div class="status-circle active">3</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title">3 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount">
+            <span class="amount">100.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <button class="claim-button">Klaim</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 5 (In Progress) -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle in-progress">5</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title">5 teman trading</h4>
+          <p class="mission-desc progress-text">Posisi kamu sekarang · 3/5 teman</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount">
+            <span class="amount">200.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <div class="progress-bar-container">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 60%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 7 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">7</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">7 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">300.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 4 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 10 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">10</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">10 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">500.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 7 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 15 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">15</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">15 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">800.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 12 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 20 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">20</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">20 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">1.200.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 17 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 25 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">25</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">25 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">1.600.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 22 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 30 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">30</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">30 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">2.000.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 27 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 40 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">40</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">40 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">2.800.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 37 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 50 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">50</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">50 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">3.500.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 47 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 75 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">75</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">75 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">5.500.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 72 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 100 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked">100</div>
+        <div class="status-line"></div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">100 teman trading</h4>
+          <p class="mission-desc">Bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">8.000.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 97 lagi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission 150 -->
+    <div class="mission-item">
+      <div class="mission-status">
+        <div class="status-circle locked final">150</div>
+      </div>
+      <div class="mission-content">
+        <div class="mission-info">
+          <h4 class="mission-title locked-text">150 teman trading</h4>
+          <p class="mission-desc">Hadiah utama · bonus saldo</p>
+        </div>
+        <div class="mission-reward">
+          <div class="reward-amount locked-text">
+            <span class="amount">12.000.000</span>
+            <span class="currency">IDR</span>
+          </div>
+          <span class="reward-status locked">Butuh 147 lagi</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="section-notes" class="notes-section">
+  <h3 class="notes-title">Catatan</h3>
+  <p class="notes-text">Teman akan dihitung setelah mendaftar menggunakan kode referral kamu dan menyelesaikan transaksi trading pertama. Setiap teman yang memenuhi syarat akan menambah progres pencapaian. Bonus dapat diklaim setelah jumlah teman mencapai target yang ditentukan.</p>
+</section>
+</body>
+</html>

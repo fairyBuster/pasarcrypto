@@ -1,0 +1,867 @@
+{
+ "slug": "akun",
+ "id": "71:2",
+ "frameName": "Akun",
+ "size": [
+  412,
+  2348
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Akun",
+   "size": 22,
+   "weight": 700,
+   "lineHeight": 30,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2990,
+    4690,
+    334,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Gold",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2805,
+    4825,
+    26,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Username",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2856,
+    4852,
+    91,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "0812 **** 4471",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2894,
+    4880,
+    87,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "ID KNZ8F2",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2788,
+    4880,
+    63,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Kurang 3 teman trading lagi untuk naik ke Platinum",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2945,
+    4905,
+    291,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Isi Ulang",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2929,
+    4949,
+    58,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Penarikan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2714,
+    4949,
+    68,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Riwayat Transaksi",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2991,
+    5144,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih jenis riwayat untuk melihat catatan transaksimu",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2990,
+    5163,
+    380,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2940,
+    5202,
+    82,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2753,
+    5202,
+    90,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Keuntungan",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2940,
+    5258,
+    75,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Komisi",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2753,
+    5258,
+    90,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2940,
+    5314,
+    82,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2753,
+    5314,
+    90,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Misi",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2940,
+    5370,
+    82,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lainnya",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2753,
+    5370,
+    90,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aktivitas & Hadiah",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2990,
+    5430,
+    380,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rank Saya",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5473,
+    255,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Gold",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#FFD77A",
+   "box": [
+    -2669,
+    5475,
+    23,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Misi Rewards",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5534,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Undangan",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5595,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Teman Diundang",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5656,
+    241,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Level 1–3",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2691,
+    5657,
+    53,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Absen Harian",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5717,
+    215,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Belum absen",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -2709,
+    5719,
+    63,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Roda Keberuntungan",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5778,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Akun & Setelan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2990,
+    5844,
+    380,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Profil Saya",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5886,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    5947,
+    246,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terverifikasi",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2678,
+    5950,
+    60,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rekening Bank",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6008,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ubah Kata Sandi",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6069,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perangkat Login",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6130,
+    260,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1 aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2672,
+    6131,
+    34,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bahasa",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6191,
+    239,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Indonesia",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2693,
+    6192,
+    55,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bantuan",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2990,
+    6257,
+    380,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pusat Bantuan (FAQ)",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6300,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Chat dengan Tim Kami",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6361,
+    235,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Online",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2678,
+    6364,
+    32,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2990,
+    6427,
+    380,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Unduh Aplikasi",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6470,
+    219,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Android · iOS",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2713,
+    6471,
+    75,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang Kami",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6531,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6592,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat Layanan",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6653,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6714,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian Klien",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2944,
+    6775,
+    306,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Keluar",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -2809,
+    6855,
+    43,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "[Nama Aplikasi] · Versi 1.0.0",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -2872,
+    6901,
+    144,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Beranda",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2987,
+    6976,
+    44,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Feed",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2895,
+    6976,
+    26,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pasar",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2815,
+    6982,
+    30,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Aset",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2730,
+    6976,
+    25,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Akun",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2649,
+    6976,
+    28,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

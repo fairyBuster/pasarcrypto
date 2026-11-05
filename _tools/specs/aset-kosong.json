@@ -1,0 +1,507 @@
+{
+ "slug": "aset-kosong",
+ "id": "68:1524",
+ "frameName": "Aset kosong",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Aset",
+   "size": 22,
+   "weight": 700,
+   "lineHeight": 30,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    429,
+    3117,
+    334,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Total Aset",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    429,
+    3187,
+    57,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "14.700.000",
+   "size": 26,
+   "weight": 600,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    429,
+    3209,
+    144,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    578,
+    3213,
+    22,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "≈ 889,83 USDT",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    429,
+    3247,
+    255,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "▲ +12.450 IDR hari ini",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    429,
+    3270,
+    255,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tarik",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    467,
+    3308,
+    32,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Riwayat",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    562,
+    3308,
+    50,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    429,
+    3385,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "17%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    519,
+    3387,
+    21,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.500.000",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    718,
+    3383,
+    72,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    793,
+    3387,
+    17,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Tersedia",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    429,
+    3427,
+    84,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "63%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    519,
+    3429,
+    23,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9.200.000",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    717,
+    3425,
+    72,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    793,
+    3429,
+    17,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sedang di-holding",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    429,
+    3469,
+    105,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "20%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    540,
+    3471,
+    23,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3.000.000",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    717,
+    3467,
+    72,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    793,
+    3471,
+    17,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding Saya",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    429,
+    3528,
+    380,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Total imbal hasil didapat +184.250 IDR",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    429,
+    3558,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    443,
+    3598,
+    51,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Terkunci",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    530,
+    3598,
+    51,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Stablecoin",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    617,
+    3598,
+    61,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Belum ada holding terkunci",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    520,
+    3774,
+    198,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Holding terkunci memberi imbal hasil lebih tinggi. Lorem ipsum dolor sit amet consectetur.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    499,
+    3800,
+    240,
+    54
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Lihat Produk di Pasar",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    553,
+    3880,
+    133,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Beranda",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    432,
+    3972,
+    44,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Feed",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    524,
+    3972,
+    26,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pasar",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    604,
+    3978,
+    30,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Aset",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    689,
+    3972,
+    25,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Akun",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    770,
+    3972,
+    27,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

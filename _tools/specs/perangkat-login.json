@@ -1,0 +1,552 @@
+{
+ "slug": "perangkat-login",
+ "id": "94:399",
+ "frameName": "Perangkat login",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Perangkat Login",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    5326,
+    4695,
+    136,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Daftar sesi login aktif di akunmu. Keluarkan sesi yang bukan kamu untuk menjaga keamanan akun.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    5230,
+    4747,
+    301,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perangkat ini",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    5204,
+    4809,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perangkat Android",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    5272,
+    4855,
+    296,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aplikasi v1.0.0",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    5272,
+    4877,
+    296,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aktif sekarang",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    5284,
+    4896,
+    78,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lokasi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5324,
+    4921,
+    34,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jakarta, Indonesia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5472,
+    4921,
+    96,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Alamat IP",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5324,
+    4941,
+    49,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "103.***.**.21",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5503,
+    4941,
+    65,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk sejak",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5324,
+    4961,
+    65,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "27-10-2026 08:14 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5450,
+    4961,
+    118,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Perangkat lain",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    5204,
+    5018,
+    105,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2 perangkat",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    5515,
+    5020,
+    69,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perangkat iOS",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    5256,
+    5055,
+    236,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aplikasi v1.0.0",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    5256,
+    5077,
+    236,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Keluarkan",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    5517,
+    5066,
+    54,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lokasi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5308,
+    5104,
+    34,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bandung, Indonesia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5481,
+    5104,
+    103,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Alamat IP",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5308,
+    5124,
+    49,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "36.***.**.104",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5518,
+    5124,
+    66,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Terakhir aktif",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5308,
+    5144,
+    68,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 21:40 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5466,
+    5144,
+    118,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Perangkat Android",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    5256,
+    5195,
+    236,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aplikasi v0.9.8",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    5256,
+    5217,
+    236,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Keluarkan",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    5517,
+    5206,
+    54,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lokasi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5308,
+    5244,
+    34,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jakarta, Indonesia",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5488,
+    5244,
+    96,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Alamat IP",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5308,
+    5264,
+    49,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "114.***.**.7",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5527,
+    5264,
+    57,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Terakhir aktif",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5308,
+    5284,
+    68,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19-10-2026 10:02 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    5467,
+    5284,
+    117,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keluar dari Semua Perangkat Lain",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    5293,
+    5352,
+    227,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    5204,
+    5408,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jika ada perangkat yang tidak kamu kenali, segera keluarkan dan ubah kata sandi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5218,
+    5432,
+    286,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    5218,
+    5474,
+    314,
+    18
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

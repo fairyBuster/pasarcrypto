@@ -1,0 +1,162 @@
+{
+ "slug": "poster-undangan",
+ "id": "52:576",
+ "frameName": "Poster",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Poster Undangan",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1333,
+    1409,
+    136,
+    22
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ajak teman, dapat bonus poin",
+   "size": 22,
+   "weight": 700,
+   "lineHeight": 28,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1284,
+    1502,
+    234,
+    56
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Daftar pakai kode di bawah dan mulai trading kripto bersama.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1284,
+    1564,
+    234,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode undangan",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1284,
+    1768,
+    150,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "KNZ8F2",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 2,
+   "color": "#FFFFFF",
+   "box": [
+    1284,
+    1782,
+    150,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pindai QR untuk daftar",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1284,
+    1808,
+    150,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QR",
+   "size": 9,
+   "weight": 600,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    1476,
+    1789,
+    13,
+    11
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Simpan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1317,
+    1870,
+    51,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Bagikan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1456,
+    1870,
+    55,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tutup",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1383,
+    1926,
+    37,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

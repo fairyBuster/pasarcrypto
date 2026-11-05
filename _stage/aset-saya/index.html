@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 16px 0;
+}
+.header-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.header-btn {
+  background: #1f3048;
+  border: none;
+  border-radius: 18px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* CSS for section section:TotalAsset */
+.total-asset-container {
+  display: flex;
+  padding: 22px 16px 0;
+  gap: 12px;
+}
+.total-asset-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.asset-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #a9b7c8;
+  font-size: 14px;
+}
+.asset-value {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-top: 6px;
+}
+.asset-value .amount {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.asset-value .currency {
+  font-size: 14px;
+  color: #a9b7c8;
+}
+.asset-equivalent {
+  color: #8597ab;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.asset-change {
+  color: #3ecf8e;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.asset-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+.btn-withdraw {
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  color: #0c1a2d;
+  border: none;
+  border-radius: 17px;
+  height: 34px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-history {
+  background: #1f3048;
+  border: 1px solid rgba(201, 212, 225, 0.2);
+  color: #e6ecf3;
+  border-radius: 17px;
+  height: 34px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.total-asset-right {
+  width: 113px;
+  display: flex;
+  align-items: center;
+}
+.wallet-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* CSS for section section:BalanceBreakdown */
+#section-balance-breakdown {
+  padding: 20px 16px 0;
+}
+.breakdown-container {
+  border-top: 1px solid rgba(201, 212, 225, 0.18);
+  border-bottom: 1px solid rgba(201, 212, 225, 0.18);
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.breakdown-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.breakdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 12px;
+}
+.breakdown-label {
+  display: flex;
+  gap: 6px;
+  color: #a9b7c8;
+}
+.breakdown-percent {
+  color: #75879c;
+}
+.breakdown-value {
+  display: flex;
+  gap: 4px;
+}
+.breakdown-value .amount {
+  color: #ffffff;
+  font-weight: 700;
+}
+.breakdown-value .currency {
+  color: #8597ab;
+  font-size: 10px;
+}
+.progress-track {
+  height: 5px;
+  background-color: #22344b;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+/* CSS for section section:Holdings */
+#section-holdings {
+  padding: 28px 16px 100px;
+}
+.holdings-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+.holdings-header p {
+  font-size: 12px;
+  color: #a9b7c8;
+  margin: 0;
+}
+.text-green {
+  color: #3ecf8e;
+}
+.holdings-filters {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+.filter-chip {
+  background: #1f3048;
+  color: #a9b7c8;
+  border: none;
+  border-radius: 16px;
+  height: 32px;
+  padding: 0 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.filter-chip.active {
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  color: #0c1a2d;
+  font-weight: 700;
+}
+.holding-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.holding-card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.holding-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px dashed rgba(200, 212, 226, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #a9b7c8;
+}
+.holding-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.holding-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+.holding-type {
+  font-size: 10px;
+  color: #8597ab;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.holding-type .divider {
+  color: #3a5272;
+}
+.holding-amount {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.amount-val {
+  font-size: 14px;
+  font-weight: 700;
+}
+.amount-val .currency {
+  font-size: 10px;
+  color: #8597ab;
+  font-weight: normal;
+}
+.amount-profit {
+  font-size: 10px;
+  color: #3ecf8e;
+}
+.holding-date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  margin-top: 4px;
+}
+.holding-date .label {
+  color: #8597ab;
+}
+.holding-date .value {
+  color: #e6ecf3;
+}
+.holding-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #a9b7c8;
+  margin-top: 4px;
+}
+.holding-progress-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #8597ab;
+  margin-top: 4px;
+}
+
+/* CSS for section section:BottomNav */
+#section-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 412px;
+  z-index: 100;
+}
+.bottom-nav {
+  background-color: #0d1b2e;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 76px;
+  padding-top: 10px;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #75879c;
+  font-size: 10px;
+  width: 60px;
+}
+.nav-item.active {
+  color: #ffffff;
+}
+.nav-item img {
+  width: 22px;
+  height: 22px;
+}
+.nav-item-center {
+  position: relative;
+  color: #d3dce7;
+}
+.center-icon-wrapper {
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+  background: linear-gradient(180deg, #52a8ff 0%, #002040 100%);
+  border: 4px solid #0d1b2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.center-icon-wrapper img {
+  width: 26px;
+  height: 26px;
+}
+.nav-item-center span {
+  margin-top: 32px;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header">
+    <h1 class="header-title">Aset</h1>
+    <button class="header-btn">
+      <img src="images/68_1190.svg" alt="Settings">
+    </button>
+  </header>
+</section>
+<section id="section-total-asset">
+  <div class="total-asset-container">
+    <div class="total-asset-left">
+      <div class="asset-label">
+        <span>Total Aset</span>
+        <img src="images/68_1198.svg" alt="Toggle visibility">
+      </div>
+      <div class="asset-value">
+        <span class="amount">14.700.000</span>
+        <span class="currency">IDR</span>
+      </div>
+      <div class="asset-equivalent">≈ 889,83 USDT</div>
+      <div class="asset-change">▲ +12.450 IDR hari ini</div>
+      <div class="asset-actions">
+        <button class="btn-withdraw">
+          <img src="images/68_1214.svg" alt="">
+          Tarik
+        </button>
+        <button class="btn-history">
+          <img src="images/68_1218.svg" alt="">
+          Riwayat
+        </button>
+      </div>
+    </div>
+    <div class="total-asset-right">
+      <img src="images/d0c2833a904c54d760a0211bd35a78330cc02866.png" alt="Wallet illustration" class="wallet-img">
+    </div>
+  </div>
+</section>
+<section id="section-balance-breakdown">
+  <div class="breakdown-container">
+    <div class="breakdown-item">
+      <div class="breakdown-header">
+        <div class="breakdown-label">
+          <span>Saldo Isi Ulang</span>
+          <span class="breakdown-percent">17%</span>
+        </div>
+        <div class="breakdown-value">
+          <span class="amount">2.500.000</span>
+          <span class="currency">IDR</span>
+        </div>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 17%; background: linear-gradient(90deg, #7f93ab 0%, #f5f8fb 100%);"></div>
+      </div>
+    </div>
+    <div class="breakdown-item">
+      <div class="breakdown-header">
+        <div class="breakdown-label">
+          <span>Saldo Tersedia</span>
+          <span class="breakdown-percent">63%</span>
+        </div>
+        <div class="breakdown-value">
+          <span class="amount">9.200.000</span>
+          <span class="currency">IDR</span>
+        </div>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 63%; background: linear-gradient(90deg, #2c4c80 0%, #8fb4ea 100%);"></div>
+      </div>
+    </div>
+    <div class="breakdown-item">
+      <div class="breakdown-header">
+        <div class="breakdown-label">
+          <span>Sedang di-holding</span>
+          <span class="breakdown-percent">20%</span>
+        </div>
+        <div class="breakdown-value">
+          <span class="amount">3.000.000</span>
+          <span class="currency">IDR</span>
+        </div>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 20%; background: linear-gradient(90deg, #1c8a5c 0%, #6ff0b4 100%);"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-holdings">
+  <div class="holdings-header">
+    <h2>Holding Saya</h2>
+    <p>Total imbal hasil didapat <span class="text-green">+184.250 IDR</span></p>
+  </div>
+  
+  <div class="holdings-filters">
+    <button class="filter-chip">Fleksibel</button>
+    <button class="filter-chip active">Terkunci</button>
+    <button class="filter-chip">Stablecoin</button>
+  </div>
+
+  <div class="holding-card">
+    <div class="holding-card-top">
+      <div class="holding-icon">
+        <span>SOL</span>
+      </div>
+      <div class="holding-info">
+        <div class="holding-name">SOL</div>
+        <div class="holding-type">
+          <span>Growth Plus</span>
+          <span class="divider">|</span>
+          <span>Terkunci 30 hari</span>
+        </div>
+      </div>
+      <div class="holding-amount">
+        <div class="amount-val">1.000.000 <span class="currency">IDR</span></div>
+        <div class="amount-profit">+41.950 IDR</div>
+      </div>
+    </div>
+    
+    <div class="holding-date">
+      <img src="images/68_1291.svg" alt="">
+      <span class="label">Tanggal beli</span>
+      <span class="value">07-10-2026 09:30 WIB</span>
+    </div>
+    
+    <div class="holding-stats">
+      <div class="stat-item">Est. APR 6,40%</div>
+      <div class="stat-item">Imbal hasil hari ini <span class="text-green">+175 IDR</span></div>
+    </div>
+    
+    <div class="holding-progress-text">
+      <span>Berjalan 18 dari 30 hari</span>
+      <span>Sisa 12 hari</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" style="width: 60%; background: linear-gradient(90deg, #5a82bf 0%, #c9d4e1 100%);"></div>
+    </div>
+  </div>
+</section>
+<section id="section-bottom-nav">
+  <nav class="bottom-nav">
+    <a href="#" class="nav-item">
+      <img src="images/68_1313.svg" alt="Beranda">
+      <span>Beranda</span>
+    </a>
+    <a href="#" class="nav-item">
+      <img src="images/68_1317.svg" alt="Feed">
+      <span>Feed</span>
+    </a>
+    <a href="#" class="nav-item nav-item-center">
+      <div class="center-icon-wrapper">
+        <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="Pasar">
+      </div>
+      <span>Pasar</span>
+    </a>
+    <a href="#" class="nav-item active">
+      <img src="images/68_1329.svg" alt="Aset">
+      <span>Aset</span>
+    </a>
+    <a href="#" class="nav-item">
+      <img src="images/68_1335.svg" alt="Akun">
+      <span>Akun</span>
+    </a>
+  </nav>
+</section>
+</body>
+</html>

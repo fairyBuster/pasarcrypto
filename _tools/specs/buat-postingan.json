@@ -1,0 +1,237 @@
+{
+ "slug": "buat-postingan",
+ "id": "57:1743",
+ "frameName": "Buat postingan",
+ "size": [
+  412,
+  890
+ ],
+ "overlap": 86,
+ "texts": [
+  {
+   "text": "Buat Postingan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3885,
+    1245,
+    127,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Username",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3804,
+    1301,
+    70,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Postingan akan tampil di Feed",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3804,
+    1321,
+    156,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Judul (opsional)",
+   "size": 18,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    3758,
+    1355,
+    141,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tulis berita atau pendapatmu…",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3762,
+    1408,
+    204,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ketik $ untuk menyebut koin, contoh $BTCUSDT",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3758,
+    1562,
+    253,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0/1000",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    4101,
+    1562,
+    37,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Gambar",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3758,
+    1599,
+    54,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Maks. 4 gambar",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    4054,
+    1603,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tambah",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3777,
+    1673,
+    38,
+    12
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Dapat +1000 IDR setelah postingan tayang",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3758,
+    1746,
+    244,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Posting",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3922,
+    1798,
+    52,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3758,
+    1850,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3772,
+    1874,
+    314,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3772,
+    1898,
+    303,
+    36
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

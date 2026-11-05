@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 16px 0;
+    }
+    #section-header .back-btn {
+        width: 40px;
+        height: 40px;
+        background-color: #1f3048;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    #section-header .title-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section-header .title {
+        font-size: 16px;
+        margin: 0;
+        line-height: 1.2;
+    }
+    #section-header .subtitle {
+        font-size: 11px;
+        margin: 4px 0 0;
+    }
+    #section-header .placeholder {
+        width: 40px;
+        height: 40px;
+    }
+
+/* CSS for section section:AssetInfo */
+#section-asset-info .asset-info-container {
+        display: flex;
+        align-items: center;
+        padding: 22px 16px 0;
+        gap: 12px;
+    }
+    #section-asset-info .logo-circle {
+        width: 48px;
+        height: 48px;
+        border: 1px dashed rgba(200, 212, 226, 0.45);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+    }
+    #section-asset-info .name-area {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    #section-asset-info .coin-name {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+    #section-asset-info .badge {
+        background-color: rgba(201, 212, 225, 0.14);
+        padding: 2px 8px;
+        border-radius: 8px;
+        font-size: 10px;
+    }
+    #section-asset-info .tags-row {
+        font-size: 11px;
+        gap: 8px;
+    }
+    #section-asset-info .divider {
+        width: 1px;
+        height: 10px;
+        background-color: #3a5272;
+    }
+    #section-asset-info .apr-area {
+        align-items: flex-end;
+    }
+    #section-asset-info .apr-value {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    #section-asset-info .apr-label {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+/* CSS for section section:Chart */
+#section-chart .chart-container {
+        padding: 26px 16px 0;
+    }
+    #section-chart .chart-title {
+        font-size: 14px;
+    }
+    #section-chart .chart-filters {
+        background-color: #1f3048;
+        border-radius: 16px;
+        padding: 3px;
+        gap: 4px;
+    }
+    #section-chart .filter {
+        padding: 4px 10px;
+        border-radius: 13px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    #section-chart .filter.active {
+        background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+        color: #0c1a2d;
+    }
+    #section-chart .chart-subtitle {
+        font-size: 11px;
+        margin-top: 12px;
+    }
+    #section-chart .chart-graphic {
+        position: relative;
+        height: 132px;
+        margin-top: 16px;
+    }
+    #section-chart .svg-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+    }
+    #section-chart .x-axis {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 10px;
+    }
+
+/* CSS for section section:Details */
+#section-details .details-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px 8px;
+        padding: 24px 16px 0;
+    }
+    #section-details .detail-label {
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+    #section-details .detail-value {
+        font-size: 13px;
+    }
+
+/* CSS for section section:ProgressBar */
+#section-progress .progress-container {
+        padding: 16px 16px 0;
+        gap: 6px;
+    }
+    #section-progress .progress-labels {
+        font-size: 10px;
+    }
+    #section-progress .progress-track {
+        width: 100%;
+        height: 5px;
+        background-color: #22344b;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    #section-progress .progress-fill {
+        height: 100%;
+        width: 72%;
+        background: linear-gradient(90deg, #5a82bf 0%, #c9d4e1 100%);
+        border-radius: 3px;
+    }
+
+/* CSS for section section:AIAnalysis */
+#section-ai .ai-container {
+        padding: 26px 16px 0;
+        gap: 12px;
+    }
+    #section-ai .ai-title {
+        font-size: 14px;
+        margin: 0;
+    }
+    #section-ai .ai-content {
+        align-items: flex-start;
+        gap: 10px;
+    }
+    #section-ai .ai-icon {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+    #section-ai .ai-text {
+        font-size: 11px;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+/* CSS for section section:InputForm */
+#section-input .input-section-container {
+        padding: 26px 16px 0;
+        border-top: 1px solid #22344b;
+        margin-top: 24px;
+    }
+    #section-input .input-header {
+        font-size: 11px;
+        margin-bottom: 12px;
+    }
+    #section-input .input-box {
+        background-color: #1f3048;
+        border: 1px solid #3a5272;
+        border-radius: 24px;
+        height: 48px;
+        padding: 0 16px;
+        gap: 12px;
+    }
+    #section-input .currency {
+        font-size: 13px;
+    }
+    #section-input .divider {
+        width: 2px;
+        height: 22px;
+        background-color: #c9d4e1;
+    }
+    #section-input .input-field {
+        background: transparent;
+        border: none;
+        color: #ffffff;
+        font-size: 13px;
+        flex-grow: 1;
+        outline: none;
+        font-family: 'Inter', sans-serif;
+    }
+    #section-input .input-field::placeholder {
+        color: #75879c;
+    }
+    #section-input .btn-maks {
+        background: transparent;
+        border: none;
+        font-size: 12px;
+        cursor: pointer;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+    }
+    #section-input .input-limits {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    #section-input .estimations {
+        margin-top: 16px;
+        gap: 10px;
+    }
+    #section-input .est-row {
+        font-size: 11px;
+    }
+
+/* CSS for section section:Action */
+#section-action .action-container {
+        padding: 24px 16px 0;
+    }
+    #section-action .btn-primary {
+        width: 100%;
+        height: 44px;
+        border-radius: 22px;
+        background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+        color: #0c1a2d;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+    }
+
+/* CSS for section section:Notes */
+#section-notes .notes-container {
+        padding: 24px 16px 0;
+        gap: 8px;
+    }
+    #section-notes .notes-title {
+        font-size: 13px;
+        margin: 0;
+    }
+    #section-notes .notes-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+    #section-notes .notes-list li {
+        align-items: flex-start;
+        gap: 8px;
+    }
+    #section-notes .bullet {
+        width: 6px;
+        height: 6px;
+        background-color: #51657e;
+        border-radius: 50%;
+        margin-top: 5px;
+        flex-shrink: 0;
+    }
+    #section-notes .notes-list p {
+        font-size: 11px;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+/* CSS for section section:Orderbook */
+#section-orderbook .orderbook-container {
+        padding: 26px 16px 0;
+        gap: 16px;
+    }
+    #section-orderbook .ob-title {
+        font-size: 14px;
+        margin: 0;
+    }
+    #section-orderbook .ob-pair {
+        font-size: 10px;
+    }
+    #section-orderbook .ob-table {
+        gap: 8px;
+    }
+    #section-orderbook .ob-thead {
+        font-size: 10px;
+        padding: 0 8px;
+    }
+    #section-orderbook .ob-tbody {
+        gap: 2px;
+    }
+    #section-orderbook .ob-row {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 26px;
+        padding: 0 8px;
+        font-size: 11px;
+    }
+    #section-orderbook .ob-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient(270deg, rgba(62, 207, 142, 0.13) 0%, rgba(62, 207, 142, 0) 100%);
+        border-radius: 4px;
+        z-index: 0;
+    }
+    #section-orderbook .col-user,
+    #section-orderbook .col-amount,
+    #section-orderbook .col-total {
+        position: relative;
+        z-index: 1;
+        flex: 1;
+    }
+    #section-orderbook .col-user { text-align: left; }
+    #section-orderbook .col-amount { text-align: center; }
+    #section-orderbook .col-total { text-align: right; }
+
+/* CSS for section section:Footer */
+#section-footer .footer-container {
+        margin-top: 24px;
+        padding: 16px;
+        border-top: 1px solid rgba(201, 212, 225, 0.16);
+    }
+    #section-footer .footer-price {
+        font-size: 14px;
+    }
+    #section-footer .footer-note {
+        font-size: 10px;
+    }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+    <div class="app-container">
+        <header class="header-container">
+            <div class="back-btn">
+                <img src="images/63_812.svg" alt="Back">
+            </div>
+            <div class="title-area">
+                <h1 class="title font-semibold">Detail Holding</h1>
+                <p class="subtitle text-gray">USDT · Steady Returns</p>
+            </div>
+            <div class="placeholder"></div>
+        </header>
+    </div>
+</section>
+<section id="section-asset-info">
+    <div class="app-container">
+        <div class="asset-info-container">
+            <div class="logo-area">
+                <div class="logo-circle text-light-gray font-medium">USDT</div>
+            </div>
+            <div class="name-area">
+                <div class="name-row flex items-center">
+                    <span class="coin-name font-bold text-white">USDT</span>
+                    <span class="badge text-muted">Holding</span>
+                </div>
+                <div class="tags-row flex items-center text-gray">
+                    <span class="tag">Steady Returns</span>
+                    <span class="divider"></span>
+                    <span class="tag">Fleksibel</span>
+                </div>
+            </div>
+            <div class="apr-area flex-col">
+                <div class="apr-value text-green font-bold">8,50%</div>
+                <div class="apr-label text-gray">Est. APR</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-chart">
+    <div class="app-container">
+        <div class="chart-container">
+            <div class="chart-header flex justify-between items-center">
+                <div class="chart-title font-semibold text-white">Grafik APR</div>
+                <div class="chart-filters flex items-center">
+                    <div class="filter text-light-gray">7H</div>
+                    <div class="filter active font-medium">30H</div>
+                    <div class="filter text-light-gray">90H</div>
+                </div>
+            </div>
+            <div class="chart-subtitle text-green">Naik ▲ 0,35% <span class="text-gray">dalam 30 hari terakhir</span></div>
+            
+            <div class="chart-graphic">
+                <div class="svg-container">
+                    <!--merged image-->
+                    <div style="position: absolute; inset: 0;">
+                        <img src="images/63_855.svg" alt="chart line" style="position: absolute; width: 100%; height: 100%; object-fit: fill; top: 20px;">
+                        <img src="images/63_856.svg" alt="chart line" style="position: absolute; width: 100%; height: 100%; object-fit: fill; top: 50px;">
+                        <img src="images/63_857.svg" alt="chart line" style="position: absolute; width: 100%; height: 100%; object-fit: fill; top: 80px;">
+                        <img src="images/63_858.svg" alt="chart area" style="position: absolute; width: 100%; height: 100%; object-fit: fill; top: 8px;">
+                        <img src="images/63_859.svg" alt="chart stroke" style="position: absolute; width: 100%; height: 100%; object-fit: fill; top: 8px;">
+                        <img src="images/63_860.svg" alt="chart dot" style="position: absolute; right: 0; top: 4px; width: 8px; height: 8px;">
+                    </div>
+                </div>
+                <div class="x-axis flex justify-between text-dark-gray">
+                    <span>25 Sep</span>
+                    <span>10 Okt</span>
+                    <span>25 Okt</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-details">
+    <div class="app-container">
+        <div class="details-grid">
+            <div class="detail-item flex-col">
+                <span class="detail-label text-gray">Minimal holding</span>
+                <span class="detail-value text-white font-medium">50.000 IDR</span>
+            </div>
+            <div class="detail-item flex-col">
+                <span class="detail-label text-gray">Periode</span>
+                <span class="detail-value text-white font-medium">Fleksibel</span>
+            </div>
+            <div class="detail-item flex-col">
+                <span class="detail-label text-gray">Imbal hasil dibagikan</span>
+                <span class="detail-value text-white font-medium">Setiap hari</span>
+            </div>
+            <div class="detail-item flex-col">
+                <span class="detail-label text-gray">Volume 24J</span>
+                <span class="detail-value text-white font-medium">12,4 Jt USDT</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-progress">
+    <div class="app-container">
+        <div class="progress-container flex-col">
+            <div class="progress-labels flex justify-between">
+                <span class="text-white font-medium">Kuota terisi 72%</span>
+                <span class="text-gray">Sisa 28%</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-ai">
+    <div class="app-container">
+        <div class="ai-container flex-col">
+            <h3 class="ai-title font-semibold text-white">Analisis AI</h3>
+            <div class="ai-content flex">
+                <img src="images/3b30b80b9507e5492d560be1fdfc735f1d2d71d0.png" alt="AI Icon" class="ai-icon">
+                <p class="ai-text text-light-gray">Imbal hasil stabil, cocok untuk simpanan jangka panjang. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-input">
+    <div class="app-container">
+        <div class="input-section-container flex-col">
+            <div class="input-header flex justify-between">
+                <span class="text-light-gray">Jumlah holding</span>
+                <span class="text-white">Saldo Isi Ulang 2.500.000 IDR</span>
+            </div>
+            
+            <div class="input-box flex items-center">
+                <span class="currency font-semibold text-white">IDR</span>
+                <div class="divider"></div>
+                <input type="text" placeholder="Masukkan nominal" class="input-field text-dark-gray">
+                <button class="btn-maks text-muted font-medium">Maks</button>
+            </div>
+            
+            <div class="input-limits text-dark-gray">Minimal 50.000 IDR · Maksimal 50.000.000 IDR</div>
+            
+            <div class="estimations flex-col">
+                <div class="est-row flex justify-between">
+                    <span class="text-gray">Estimasi imbal hasil / hari</span>
+                    <span class="text-green font-medium">0 IDR</span>
+                </div>
+                <div class="est-row flex justify-between">
+                    <span class="text-gray">Estimasi imbal hasil / bulan</span>
+                    <span class="text-green font-medium">0 IDR</span>
+                </div>
+                <div class="est-row flex justify-between">
+                    <span class="text-gray">Mulai dapat imbal hasil</span>
+                    <span style="color: #e6ecf3;" class="font-medium">26-10-2026</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-action">
+    <div class="app-container">
+        <div class="action-container">
+            <button class="btn-primary font-bold">Mulai Holding</button>
+        </div>
+    </div>
+</section>
+<section id="section-notes">
+    <div class="app-container">
+        <div class="notes-container flex-col">
+            <h4 class="notes-title text-light-gray font-medium">Catatan</h4>
+            <ul class="notes-list flex-col">
+                <li class="flex">
+                    <div class="bullet"></div>
+                    <p class="text-dark-gray">Riwayat pembelian menampilkan transaksi yang telah berhasil dilakukan oleh pengguna.</p>
+                </li>
+                <li class="flex">
+                    <div class="bullet"></div>
+                    <p class="text-dark-gray">Identitas pengguna disamarkan untuk menjaga privasi dan keamanan akun.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="section-orderbook">
+    <div class="app-container">
+        <div class="orderbook-container flex-col">
+            <div class="ob-header flex justify-between items-center">
+                <h3 class="ob-title font-semibold text-white">Orderbook Beli</h3>
+                <span class="ob-pair text-gray">USDT/IDR</span>
+            </div>
+            
+            <div class="ob-table flex-col">
+                <div class="ob-thead flex text-dark-gray">
+                    <div class="col-user">Pengguna</div>
+                    <div class="col-amount">Jumlah (USDT)</div>
+                    <div class="col-total">Total (IDR)</div>
+                </div>
+                
+                <div class="ob-tbody flex-col">
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 54%;"></div>
+                        <div class="col-user text-white">Us****01</div>
+                        <div class="col-amount text-muted">1.250,40</div>
+                        <div class="col-total text-muted">20.649.582</div>
+                    </div>
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 36%;"></div>
+                        <div class="col-user text-white">Ra****na</div>
+                        <div class="col-amount text-muted">842,15</div>
+                        <div class="col-total text-muted">13.910.634</div>
+                    </div>
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 100%;"></div>
+                        <div class="col-user text-white">Ke****ya</div>
+                        <div class="col-amount text-muted">2.310,00</div>
+                        <div class="col-total text-muted">38.154.270</div>
+                    </div>
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 27%;"></div>
+                        <div class="col-user text-white">An****ri</div>
+                        <div class="col-amount text-muted">615,80</div>
+                        <div class="col-total text-muted">10.170.553</div>
+                    </div>
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 44%;"></div>
+                        <div class="col-user text-white">Jo****ko</div>
+                        <div class="col-amount text-muted">1.020,50</div>
+                        <div class="col-total text-muted">16.853.558</div>
+                    </div>
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 17%;"></div>
+                        <div class="col-user text-white">Fa****zz</div>
+                        <div class="col-amount text-muted">388,25</div>
+                        <div class="col-total text-muted">6.411.561</div>
+                    </div>
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 76%;"></div>
+                        <div class="col-user text-white">Di****89</div>
+                        <div class="col-amount text-muted">1.745,20</div>
+                        <div class="col-total text-muted">28.818.494</div>
+                    </div>
+                    <div class="ob-row">
+                        <div class="ob-bg" style="width: 40%;"></div>
+                        <div class="col-user text-white">Ma****ns</div>
+                        <div class="col-amount text-muted">930,60</div>
+                        <div class="col-total text-muted">15.366.067</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-footer">
+    <div class="app-container">
+        <div class="footer-container flex justify-between items-center">
+            <div class="footer-price text-green font-bold">16.520 IDR</div>
+            <div class="footer-note text-gray">Harga terakhir · ≈ 1 USDT</div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

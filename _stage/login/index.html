@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header .header {
+    padding: 20px 16px 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #section-header .back-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  #section-header .back-btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+/* CSS for section section:Hero */
+#section-hero .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  #section-hero .hero-image {
+    width: calc(100% + 24px);
+    margin-left: -12px;
+    margin-right: -12px;
+    max-width: 436px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  #section-hero .hero-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    color: #ffffff;
+    line-height: 1.4;
+  }
+  #section-hero .hero-subtitle {
+    font-size: 14px;
+    color: #a9b7c8;
+    margin: 0;
+  }
+
+/* CSS for section section:Form */
+#section-form {
+    padding: 28px 16px 0;
+  }
+  #section-form .form-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 24px 20px;
+  }
+  #section-form .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  #section-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #section-form .form-group label {
+    font-size: 12px;
+    color: #d3dce7;
+  }
+  #section-form .input-wrapper {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 10px;
+  }
+  #section-form .input-wrapper input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    flex: 1;
+    outline: none;
+    width: 100%;
+  }
+  #section-form .input-wrapper input::placeholder {
+    color: #75879c;
+  }
+  #section-form .icon-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #section-form .captcha-row {
+    display: flex;
+    gap: 8px;
+  }
+  #section-form .captcha-input {
+    flex: 1;
+  }
+  #section-form .captcha-display {
+    width: 128px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #e9eef4 0%, #c3cedb 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px 0 16px;
+    flex-shrink: 0;
+  }
+  #section-form .captcha-merged {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #section-form .captcha-text {
+    color: #1a2c44;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+  }
+  #section-form .captcha-strikethrough {
+    position: absolute;
+    width: 120%;
+    height: 1.5px;
+    background-color: rgba(26, 44, 68, 0.45);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-8deg);
+    z-index: 2;
+  }
+  #section-form .captcha-hint {
+    font-size: 11px;
+    color: #8597ab;
+    margin: 0;
+    line-height: 1.4;
+  }
+  #section-form .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+  }
+  #section-form .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  #section-form .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  #section-form .checkbox.checked {
+    background: linear-gradient(135deg, #f2f5f9 0%, #c4cfdc 100%);
+  }
+  #section-form .checkbox-label span {
+    font-size: 12px;
+    color: #a9b7c8;
+  }
+  #section-form .forgot-password {
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+/* CSS for section section:Actions */
+#section-actions {
+    padding: 28px 24px 0;
+  }
+  #section-actions .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #section-actions .btn-primary {
+    width: 100%;
+    height: 52px;
+    border-radius: 26px;
+    background: linear-gradient(to right, #f5f8fb 0%, #c9d4e1 100%);
+    border: none;
+    color: #0c1a2d;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  #section-actions .btn-primary:hover {
+    opacity: 0.9;
+  }
+  #section-actions .register-prompt {
+    text-align: center;
+    font-size: 14px;
+    color: #a9b7c8;
+    margin: 0;
+  }
+  #section-actions .register-prompt a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+/* CSS for section section:Footer */
+#section-footer {
+    padding: 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #section-footer .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #section-footer .disclaimer {
+    font-size: 11px;
+    color: #7f90a5;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 24px 24px;
+  }
+  #section-footer .warning-box {
+    background-color: rgba(201, 212, 225, 0.1);
+    border-radius: 16px;
+    padding: 12px 14px;
+    display: flex;
+    gap: 10px;
+    margin: 0 16px 24px;
+    align-items: flex-start;
+    width: calc(100% - 32px);
+  }
+  #section-footer .warning-icon {
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+  #section-footer .warning-text {
+    font-size: 11px;
+    color: #a9b7c8;
+    margin: 0;
+    line-height: 1.5;
+  }
+  #section-footer .warning-text strong {
+    color: #ffffff;
+    font-weight: 700;
+  }
+  #section-footer .logos {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  #section-footer .logo {
+    height: 22px;
+    object-fit: contain;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header">
+    <button class="back-btn" aria-label="Back">
+      <img src="images/6_232.svg" alt="Back">
+    </button>
+  </header>
+</section>
+<section id="section-hero">
+  <div class="hero">
+    <img class="hero-image" src="images/d1f932276f6dd8d59739136abeb010e835c0d19d.png" alt="Hero Banner">
+    <h1 class="hero-title">Selamat Datang Kembali</h1>
+    <p class="hero-subtitle">Masuk ke akunmu untuk melanjutkan.</p>
+  </div>
+</section>
+<section id="section-form">
+  <div class="form-card">
+    <form class="login-form" onsubmit="event.preventDefault();">
+      <div class="form-group">
+        <label>Username / Email / Nomor Telepon</label>
+        <div class="input-wrapper">
+          <img src="images/6_250.svg" alt="User Icon" class="input-icon">
+          <input type="text" placeholder="Username, email, atau no. telepon">
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label>Kata Sandi</label>
+        <div class="input-wrapper">
+          <img src="images/6_260.svg" alt="Lock Icon" class="input-icon">
+          <input type="password" placeholder="Masukkan kata sandi">
+          <button type="button" class="icon-btn" aria-label="Show Password">
+            <img src="images/6_266.svg" alt="Eye Icon">
+          </button>
+        </div>
+      </div>
+
+      <div class="form-group captcha-group">
+        <label>Kode Captcha</label>
+        <div class="captcha-row">
+          <div class="input-wrapper captcha-input">
+            <input type="text" placeholder="Masukkan kode">
+          </div>
+          <div class="captcha-display">
+            <!--merged image-->
+            <div class="captcha-merged">
+              <span class="captcha-text">7K4P</span>
+              <div class="captcha-strikethrough"></div>
+            </div>
+            <button type="button" class="icon-btn" aria-label="Refresh Captcha">
+              <img src="images/6_281.svg" alt="Refresh Icon">
+            </button>
+          </div>
+        </div>
+        <p class="captcha-hint">Ketik ulang kode yang tampil di kotak sebelah kanan ke kolom ini. Kode tidak bisa dibaca? Ketuk ikon putar untuk mengganti kode baru.</p>
+      </div>
+
+      <div class="form-options">
+        <label class="checkbox-label">
+          <div class="checkbox checked">
+            <img src="images/6_290.svg" alt="Checked Icon">
+          </div>
+          <span>Ingat saya</span>
+        </label>
+        <a href="#" class="forgot-password">Lupa kata sandi?</a>
+      </div>
+    </form>
+  </div>
+</section>
+<section id="section-actions">
+  <div class="actions">
+    <button class="btn-primary">Masuk</button>
+    <p class="register-prompt">Belum punya akun? <a href="#">Daftar</a></p>
+  </div>
+</section>
+<section id="section-footer">
+  <footer class="footer">
+    <p class="disclaimer">Data yang kamu masukkan hanya digunakan untuk keperluan akses login ke akunmu. Kami tidak akan membagikan, menjual, atau menggunakan data kamu untuk tujuan lain tanpa persetujuan darimu.</p>
+    
+    <div class="warning-box">
+      <img src="images/6_310.svg" alt="Info Icon" class="warning-icon">
+      <p class="warning-text">Dengan masuk, saya menyatakan bahwa saya sudah dewasa dan menerima ketentuan-ketentuan <strong>Perjanjian Klien</strong> dan <strong>Kebijakan Privasi</strong>.</p>
+    </div>
+
+    <div class="logos">
+      <img src="images/0df4ee1cbf5b1725acac2d9d08fb45019361fa6e.png" alt="OJK Logo" class="logo">
+      <img src="images/77d24c42cf84c32b2b4b166aa82a20eab63965b9.png" alt="BAPPEBTI Logo" class="logo">
+    </div>
+  </footer>
+</section>
+</body>
+</html>

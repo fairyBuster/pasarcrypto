@@ -1,0 +1,57 @@
+{
+ "slug": "notifikasi-berhasil-pembelian",
+ "id": "63:1090",
+ "frameName": "Notifikasi berhasil",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Holding Berhasil",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -334,
+    3472,
+    129,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding USDT sebesar 1.000.000 IDR berhasil. Imbal hasil mulai dibagikan pada 26-10-2026. Pantau perkembangannya di Holding Saya.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -386,
+    3515,
+    272,
+    76
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tutup",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -173,
+    3617,
+    37,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

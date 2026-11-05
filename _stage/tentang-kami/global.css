@@ -1,0 +1,27 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: 
+    radial-gradient(circle at 50% 10%, rgba(78, 108, 142, 0.4) 0%, rgba(78, 108, 142, 0) 50%),
+    linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  background-color: #0c1a2d;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  max-width: 412px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 28px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  padding: 28px 16px 0;
+  color: #ffffff;
+}

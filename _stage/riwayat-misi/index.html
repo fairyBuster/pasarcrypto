@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header {
+  padding-top: 20px;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.btn-back {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1f3048;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+.page-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+.header-spacer {
+  width: 40px;
+}
+
+/* CSS for section section:Summary */
+#section-summary {
+  padding: 20px 16px 0;
+}
+.summary-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.summary-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #5982bf 0%, #2b4c80 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.summary-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.summary-label {
+  color: #a9b7c8;
+  font-size: 12px;
+  margin: 0;
+}
+.summary-value {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+.summary-badge {
+  color: #8597ab;
+  font-size: 12px;
+}
+
+/* CSS for section section:Filter */
+#section-filter {
+  padding: 20px 16px 10px;
+}
+.filter-title {
+  color: #a9b7c8;
+  font-size: 12px;
+  margin: 0 0 8px 0;
+}
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.date-input {
+  flex: 1;
+  background-color: #1f3048;
+  border: 1px solid #2f4560;
+  border-radius: 12px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+}
+.date-text {
+  display: flex;
+  flex-direction: column;
+}
+.date-label {
+  color: #75879c;
+  font-size: 10px;
+}
+.date-value {
+  color: #ffffff;
+  font-size: 12px;
+}
+.date-divider {
+  width: 8px;
+  height: 1.5px;
+  background-color: #51657e;
+}
+
+/* CSS for section section:MissionList */
+#section-mission-list {
+  padding: 0 16px;
+}
+.mission-list {
+  display: flex;
+  flex-direction: column;
+}
+.mission-item {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(201, 212, 225, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mission-item:last-child {
+  border-bottom: none;
+}
+.mission-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mission-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1f3048;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.mission-title-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.mission-title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.mission-date {
+  color: #75879c;
+  font-size: 11px;
+  margin: 0;
+}
+.mission-status-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.mission-amount {
+  color: #3ecf8e;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+.currency {
+  color: #8597ab;
+  font-size: 10px;
+  font-weight: 400;
+}
+.status-badge {
+  background-color: rgba(62, 207, 142, 0.14);
+  color: #3ecf8e;
+  font-size: 10px;
+  padding: 3px 7px;
+  border-radius: 9px;
+}
+.mission-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 48px;
+}
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail-label {
+  color: #75879c;
+  font-size: 12px;
+}
+.detail-value {
+  color: #c3cedb;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.copy-icon {
+  width: 11px;
+  height: 11px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* CSS for section section:Pagination */
+#section-pagination {
+  padding: 24px 16px 40px;
+}
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.page-nav-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: rgba(31, 48, 72, 0.4);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+.page-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+.page-number.active {
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e0 100%);
+  color: #0c1a2d;
+}
+.pagination-text {
+  color: #75879c;
+  font-size: 12px;
+  margin: 0;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="app-header">
+    <button class="btn-back" aria-label="Go back">
+      <img src="images/85_446.svg" alt="">
+    </button>
+    <h1 class="page-title">Riwayat Misi</h1>
+    <div class="header-spacer"></div>
+  </header>
+</section>
+<section id="section-summary">
+  <div class="summary-card">
+    <div class="summary-icon">
+      <img src="images/85_454.svg" alt="">
+    </div>
+    <div class="summary-info">
+      <p class="summary-label">Total hadiah misi · sejak akun aktif</p>
+      <p class="summary-value">175.000 IDR</p>
+    </div>
+    <div class="summary-badge">3 misi</div>
+  </div>
+</section>
+<section id="section-filter">
+  <div class="filter-container">
+    <p class="filter-title">Pilih tanggal</p>
+    <div class="date-range">
+      <div class="date-input">
+        <img src="images/85_471.svg" alt="">
+        <div class="date-text">
+          <span class="date-label">Dari</span>
+          <span class="date-value">01-10-2026</span>
+        </div>
+      </div>
+      <div class="date-divider"></div>
+      <div class="date-input">
+        <img src="images/85_481.svg" alt="">
+        <div class="date-text">
+          <span class="date-label">Sampai</span>
+          <span class="date-value">25-10-2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-mission-list">
+  <div class="mission-list">
+    <!-- Item 1 -->
+    <article class="mission-item">
+      <div class="mission-header">
+        <div class="mission-icon">
+          <img src="images/85_494.svg" alt="">
+        </div>
+        <div class="mission-title-group">
+          <h2 class="mission-title">Menyelesaikan misi</h2>
+          <p class="mission-date">25-10-2026 22:46:30 WIB</p>
+        </div>
+        <div class="mission-status-group">
+          <p class="mission-amount">+100.000 <span class="currency">IDR</span></p>
+          <span class="status-badge">Berhasil</span>
+        </div>
+      </div>
+      <div class="mission-details">
+        <div class="detail-row">
+          <span class="detail-label">Target diselesaikan</span>
+          <span class="detail-value">3 teman trading</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Jenis hadiah</span>
+          <span class="detail-value">Bonus saldo</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Masuk ke</span>
+          <span class="detail-value">Saldo Tersedia</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">No. Transaksi</span>
+          <span class="detail-value">MS2610251463 <img src="images/85_530.svg" alt="Copy" class="copy-icon"></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Item 2 -->
+    <article class="mission-item">
+      <div class="mission-header">
+        <div class="mission-icon">
+          <img src="images/85_536.svg" alt="">
+        </div>
+        <div class="mission-title-group">
+          <h2 class="mission-title">Menyelesaikan misi</h2>
+          <p class="mission-date">21-10-2026 11:57:53 WIB</p>
+        </div>
+        <div class="mission-status-group">
+          <p class="mission-amount">+50.000 <span class="currency">IDR</span></p>
+          <span class="status-badge">Berhasil</span>
+        </div>
+      </div>
+      <div class="mission-details">
+        <div class="detail-row">
+          <span class="detail-label">Target diselesaikan</span>
+          <span class="detail-value">2 teman trading</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Jenis hadiah</span>
+          <span class="detail-value">Bonus saldo</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Masuk ke</span>
+          <span class="detail-value">Saldo Tersedia</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">No. Transaksi</span>
+          <span class="detail-value">MS2610216992 <img src="images/85_572.svg" alt="Copy" class="copy-icon"></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Item 3 -->
+    <article class="mission-item">
+      <div class="mission-header">
+        <div class="mission-icon">
+          <img src="images/85_578.svg" alt="">
+        </div>
+        <div class="mission-title-group">
+          <h2 class="mission-title">Menyelesaikan misi</h2>
+          <p class="mission-date">18-10-2026 20:09:56 WIB</p>
+        </div>
+        <div class="mission-status-group">
+          <p class="mission-amount">+25.000 <span class="currency">IDR</span></p>
+          <span class="status-badge">Berhasil</span>
+        </div>
+      </div>
+      <div class="mission-details">
+        <div class="detail-row">
+          <span class="detail-label">Target diselesaikan</span>
+          <span class="detail-value">1 teman trading</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Jenis hadiah</span>
+          <span class="detail-value">Bonus saldo</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Masuk ke</span>
+          <span class="detail-value">Saldo Tersedia</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">No. Transaksi</span>
+          <span class="detail-value">MS2610187041 <img src="images/85_614.svg" alt="Copy" class="copy-icon"></span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+<section id="section-pagination">
+  <div class="pagination-container">
+    <div class="pagination-controls">
+      <button class="page-nav-btn" aria-label="Previous page">
+        <img src="images/85_620.svg" alt="">
+      </button>
+      <div class="page-number active">1</div>
+      <button class="page-nav-btn" aria-label="Next page">
+        <img src="images/85_625.svg" alt="">
+      </button>
+    </div>
+    <p class="pagination-text">Menampilkan 1–3 dari 3 misi</p>
+  </div>
+</section>
+</body>
+</html>

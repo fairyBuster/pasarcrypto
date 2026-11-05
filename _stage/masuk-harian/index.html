@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 16px 0;
+    gap: 12px;
+  }
+  .back-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #1f3048;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .title {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .spacer {
+    width: 40px;
+  }
+
+/* CSS for section section:Hero */
+.hero {
+    display: flex;
+    padding: 22px 16px 0;
+    gap: 12px;
+    align-items: center;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+  }
+  .hero-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .hero-content p {
+    font-size: 12px;
+    color: #a9b7c8;
+    line-height: 1.4;
+  }
+  .hero-img {
+    width: 123px;
+    height: 108px;
+    object-fit: contain;
+  }
+
+/* CSS for section section:Stats */
+.stats {
+    display: flex;
+    padding: 18px 16px 0;
+  }
+  .stat-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .stat-divider {
+    border-left: 1px solid rgba(201, 212, 225, 0.18);
+    padding-left: 16px;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: #8597ab;
+  }
+  .stat-value-group {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .stat-value {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .stat-unit {
+    font-size: 12px;
+    color: #a9b7c8;
+  }
+
+/* CSS for section section:WeeklyBonus */
+.weekly-bonus {
+    padding: 28px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .wb-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .wb-header h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .wb-header span {
+    font-size: 12px;
+    color: #8597ab;
+  }
+  .wb-days {
+    display: flex;
+    justify-content: space-between;
+  }
+  .wb-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .day-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .day-circle.checked {
+    background: linear-gradient(135deg, #5a82bf 0%, #2c4c80 100%);
+  }
+  .day-circle.active {
+    background: linear-gradient(135deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+  }
+  .day-circle.upcoming {
+    background-color: #1a2a40;
+    color: #75879c;
+  }
+  .day-circle.upcoming.border {
+    border: 1px dashed #8597ab;
+  }
+  .day-amt {
+    font-size: 10px;
+    color: #75879c;
+    font-weight: 600;
+  }
+  .day-lbl {
+    font-size: 9px;
+    color: #75879c;
+  }
+  .active-text {
+    color: #ffffff;
+  }
+  .upcoming-text {
+    color: #d3dce7;
+  }
+  .wb-footer {
+    text-align: right;
+    font-size: 10px;
+    color: #75879c;
+    margin-top: -4px;
+  }
+
+/* CSS for section section:Action */
+.action-section {
+    padding: 18px 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .action-btn {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background: linear-gradient(90deg, #f5f8fb 0%, #c7d4e1 100%);
+    border: none;
+    color: #0c1a2d;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+  }
+  .action-subtext {
+    font-size: 12px;
+    color: #8597ab;
+  }
+  .action-subtext strong {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+/* CSS for section section:Calendar */
+.calendar {
+    padding: 28px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .cal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .cal-header h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .cal-header span {
+    font-size: 12px;
+    color: #8597ab;
+  }
+  .cal-weekdays {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cal-weekdays span {
+    width: 38px;
+    text-align: center;
+    font-size: 11px;
+    color: #75879c;
+  }
+  .cal-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .cal-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cal-cell {
+    width: 38px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 17px;
+  }
+  .cal-cell.empty {
+    visibility: hidden;
+  }
+  .cal-cell.attended {
+    background-color: rgba(90, 130, 191, 0.28);
+    color: #ffffff;
+  }
+  .cal-cell.missed {
+    color: #51657e;
+  }
+  .cal-cell.today {
+    border: 1px solid #c9d4e1;
+    color: #ffffff;
+  }
+  .cal-cell.future {
+    color: #75879c;
+  }
+  
+  .cal-legend {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .legend-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+  }
+  .attended-color {
+    background-color: rgba(90, 130, 191, 0.55);
+  }
+  .today-color {
+    border: 1px solid #c9d4e1;
+  }
+  .missed-color {
+    background-color: #2a3d56;
+  }
+  .legend-item span {
+    font-size: 11px;
+    color: #8597ab;
+  }
+
+/* CSS for section section:Notes */
+.notes {
+    padding: 24px 16px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .notes h4 {
+    font-size: 12px;
+    color: #a9b7c8;
+    font-weight: 400;
+  }
+  .notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .notes-list li {
+    font-size: 11px;
+    color: #75879c;
+    line-height: 1.4;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .notes-list li::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #51657e;
+    border-radius: 3px;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header">
+    <div class="back-btn">
+      <img src="images/49_176.svg" alt="Back">
+    </div>
+    <h1 class="title">Absen Harian</h1>
+    <div class="spacer"></div>
+  </header>
+</section>
+<section id="section-hero">
+  <div class="hero">
+    <div class="hero-content">
+      <h2>Absen tiap hari,<br>bonusnya terus naik</h2>
+      <p>Absen 7 hari berturut-turut untuk bonus<br>terbesar.</p>
+    </div>
+    <img src="images/10544b71c31c9b4805931b77a90d8c5a072e1bbb.png" alt="Gift Box" class="hero-img">
+  </div>
+</section>
+<section id="section-stats">
+  <div class="stats">
+    <div class="stat-box">
+      <span class="stat-label">Absen beruntun</span>
+      <div class="stat-value-group">
+        <span class="stat-value">3</span>
+        <span class="stat-unit">hari</span>
+      </div>
+    </div>
+    <div class="stat-box stat-divider">
+      <span class="stat-label">Bonus bulan ini</span>
+      <div class="stat-value-group">
+        <span class="stat-value">31.000</span>
+        <span class="stat-unit">IDR</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-weekly-bonus">
+  <div class="weekly-bonus">
+    <div class="wb-header">
+      <h3>Bonus 7 Hari</h3>
+      <span>Hari ke-4 dari 7</span>
+    </div>
+    <div class="wb-days">
+      <div class="wb-day">
+        <div class="day-circle checked">
+          <img src="images/49_212.svg" alt="Check">
+        </div>
+        <span class="day-amt">1.000</span>
+        <span class="day-lbl">Hari 1</span>
+      </div>
+      <div class="wb-day">
+        <div class="day-circle checked">
+          <img src="images/49_220.svg" alt="Check">
+        </div>
+        <span class="day-amt">1.000</span>
+        <span class="day-lbl">Hari 2</span>
+      </div>
+      <div class="wb-day">
+        <div class="day-circle checked">
+          <img src="images/49_228.svg" alt="Check">
+        </div>
+        <span class="day-amt">2.000</span>
+        <span class="day-lbl">Hari 3</span>
+      </div>
+      <div class="wb-day">
+        <div class="day-circle active">
+          <span>4</span>
+        </div>
+        <span class="day-amt active-text">2.000</span>
+        <span class="day-lbl active-text">Hari 4</span>
+      </div>
+      <div class="wb-day">
+        <div class="day-circle upcoming">
+          <span>5</span>
+        </div>
+        <span class="day-amt upcoming-text">3.000</span>
+        <span class="day-lbl">Hari 5</span>
+      </div>
+      <div class="wb-day">
+        <div class="day-circle upcoming">
+          <span>6</span>
+        </div>
+        <span class="day-amt upcoming-text">3.000</span>
+        <span class="day-lbl">Hari 6</span>
+      </div>
+      <div class="wb-day">
+        <div class="day-circle upcoming border">
+          <span>7</span>
+        </div>
+        <span class="day-amt upcoming-text">10.000</span>
+        <span class="day-lbl">Hari 7</span>
+      </div>
+    </div>
+    <div class="wb-footer">
+      Semua bonus dalam IDR
+    </div>
+  </div>
+</section>
+<section id="section-action">
+  <div class="action-section">
+    <button class="action-btn">Absen Sekarang</button>
+    <p class="action-subtext">Bonus hari ini <strong>2.000 IDR</strong></p>
+  </div>
+</section>
+<section id="section-calendar">
+  <div class="calendar">
+    <div class="cal-header">
+      <h3>Oktober 2026</h3>
+      <span>17 hari absen</span>
+    </div>
+    <div class="cal-weekdays">
+      <span>Sen</span><span>Sel</span><span>Rab</span><span>Kam</span><span>Jum</span><span>Sab</span><span>Min</span>
+    </div>
+    <div class="cal-grid">
+      <div class="cal-row">
+        <div class="cal-cell empty"></div>
+        <div class="cal-cell empty"></div>
+        <div class="cal-cell empty"></div>
+        <div class="cal-cell attended">1</div>
+        <div class="cal-cell attended">2</div>
+        <div class="cal-cell attended">3</div>
+        <div class="cal-cell attended">4</div>
+      </div>
+      <div class="cal-row">
+        <div class="cal-cell attended">5</div>
+        <div class="cal-cell missed">6</div>
+        <div class="cal-cell missed">7</div>
+        <div class="cal-cell attended">8</div>
+        <div class="cal-cell attended">9</div>
+        <div class="cal-cell attended">10</div>
+        <div class="cal-cell attended">11</div>
+      </div>
+      <div class="cal-row">
+        <div class="cal-cell attended">12</div>
+        <div class="cal-cell missed">13</div>
+        <div class="cal-cell attended">14</div>
+        <div class="cal-cell attended">15</div>
+        <div class="cal-cell attended">16</div>
+        <div class="cal-cell attended">17</div>
+        <div class="cal-cell missed">18</div>
+      </div>
+      <div class="cal-row">
+        <div class="cal-cell missed">19</div>
+        <div class="cal-cell missed">20</div>
+        <div class="cal-cell attended">21</div>
+        <div class="cal-cell attended">22</div>
+        <div class="cal-cell attended">23</div>
+        <div class="cal-cell today">24</div>
+        <div class="cal-cell future">25</div>
+      </div>
+      <div class="cal-row">
+        <div class="cal-cell future">26</div>
+        <div class="cal-cell future">27</div>
+        <div class="cal-cell future">28</div>
+        <div class="cal-cell future">29</div>
+        <div class="cal-cell future">30</div>
+        <div class="cal-cell future">31</div>
+        <div class="cal-cell empty"></div>
+      </div>
+    </div>
+    
+    <div class="cal-legend">
+      <div class="legend-item">
+        <div class="legend-color attended-color"></div>
+        <span>Sudah absen</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color today-color"></div>
+        <span>Hari ini</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color missed-color"></div>
+        <span>Terlewat</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-notes">
+  <div class="notes">
+    <h4>Catatan</h4>
+    <ul class="notes-list">
+      <li>Absen hanya dapat dilakukan 1 kali setiap hari.</li>
+      <li>Bonus harian akan otomatis ditambahkan ke Saldo Tersedia setelah berhasil absen.</li>
+    </ul>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,162 @@
+{
+ "slug": "deposit-metode",
+ "id": "23:66",
+ "frameName": "Deposit metode",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Setor IDR",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1192,
+    -295,
+    78,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Riwayat Pembayaran",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1281,
+    -221,
+    276,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QRIS",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1343,
+    -157,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QRIS",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1256,
+    -109,
+    186,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Instan",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#9FC0EC",
+   "box": [
+    -1048,
+    -107,
+    33,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Virtual Account",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1343,
+    -49,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1282,
+    2,
+    212,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Instan",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#9FC0EC",
+   "box": [
+    -1048,
+    4,
+    33,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pembayaran aman & terlindungi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1243,
+    77,
+    199,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Diproses oleh mitra pembayaran pihak ketiga resmi. Data dan transaksimu terenkripsi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1243,
+    97,
+    234,
+    32
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

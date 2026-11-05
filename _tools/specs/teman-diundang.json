@@ -1,0 +1,1227 @@
+{
+ "slug": "teman-diundang",
+ "id": "52:623",
+ "frameName": "Teman diundang 1",
+ "size": [
+  412,
+  1217
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Teman Diundang",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1752,
+    1245,
+    141,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Level 1",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1654,
+    1297,
+    50,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "(832)",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1704,
+    1299,
+    33,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Level 2",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1776,
+    1297,
+    52,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "(2.415)",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1828,
+    1299,
+    41,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Level 3",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1903,
+    1297,
+    52,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "(5.120)",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1955,
+    1299,
+    40,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Teman yang daftar langsung pakai kode undanganmu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1632,
+    1337,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1646,
+    1376,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aktif",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1722,
+    1376,
+    27,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Menunggu",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1785,
+    1376,
+    62,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****01",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    1415,
+    65,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0812 **** 4471",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1925,
+    1418,
+    87,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    1441,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "22-10-2026 14:05",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    1455,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    1441,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "4.250.000 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1929,
+    1455,
+    83,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1652,
+    1481,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1765,
+    1481,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ra****na",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    1519,
+    65,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0857 **** 1290",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1924,
+    1522,
+    88,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    1545,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "22-10-2026 09:41",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    1559,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    1545,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1981,
+    1559,
+    31,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1652,
+    1585,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1765,
+    1585,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Di****89",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    1623,
+    63,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0813 **** 7752",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1924,
+    1626,
+    88,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    1649,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "21-10-2026 21:17",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    1663,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    1649,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1981,
+    1663,
+    31,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1652,
+    1689,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1765,
+    1689,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ke****ya",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    1727,
+    64,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0821 **** 3308",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1923,
+    1730,
+    89,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    1753,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "21-10-2026 08:02",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    1767,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    1753,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "12.800.000 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1923,
+    1767,
+    89,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1652,
+    1793,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1765,
+    1793,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "An****ri",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    1831,
+    59,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0878 **** 6015",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1924,
+    1834,
+    88,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    1857,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "20-10-2026 19:30",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    1871,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    1857,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "950.000 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1940,
+    1871,
+    72,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1652,
+    1897,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1765,
+    1897,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fa****zz",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    1935,
+    63,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0812 **** 9924",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1923,
+    1938,
+    89,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    1961,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19-10-2026 11:12",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    1975,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    1961,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1981,
+    1975,
+    31,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1652,
+    2001,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1765,
+    2001,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jo****ko",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    2039,
+    63,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0838 **** 5167",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1924,
+    2042,
+    88,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    2065,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "18-10-2026 16:48",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    2079,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    2065,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "2.100.000 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1932,
+    2079,
+    80,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1652,
+    2105,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1765,
+    2105,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Si****wa",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    1632,
+    2143,
+    63,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0896 **** 2041",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    1923,
+    2146,
+    89,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Registrasi",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1632,
+    2169,
+    184,
+    14
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "17-10-2026 07:55",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1632,
+    2183,
+    184,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume Trading",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1938,
+    2169,
+    74,
+    14
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    1981,
+    2183,
+    31,
+    17
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Verifikasi Akun",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1652,
+    2209,
+    77,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi Kripto",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1765,
+    2209,
+    84,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    1748,
+    2262,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1786,
+    2262,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1825,
+    2262,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "…",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1855,
+    2262,
+    10,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "104",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    1881,
+    2262,
+    22,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–8 dari 832 teman",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    1736,
+    2295,
+    172,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

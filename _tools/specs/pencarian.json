@@ -1,0 +1,342 @@
+{
+ "slug": "pencarian",
+ "id": "63:719",
+ "frameName": "Pasar-cari",
+ "size": [
+  412,
+  831
+ ],
+ "overlap": 88,
+ "texts": [
+  {
+   "text": "Cari koin atau produk",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1664,
+    3128,
+    141,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Batal",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -1370,
+    3128,
+    35,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pencarian terakhir",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1715,
+    3184,
+    135,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hapus",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1373,
+    3187,
+    38,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -1682,
+    3225,
+    33,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Steady Returns",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -1594,
+    3225,
+    87,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "SOL",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -1452,
+    3225,
+    24,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Paling dicari",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1715,
+    3274,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "USDT",
+   "size": 9,
+   "weight": 600,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1707,
+    3332,
+    25,
+    11
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "USDT",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1665,
+    3318,
+    42,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -1609,
+    3318,
+    38,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Steady Returns",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1665,
+    3345,
+    80,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fleksibel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1568,
+    3345,
+    46,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8,50%",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1384,
+    3320,
+    49,
+    22
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Est. APR",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1375,
+    3342,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Grafik APR · 30 hari",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1715,
+    3370,
+    92,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "▲ 0,35%",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -1379,
+    3370,
+    44,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume 24J",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1696,
+    3446,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12,4 Jt USDT",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -1628,
+    3446,
+    69,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kuota 72%",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1390,
+    3446,
+    55,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Imbal hasil stabil, cocok untuk simpanan jangka panjang…",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1683,
+    3486,
+    326,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mulai Holding",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1568,
+    3528,
+    86,
+    16
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

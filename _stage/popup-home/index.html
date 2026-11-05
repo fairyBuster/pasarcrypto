@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Popup */
+#section-popup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .popup-card {
+    width: 100%;
+    max-width: 336px;
+    /* Combined gradients to match the complex Figma background */
+    background: 
+      radial-gradient(circle at 84% 0%, rgba(90, 130, 191, 0.22) 0%, transparent 60%),
+      radial-gradient(circle at 76% 0%, rgba(127, 170, 230, 0.3) 0%, transparent 60%),
+      linear-gradient(160deg, #294a72 0%, #1a304f 45%, #0f1f35 100%);
+    border-radius: 28px;
+    padding: 10px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  .handle {
+    width: 40px;
+    height: 4px;
+    background-color: #3a4f69;
+    border-radius: 2px;
+    margin-bottom: 4px;
+  }
+
+  .hero-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 335px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 18px 0 0 0;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+  }
+
+  .description {
+    color: #8597ab;
+    font-size: 12px;
+    text-align: center;
+    margin: 6px 0 0 0;
+    line-height: 1.5;
+    max-width: 290px;
+  }
+
+  .channels-grid {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .channel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93px;
+    background: linear-gradient(180deg, #2e4768 0%, #1e334f 100%);
+    border-radius: 18px;
+    padding: 14px 6px 12px;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+
+  .channel-item:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(180deg, #355277 0%, #233b5a 100%);
+  }
+
+  .channel-icon {
+    width: 51px;
+    height: 51px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+
+  .channel-name {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 0 2px 0;
+  }
+
+  .channel-label {
+    color: #8597ab;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .dismiss-btn {
+    background: transparent;
+    border: none;
+    color: #8597ab;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 14px;
+    padding: 8px 16px;
+    transition: color 0.2s ease;
+  }
+
+  .dismiss-btn:hover {
+    color: #ffffff;
+  }
+
+  /* Responsive adjustments for very small screens */
+  @media (max-width: 340px) {
+    .channels-grid {
+      gap: 4px;
+    }
+    .channel-item {
+      width: 85px;
+      padding: 12px 4px 10px;
+    }
+  }
+  </style>
+</head>
+<body>
+<section id="section-popup">
+  <div class="popup-card">
+    <div class="handle"></div>
+    
+    <div class="hero-container">
+      <img class="hero-image" src="images/668810671e9d6c322a03ae05612fb07fa7030dad.png" alt="Crypto Coins Banner">
+    </div>
+    
+    <h2 class="title">Terhubung Lebih Dekat<br>dengan PasarCryptoIDN</h2>
+    
+    <p class="description">Dapatkan informasi terbaru, jelajahi dunia aset kripto, dan nikmati kemudahan layanan melalui komunitas serta saluran resmi kami.</p>
+    
+    <div class="channels-grid">
+      <a href="#" class="channel-item">
+        <img class="channel-icon" src="images/56c976c9cc9ff6f8dc91b16d2f568d833f301e36.png" alt="Telegram Icon">
+        <span class="channel-name">Telegram</span>
+        <span class="channel-label">Saluran</span>
+      </a>
+      
+      <a href="#" class="channel-item">
+        <img class="channel-icon" src="images/50c60b7d4317e90c4e2e5d831bbbc379b86badf3.png" alt="WhatsApp Icon">
+        <span class="channel-name">WhatsApp</span>
+        <span class="channel-label">Saluran</span>
+      </a>
+      
+      <a href="#" class="channel-item">
+        <img class="channel-icon" src="images/f58020ac9ae5e442dec37b52f3f8e4ec3b817b83.png" alt="Service Icon">
+        <span class="channel-name">Service</span>
+        <span class="channel-label">Saluran</span>
+      </a>
+    </div>
+    
+    <button class="dismiss-btn">Nanti saja</button>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  .header-logo {
+    width: 51px;
+    height: 51px;
+    object-fit: contain;
+  }
+  .header-menu-btn {
+    width: 32px;
+    height: 32px;
+    background-color: #1f3048;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+/* CSS for section section:Hero */
+.hero-content {
+    padding: 10px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .breadcrumb {
+    color: #ffffff;
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  .hero-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+  .hero-subtitle {
+    font-size: 14px;
+    color: #a9b7c8;
+    line-height: 1.5;
+    margin-top: 4px;
+  }
+
+/* CSS for section section:SearchFilter */
+.search-container {
+    padding: 20px 16px 0;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 46px;
+    background-color: #1f3048;
+    border: 1px solid #2f4560;
+    border-radius: 23px;
+    padding: 0 16px;
+  }
+  .search-input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+  }
+  .search-input::placeholder {
+    color: #75879c;
+  }
+  .filter-container {
+    padding: 14px 0 0 16px;
+  }
+  .filter-scroll {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: none; /* Firefox */
+  }
+  .filter-scroll::-webkit-scrollbar {
+    display: none; /* Chrome */
+  }
+  .filter-pill {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 14px;
+    border-radius: 16px;
+    background-color: #1f3048;
+    color: #a9b7c8;
+    font-size: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .filter-pill.active {
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+    font-weight: 600;
+  }
+
+/* CSS for section section:ContentList */
+.content-list {
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-item {
+    display: flex;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+  }
+  .content-item:last-child {
+    border-bottom: none;
+  }
+  .item-image-placeholder {
+    width: 76px;
+    height: 76px;
+    border: 1px solid #51657e;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .item-image-placeholder span {
+    color: #75879c;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+  }
+  .item-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    width: fit-content;
+  }
+  .tag-pemula, .tag-menengah {
+    background-color: rgba(143, 180, 234, 0.14);
+    color: #8fb4ea;
+  }
+  .item-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.4;
+    margin: 0;
+  }
+  .item-meta {
+    font-size: 13px;
+    color: #75879c;
+  }
+
+/* CSS for section section:Pagination */
+.pagination-container {
+    padding: 40px 16px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .page-btn, .page-num {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #a9b7c8;
+  }
+  .page-btn {
+    background-color: #1f3048;
+  }
+  .page-btn.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  .page-num.active {
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+    font-weight: 600;
+  }
+  .pagination-info {
+    color: #75879c;
+    font-size: 13px;
+  }
+
+/* CSS for section section:Footer */
+.footer {
+    background-color: rgba(4, 9, 18, 0.35);
+    border-top: 1px solid #1c2d44;
+    padding: 28px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .footer-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+  }
+  .footer-desc {
+    color: #8597ab;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .footer-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+  }
+  .link-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+  .link-column h4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .link-column a {
+    color: #8597ab;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+  .link-column a:hover {
+    color: #ffffff;
+  }
+  .footer-partners {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .partner-logo {
+    height: 22px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  .footer-disclaimer {
+    color: #51657e;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-top: 16px;
+    border-top: 1px solid rgba(201, 212, 225, 0.14);
+    margin-top: 10px;
+  }
+  .footer-copyright {
+    color: #75879c;
+    font-size: 13px;
+    margin-top: 2px;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header">
+    <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="Logo PasarCrypto" class="header-logo">
+    <div class="header-menu-btn">
+      <img src="images/105_483.svg" alt="Menu">
+    </div>
+  </header>
+</section>
+<section id="section-hero">
+  <div class="hero-content">
+    <div class="breadcrumb">Beranda › Materi Edukasi</div>
+    <h1 class="hero-title">Semua materi edukasi</h1>
+    <p class="hero-subtitle">Pelajari aset kripto langkah demi langkah, dari dasar sampai tips keamanan.</p>
+  </div>
+</section>
+<section id="section-search-filter">
+  <div class="search-container">
+    <div class="search-bar">
+      <img src="images/105_495.svg" alt="Search Icon">
+      <input type="text" placeholder="Cari materi…" class="search-input">
+    </div>
+  </div>
+  <div class="filter-container">
+    <div class="filter-scroll">
+      <div class="filter-pill active">Semua</div>
+      <div class="filter-pill">Pemula</div>
+      <div class="filter-pill">Menengah</div>
+      <div class="filter-pill">Keamanan</div>
+    </div>
+  </div>
+</section>
+<section id="section-content-list">
+  <div class="content-list">
+    
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-pemula">Pemula</div>
+        <h3 class="item-title">Apa itu aset kripto dan bagaimana cara kerjanya?</h3>
+        <div class="item-meta">Baca · 4 menit</div>
+      </div>
+    </article>
+
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-pemula">Pemula</div>
+        <h3 class="item-title">Mengenal Bitcoin, aset kripto pertama di dunia</h3>
+        <div class="item-meta">Baca · 3 menit</div>
+      </div>
+    </article>
+
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-pemula">Pemula</div>
+        <h3 class="item-title">Stablecoin: kripto yang nilainya stabil</h3>
+        <div class="item-meta">Baca · 3 menit</div>
+      </div>
+    </article>
+
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-pemula">Pemula</div>
+        <h3 class="item-title">Perbedaan aset kripto dan mata uang biasa</h3>
+        <div class="item-meta">Baca · 4 menit</div>
+      </div>
+    </article>
+
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-menengah">Menengah</div>
+        <h3 class="item-title">Apa itu blockchain dan kenapa aman?</h3>
+        <div class="item-meta">Baca · 5 menit</div>
+      </div>
+    </article>
+
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-menengah">Menengah</div>
+        <h3 class="item-title">Memahami risiko dan volatilitas harga</h3>
+        <div class="item-meta">Baca · 5 menit</div>
+      </div>
+    </article>
+
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-menengah">Menengah</div>
+        <h3 class="item-title">Mengenal holding dan imbal hasil</h3>
+        <div class="item-meta">Baca · 4 menit</div>
+      </div>
+    </article>
+
+    <article class="content-item">
+      <div class="item-image-placeholder">
+        <span>GAMBAR</span>
+      </div>
+      <div class="item-details">
+        <div class="item-tag tag-menengah">Menengah</div>
+        <h3 class="item-title">Cara membaca grafik harga sederhana</h3>
+        <div class="item-meta">Baca · 6 menit</div>
+      </div>
+    </article>
+
+  </div>
+</section>
+<section id="section-pagination">
+  <div class="pagination-container">
+    <div class="pagination-controls">
+      <button class="page-btn disabled">
+        <img src="images/105_594.svg" alt="Previous">
+      </button>
+      <button class="page-num active">1</button>
+      <button class="page-num">2</button>
+      <button class="page-btn">
+        <img src="images/105_601.svg" alt="Next">
+      </button>
+    </div>
+    <div class="pagination-info">Menampilkan 1–8 dari 11 materi</div>
+  </div>
+</section>
+<section id="section-footer">
+  <footer class="footer">
+    <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="Logo PasarCrypto" class="footer-logo">
+    <p class="footer-desc">Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.</p>
+    
+    <div class="footer-links">
+      <div class="link-column">
+        <h4>Produk</h4>
+        <a href="#">Holding</a>
+        <a href="#">Hadiah</a>
+        <a href="#">Program Referral</a>
+      </div>
+      <div class="link-column">
+        <h4>Perusahaan</h4>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Pusat Bantuan</a>
+      </div>
+      <div class="link-column">
+        <h4>Legal</h4>
+        <a href="#">Syarat & Ketentuan</a>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Perjanjian Klien</a>
+      </div>
+    </div>
+
+    <div class="footer-partners">
+      <img src="images/0df4ee1cbf5b1725acac2d9d08fb45019361fa6e.png" alt="Partner 1" class="partner-logo">
+      <img src="images/77d24c42cf84c32b2b4b166aa82a20eab63965b9.png" alt="Partner 2" class="partner-logo">
+    </div>
+
+    <div class="footer-disclaimer">
+      Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div>
+
+    <div class="footer-copyright">
+      © 2026 PasarCryptoIDN. Hak cipta dilindungi.
+    </div>
+  </footer>
+</section>
+</body>
+</html>

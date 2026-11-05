@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(160deg, #0c1a2d 0%, #13263d 18%, #0f2036 50%, #0c1b2e 80%, #0a1626 100%), 
+              radial-gradient(50% 50% at 60% 0%, rgba(44, 72, 104, 0.45) 0%, rgba(44, 72, 104, 0) 100%), 
+              radial-gradient(44% 44% at 56% 0%, rgba(78, 108, 142, 0.6) 0%, rgba(78, 108, 142, 0) 100%);
+  background-color: #0c1a2d;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 412px;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}

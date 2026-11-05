@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .logo {
+    width: 51px;
+    height: 51px;
+    object-fit: contain;
+  }
+  .menu-btn {
+    width: 32px;
+    height: 32px;
+    background-color: #1f3048;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+/* CSS for section section:Hero */
+.hero-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .breadcrumb {
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .tag-wrapper {
+    margin-bottom: 12px;
+  }
+  .hero-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+  .meta-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 24px;
+  }
+  .creator {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .date-read {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .main-image-placeholder {
+    border: 1px solid var(--border-color);
+    border-radius: 22px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #75879c;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+/* CSS for section section:Content */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+  }
+  .intro-text {
+    color: var(--text-lighter);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .content-container h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 2px;
+  }
+  .content-container p {
+    color: var(--text-light);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  .custom-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .custom-list li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .bullet {
+    width: 6px;
+    height: 6px;
+    background-color: var(--accent-blue);
+    border-radius: 3px;
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .custom-list .text {
+    color: var(--text-light);
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .key-points-box {
+    background-color: rgba(31, 48, 72, 0.6);
+    border: 1px solid var(--accent-blue);
+    border-radius: 18px;
+    padding: 24px 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .kp-title {
+    color: var(--accent-blue);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .kp-list .text {
+    color: #d3dce7;
+  }
+
+  .share-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+    padding: 16px 0;
+    margin-top: 16px;
+  }
+  .share-text {
+    color: var(--text-muted);
+    font-size: 15px;
+  }
+  .share-btn {
+    width: 34px;
+    height: 34px;
+    background-color: #1f3048;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+/* CSS for section section:Pagination */
+.pagination-container {
+    display: flex;
+    gap: 10px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+  }
+  .page-card {
+    flex: 1;
+    border: 1px solid var(--border-dark);
+    border-radius: 14px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: background-color 0.2s ease;
+  }
+  .page-card:hover {
+    background-color: rgba(42, 61, 86, 0.3);
+  }
+  .page-card.next {
+    align-items: flex-end;
+    text-align: right;
+  }
+  .nav-label {
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+  .nav-title {
+    color: var(--text-main);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+/* CSS for section section:Related */
+.related-container {
+    padding-bottom: 40px;
+  }
+  .related-heading {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .related-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .related-card {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+  }
+  .related-card:last-child {
+    border-bottom: none;
+  }
+  .rc-image {
+    width: 76px;
+    height: 76px;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #75879c;
+    font-size: 10px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .rc-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1;
+  }
+  .rc-title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--text-main);
+  }
+  .rc-meta {
+    font-size: 13px;
+    color: #75879c;
+  }
+
+/* CSS for section section:Footer */
+.footer-section {
+    background-color: rgba(4, 9, 18, 0.35);
+    border-top: 1px solid #1c2d44;
+    margin-top: 20px;
+  }
+  .footer-container {
+    padding-top: 28px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .footer-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+  }
+  .footer-desc {
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .footer-links-grid {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+  }
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+  .footer-col h4 {
+    color: var(--text-main);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .footer-col a {
+    color: var(--text-muted);
+    font-size: 14px;
+    transition: color 0.2s ease;
+  }
+  .footer-col a:hover {
+    color: var(--text-main);
+  }
+  
+  .app-badges {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .badge {
+    height: 22px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  .disclaimer {
+    border-top: 1px solid rgba(201, 212, 225, 0.14);
+    padding-top: 16px;
+    color: #51657e;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .copyright {
+    color: #75879c;
+    font-size: 13px;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header" class="full-width-section">
+  <header class="app-container header-container">
+    <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="PasarCrypto Logo" class="logo">
+    <button class="menu-btn" aria-label="Menu">
+      <img src="images/105_840.svg" alt="">
+    </button>
+  </header>
+</section>
+<section id="section-hero" class="full-width-section">
+  <div class="app-container hero-container">
+    <nav aria-label="breadcrumb" class="breadcrumb">
+      Beranda › Materi Edukasi › Pemula
+    </nav>
+    <div class="tag-wrapper">
+      <span class="tag">Pemula</span>
+    </div>
+    <h1 class="hero-title">Apa itu aset kripto dan<br>bagaimana cara kerjanya?</h1>
+    <div class="meta-info">
+      <span class="creator">Creator</span>
+      <span class="date-read">27-10-2026 · Baca 4 menit</span>
+    </div>
+    <div class="main-image-placeholder">
+      <span>AREA GAMBAR UTAMA</span>
+    </div>
+  </div>
+</section>
+<section id="section-content" class="full-width-section">
+  <article class="app-container content-container">
+    <p class="intro-text">Aset kripto adalah aset digital yang menggunakan teknologi kriptografi untuk mengamankan transaksi. Berbeda dengan uang biasa, aset kripto tidak dicetak secara fisik dan tercatat secara digital.</p>
+    
+    <h2>Apa itu aset kripto?</h2>
+    <p>Aset kripto adalah bentuk aset digital yang dapat disimpan, dikirim, dan diperdagangkan secara online. Contoh aset kripto yang populer antara lain Bitcoin (BTC), Ethereum (ETH), dan stablecoin seperti USDT.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    
+    <h2>Bagaimana cara kerjanya?</h2>
+    <p>Setiap transaksi aset kripto dicatat dalam sebuah sistem yang disebut blockchain. Blockchain bekerja seperti buku catatan bersama yang tersebar di banyak komputer, sehingga sulit untuk diubah atau dipalsukan.</p>
+    
+    <ul class="custom-list">
+      <li>
+        <span class="bullet"></span>
+        <span class="text">Transaksi dikirim ke jaringan.</span>
+      </li>
+      <li>
+        <span class="bullet"></span>
+        <span class="text">Transaksi diverifikasi oleh jaringan.</span>
+      </li>
+      <li>
+        <span class="bullet"></span>
+        <span class="text">Transaksi dicatat secara permanen di blockchain.</span>
+      </li>
+    </ul>
+
+    <h2>Kenapa aset kripto bisa bernilai?</h2>
+    <p>Nilai aset kripto ditentukan oleh banyak faktor, seperti jumlah pengguna, kegunaan teknologinya, dan permintaan di pasar. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+    <aside class="key-points-box">
+      <div class="kp-title">POIN PENTING</div>
+      <ul class="custom-list kp-list">
+        <li>
+          <span class="bullet"></span>
+          <span class="text">Aset kripto adalah aset digital yang tercatat di blockchain.</span>
+        </li>
+        <li>
+          <span class="bullet"></span>
+          <span class="text">Blockchain membuat transaksi aman dan transparan.</span>
+        </li>
+        <li>
+          <span class="bullet"></span>
+          <span class="text">Nilai aset kripto dipengaruhi oleh banyak faktor.</span>
+        </li>
+      </ul>
+    </aside>
+
+    <div class="share-section">
+      <span class="share-text">Bagikan materi ini</span>
+      <button class="share-btn" aria-label="Share">
+        <img src="images/105_929.svg" alt="">
+      </button>
+    </div>
+  </article>
+</section>
+<section id="section-pagination" class="full-width-section">
+  <nav aria-label="Pagination" class="app-container pagination-container">
+    <a href="#" class="page-card prev">
+      <span class="nav-label">‹ Sebelumnya</span>
+      <span class="nav-title">Perbedaan aset kripto<br>dan mata uang biasa</span>
+    </a>
+    <a href="#" class="page-card next">
+      <span class="nav-label">Selanjutnya ›</span>
+      <span class="nav-title">Mengenal Bitcoin, aset<br>kripto pertama di<br>dunia</span>
+    </a>
+  </nav>
+</section>
+<section id="section-related" class="full-width-section">
+  <div class="app-container related-container">
+    <h2 class="related-heading">Materi terkait</h2>
+    <div class="related-list">
+      
+      <a href="#" class="related-card">
+        <div class="rc-image">GAMBAR</div>
+        <div class="rc-content">
+          <span class="tag">Pemula</span>
+          <h3 class="rc-title">Mengenal Bitcoin, aset kripto pertama di dunia</h3>
+          <span class="rc-meta">Baca · 3 menit</span>
+        </div>
+      </a>
+
+      <a href="#" class="related-card">
+        <div class="rc-image">GAMBAR</div>
+        <div class="rc-content">
+          <span class="tag">Pemula</span>
+          <h3 class="rc-title">Stablecoin: kripto yang nilainya stabil</h3>
+          <span class="rc-meta">Baca · 3 menit</span>
+        </div>
+      </a>
+
+      <a href="#" class="related-card">
+        <div class="rc-image">GAMBAR</div>
+        <div class="rc-content">
+          <span class="tag">Menengah</span>
+          <h3 class="rc-title">Apa itu blockchain dan kenapa aman?</h3>
+          <span class="rc-meta">Baca · 5 menit</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+<section id="section-footer" class="full-width-section footer-section">
+  <footer class="app-container footer-container">
+    <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="PasarCrypto Logo" class="footer-logo">
+    <p class="footer-desc">Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.</p>
+    
+    <div class="footer-links-grid">
+      <div class="footer-col">
+        <h4>Produk</h4>
+        <a href="#">Holding</a>
+        <a href="#">Hadiah</a>
+        <a href="#">Program Referral</a>
+      </div>
+      <div class="footer-col">
+        <h4>Perusahaan</h4>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Pusat Bantuan</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#">Syarat & Ketentuan</a>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Perjanjian Klien</a>
+      </div>
+    </div>
+
+    <div class="app-badges">
+      <img src="images/0df4ee1cbf5b1725acac2d9d08fb45019361fa6e.png" alt="Download on the App Store" class="badge">
+      <img src="images/77d24c42cf84c32b2b4b166aa82a20eab63965b9.png" alt="Get it on Google Play" class="badge">
+    </div>
+
+    <div class="disclaimer">
+      Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div>
+
+    <div class="copyright">
+      © 2026 PasarCryptoIDN. Hak cipta dilindungi.
+    </div>
+  </footer>
+</section>
+</body>
+</html>

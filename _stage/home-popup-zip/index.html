@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header {
+    padding-top: 20px;
+    padding-bottom: 16px;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .avatar {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .greeting {
+    font-size: 12px;
+  }
+  .username {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .header-actions {
+    display: flex;
+    gap: 10px;
+  }
+  .icon-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  .notification-dot {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    width: 8px;
+    height: 8px;
+    background-color: #f5f8fb;
+    border: 2px solid #15283f;
+    border-radius: 50%;
+  }
+
+/* CSS for section section:TotalAsset */
+#section-total-asset {
+    margin-bottom: 24px;
+  }
+  .asset-card {
+    background: linear-gradient(135deg, rgba(201, 212, 225, 0.14) 0%, rgba(255, 255, 255, 0.04) 100%);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+  }
+  .asset-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .asset-title-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+  }
+  .eye-icon {
+    width: 14px;
+    height: 14px;
+  }
+  .deposit-btn {
+    background: linear-gradient(90deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+    border: none;
+    border-radius: 18px;
+    height: 36px;
+    padding: 0 18px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+  }
+  .asset-balance-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .main-balance {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+  .amount {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .currency {
+    font-size: 12px;
+  }
+  .sub-balance {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .pnl-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+  }
+  .pnl-value {
+    font-weight: 500;
+  }
+  .asset-divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 4px 0;
+  }
+  .asset-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .breakdown-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+  }
+  .breakdown-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+  }
+  .dot-blue { background-color: #f5f8fb; }
+  .dot-purple { background-color: #9fb3ca; }
+  .dot-darkblue { background-color: #5f7d9e; }
+  .breakdown-value {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+  }
+  .currency-small {
+    font-size: 10px;
+  }
+
+/* CSS for section section:QuickActions */
+#section-quick-actions {
+    margin-bottom: 24px;
+  }
+  .actions-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 8px;
+  }
+  .action-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+  .action-item img {
+    height: 48px;
+    object-fit: contain;
+  }
+  .action-item span {
+    font-size: 11px;
+    color: #d3dce7;
+    text-align: center;
+  }
+
+/* CSS for section section:Banner */
+#section-banner {
+    margin-bottom: 24px;
+  }
+  .banner-container {
+    height: 104px;
+    border: 1px dashed rgba(200, 212, 226, 0.35);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .banner-text {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .banner-indicator {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+  .banner-dots {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 12px;
+  }
+  .banner-dots .dot {
+    width: 6px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+  }
+  .banner-dots .dot.active {
+    width: 16px;
+    background-color: #c9d4e1;
+  }
+
+/* CSS for section section:Widgets */
+#section-widgets {
+    margin-bottom: 24px;
+  }
+  .widgets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .widget-card {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .referral-card {
+    background: linear-gradient(180deg, #24405f 0%, #142740 100%);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 246px;
+  }
+  .referral-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .referral-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .btn-mulai {
+    background: linear-gradient(90deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+    border: none;
+    border-radius: 16px;
+    padding: 4px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .referral-img {
+    position: absolute;
+    right: -30px;
+    bottom: -20px;
+    width: 160px;
+    height: 159px;
+    z-index: 1;
+  }
+  .widget-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .small-card {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .gauge-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .gauge-svg {
+    width: 112px;
+  }
+  .gauge-info {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gauge-value {
+    color: #e9c46a;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .gauge-label {
+    font-size: 10px;
+  }
+  .trending-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 4px;
+  }
+  .trending-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+  }
+  .coin-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: 600;
+  }
+  .coin-name {
+    flex: 1;
+  }
+  .coin-change {
+    font-weight: 600;
+  }
+
+/* CSS for section section:HoldingAnalysis */
+#section-holding-analysis {
+    margin-bottom: 24px;
+  }
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .section-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .holding-scroll-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    margin: 0 -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    scrollbar-width: none; /* Firefox */
+  }
+  .holding-scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  .holding-card {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    padding: 16px;
+    min-width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .holding-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .coin-badge {
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 255, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    color: #e6ecf3;
+  }
+  .holding-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .holding-name {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .holding-name .name {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .holding-name .tag {
+    background-color: rgba(201, 212, 225, 0.14);
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-size: 8px;
+    color: #c9d4e1;
+  }
+  .holding-info .desc {
+    font-size: 10px;
+  }
+  .holding-apr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .apr-value {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .apr-label {
+    font-size: 10px;
+  }
+  .holding-volume {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+  }
+  .vol-value {
+    margin-left: auto;
+    font-weight: 600;
+  }
+  .holding-progress {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .progress-bar {
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #c9d4e1 0%, #f5f8fb 100%);
+    border-radius: 2px;
+  }
+  .progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+  }
+  .holding-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .footer-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .footer-text {
+    flex: 1;
+    font-size: 10px;
+    color: #d3dce7;
+    line-height: 1.4;
+  }
+
+/* CSS for section section:MarketHighlights */
+#section-market-highlights {
+    margin-bottom: 40px;
+  }
+  .market-grid {
+    display: flex;
+    gap: 6px;
+    background-color: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .market-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+  }
+  .market-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+  .card-tall {
+    height: 100%;
+    justify-content: space-between;
+  }
+  .bg-green-tint {
+    background-color: rgba(62, 207, 142, 0.1);
+  }
+  .bg-red-tint {
+    background-color: rgba(242, 102, 122, 0.1);
+  }
+  .bg-dark-tint {
+    background-color: rgba(255, 255, 255, 0.06);
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    z-index: 2;
+  }
+  .market-name {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .market-change {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .card-bottom {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 16px;
+    z-index: 2;
+  }
+  .more-count {
+    font-size: 10px;
+  }
+  .bg-chart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+/* CSS for section section:BottomNav */
+#section-bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 412px;
+    padding: 0;
+    z-index: 100;
+  }
+  .bottom-nav {
+    background-color: #0d1b2e;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 76px;
+    padding-top: 10px;
+  }
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    width: 60px;
+  }
+  .nav-item img {
+    width: 22px;
+    height: 22px;
+  }
+  .nav-text {
+    font-size: 10px;
+    color: #75879c;
+  }
+  .center-item {
+    position: relative;
+    top: -26px;
+  }
+  .center-btn {
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+    background: linear-gradient(180deg, #52A8FF 0%, #002040 100%);
+    border: 4px solid #0d1b2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-btn img {
+    width: 26px;
+    height: 26px;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header-container">
+    <div class="user-profile">
+      <img src="images/d27c34de057355c9e69251ff95dc5743829d1700.png" alt="User Avatar" class="avatar">
+      <div class="user-info">
+        <span class="greeting text-muted">Selamat sore 👋</span>
+        <span class="username">Username</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn">
+        <img src="images/15_12.svg" alt="Support">
+      </button>
+      <button class="icon-btn">
+        <img src="images/15_18.svg" alt="Notifications">
+        <span class="notification-dot"></span>
+      </button>
+    </div>
+  </header>
+</section>
+<section id="section-total-asset">
+  <div class="asset-card">
+    <div class="asset-header">
+      <div class="asset-title-group">
+        <span class="asset-title text-light">Total Aset</span>
+        <img src="images/15_27.svg" alt="Toggle Visibility" class="eye-icon">
+      </div>
+      <button class="deposit-btn">Deposit</button>
+    </div>
+    
+    <div class="asset-balance-group">
+      <div class="main-balance">
+        <span class="amount">12.450.000</span>
+        <span class="currency text-light">IDR</span>
+      </div>
+      <div class="sub-balance text-lighter">≈ 768,42 USDT</div>
+      <div class="pnl-group">
+        <span class="pnl-label text-light">P&L Hari Ini</span>
+        <span class="pnl-value">0,00 IDR (0,00%)</span>
+      </div>
+    </div>
+
+    <div class="asset-divider"></div>
+
+    <div class="asset-breakdown">
+      <div class="breakdown-row">
+        <div class="breakdown-label">
+          <span class="dot dot-blue"></span>
+          <span class="text-light">Saldo Isi Ulang</span>
+        </div>
+        <div class="breakdown-value">
+          <span>2.000.000</span>
+          <span class="currency-small text-muted">IDR</span>
+        </div>
+      </div>
+      <div class="breakdown-row">
+        <div class="breakdown-label">
+          <span class="dot dot-purple"></span>
+          <span class="text-light">Tersedia</span>
+        </div>
+        <div class="breakdown-value">
+          <span>9.200.000</span>
+          <span class="currency-small text-muted">IDR</span>
+        </div>
+      </div>
+      <div class="breakdown-row">
+        <div class="breakdown-label">
+          <span class="dot dot-darkblue"></span>
+          <span class="text-light">Digunakan</span>
+        </div>
+        <div class="breakdown-value">
+          <span>1.250.000</span>
+          <span class="currency-small text-muted">IDR</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-quick-actions">
+  <div class="actions-grid">
+    <a href="#tarik" class="action-item">
+      <img src="images/a89c155e9cbecdd74d338471cf119d519996fe4e.png" alt="Tarik">
+      <span>Tarik</span>
+    </a>
+    <a href="#misi" class="action-item">
+      <img src="images/9fc3da089adceecedaad4797f1695e6f2cc53cb0.png" alt="Misi">
+      <span>Misi</span>
+    </a>
+    <a href="#rewards" class="action-item">
+      <img src="images/27bab20d3c257df4f03dfe29ee1c9ee97f1c2eef.png" alt="Lucky Rewards">
+      <span>Lucky Rewards</span>
+    </a>
+    <a href="#masuk" class="action-item">
+      <img src="images/48b29e5494b26e88d092a4ee19dd596514acb51a.png" alt="Masuk harian">
+      <span>Masuk harian</span>
+    </a>
+  </div>
+</section>
+<section id="section-banner">
+  <div class="banner-container">
+    <span class="banner-text text-muted">BANNER</span>
+    <div class="banner-indicator">1/4</div>
+  </div>
+  <div class="banner-dots">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+</section>
+<section id="section-widgets">
+  <div class="widgets-grid">
+    <div class="widget-card referral-card">
+      <div class="referral-content">
+        <span class="text-light" style="font-size: 10px;">Program Referral</span>
+        <h3 class="referral-title">Ajak Teman,<br>Dapat Bonus<br>Poin</h3>
+        <button class="btn-mulai">Mulai</button>
+      </div>
+      <img src="images/1024158bf18ec680468c58d4876113e96ef99552.png" alt="Coins" class="referral-img">
+    </div>
+    
+    <div class="widget-col">
+      <div class="widget-card small-card">
+        <div class="card-header">
+          <span class="text-light" style="font-size: 12px;">Fear & Greed</span>
+          <img src="images/15_118.svg" alt="Arrow">
+        </div>
+        <div class="gauge-container">
+          <img src="images/15_121.svg" alt="Gauge Chart" class="gauge-svg">
+          <div class="gauge-info">
+            <span class="gauge-value">50</span>
+            <span class="gauge-label text-muted">Netral</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="widget-card small-card">
+        <div class="card-header">
+          <span class="text-light" style="font-size: 12px;">Trending</span>
+          <img src="images/15_131.svg" alt="Arrow">
+        </div>
+        <div class="trending-list">
+          <div class="trending-item">
+            <div class="coin-icon">XAU</div>
+            <span class="coin-name">Nama produk</span>
+            <span class="coin-change text-red">-1,75%</span>
+          </div>
+          <div class="trending-item">
+            <div class="coin-icon">HYP</div>
+            <span class="coin-name">Nama produk</span>
+            <span class="coin-change text-green">+0,09%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-holding-analysis">
+  <div class="section-header">
+    <h2 class="section-title">Holding Analysis</h2>
+    <img src="images/15_157.svg" alt="More">
+  </div>
+  
+  <div class="holding-scroll-container">
+    <!-- Card 1 -->
+    <div class="holding-card">
+      <div class="holding-top">
+        <div class="coin-badge">USDT</div>
+        <div class="holding-info">
+          <div class="holding-name">
+            <span class="name">USDT</span>
+            <span class="tag">Holding</span>
+          </div>
+          <span class="desc text-muted">Steady Returns</span>
+        </div>
+        <div class="holding-apr">
+          <span class="apr-value text-green">8,50%</span>
+          <span class="apr-label text-muted">Est. APR</span>
+        </div>
+      </div>
+      
+      <div class="holding-volume">
+        <img src="images/15_175.svg" alt="Volume">
+        <span class="vol-label text-light">Volume 24J</span>
+        <span class="vol-value">12,4 Jt USDT</span>
+      </div>
+      
+      <div class="holding-progress">
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 72%;"></div>
+        </div>
+        <div class="progress-labels">
+          <span class="text-muted">Kuota terisi 72%</span>
+          <span class="text-muted">Sisa 28%</span>
+        </div>
+      </div>
+      
+      <div class="holding-footer">
+        <img src="images/3b30b80b9507e5492d560be1fdfc735f1d2d71d0.png" alt="Icon" class="footer-icon">
+        <span class="footer-text">Imbal hasil stabil, cocok untuk simpanan jangka panjang…</span>
+        <img src="images/15_193.svg" alt="Arrow">
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="holding-card">
+      <div class="holding-top">
+        <div class="coin-badge">USDT</div>
+        <div class="holding-info">
+          <div class="holding-name">
+            <span class="name">USDT</span>
+            <span class="tag">Holding</span>
+          </div>
+          <span class="desc text-muted">Steady Returns</span>
+        </div>
+        <div class="holding-apr">
+          <span class="apr-value text-green">8,50%</span>
+          <span class="apr-label text-muted">Est. APR</span>
+        </div>
+      </div>
+      
+      <div class="holding-volume">
+        <img src="images/128_701.svg" alt="Volume">
+        <span class="vol-label text-light">Volume 24J</span>
+        <span class="vol-value">12,4 Jt USDT</span>
+      </div>
+      
+      <div class="holding-progress">
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 72%;"></div>
+        </div>
+        <div class="progress-labels">
+          <span class="text-muted">Kuota terisi 72%</span>
+          <span class="text-muted">Sisa 28%</span>
+        </div>
+      </div>
+      
+      <div class="holding-footer">
+        <img src="images/3b30b80b9507e5492d560be1fdfc735f1d2d71d0.png" alt="Icon" class="footer-icon">
+        <span class="footer-text">Imbal hasil stabil, cocok untuk simpanan jangka panjang…</span>
+        <img src="images/128_718.svg" alt="Arrow">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-market-highlights">
+  <div class="section-header">
+    <h2 class="section-title">Sorotan Pasar</h2>
+    <img src="images/15_207.svg" alt="More">
+  </div>
+  
+  <div class="market-grid">
+    <!-- Column 1 -->
+    <div class="market-col">
+      <div class="market-card card-tall bg-green-tint">
+        <div class="card-content">
+          <span class="market-name">Layer 1</span>
+          <span class="market-change text-green">+0,07%</span>
+        </div>
+        <div class="card-bottom">
+          <div class="merged-avatars" style="position: relative; width: 48px; height: 20px;">
+            <!--merged image-->
+            <div style="position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 3;"></div>
+            <div style="position: absolute; left: 14px; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 2;"></div>
+            <div style="position: absolute; left: 28px; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 1;"></div>
+          </div>
+          <span class="more-count text-light">+16</span>
+        </div>
+        <img src="images/15_226.svg" alt="Chart" class="bg-chart">
+      </div>
+    </div>
+    
+    <!-- Column 2 -->
+    <div class="market-col">
+      <div class="market-card bg-green-tint">
+        <div class="card-content">
+          <span class="market-name">SOL Eco</span>
+          <span class="market-change text-green">+1,07%</span>
+        </div>
+        <div class="card-bottom">
+          <div class="merged-avatars" style="position: relative; width: 34px; height: 20px;">
+            <!--merged image-->
+            <div style="position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 2;"></div>
+            <div style="position: absolute; left: 14px; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 1;"></div>
+          </div>
+          <span class="more-count text-light">+17</span>
+        </div>
+      </div>
+      <div class="market-card bg-green-tint" style="flex: 1;">
+        <div class="card-content">
+          <span class="market-name">Meme</span>
+          <span class="market-change text-green">+0,79%</span>
+        </div>
+        <div class="card-bottom" style="margin-top: auto;">
+          <div class="merged-avatars" style="position: relative; width: 48px; height: 20px;">
+            <!--merged image-->
+            <div style="position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 3;"></div>
+            <div style="position: absolute; left: 14px; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 2;"></div>
+            <div style="position: absolute; left: 28px; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 1;"></div>
+          </div>
+          <span class="more-count text-light">+12</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Column 3 -->
+    <div class="market-col">
+      <div class="market-card bg-green-tint">
+        <div class="card-content">
+          <span class="market-name">DeFi</span>
+          <span class="market-change text-green">+0,06%</span>
+        </div>
+        <div class="card-bottom">
+          <div class="merged-avatars" style="position: relative; width: 34px; height: 20px;">
+            <!--merged image-->
+            <div style="position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 2;"></div>
+            <div style="position: absolute; left: 14px; top: 0; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,0.18); border: 2px solid #142740; z-index: 1;"></div>
+          </div>
+          <span class="more-count text-light">+19</span>
+        </div>
+      </div>
+      <div class="market-card bg-red-tint">
+        <div class="card-content">
+          <span class="market-name">AI</span>
+          <span class="market-change text-red">-0,62%</span>
+        </div>
+      </div>
+      <div class="market-card bg-dark-tint" style="justify-content: center;">
+        <span class="text-muted" style="font-size: 12px;">Lainnya</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-bottom-nav">
+  <nav class="bottom-nav">
+    <a href="#beranda" class="nav-item">
+      <img src="images/15_281.svg" alt="Beranda">
+      <span class="nav-text" style="color: #ffffff;">Beranda</span>
+    </a>
+    <a href="#feed" class="nav-item">
+      <img src="images/15_285.svg" alt="Feed">
+      <span class="nav-text">Feed</span>
+    </a>
+    <a href="#pasar" class="nav-item center-item">
+      <div class="center-btn">
+        <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="Pasar">
+      </div>
+      <span class="nav-text" style="color: #d3dce7; margin-top: 4px;">Pasar</span>
+    </a>
+    <a href="#aset" class="nav-item">
+      <img src="images/15_297.svg" alt="Aset">
+      <span class="nav-text">Aset</span>
+    </a>
+    <a href="#akun" class="nav-item">
+      <img src="images/15_303.svg" alt="Akun">
+      <span class="nav-text">Akun</span>
+    </a>
+  </nav>
+</section>
+</body>
+</html>

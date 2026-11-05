@@ -1,0 +1,417 @@
+{
+ "slug": "feed",
+ "id": "57:1588",
+ "frameName": "Feed",
+ "size": [
+  412,
+  1389
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Feed",
+   "size": 22,
+   "weight": 700,
+   "lineHeight": 30,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3330,
+    1240,
+    334,
+    30
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagikan berita atau pendapatmu…",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3392,
+    1315,
+    211,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dapat +1000 IDR setiap kamu membuat postingan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3380,
+    1365,
+    330,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Username",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3385,
+    1423,
+    75,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24 Okt",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3385,
+    1444,
+    297,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing?",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 23,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3330,
+    1480,
+    380,
+    46
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    3330,
+    1532,
+    380,
+    63
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "AREA GAMBAR",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 1,
+   "color": "#75879C",
+   "box": [
+    3399,
+    1711,
+    82,
+    12
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "63",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3354,
+    1842,
+    17,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3423,
+    1842,
+    8,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ke****ya",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3385,
+    1892,
+    297,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "24 Okt",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3385,
+    1913,
+    297,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet consectetur",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 23,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3330,
+    1949,
+    380,
+    23
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "$BTCUSDT duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#7FA6DC",
+   "box": [
+    3330,
+    1978,
+    380,
+    63
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "87",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#7FA6DC",
+   "box": [
+    3354,
+    2056,
+    16,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3422,
+    2056,
+    8,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "An****ri",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3385,
+    2106,
+    297,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23 Okt",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3385,
+    2127,
+    297,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ut enim ad minim veniam, quis nostrud $SOLUSDT exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    3330,
+    2157,
+    380,
+    63
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "AREA GAMBAR",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 1,
+   "color": "#75879C",
+   "box": [
+    3399,
+    2336,
+    82,
+    12
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "52",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3354,
+    2467,
+    16,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3422,
+    2467,
+    8,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Beranda",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3333,
+    2567,
+    44,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Feed",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3425,
+    2567,
+    26,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pasar",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3505,
+    2573,
+    30,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Aset",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3590,
+    2567,
+    25,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Akun",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3671,
+    2567,
+    27,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+:root {
+  --bg-dark: #0c1a2d;
+  --bg-card: #1f3048;
+  --text-primary: #ffffff;
+  --text-secondary: #a9b7c8;
+  --text-tertiary: #75879c;
+  --text-muted: #8597ab;
+  --text-light: #c3cedb;
+  --accent-green: #3ecf8e;
+  --accent-green-bg: rgba(62, 207, 142, 0.14);
+  --border-color: #2f4560;
+  --divider-color: rgba(201, 212, 225, 0.18);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.app-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app-container {
+  max-width: 412px;
+  width: 100%;
+  background: radial-gradient(100% 100% at 50% 0%, rgba(78, 108, 142, 0.55) 0%, rgba(78, 108, 142, 0) 100%), linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  background-attachment: fixed;
+  background-color: var(--bg-dark);
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-card);
+  border-radius: 50%;
+  cursor: pointer;
+}

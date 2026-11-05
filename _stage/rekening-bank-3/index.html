@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 16px 0 16px;
+  position: relative;
+  min-height: 60px;
+}
+.btn-back {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1f3048;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  left: 16px;
+  top: 20px;
+  padding: 0;
+}
+.header-title {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* CSS for section section:Info */
+.info-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px 16px 0 16px;
+}
+.info-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+.info-text {
+  color: #a9b7c8;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* CSS for section section:Form */
+.account-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+.form-group {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-label {
+  color: #d3dce7;
+  font-size: 12px;
+  display: flex;
+  gap: 2px;
+}
+.required {
+  color: #f2667a;
+}
+.form-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.form-input {
+  width: 100%;
+  height: 46px;
+  background-color: #1f3048;
+  border: 1px solid #2f4560;
+  border-radius: 14px;
+  padding: 0 14px;
+  color: #ffffff;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: inherit;
+}
+.form-input::placeholder {
+  color: #75879c;
+}
+.select-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.select-like .placeholder {
+  color: #75879c;
+  font-size: 14px;
+}
+.icon-arrow, .icon-lock {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.form-input-wrapper.disabled .form-input {
+  background-color: rgba(31, 48, 72, 0.45);
+  color: #ffffff;
+  padding-right: 40px;
+}
+.form-input-wrapper.disabled .icon-lock {
+  position: absolute;
+  right: 14px;
+}
+.form-helper {
+  color: #75879c;
+  font-size: 11px;
+  margin: 6px 0 0 0;
+}
+.form-toggle-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggle-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.toggle-title {
+  color: #ffffff;
+  font-size: 14px;
+}
+.toggle-subtitle {
+  color: #8597ab;
+  font-size: 12px;
+}
+.toggle-switch {
+  width: 40px;
+  height: 24px;
+  border-radius: 12px;
+  background: #1f3048;
+  position: relative;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.toggle-switch.active {
+  background: linear-gradient(90deg, #2c4c80 0%, #5a82bf 100%);
+}
+.toggle-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.2s;
+}
+.toggle-switch.active .toggle-thumb {
+  transform: translateX(16px);
+}
+.form-submit {
+  margin-top: 24px;
+}
+.btn-submit {
+  width: 100%;
+  height: 44px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  border: none;
+  color: #0c1a2d;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* CSS for section section:Notes */
+.notes-container {
+  padding: 26px 16px 28px 16px;
+}
+.notes-title {
+  color: #a9b7c8;
+  font-size: 14px;
+  margin: 0 0 16px 0;
+  font-weight: normal;
+}
+.notes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.notes-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #51657e;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+.notes-text {
+  color: #75879c;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="app-header">
+    <button class="btn-back" aria-label="Go back">
+      <img src="images/92_216.svg" alt="back">
+    </button>
+    <h1 class="header-title">Tambah Rekening</h1>
+  </header>
+</section>
+<section id="section-info">
+  <div class="info-banner">
+    <img src="images/92_224.svg" alt="info" class="info-icon">
+    <p class="info-text">Pastikan data rekening benar agar penarikan tidak gagal.</p>
+  </div>
+</section>
+<section id="section-form">
+  <form class="account-form">
+    <!-- Bank -->
+    <div class="form-group">
+      <label class="form-label">Bank <span class="required">*</span></label>
+      <div class="form-input-wrapper">
+        <div class="form-input select-like">
+          <span class="placeholder">Pilih bank</span>
+          <img src="images/92_237.svg" alt="arrow down" class="icon-arrow">
+        </div>
+      </div>
+    </div>
+
+    <!-- Account Number -->
+    <div class="form-group">
+      <label class="form-label">Nomor rekening <span class="required">*</span></label>
+      <div class="form-input-wrapper">
+        <input type="text" class="form-input" placeholder="Masukkan nomor rekening">
+      </div>
+    </div>
+
+    <!-- Account Name -->
+    <div class="form-group">
+      <label class="form-label">Nama pemilik rekening <span class="required">*</span></label>
+      <div class="form-input-wrapper disabled">
+        <input type="text" class="form-input" value="Us****me" disabled>
+        <img src="images/92_255.svg" alt="lock" class="icon-lock">
+      </div>
+      <p class="form-helper">Otomatis sesuai nama akun kamu dan tidak bisa diubah.</p>
+    </div>
+
+    <!-- Toggle -->
+    <div class="form-toggle-group">
+      <div class="toggle-text">
+        <div class="toggle-title">Jadikan rekening utama</div>
+        <div class="toggle-subtitle">Dipakai otomatis saat penarikan</div>
+      </div>
+      <div class="toggle-switch active" role="switch" aria-checked="true">
+        <div class="toggle-thumb"></div>
+      </div>
+    </div>
+
+    <!-- Submit -->
+    <div class="form-submit">
+      <button type="button" class="btn-submit">Simpan Rekening</button>
+    </div>
+  </form>
+</section>
+<section id="section-notes">
+  <div class="notes-container">
+    <h2 class="notes-title">Catatan</h2>
+    <ul class="notes-list">
+      <li class="notes-item">
+        <span class="bullet"></span>
+        <p class="notes-text">Nama pemilik rekening harus sama dengan nama akun kamu.</p>
+      </li>
+      <li class="notes-item">
+        <span class="bullet"></span>
+        <p class="notes-text">Penarikan hanya bisa dilakukan ke rekening yang sudah terdaftar.</p>
+      </li>
+      <li class="notes-item">
+        <span class="bullet"></span>
+        <p class="notes-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+</body>
+</html>

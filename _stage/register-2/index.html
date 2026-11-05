@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .nav-bar {
+    padding: 0 16px;
+  }
+  .back-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .back-btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  .title-area {
+    padding: 24px 24px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .main-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .subtitle {
+    color: #a9b7c8;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 270px;
+    margin: 0 auto;
+  }
+
+/* CSS for section section:Form */
+.form-section {
+    padding: 24px 16px 0;
+  }
+  .form-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 22px 20px;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .input-group label {
+    color: #d3dce7;
+    font-size: 12px;
+  }
+  .input-wrapper {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .input-wrapper:focus-within {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .input-wrapper input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    flex: 1;
+    outline: none;
+    width: 100%;
+  }
+  .input-wrapper input::placeholder {
+    color: #75879c;
+  }
+  .phone-prefix {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    padding-right: 10px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .phone-prefix span {
+    color: #e6ecf3;
+    font-size: 14px;
+  }
+  .input-icon, .input-icon-right {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .input-icon-right {
+    cursor: pointer;
+  }
+  .password-strength {
+    display: flex;
+    gap: 6px;
+    padding: 2px 18px 0;
+  }
+  .strength-bar {
+    height: 4px;
+    flex: 1;
+    border-radius: 2px;
+  }
+  .strength-bar.active {
+    background: linear-gradient(90deg, #c9d4e1 0%, #f2f5f9 100%);
+  }
+  .strength-bar.inactive {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  .helper-text {
+    color: #8597ab;
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 0 18px;
+  }
+  .captcha-row {
+    display: flex;
+    gap: 8px;
+  }
+  .captcha-input-wrapper {
+    flex: 1;
+  }
+  .captcha-box {
+    width: 128px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #e9eef4 0%, #c3cedb 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px 0 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  .captcha-line {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    height: 2px;
+    background-color: rgba(26, 44, 68, 0.45);
+    transform: translateY(-50%) rotate(-5deg);
+    pointer-events: none;
+  }
+  .captcha-text {
+    color: #1a2c44;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+  }
+  .refresh-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding: 4px;
+  }
+  .checkbox-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  .checkbox-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #f2f5f9 0%, #c4cfdc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .checkbox-text {
+    color: #d3dce7;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .checkbox-text strong {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+/* CSS for section section:Actions */
+.actions-section {
+    padding: 24px 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit-btn {
+    width: 100%;
+    height: 52px;
+    border-radius: 26px;
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: opacity 0.2s;
+  }
+  .submit-btn:active {
+    opacity: 0.8;
+  }
+  .disclaimer-text {
+    color: #7f90a5;
+    font-size: 11px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 310px;
+  }
+  .logos {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .logos img {
+    height: 22px;
+    object-fit: contain;
+  }
+
+/* CSS for section section:Footer */
+.footer-section {
+    padding: 0 16px 24px;
+    margin-top: auto;
+  }
+  .info-box {
+    background-color: rgba(201, 212, 225, 0.1);
+    border-radius: 16px;
+    padding: 12px 14px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .info-icon-wrapper {
+    padding-top: 2px;
+    flex-shrink: 0;
+  }
+  .info-text {
+    color: #d3dce7;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  .info-text strong {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header" class="header-section">
+  <nav class="nav-bar">
+    <button class="back-btn" aria-label="Kembali">
+      <img src="images/6_93.svg" alt="">
+    </button>
+  </nav>
+  <div class="title-area">
+    <h1 class="main-title">Lengkapi Data</h1>
+    <p class="subtitle">Sedikit lagi, lengkapi data berikut untuk menyelesaikan pendaftaran.</p>
+  </div>
+</section>
+<section id="section-form" class="form-section">
+  <div class="form-card">
+    <form>
+      <!-- Phone -->
+      <div class="input-group">
+        <label>Nomor Telepon</label>
+        <div class="input-wrapper">
+          <div class="phone-prefix">
+            <span>+62</span>
+            <img src="images/6_109.svg" alt="">
+          </div>
+          <input type="tel" placeholder="Masukkan nomor ponsel aktif">
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="input-group">
+        <label>Email</label>
+        <div class="input-wrapper">
+          <img src="images/6_118.svg" alt="" class="input-icon">
+          <input type="email" placeholder="Masukkan email aktif">
+        </div>
+      </div>
+
+      <!-- Password -->
+      <div class="input-group">
+        <label>Kata Sandi</label>
+        <div class="input-wrapper">
+          <img src="images/6_128.svg" alt="" class="input-icon">
+          <input type="password" placeholder="Minimal 8 karakter">
+          <img src="images/6_134.svg" alt="Tampilkan kata sandi" class="input-icon-right">
+        </div>
+        <div class="password-strength">
+          <div class="strength-bar active"></div>
+          <div class="strength-bar active"></div>
+          <div class="strength-bar inactive"></div>
+          <div class="strength-bar inactive"></div>
+        </div>
+        <p class="helper-text">Gunakan kombinasi huruf besar, huruf kecil, dan angka.</p>
+      </div>
+
+      <!-- Confirm Password -->
+      <div class="input-group">
+        <label>Konfirmasi Kata Sandi</label>
+        <div class="input-wrapper">
+          <img src="images/6_148.svg" alt="" class="input-icon">
+          <input type="password" placeholder="Ulangi kata sandi">
+          <img src="images/6_154.svg" alt="Tampilkan kata sandi" class="input-icon-right">
+        </div>
+      </div>
+
+      <!-- Captcha -->
+      <div class="input-group">
+        <label>Kode Captcha</label>
+        <div class="captcha-row">
+          <div class="input-wrapper captcha-input-wrapper">
+            <input type="text" placeholder="Masukkan kode">
+          </div>
+          <div class="captcha-box">
+            <div class="captcha-line"></div>
+            <span class="captcha-text">7K4P</span>
+            <button type="button" class="refresh-btn" aria-label="Perbarui Captcha">
+              <img src="images/6_169.svg" alt="">
+            </button>
+          </div>
+        </div>
+        <p class="helper-text">Ketik ulang kode yang tampil di kotak sebelah kanan ke kolom ini. Kode tidak bisa dibaca? Ketuk ikon putar untuk mengganti kode baru.</p>
+      </div>
+
+      <!-- Terms Checkbox -->
+      <div class="checkbox-group">
+        <div class="checkbox-icon">
+          <img src="images/6_177.svg" alt="">
+        </div>
+        <p class="checkbox-text">Saya menyetujui <strong>Syarat & Ketentuan</strong> serta <strong>Kebijakan Privasi</strong> yang berlaku.</p>
+      </div>
+    </form>
+  </div>
+</section>
+<section id="section-actions" class="actions-section">
+  <button class="submit-btn">Daftar</button>
+  <p class="disclaimer-text">Data yang kamu masukkan hanya digunakan untuk keperluan proses registrasi akun di aplikasi ini. Kami tidak akan membagikan, menjual, atau menggunakan data kamu untuk tujuan lain di luar proses pendaftaran tanpa persetujuan darimu.</p>
+  <div class="logos">
+    <img src="images/0df4ee1cbf5b1725acac2d9d08fb45019361fa6e.png" alt="OJK">
+    <img src="images/77d24c42cf84c32b2b4b166aa82a20eab63965b9.png" alt="BAPPEBTI">
+  </div>
+</section>
+<section id="section-footer" class="footer-section">
+  <div class="info-box">
+    <div class="info-icon-wrapper">
+      <img src="images/6_197.svg" alt="">
+    </div>
+    <p class="info-text">Dengan mendaftar, saya menyatakan bahwa saya sudah dewasa dan menerima ketentuan-ketentuan <strong>Perjanjian Klien</strong> dan <strong>Kebijakan Privasi</strong>.</p>
+  </div>
+</section>
+</body>
+</html>

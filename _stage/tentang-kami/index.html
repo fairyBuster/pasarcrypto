@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 16px 0;
+}
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1f3048;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.header-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+.header-spacer {
+  width: 40px;
+}
+
+/* CSS for section section:Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 0;
+  text-align: center;
+}
+.hero-logo {
+  width: 102px;
+  height: 102px;
+  margin-bottom: 14px;
+}
+.hero-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+  color: #ffffff;
+}
+.hero-subtitle {
+  font-size: 12px;
+  color: #8597ab;
+  margin: 0 0 18px 0;
+}
+.hero-desc {
+  font-size: 12px;
+  color: #c3cedb;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* CSS for section section:Stats */
+.stats {
+  padding: 20px 16px 0;
+}
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(201, 212, 225, 0.18);
+  border-radius: 8px;
+  padding: 14px 0;
+}
+.stat-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.stat-divider {
+  width: 1px;
+  height: 36px;
+  background-color: rgba(201, 212, 225, 0.18);
+}
+.stat-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.stat-label {
+  font-size: 10px;
+  color: #8597ab;
+}
+
+/* CSS for section section:VisiMisi */
+.visi-misi {
+  padding: 0 16px;
+}
+.vm-block {
+  margin-bottom: 14px;
+}
+.vm-subtitle {
+  font-size: 10px;
+  color: #8fa6c2;
+  margin: 0 0 4px 0;
+  font-weight: 600;
+}
+.vm-text {
+  font-size: 12px;
+  color: #d3dce7;
+  margin: 0;
+  line-height: 1.5;
+}
+.vm-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.vm-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.vm-list .bullet {
+  width: 6px;
+  height: 6px;
+  background-color: #8fa1b6;
+  border-radius: 2px;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+.vm-list p {
+  font-size: 12px;
+  color: #d3dce7;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* CSS for section section:Timeline */
+.timeline {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+.timeline-item {
+  display: flex;
+  gap: 12px;
+}
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12px;
+}
+.timeline-marker .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.timeline-marker .dot.filled {
+  background: linear-gradient(135deg, #f5f8fb 0%, #c9d4e1 100%);
+}
+.timeline-marker .dot.hollow {
+  border: 2px solid #8597ab;
+  background: transparent;
+  box-sizing: border-box;
+}
+.timeline-marker .line {
+  width: 2px;
+  background-color: #2f4560;
+  flex-grow: 1;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  min-height: 40px;
+}
+.timeline-content {
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.timeline-date {
+  font-size: 10px;
+  color: #8fa6c2;
+}
+.timeline-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.timeline-desc {
+  font-size: 11px;
+  color: #8597ab;
+  line-height: 1.4;
+}
+
+/* CSS for section section:Services */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 12px;
+  padding: 0 16px;
+}
+.service-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.icon-bg {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-bg.gradient {
+  background: linear-gradient(135deg, #2c4c80 0%, #1a3150 100%);
+}
+.service-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.service-desc {
+  font-size: 10px;
+  color: #8597ab;
+  line-height: 1.4;
+}
+
+/* CSS for section section:WhyUs */
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0 16px;
+}
+.feature-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.feature-item .icon-bg {
+  width: 38px;
+  height: 38px;
+  border-radius: 19px;
+  flex-shrink: 0;
+}
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.feature-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.feature-desc {
+  font-size: 11px;
+  color: #8597ab;
+  line-height: 1.4;
+}
+
+/* CSS for section section:LegalSecurity */
+.legal-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+.legal-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+}
+.legal-item:last-child {
+  border-bottom: none;
+}
+.legal-item .icon-bg {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  flex-shrink: 0;
+}
+.icon-bg.solid {
+  background-color: #1f3048;
+}
+.legal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.legal-label {
+  font-size: 10px;
+  color: #8597ab;
+}
+.legal-value {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.certificates {
+  display: flex;
+  gap: 8px;
+  padding: 16px 16px 0;
+}
+.cert-btn {
+  flex: 1;
+  height: 64px;
+  border: 1px solid #51657e;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  color: #75879c;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* CSS for section section:Team */
+.team-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+}
+.team-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+.team-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+.team-role {
+  font-size: 10px;
+  color: #8597ab;
+}
+
+/* CSS for section section:LicensedBy */
+.licensed-logos {
+  display: flex;
+  gap: 12px;
+  padding: 0 16px;
+  align-items: center;
+}
+.licensed-logos img {
+  height: 22px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* CSS for section section:Contact */
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+.contact-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+}
+.contact-item:last-child {
+  border-bottom: none;
+}
+.contact-item .icon-bg {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  flex-shrink: 0;
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.contact-label {
+  font-size: 10px;
+  color: #8597ab;
+}
+.contact-value {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+/* CSS for section section:Footer */
+.footer {
+  padding: 28px 16px 0;
+  text-align: center;
+}
+.footer-text {
+  font-size: 12px;
+  color: #51657e;
+  line-height: 1.5;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header">
+    <button class="icon-btn"><img src="images/95_595.svg" alt="Back"></button>
+    <h1 class="header-title">Tentang Kami</h1>
+    <div class="header-spacer"></div>
+  </header>
+</section>
+<section id="section-hero">
+  <div class="hero">
+    <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="Logo" class="hero-logo">
+    <h2 class="hero-title">[Nama Aplikasi]</h2>
+    <p class="hero-subtitle">Platform aset kripto untuk semua orang</p>
+    <p class="hero-desc">[Nama Aplikasi] adalah platform yang membantu kamu menyimpan dan mengembangkan aset kripto dengan mudah, aman, dan transparan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</section>
+<section id="section-stats">
+  <div class="stats">
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-value">2026</div>
+        <div class="stat-label">Berdiri</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-value">100 Rb+</div>
+        <div class="stat-label">Pengguna</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-value">24/7</div>
+        <div class="stat-label">Sistem aktif</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-visi-misi">
+  <h3 class="section-title">Visi & Misi</h3>
+  <div class="visi-misi">
+    <div class="vm-block">
+      <h4 class="vm-subtitle">VISI</h4>
+      <p class="vm-text">Menjadi platform aset kripto paling tepercaya dan mudah digunakan oleh masyarakat Indonesia.</p>
+    </div>
+    <div class="vm-block">
+      <h4 class="vm-subtitle">MISI</h4>
+      <ul class="vm-list">
+        <li>
+          <span class="bullet"></span>
+          <p>Menyediakan produk holding yang aman dan transparan.</p>
+        </li>
+        <li>
+          <span class="bullet"></span>
+          <p>Membuat investasi kripto mudah dipahami oleh semua kalangan.</p>
+        </li>
+        <li>
+          <span class="bullet"></span>
+          <p>Memberikan layanan pelanggan yang cepat dan ramah.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="section-timeline">
+  <h3 class="section-title">Perjalanan Kami</h3>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <div class="dot filled"></div>
+        <div class="line"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-date">Jan 2026</div>
+        <div class="timeline-title">Perusahaan didirikan</div>
+        <div class="timeline-desc">Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <div class="dot filled"></div>
+        <div class="line"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-date">Jun 2026</div>
+        <div class="timeline-title">Peluncuran versi beta</div>
+        <div class="timeline-desc">Uji coba bersama komunitas awal.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <div class="dot filled"></div>
+        <div class="line"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-date">Okt 2026</div>
+        <div class="timeline-title">Peluncuran resmi</div>
+        <div class="timeline-desc">Aplikasi tersedia untuk umum di Android & iOS.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <div class="dot hollow"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-date">2027</div>
+        <div class="timeline-title">Ekspansi produk</div>
+        <div class="timeline-desc">Rencana produk dan layanan baru.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-services">
+  <h3 class="section-title">Layanan Kami</h3>
+  <div class="services-grid">
+    <div class="service-item">
+      <div class="icon-bg gradient"><img src="images/95_721.svg" alt=""></div>
+      <div class="service-title">Holding</div>
+      <div class="service-desc">Produk imbal hasil fleksibel & terkunci</div>
+    </div>
+    <div class="service-item">
+      <div class="icon-bg gradient"><img src="images/95_730.svg" alt=""></div>
+      <div class="service-title">Deposit & Tarik</div>
+      <div class="service-desc">Via QRIS dan transfer bank</div>
+    </div>
+    <div class="service-item">
+      <div class="icon-bg gradient"><img src="images/95_740.svg" alt=""></div>
+      <div class="service-title">Program Hadiah</div>
+      <div class="service-desc">Misi, absen, roda keberuntungan</div>
+    </div>
+    <div class="service-item">
+      <div class="icon-bg gradient"><img src="images/95_750.svg" alt=""></div>
+      <div class="service-title">Komunitas</div>
+      <div class="service-desc">Berbagi berita & pendapat di Feed</div>
+    </div>
+  </div>
+</section>
+<section id="section-why-us">
+  <h3 class="section-title">Kenapa [Nama Aplikasi]?</h3>
+  <div class="features-list">
+    <div class="feature-item">
+      <div class="icon-bg gradient"><img src="images/95_764.svg" alt=""></div>
+      <div class="feature-content">
+        <div class="feature-title">Aman & terlindungi</div>
+        <div class="feature-desc">Dana dan data pengguna dijaga dengan standar keamanan berlapis.</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="icon-bg gradient"><img src="images/95_774.svg" alt=""></div>
+      <div class="feature-content">
+        <div class="feature-title">Transparan</div>
+        <div class="feature-desc">Semua transaksi, imbal hasil, dan biaya tercatat jelas di aplikasi.</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="icon-bg gradient"><img src="images/95_784.svg" alt=""></div>
+      <div class="feature-content">
+        <div class="feature-title">Cepat & mudah</div>
+        <div class="feature-desc">Deposit, penarikan, dan holding bisa dilakukan dalam hitungan menit.</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="icon-bg gradient"><img src="images/95_793.svg" alt=""></div>
+      <div class="feature-content">
+        <div class="feature-title">Bantuan setiap hari</div>
+        <div class="feature-desc">Tim kami siap membantu kamu melalui live chat.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-legal">
+  <h3 class="section-title">Legalitas & Keamanan</h3>
+  <div class="legal-list">
+    <div class="legal-item">
+      <div class="icon-bg solid"><img src="images/95_809.svg" alt=""></div>
+      <div class="legal-content">
+        <div class="legal-label">Badan hukum</div>
+        <div class="legal-value">[Nama Perusahaan]</div>
+      </div>
+    </div>
+    <div class="legal-item">
+      <div class="icon-bg solid"><img src="images/95_819.svg" alt=""></div>
+      <div class="legal-content">
+        <div class="legal-label">Nomor izin usaha</div>
+        <div class="legal-value">XXX/XXXX/2026</div>
+      </div>
+    </div>
+    <div class="legal-item">
+      <div class="icon-bg solid"><img src="images/95_829.svg" alt=""></div>
+      <div class="legal-content">
+        <div class="legal-label">Pengawasan</div>
+        <div class="legal-value">[Nama Lembaga Pengawas]</div>
+      </div>
+    </div>
+    <div class="legal-item">
+      <div class="icon-bg solid"><img src="images/95_839.svg" alt=""></div>
+      <div class="legal-content">
+        <div class="legal-label">Enkripsi data</div>
+        <div class="legal-value">Standar enkripsi industri</div>
+      </div>
+    </div>
+    <div class="legal-item">
+      <div class="icon-bg solid"><img src="images/95_849.svg" alt=""></div>
+      <div class="legal-content">
+        <div class="legal-label">Penyimpanan aset</div>
+        <div class="legal-value">Cold wallet & multi-signature</div>
+      </div>
+    </div>
+  </div>
+  <div class="certificates">
+    <div class="cert-btn">SERTIFIKAT</div>
+    <div class="cert-btn">SERTIFIKAT</div>
+    <div class="cert-btn">SERTIFIKAT</div>
+  </div>
+</section>
+<section id="section-team">
+  <h3 class="section-title">Tim Kami</h3>
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="images/6a58c276c3bd7f2ce87144fbcb01b832d8cfdbae.png" alt="Samuel Montgomery" class="team-photo">
+      <div class="team-name">Samuel Montgomery</div>
+      <div class="team-role">CEO</div>
+    </div>
+    <div class="team-member">
+      <img src="images/a73034c0d1e82460335de4ae0e17f12f8bda4507.png" alt="Felix Tanduwijaya" class="team-photo">
+      <div class="team-name">Felix Tanduwijaya</div>
+      <div class="team-role">CTO</div>
+    </div>
+    <div class="team-member">
+      <img src="images/dc31eb71c3c42a73624a031011f2d282ddc6d028.png" alt="Vivienne Sinclair" class="team-photo">
+      <div class="team-name">Vivienne Sinclair</div>
+      <div class="team-role">COO</div>
+    </div>
+  </div>
+</section>
+<section id="section-licensed">
+  <h3 class="section-title">Berizin oleh</h3>
+  <div class="licensed-logos">
+    <img src="images/0df4ee1cbf5b1725acac2d9d08fb45019361fa6e.png" alt="License 1">
+    <img src="images/77d24c42cf84c32b2b4b166aa82a20eab63965b9.png" alt="License 2">
+  </div>
+</section>
+<section id="section-contact">
+  <h3 class="section-title">Hubungi Kami</h3>
+  <div class="contact-list">
+    <div class="contact-item">
+      <div class="icon-bg solid"><img src="images/95_921.svg" alt=""></div>
+      <div class="contact-content">
+        <div class="contact-label">Email</div>
+        <div class="contact-value">support@namaaplikasi.com</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="icon-bg solid"><img src="images/95_931.svg" alt=""></div>
+      <div class="contact-content">
+        <div class="contact-label">Website</div>
+        <div class="contact-value">www.namaaplikasi.com</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="icon-bg solid"><img src="images/95_941.svg" alt=""></div>
+      <div class="contact-content">
+        <div class="contact-label">Alamat kantor</div>
+        <div class="contact-value">Jl. Lorem Ipsum No. 1, Jakarta Selatan, DKI Jakarta 12345</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="icon-bg solid"><img src="images/95_951.svg" alt=""></div>
+      <div class="contact-content">
+        <div class="contact-label">Jam layanan</div>
+        <div class="contact-value">Setiap hari, 08.00 – 22.00 WIB</div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="section-footer">
+  <div class="footer">
+    <div class="footer-text">PasarCryptoIDN<br>Versi aplikasi 1.0.0</div>
+  </div>
+</footer>
+</body>
+</html>

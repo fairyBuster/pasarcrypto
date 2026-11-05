@@ -1,0 +1,2097 @@
+{
+ "slug": "riwayat-penarikan",
+ "id": "73:393",
+ "frameName": "Riwayat penarikan",
+ "size": [
+  412,
+  1869
+ ],
+ "overlap": 88,
+ "texts": [
+  {
+   "text": "Riwayat Penarikan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2439,
+    4695,
+    154,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total penarikan · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2496,
+    4748,
+    249,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9.817.000 IDR",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2496,
+    4765,
+    249,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "41 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2235,
+    4763,
+    63,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2552,
+    4811,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2517,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2517,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2315,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2315,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Semua",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2538,
+    4898,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2462,
+    4898,
+    46,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Diproses",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2380,
+    4898,
+    51,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Gagal",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2293,
+    4898,
+    34,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    4950,
+    229,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026 18:25:31 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    4971,
+    229,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-2.255.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2260,
+    4946,
+    72,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    4947,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diproses",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#C9D4E1",
+   "box": [
+    -2222,
+    4972,
+    43,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    4997,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610253475",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2273,
+    4997,
+    85,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5018,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    5018,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5039,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    5039,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5060,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    5060,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5081,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.255.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2246,
+    5081,
+    74,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    5134,
+    229,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23-10-2026 09:30:55 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5155,
+    229,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-2.255.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2260,
+    5130,
+    72,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    5131,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2219,
+    5156,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5181,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610234848",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2274,
+    5181,
+    86,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5202,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    5202,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5223,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    5223,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5244,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    5244,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5265,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.255.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2246,
+    5265,
+    74,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    5318,
+    230,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "22-10-2026 14:13:43 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5339,
+    230,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-1.000.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2259,
+    5314,
+    71,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    5315,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2219,
+    5340,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5365,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610222162",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2271,
+    5365,
+    83,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5386,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    5386,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5407,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    5407,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5428,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    5428,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5449,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2245,
+    5449,
+    73,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    5502,
+    230,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "19-10-2026 23:35:52 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5523,
+    230,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-1.000.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2259,
+    5498,
+    71,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    5499,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2219,
+    5524,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5549,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610197357",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2270,
+    5549,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5570,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    5570,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5591,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    5591,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5612,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    5612,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5633,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2245,
+    5633,
+    73,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    5686,
+    229,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "17-10-2026 18:59:09 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5707,
+    229,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-2.255.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2260,
+    5682,
+    72,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    5683,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2219,
+    5708,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5733,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610179778",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2270,
+    5733,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5754,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    5754,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5775,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    5775,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5796,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    5796,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5817,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.255.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2246,
+    5817,
+    74,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    5870,
+    240,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "15-10-2026 17:23:28 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5891,
+    240,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-500.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2249,
+    5866,
+    61,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    5867,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Gagal",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#F2667A",
+   "box": [
+    -2207,
+    5892,
+    28,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5917,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610159215",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2269,
+    5917,
+    81,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5938,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    5938,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5959,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    5959,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    5980,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    5980,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Keterangan",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6001,
+    60,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Rekening tidak sesuai",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2285,
+    6001,
+    113,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    6054,
+    240,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12-10-2026 18:31:24 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6075,
+    240,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-500.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2249,
+    6050,
+    61,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    6051,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2219,
+    6076,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6101,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610125353",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2272,
+    6101,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6122,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    6122,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6143,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    6143,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6164,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    6164,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6185,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "500.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2237,
+    6185,
+    65,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Penarikan ke BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2504,
+    6238,
+    230,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "09-10-2026 10:10:45 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6259,
+    230,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "-1.000.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2259,
+    6234,
+    71,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2189,
+    6235,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    -2219,
+    6260,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6285,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "WD2610099126",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2272,
+    6285,
+    84,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6306,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI · 7810 **** 9031",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2278,
+    6306,
+    106,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nama rekening",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6327,
+    78,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Us****me",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2224,
+    6327,
+    52,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Biaya admin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6348,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2200,
+    6348,
+    28,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Diterima",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2504,
+    6369,
+    44,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1.000.000 IDR",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -2245,
+    6369,
+    73,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2435,
+    6430,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2397,
+    6430,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2358,
+    6430,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "…",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2328,
+    6430,
+    10,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "6",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2296,
+    6430,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–8 dari 41 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2451,
+    6463,
+    178,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

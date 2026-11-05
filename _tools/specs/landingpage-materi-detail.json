@@ -1,0 +1,822 @@
+{
+ "slug": "landingpage-materi-detail",
+ "id": "105:833",
+ "frameName": "Landing page materi detail",
+ "size": [
+  412,
+  2725
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Beranda › Materi Edukasi › Pemula",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -5211,
+    -1547,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pemula",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8FB4EA",
+   "box": [
+    -5203,
+    -1516,
+    36,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Apa itu aset kripto dan bagaimana cara kerjanya?",
+   "size": 25,
+   "weight": 800,
+   "lineHeight": 33,
+   "letterSpacing": -0.4000000059604645,
+   "color": "#FFFFFF",
+   "box": [
+    -5211,
+    -1490,
+    380,
+    66
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Creator",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5211,
+    -1408,
+    48,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "27-10-2026 · Baca 4 menit",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5211,
+    -1390,
+    139,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "AREA GAMBAR UTAMA",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 1,
+   "color": "#75879C",
+   "box": [
+    -5084,
+    -1265,
+    126,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Aset kripto adalah aset digital yang menggunakan teknologi kriptografi untuk mengamankan transaksi. Berbeda dengan uang biasa, aset kripto tidak dicetak secara fisik dan tercatat secara digital.",
+   "size": 16,
+   "weight": 500,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -5211,
+    -1104,
+    380,
+    130
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Apa itu aset kripto?",
+   "size": 19,
+   "weight": 700,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5211,
+    -946,
+    380,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aset kripto adalah bentuk aset digital yang dapat disimpan, dikirim, dan diperdagangkan secara online. Contoh aset kripto yang populer antara lain Bitcoin (BTC), Ethereum (ETH), dan stablecoin seperti USDT.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 25,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -5211,
+    -910,
+    380,
+    125
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 25,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -5211,
+    -775,
+    380,
+    75
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagaimana cara kerjanya?",
+   "size": 19,
+   "weight": 700,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5211,
+    -672,
+    380,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap transaksi aset kripto dicatat dalam sebuah sistem yang disebut blockchain. Blockchain bekerja seperti buku catatan bersama yang tersebar di banyak komputer, sehingga sulit untuk diubah atau dipalsukan.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 25,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -5211,
+    -636,
+    380,
+    125
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi dikirim ke jaringan.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 23,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -5195,
+    -501,
+    204,
+    23
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi diverifikasi oleh jaringan.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 23,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -5195,
+    -470,
+    247,
+    23
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Transaksi dicatat secara permanen di blockchain.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 23,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -5195,
+    -439,
+    265,
+    46
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kenapa aset kripto bisa bernilai?",
+   "size": 19,
+   "weight": 700,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5211,
+    -365,
+    380,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nilai aset kripto ditentukan oleh banyak faktor, seperti jumlah pengguna, kegunaan teknologinya, dan permintaan di pasar. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+   "size": 15,
+   "weight": 400,
+   "lineHeight": 25,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    -5211,
+    -329,
+    380,
+    125
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "POIN PENTING",
+   "size": 10,
+   "weight": 700,
+   "lineHeight": 12.1,
+   "letterSpacing": 1.5,
+   "color": "#8FB4EA",
+   "box": [
+    -5192,
+    -162,
+    345,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aset kripto adalah aset digital yang tercatat di blockchain.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -5176,
+    -142,
+    268,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Blockchain membuat transaksi aman dan transparan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -5176,
+    -96,
+    251,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nilai aset kripto dipengaruhi oleh banyak faktor.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -5176,
+    -50,
+    250,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagikan materi ini",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5211,
+    41,
+    338,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "‹ Sebelumnya",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5198,
+    102,
+    159,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perbedaan aset kripto dan mata uang biasa",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5198,
+    119,
+    159,
+    34
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Selanjutnya ›",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4912,
+    102,
+    68,
+    13
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Mengenal Bitcoin, aset kripto pertama di dunia",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4976,
+    119,
+    132,
+    51
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Materi terkait",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 27,
+   "letterSpacing": -0.30000001192092896,
+   "color": "#FFFFFF",
+   "box": [
+    -5211,
+    223,
+    380,
+    27
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "GAMBAR",
+   "size": 8,
+   "weight": 400,
+   "lineHeight": 9.7,
+   "letterSpacing": 0.5,
+   "color": "#75879C",
+   "box": [
+    -5191,
+    307,
+    37,
+    10
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pemula",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8FB4EA",
+   "box": [
+    -5115,
+    280,
+    36,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mengenal Bitcoin, aset kripto pertama di dunia",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5123,
+    302,
+    239,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Baca · 3 menit",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -5123,
+    344,
+    75,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "GAMBAR",
+   "size": 8,
+   "weight": 400,
+   "lineHeight": 9.7,
+   "letterSpacing": 0.5,
+   "color": "#75879C",
+   "box": [
+    -5191,
+    419,
+    37,
+    10
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pemula",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8FB4EA",
+   "box": [
+    -5115,
+    392,
+    36,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Stablecoin: kripto yang nilainya stabil",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5123,
+    414,
+    234,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Baca · 3 menit",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -5123,
+    438,
+    75,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "GAMBAR",
+   "size": 8,
+   "weight": 400,
+   "lineHeight": 9.7,
+   "letterSpacing": 0.5,
+   "color": "#75879C",
+   "box": [
+    -5191,
+    524,
+    37,
+    10
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menengah",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#8FB4EA",
+   "box": [
+    -5115,
+    497,
+    52,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Apa itu blockchain dan kenapa aman?",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5123,
+    519,
+    237,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Baca · 5 menit",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -5123,
+    543,
+    74,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5211,
+    704,
+    380,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Produk",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5211,
+    762,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5211,
+    789,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5211,
+    814,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Referral",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5211,
+    839,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perusahaan",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -5079,
+    762,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang Kami",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5079,
+    789,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pusat Bantuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -5079,
+    814,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Legal",
+   "size": 12,
+   "weight": 700,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -4947,
+    762,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat &",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4947,
+    789,
+    48,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ketentuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4947,
+    804,
+    58,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4947,
+    829,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian Klien",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -4947,
+    854,
+    116,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#51657E",
+   "box": [
+    -5211,
+    952,
+    325,
+    45
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "© 2026 PasarCryptoIDN. Hak cipta dilindungi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -5211,
+    1009,
+    380,
+    13
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

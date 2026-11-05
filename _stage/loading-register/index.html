@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:LoadingScreen */
+#section-loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .app-container {
+    width: 100%;
+    max-width: 412px;
+    min-height: 100vh;
+    /* Recreating the complex layered gradient background */
+    background: 
+      radial-gradient(circle at 60% 0%, rgba(44, 72, 104, 0.45) 0%, rgba(44, 72, 104, 0) 60%),
+      radial-gradient(circle at 69% 100%, rgba(78, 108, 142, 0.55) 0%, rgba(78, 108, 142, 0) 60%),
+      linear-gradient(180deg, #0c1a2d 0%, #13263d 38%, #0f2036 70%, #0a1626 100%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .top-spacer {
+    flex: 1;
+    min-height: 50vh;
+  }
+
+  .bottom-content-wrapper {
+    padding: 0 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .status-card {
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 28px;
+    padding: 28px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .loading-indicator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  }
+
+  .dot-primary {
+    opacity: 1;
+  }
+
+  .dot-secondary {
+    opacity: 0.7;
+  }
+
+  .dot-tertiary {
+    opacity: 0.4;
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .subtitle {
+    color: #a9b7c8;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .info-alert {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .info-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    width: 16px;
+    flex-shrink: 0;
+  }
+
+  .info-icon {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .info-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .info-text {
+    color: #8597ab;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* Responsive adjustments for very small screens */
+  @media (max-width: 360px) {
+    .status-card {
+      padding: 24px 16px 20px 16px;
+    }
+    
+    .title {
+      font-size: 16px;
+    }
+    
+    .subtitle {
+      font-size: 13px;
+    }
+  }
+  </style>
+</head>
+<body>
+<section id="section-loading">
+  <div class="app-container">
+    <div class="top-spacer"></div>
+    <div class="bottom-content-wrapper">
+      <div class="status-card">
+        <div class="loading-indicator">
+          <div class="dot dot-primary"></div>
+          <div class="dot dot-secondary"></div>
+          <div class="dot dot-tertiary"></div>
+        </div>
+        
+        <div class="text-content">
+          <h1 class="title">Sedang Memproses</h1>
+          <p class="subtitle">Pendaftaranmu sedang kami proses,<br>mohon tunggu sebentar ya.</p>
+        </div>
+
+        <div class="info-alert">
+          <div class="info-icon-wrapper">
+            <img src="images/6_221.svg" alt="Information" class="info-icon">
+          </div>
+          <div class="info-text-wrapper">
+            <p class="info-text">Proses ini hanya butuh beberapa detik. Jangan tutup aplikasi, berpindah ke aplikasi lain, atau kembali ke halaman sebelumnya sampai proses selesai.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

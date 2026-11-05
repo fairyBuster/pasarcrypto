@@ -1,0 +1,25 @@
+html {
+  background-color: #000000;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 412px;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  color: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 28px;
+  overflow-x: hidden;
+}
+
+.text-green { color: #3ecf8e; }
+.text-gray-dark { color: #8597ab; }
+
+button {
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}

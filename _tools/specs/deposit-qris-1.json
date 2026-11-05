@@ -1,0 +1,207 @@
+{
+ "slug": "deposit-qris-1",
+ "id": "29:127",
+ "frameName": "Deposit qris 1",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "QRIS",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -746,
+    -295,
+    41,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total Penyetoran",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -916,
+    -241,
+    380,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100.000",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 24.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -897,
+    -198,
+    310,
+    24
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "IDR",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -577,
+    -194,
+    22,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "50.000",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -892,
+    -134,
+    42,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "100.000",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -799,
+    -134,
+    49,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "500.000",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -702,
+    -134,
+    49,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1.000.000",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -609,
+    -134,
+    58,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Minimum isi ulang 50.000 IDR, maksimum 10.000.000 IDR",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -889,
+    -80,
+    237,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanpa biaya layanan untuk setiap isi ulang",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -889,
+    -36,
+    241,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Selanjutnya",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -768,
+    31,
+    85,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pembayaran aman & terlindungi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -816,
+    102,
+    199,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Diproses oleh mitra pembayaran pihak ketiga resmi. Data dan transaksimu terenkripsi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -816,
+    122,
+    234,
+    32
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

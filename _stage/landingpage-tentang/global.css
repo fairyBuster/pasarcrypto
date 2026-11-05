@@ -1,0 +1,14 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  max-width: 412px;
+  background: linear-gradient(165deg, #0c1a2d 0%, #13263d 18%, #0f2036 50%, #0c1b2e 80%, #0a1626 100%);
+  background-attachment: fixed;
+  color: #ffffff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}

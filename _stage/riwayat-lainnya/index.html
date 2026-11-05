@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px 12px;
+  }
+  .icon-btn {
+    background: #1f3048;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .header-placeholder {
+    width: 40px;
+    height: 40px;
+  }
+
+/* CSS for section section:Summary */
+.summary-container {
+    display: flex;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 12px;
+  }
+  .summary-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #5a82bf 0%, #2c4c80 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .summary-details {
+    flex-grow: 1;
+  }
+  .mt-2 {
+    margin-top: 2px;
+  }
+  .summary-count {
+    flex-shrink: 0;
+  }
+
+/* CSS for section section:DatePicker */
+.datepicker-container {
+    padding: 8px 16px;
+  }
+  .mb-8 {
+    margin-bottom: 8px;
+    display: block;
+  }
+  .date-inputs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .date-input-box {
+    flex: 1;
+    background-color: #1f3048;
+    border: 1px solid #2f4560;
+    border-radius: 12px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap: 8px;
+  }
+  .date-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .date-divider {
+    width: 8px;
+    height: 1.5px;
+    background-color: #51657e;
+  }
+
+/* CSS for section section:Tabs */
+.tabs-container {
+    padding: 14px 16px;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .tabs-container::-webkit-scrollbar {
+    display: none;
+  }
+  .tab-btn {
+    height: 30px;
+    padding: 0 14px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .tab-btn.active {
+    background: linear-gradient(90deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+  }
+  .tab-btn:not(.active) {
+    background-color: #1f3048;
+    color: #a9b7c8;
+  }
+
+/* CSS for section section:TransactionList */
+.transaction-list {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .transaction-card {
+    border-bottom: 1px solid rgba(201, 212, 225, 0.18);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .transaction-card:last-child {
+    border-bottom: none;
+  }
+  .tc-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .tc-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #1f3048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .tc-title-group {
+    flex-grow: 1;
+    padding-top: 2px;
+  }
+  .mt-1 {
+    margin-top: 4px;
+  }
+  .tc-amount-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  .tc-amount {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .tc-status {
+    background-color: rgba(62, 207, 142, 0.14);
+    color: #3ecf8e;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 9px;
+    font-weight: 500;
+  }
+  .tc-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 48px;
+  }
+  .tc-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .text-right {
+    text-align: right;
+    max-width: 60%;
+  }
+  .tc-copy-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .copy-icon {
+    cursor: pointer;
+  }
+
+/* CSS for section section:Pagination */
+.pagination-container {
+    padding: 20px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .page-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .page-btn.nav-btn {
+    background-color: rgba(31, 48, 72, 0.4);
+  }
+  .page-btn.active {
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+  }
+  .pagination-text {
+    text-align: center;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header">
+    <button class="icon-btn back-btn" aria-label="Back">
+      <img src="images/85_636.svg" alt="Back">
+    </button>
+    <h1 class="header-title text-base font-semibold">Riwayat Lainnya</h1>
+    <div class="header-placeholder"></div>
+  </header>
+</section>
+<section id="section-summary">
+  <div class="summary-container">
+    <div class="summary-icon">
+      <img src="images/85_644.svg" alt="Summary Icon">
+    </div>
+    <div class="summary-details">
+      <p class="text-light-muted text-xs">Total transaksi lainnya · sejak akun aktif</p>
+      <p class="text-xl font-bold mt-2">1.500.000 IDR</p>
+    </div>
+    <div class="summary-count">
+      <span class="text-blue-muted text-xs">4 transaksi</span>
+    </div>
+  </div>
+</section>
+<section id="section-datepicker">
+  <div class="datepicker-container">
+    <label class="text-light-muted text-xs mb-8">Pilih tanggal</label>
+    <div class="date-inputs">
+      <div class="date-input-box">
+        <img src="images/85_661.svg" alt="Calendar">
+        <div class="date-text">
+          <span class="text-muted text-xs">Dari</span>
+          <span class="text-white text-sm font-medium">01-10-2026</span>
+        </div>
+      </div>
+      <div class="date-divider"></div>
+      <div class="date-input-box">
+        <img src="images/85_671.svg" alt="Calendar">
+        <div class="date-text">
+          <span class="text-muted text-xs">Sampai</span>
+          <span class="text-white text-sm font-medium">25-10-2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-tabs">
+  <div class="tabs-container">
+    <button class="tab-btn active">Semua</button>
+    <button class="tab-btn">Refund</button>
+    <button class="tab-btn">Penyesuaian</button>
+  </div>
+</section>
+<section id="section-transaction-list">
+  <div class="transaction-list">
+    
+    <!-- Card 1 -->
+    <article class="transaction-card">
+      <div class="tc-header">
+        <div class="tc-icon">
+          <img src="images/85_692.svg" alt="Refund">
+        </div>
+        <div class="tc-title-group">
+          <h3 class="text-white text-sm font-semibold">Refund saldo</h3>
+          <p class="text-muted text-xs mt-1">15-10-2026 17:49:27 WIB</p>
+        </div>
+        <div class="tc-amount-group">
+          <div class="tc-amount text-success text-sm font-semibold">
+            +500.000 <span class="text-blue-muted text-xs font-normal">IDR</span>
+          </div>
+          <div class="tc-status">Berhasil</div>
+        </div>
+      </div>
+      <div class="tc-details">
+        <div class="tc-row">
+          <span class="text-muted text-xs">Jenis</span>
+          <span class="text-value text-xs">Refund</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">Keterangan</span>
+          <span class="text-value text-xs text-right">Penarikan gagal dikembalikan</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">Dikembalikan ke</span>
+          <span class="text-value text-xs">Saldo Tersedia</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">No. Transaksi</span>
+          <div class="tc-copy-group">
+            <span class="text-value text-xs">LN2610158937</span>
+            <img src="images/85_728.svg" alt="Copy" class="copy-icon">
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="transaction-card">
+      <div class="tc-header">
+        <div class="tc-icon">
+          <img src="images/85_734.svg" alt="Refund">
+        </div>
+        <div class="tc-title-group">
+          <h3 class="text-white text-sm font-semibold">Refund saldo</h3>
+          <p class="text-muted text-xs mt-1">11-10-2026 17:57:54 WIB</p>
+        </div>
+        <div class="tc-amount-group">
+          <div class="tc-amount text-success text-sm font-semibold">
+            +1.000.000 <span class="text-blue-muted text-xs font-normal">IDR</span>
+          </div>
+          <div class="tc-status">Berhasil</div>
+        </div>
+      </div>
+      <div class="tc-details">
+        <div class="tc-row">
+          <span class="text-muted text-xs">Jenis</span>
+          <span class="text-value text-xs">Refund</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">Keterangan</span>
+          <span class="text-value text-xs text-right">Holding dibatalkan sistem</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">Dikembalikan ke</span>
+          <span class="text-value text-xs">Saldo Tersedia</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">No. Transaksi</span>
+          <div class="tc-copy-group">
+            <span class="text-value text-xs">LN2610118812</span>
+            <img src="images/85_770.svg" alt="Copy" class="copy-icon">
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="transaction-card">
+      <div class="tc-header">
+        <div class="tc-icon">
+          <img src="images/85_776.svg" alt="Penyesuaian">
+        </div>
+        <div class="tc-title-group">
+          <h3 class="text-white text-sm font-semibold">Penyesuaian saldo</h3>
+          <p class="text-muted text-xs mt-1">09-10-2026 12:08:34 WIB</p>
+        </div>
+        <div class="tc-amount-group">
+          <div class="tc-amount text-success text-sm font-semibold">
+            +5.000 <span class="text-blue-muted text-xs font-normal">IDR</span>
+          </div>
+          <div class="tc-status">Berhasil</div>
+        </div>
+      </div>
+      <div class="tc-details">
+        <div class="tc-row">
+          <span class="text-muted text-xs">Jenis</span>
+          <span class="text-value text-xs">Penyesuaian</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">Keterangan</span>
+          <span class="text-value text-xs text-right">Koreksi oleh sistem</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">No. Transaksi</span>
+          <div class="tc-copy-group">
+            <span class="text-value text-xs">LN2610095521</span>
+            <img src="images/85_807.svg" alt="Copy" class="copy-icon">
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 4 -->
+    <article class="transaction-card">
+      <div class="tc-header">
+        <div class="tc-icon">
+          <img src="images/85_813.svg" alt="Penyesuaian">
+        </div>
+        <div class="tc-title-group">
+          <h3 class="text-white text-sm font-semibold">Penyesuaian saldo</h3>
+          <p class="text-muted text-xs mt-1">09-10-2026 10:49:46 WIB</p>
+        </div>
+        <div class="tc-amount-group">
+          <div class="tc-amount text-white text-sm font-semibold">
+            -5.000 <span class="text-blue-muted text-xs font-normal">IDR</span>
+          </div>
+          <div class="tc-status">Berhasil</div>
+        </div>
+      </div>
+      <div class="tc-details">
+        <div class="tc-row">
+          <span class="text-muted text-xs">Jenis</span>
+          <span class="text-value text-xs">Penyesuaian</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">Keterangan</span>
+          <span class="text-value text-xs text-right">Koreksi oleh sistem</span>
+        </div>
+        <div class="tc-row">
+          <span class="text-muted text-xs">No. Transaksi</span>
+          <div class="tc-copy-group">
+            <span class="text-value text-xs">LN2610091167</span>
+            <img src="images/85_844.svg" alt="Copy" class="copy-icon">
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+<section id="section-pagination">
+  <div class="pagination-container">
+    <div class="pagination-controls">
+      <button class="page-btn nav-btn" aria-label="Previous">
+        <img src="images/85_850.svg" alt="Prev">
+      </button>
+      <button class="page-btn active">1</button>
+      <button class="page-btn nav-btn" aria-label="Next">
+        <img src="images/85_855.svg" alt="Next">
+      </button>
+    </div>
+    <p class="pagination-text text-muted text-xs">Menampilkan 1–4 dari 4 transaksi</p>
+  </div>
+</section>
+</body>
+</html>

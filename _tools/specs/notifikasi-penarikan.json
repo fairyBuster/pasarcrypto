@@ -1,0 +1,57 @@
+{
+ "slug": "notifikasi-penarikan",
+ "id": "40:125",
+ "frameName": "Notifikasi penarikan",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Penarikan Sedang Diproses",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2059,
+    1568,
+    216,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan sebesar 1.000.000 IDR sedang diproses. Silakan pantau statusnya di Riwayat Penarikan hingga penarikan berhasil.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2111,
+    1611,
+    272,
+    76
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tutup",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1898,
+    1713,
+    37,
+    16
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

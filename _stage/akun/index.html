@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 16px 0;
+  height: 56px;
+  box-sizing: border-box;
+}
+.header-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+.header-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #1f3048;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* CSS for section section:Profile */
+.profile-section {
+  position: relative;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-bg {
+  position: absolute;
+  top: -28px;
+  left: -9px;
+  width: 420px;
+  height: 253px;
+  z-index: 0;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.profile-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+.avatar-img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+.gold-badge {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #ffe7a3 0%, #d9a93f 100%);
+  border: 2px solid #13263d;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px 2px 8px;
+  height: 22px;
+  box-sizing: border-box;
+}
+.gold-badge span {
+  color: #0c1a2d;
+  font-size: 12px;
+  font-weight: 700;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.username-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.username {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+.id-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #a9b7c8;
+  margin-bottom: 10px;
+}
+.dot {
+  width: 3px;
+  height: 3px;
+  background-color: #51657e;
+  border-radius: 50%;
+}
+.progress-text {
+  font-size: 12px;
+  color: #e6ecf3;
+  margin: 0;
+}
+.action-buttons {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: space-between;
+}
+.btn-primary, .btn-secondary {
+  flex: 1;
+  height: 42px;
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary {
+  background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+  color: #0c1a2d;
+}
+.btn-secondary {
+  background-color: #1f3048;
+  border: 1px solid rgba(201, 212, 225, 0.2);
+  color: #e6ecf3;
+}
+
+/* CSS for section section:Banner */
+.banner-section {
+  padding: 13px 16px 0;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+/* CSS for section section:TransactionHistory */
+.history-section {
+  padding: 26px 16px 0;
+}
+.section-header {
+  margin-bottom: 12px;
+}
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+.section-subtitle {
+  font-size: 12px;
+  color: #8597ab;
+  margin: 0;
+}
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.grid-item {
+  background-color: rgba(31, 48, 72, 0.6);
+  border-radius: 14px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 8px;
+  gap: 10px;
+  cursor: pointer;
+}
+.icon-wrapper {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #2c4c80 0%, #1a3150 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-label {
+  font-size: 13px;
+  color: #e6ecf3;
+  flex-grow: 1;
+}
+.arrow-icon {
+  opacity: 0.5;
+}
+
+/* CSS for section section:ActivitiesRewards */
+.badge-gold {
+  background-color: rgba(217, 169, 63, 0.16);
+  color: #ffd77a;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.badge-red {
+  background-color: rgba(242, 102, 122, 0.14);
+  color: #f2667a;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+/* CSS for section section:AccountSettings */
+.badge-green {
+  background-color: rgba(62, 207, 142, 0.14);
+  color: #3ecf8e;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+/* CSS for section section:Help */
+.badge-online {
+  background-color: rgba(201, 212, 225, 0.1);
+  color: #c9d4e1;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.dot-online {
+  width: 6px;
+  height: 6px;
+  background-color: #3ecf8e;
+  border-radius: 50%;
+}
+
+/* CSS for section section:Footer */
+.footer-section {
+  padding: 26px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-logout {
+  width: 100%;
+  height: 44px;
+  border-radius: 22px;
+  border: 1px solid rgba(242, 102, 122, 0.4);
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #f2667a;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+.app-version {
+  font-size: 12px;
+  color: #51657e;
+  margin: 0;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 412px;
+  height: 76px;
+  background-color: #0d1b2e;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 10px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 60px;
+  cursor: pointer;
+}
+.nav-item span {
+  font-size: 10px;
+  color: #75879c;
+}
+.nav-item.active .active-text {
+  color: #ffffff;
+}
+.nav-item-center {
+  position: relative;
+}
+.center-icon-bg {
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+  background: linear-gradient(180deg, #52a8ff 0%, #002040 100%);
+  border: 4px solid #0d1b2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.center-icon-bg img {
+  width: 26px;
+  height: 26px;
+}
+.nav-item-center span {
+  margin-top: 26px;
+  color: #d3dce7;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="header-container">
+    <h1 class="header-title">Akun</h1>
+    <div class="header-icon">
+      <img src="images/73_8.svg" alt="Notification">
+    </div>
+  </header>
+</section>
+<section id="section-profile" class="profile-section">
+  <img src="images/3057facc29cdd9c9bd4e414b99c647d713ef1400.png" class="profile-bg" alt="Background">
+  <div class="profile-content">
+    <div class="avatar-container">
+      <img src="images/d27c34de057355c9e69251ff95dc5743829d1700.png" class="avatar-img" alt="Avatar">
+      <div class="gold-badge">
+        <img src="images/73_18.svg" alt="Gold">
+        <span>Gold</span>
+      </div>
+    </div>
+    
+    <div class="user-info">
+      <div class="username-row">
+        <h2 class="username">Username</h2>
+        <img src="images/73_24.svg" alt="Verified">
+      </div>
+      <div class="id-row">
+        <span class="phone">0812 **** 4471</span>
+        <span class="dot"></span>
+        <span class="id-text">ID KNZ8F2</span>
+        <img src="images/73_34.svg" alt="Copy" style="cursor: pointer;">
+      </div>
+      <p class="progress-text">Kurang 3 teman trading lagi untuk naik ke Platinum</p>
+    </div>
+
+    <div class="action-buttons">
+      <button class="btn-primary">
+        <img src="images/73_43.svg" alt="Top Up">
+        <span>Isi Ulang</span>
+      </button>
+      <button class="btn-secondary">
+        <img src="images/73_47.svg" alt="Withdraw">
+        <span>Penarikan</span>
+      </button>
+    </div>
+  </div>
+</section>
+<section id="section-banner" class="banner-section">
+  <img src="images/d680ba1e048a385daa157a6b807dfec273eb849e.png" alt="Transparent Services Crypto Banner" class="banner-img">
+</section>
+<section id="section-transaction-history" class="history-section">
+  <div class="section-header">
+    <h3 class="section-title">Riwayat Transaksi</h3>
+    <p class="section-subtitle">Pilih jenis riwayat untuk melihat catatan transaksimu</p>
+  </div>
+  <div class="history-grid">
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_63.svg" alt="Deposit">
+      </div>
+      <span class="item-label">Deposit</span>
+      <img src="images/73_67.svg" alt="Arrow" class="arrow-icon">
+    </div>
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_71.svg" alt="Penarikan">
+      </div>
+      <span class="item-label">Penarikan</span>
+      <img src="images/73_75.svg" alt="Arrow" class="arrow-icon">
+    </div>
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_79.svg" alt="Keuntungan">
+      </div>
+      <span class="item-label">Keuntungan</span>
+      <img src="images/73_84.svg" alt="Arrow" class="arrow-icon">
+    </div>
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_88.svg" alt="Komisi">
+      </div>
+      <span class="item-label">Komisi</span>
+      <img src="images/73_95.svg" alt="Arrow" class="arrow-icon">
+    </div>
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_99.svg" alt="Absen">
+      </div>
+      <span class="item-label">Absen</span>
+      <img src="images/73_105.svg" alt="Arrow" class="arrow-icon">
+    </div>
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_109.svg" alt="Hadiah">
+      </div>
+      <span class="item-label">Hadiah</span>
+      <img src="images/73_116.svg" alt="Arrow" class="arrow-icon">
+    </div>
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_120.svg" alt="Misi">
+      </div>
+      <span class="item-label">Misi</span>
+      <img src="images/73_126.svg" alt="Arrow" class="arrow-icon">
+    </div>
+    <div class="grid-item">
+      <div class="icon-wrapper">
+        <img src="images/73_130.svg" alt="Lainnya">
+      </div>
+      <span class="item-label">Lainnya</span>
+      <img src="images/73_136.svg" alt="Arrow" class="arrow-icon">
+    </div>
+  </div>
+</section>
+<section id="section-activities-rewards" class="list-section">
+  <h3 class="list-section-title">Aktivitas & Hadiah</h3>
+  <div class="list-container">
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_145.svg" alt="Rank"></div>
+      <span class="list-label">Rank Saya</span>
+      <div class="badge-gold">Gold</div>
+      <img src="images/73_151.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_155.svg" alt="Misi"></div>
+      <span class="list-label">Misi Rewards</span>
+      <img src="images/73_161.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_165.svg" alt="Undangan"></div>
+      <span class="list-label">Undangan</span>
+      <img src="images/73_171.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_175.svg" alt="Teman"></div>
+      <span class="list-label">Teman Diundang</span>
+      <span class="list-value">Level 1–3</span>
+      <img src="images/73_183.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_187.svg" alt="Absen"></div>
+      <span class="list-label">Absen Harian</span>
+      <div class="badge-red">Belum absen</div>
+      <img src="images/73_194.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_198.svg" alt="Roda"></div>
+      <span class="list-label">Roda Keberuntungan</span>
+      <img src="images/73_203.svg" alt="Arrow">
+    </div>
+  </div>
+</section>
+<section id="section-account-settings" class="list-section">
+  <h3 class="list-section-title">Akun & Setelan</h3>
+  <div class="list-container">
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_212.svg" alt="Profil"></div>
+      <span class="list-label">Profil Saya</span>
+      <img src="images/73_217.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_221.svg" alt="Verifikasi"></div>
+      <span class="list-label">Verifikasi Akun</span>
+      <div class="badge-green">Terverifikasi</div>
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_232.svg" alt="Bank"></div>
+      <span class="list-label">Rekening Bank</span>
+      <img src="images/73_237.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_241.svg" alt="Sandi"></div>
+      <span class="list-label">Ubah Kata Sandi</span>
+      <img src="images/73_246.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_250.svg" alt="Perangkat"></div>
+      <span class="list-label">Perangkat Login</span>
+      <span class="list-value">1 aktif</span>
+      <img src="images/73_257.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_261.svg" alt="Bahasa"></div>
+      <span class="list-label">Bahasa</span>
+      <span class="list-value">Indonesia</span>
+      <img src="images/73_268.svg" alt="Arrow">
+    </div>
+  </div>
+</section>
+<section id="section-help" class="list-section">
+  <h3 class="list-section-title">Bantuan</h3>
+  <div class="list-container">
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_277.svg" alt="FAQ"></div>
+      <span class="list-label">Pusat Bantuan (FAQ)</span>
+      <img src="images/73_282.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_286.svg" alt="Chat"></div>
+      <span class="list-label">Chat dengan Tim Kami</span>
+      <div class="badge-online">
+        <span class="dot-online"></span>
+        <span>Online</span>
+      </div>
+      <img src="images/73_293.svg" alt="Arrow">
+    </div>
+  </div>
+</section>
+<section id="section-about" class="list-section">
+  <h3 class="list-section-title">Tentang</h3>
+  <div class="list-container">
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_302.svg" alt="Unduh"></div>
+      <span class="list-label">Unduh Aplikasi</span>
+      <span class="list-value">Android · iOS</span>
+      <img src="images/73_309.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_313.svg" alt="Tentang"></div>
+      <span class="list-label">Tentang Kami</span>
+      <img src="images/73_318.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_322.svg" alt="Syarat"></div>
+      <span class="list-label">Syarat & Ketentuan</span>
+      <img src="images/73_327.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_331.svg" alt="Layanan"></div>
+      <span class="list-label">Syarat Layanan</span>
+      <img src="images/73_336.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_340.svg" alt="Privasi"></div>
+      <span class="list-label">Kebijakan Privasi</span>
+      <img src="images/73_346.svg" alt="Arrow">
+    </div>
+    <div class="list-item">
+      <div class="list-icon"><img src="images/73_350.svg" alt="Perjanjian"></div>
+      <span class="list-label">Perjanjian Klien</span>
+      <img src="images/73_354.svg" alt="Arrow">
+    </div>
+  </div>
+</section>
+<section id="section-footer" class="footer-section">
+  <button class="btn-logout">
+    <img src="images/73_358.svg" alt="Logout">
+    <span>Keluar</span>
+  </button>
+  <p class="app-version">[Nama Aplikasi] · Versi 1.0.0</p>
+  
+  <nav class="bottom-nav">
+    <div class="nav-item">
+      <img src="images/73_366.svg" alt="Beranda">
+      <span>Beranda</span>
+    </div>
+    <div class="nav-item">
+      <img src="images/73_370.svg" alt="Feed">
+      <span>Feed</span>
+    </div>
+    <div class="nav-item nav-item-center">
+      <div class="center-icon-bg">
+        <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="Pasar">
+      </div>
+      <span>Pasar</span>
+    </div>
+    <div class="nav-item">
+      <img src="images/73_382.svg" alt="Aset">
+      <span>Aset</span>
+    </div>
+    <div class="nav-item active">
+      <img src="images/73_388.svg" alt="Akun">
+      <span class="active-text">Akun</span>
+    </div>
+  </nav>
+</section>
+</body>
+</html>

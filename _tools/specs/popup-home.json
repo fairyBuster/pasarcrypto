@@ -1,0 +1,147 @@
+{
+ "slug": "popup-home",
+ "id": "15:310",
+ "frameName": "Popup home",
+ "size": [
+  360,
+  800
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Terhubung Lebih Dekat dengan PasarCryptoIDN",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2513,
+    155,
+    213,
+    52
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Dapatkan informasi terbaru, jelajahi dunia aset kripto, dan nikmati kemudahan layanan melalui komunitas serta saluran resmi kami.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2552,
+    213,
+    290,
+    60
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Telegram",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2536,
+    364,
+    55,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Saluran",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2526,
+    388,
+    36,
+    14
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "WhatsApp",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2438,
+    363,
+    62,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Saluran",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2425,
+    387,
+    36,
+    14
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Service",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2328,
+    366,
+    44,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Saluran",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 14,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2324,
+    390,
+    36,
+    14
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Nanti saja",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2438,
+    430,
+    62,
+    16
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

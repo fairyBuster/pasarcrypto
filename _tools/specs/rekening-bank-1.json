@@ -1,0 +1,132 @@
+{
+ "slug": "rekening-bank-1",
+ "id": "92:74",
+ "frameName": "Rekening bank 1",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Rekening Bank",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2765,
+    4695,
+    123,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Belum ada rekening bank",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2735,
+    4900,
+    182,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tambahkan rekening bank untuk bisa menarik saldo ke rekeningmu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    2721,
+    4924,
+    211,
+    36
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Tambah Rekening",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2781,
+    4987,
+    112,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2636,
+    5067,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Nama pemilik rekening harus sama dengan nama akun kamu.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2650,
+    5091,
+    308,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan hanya bisa dilakukan ke rekening yang sudah terdaftar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2650,
+    5133,
+    277,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2650,
+    5175,
+    314,
+    18
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

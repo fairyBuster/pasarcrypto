@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.app-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 16px;
+    }
+    .back-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #1f3048;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .header-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0;
+      color: #ffffff;
+    }
+    .header-placeholder {
+      width: 40px;
+      height: 40px;
+    }
+
+/* CSS for section section:Summary */
+#section-summary {
+      padding: 0 16px;
+    }
+    .summary-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .summary-icon-wrapper {
+      width: 44px;
+      height: 44px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, #5a82bf 0%, #2c4c80 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .summary-content {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 2px;
+    }
+    .summary-label {
+      font-size: 11px;
+      color: #a9b7c8;
+    }
+    .summary-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .summary-stats {
+      font-size: 11px;
+      color: #8597ab;
+    }
+
+/* CSS for section section:Filters */
+#section-filters {
+      padding: 20px 16px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .date-picker-section {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .date-label {
+      font-size: 12px;
+      color: #a9b7c8;
+    }
+    .date-inputs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .date-field {
+      flex: 1;
+      background-color: #1f3048;
+      border: 1px solid #2f4560;
+      border-radius: 12px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      gap: 8px;
+    }
+    .date-field-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .date-field-label {
+      font-size: 10px;
+      color: #75879c;
+    }
+    .date-field-value {
+      font-size: 12px;
+      color: #ffffff;
+    }
+    .date-separator {
+      width: 8px;
+      height: 1.5px;
+      background-color: #51657e;
+    }
+    .tabs-section {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .tabs-section::-webkit-scrollbar {
+      display: none;
+    }
+    .tab-btn {
+      height: 30px;
+      padding: 0 14px;
+      border-radius: 15px;
+      background-color: #1f3048;
+      color: #a9b7c8;
+      font-size: 12px;
+      border: none;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .tab-btn.active {
+      background: linear-gradient(90deg, #f5f8fb 0%, #c9d4e1 100%);
+      color: #0c1a2d;
+      font-weight: 600;
+    }
+
+/* CSS for section section:List */
+#section-list {
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+    }
+    .transaction-card {
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(201, 212, 225, 0.18);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .transaction-card:last-child {
+      border-bottom: none;
+    }
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .card-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 18px;
+      background-color: #1f3048;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .card-title-area {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 2px;
+    }
+    .card-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+    .card-datetime {
+      font-size: 10px;
+      color: #75879c;
+    }
+    .card-status-area {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+    }
+    .card-points {
+      font-size: 13px;
+      font-weight: 600;
+      color: #3ecf8e;
+    }
+    .card-badge {
+      font-size: 9px;
+      color: #3ecf8e;
+      background-color: rgba(62, 207, 142, 0.14);
+      padding: 2px 6px;
+      border-radius: 8px;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding-left: 48px;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .info-label {
+      font-size: 11px;
+      color: #75879c;
+    }
+    .info-value {
+      font-size: 11px;
+      color: #c3cedb;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+/* CSS for section section:Pagination */
+#section-pagination {
+    padding: 24px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .page-nav-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgba(31, 48, 72, 0.4);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .page-num-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: transparent;
+    color: #a9b7c8;
+    font-size: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .page-num-btn.active {
+    background: linear-gradient(90deg, #f5f8fb 0%, #c9d4e1 100%);
+    color: #0c1a2d;
+    font-weight: 600;
+  }
+  .page-dots {
+    color: #75879c;
+    font-size: 12px;
+    padding: 0 4px;
+  }
+  .pagination-info {
+    font-size: 11px;
+    color: #75879c;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<main class="app-container">
+  <section id="section-header">
+    <header class="app-header">
+      <button class="back-btn">
+        <img src="images/85_866.svg" alt="Back">
+      </button>
+      <h1 class="header-title">Riwayat Komisi</h1>
+      <div class="header-placeholder"></div>
+    </header>
+  </section>
+<section id="section-summary">
+    <div class="summary-container">
+      <div class="summary-icon-wrapper">
+        <img src="images/85_874.svg" alt="Commission Icon">
+      </div>
+      <div class="summary-content">
+        <div class="summary-label">Total komisi · sejak akun aktif</div>
+        <div class="summary-value">1.350 Poin</div>
+      </div>
+      <div class="summary-stats">
+        58 transaksi
+      </div>
+    </div>
+  </section>
+<section id="section-filters">
+    <div class="date-picker-section">
+      <div class="date-label">Pilih tanggal</div>
+      <div class="date-inputs">
+        <div class="date-field">
+          <img src="images/85_892.svg" alt="Calendar">
+          <div class="date-field-text">
+            <span class="date-field-label">Dari</span>
+            <span class="date-field-value">01-10-2026</span>
+          </div>
+        </div>
+        <div class="date-separator"></div>
+        <div class="date-field">
+          <img src="images/85_902.svg" alt="Calendar">
+          <div class="date-field-text">
+            <span class="date-field-label">Sampai</span>
+            <span class="date-field-value">25-10-2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tabs-section">
+      <button class="tab-btn active">Semua</button>
+      <button class="tab-btn">Level 1</button>
+      <button class="tab-btn">Level 2</button>
+      <button class="tab-btn">Level 3</button>
+    </div>
+  </section>
+<section id="section-list">
+    <!-- Card 1 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_925.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari Us****01</div>
+          <div class="card-datetime">25-10-2026 08:31:04 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+64 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">Us****01 · Level 1</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0812 **** 4471</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Komisi transaksi</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">4.250.000 IDR</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610259555 <img src="images/85_966.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_972.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari Ma****ns</div>
+          <div class="card-datetime">25-10-2026 11:36:38 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+18 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">Ma****ns · Level 2</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0812 **** 8830</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Komisi transaksi</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">1.750.000 IDR</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610256220 <img src="images/85_1013.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_1019.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari Ke****ya</div>
+          <div class="card-datetime">24-10-2026 16:39:07 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+200 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">Ke****ya · Level 1</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0821 **** 3308</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Bonus trading pertama</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">12.800.000 IDR</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610243960 <img src="images/85_1060.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_1066.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari Ok****vi</div>
+          <div class="card-datetime">24-10-2026 18:10:40 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+6 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">Ok****vi · Level 3</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0852 **** 7783</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Komisi transaksi</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">2.640.000 IDR</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610246705 <img src="images/85_1107.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_1113.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari Ra****na</div>
+          <div class="card-datetime">22-10-2026 21:59:21 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+50 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">Ra****na · Level 1</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0857 **** 1290</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Bonus mendaftar</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">-</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610226678 <img src="images/85_1154.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_1160.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari An****ri</div>
+          <div class="card-datetime">20-10-2026 20:38:59 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+200 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">An****ri · Level 1</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0878 **** 6015</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Bonus trading pertama</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">950.000 IDR</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610206023 <img src="images/85_1201.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_1207.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari Yu****di</div>
+          <div class="card-datetime">19-10-2026 11:06:10 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+31 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">Yu****di · Level 2</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0819 **** 2268</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Komisi transaksi</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">6.300.000 IDR</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610192075 <img src="images/85_1248.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="transaction-card">
+      <div class="card-header">
+        <div class="card-icon"><img src="images/85_1254.svg" alt="User"></div>
+        <div class="card-title-area">
+          <div class="card-title">Komisi dari Jo****ko</div>
+          <div class="card-datetime">18-10-2026 22:52:11 WIB</div>
+        </div>
+        <div class="card-status-area">
+          <div class="card-points">+35 Poin</div>
+          <div class="card-badge">Berhasil</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="info-row">
+          <span class="info-label">Teman</span>
+          <span class="info-value">Jo****ko · Level 1</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Nomor teman</span>
+          <span class="info-value">0838 **** 5167</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Jenis</span>
+          <span class="info-value">Komisi transaksi</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Volume trading teman</span>
+          <span class="info-value">2.100.000 IDR</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">No. Transaksi</span>
+          <span class="info-value">KM2610188024 <img src="images/85_1295.svg" alt="Copy"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="section-pagination">
+    <div class="pagination-controls">
+      <button class="page-nav-btn">
+        <img src="images/85_1301.svg" alt="Previous">
+      </button>
+      <button class="page-num-btn active">1</button>
+      <button class="page-num-btn">2</button>
+      <button class="page-num-btn">3</button>
+      <span class="page-dots">…</span>
+      <button class="page-num-btn">8</button>
+      <button class="page-nav-btn">
+        <img src="images/85_1314.svg" alt="Next">
+      </button>
+    </div>
+    <div class="pagination-info">
+      Menampilkan 1–8 dari 58 transaksi
+    </div>
+  </section>
+</main>
+</body>
+</html>

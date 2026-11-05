@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 412px;
+  min-height: 100vh;
+  background: radial-gradient(100% 100% at 70% 0%, rgba(78, 108, 142, 0.4) 0%, rgba(78, 108, 142, 0) 100%), linear-gradient(160deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  position: relative;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+}

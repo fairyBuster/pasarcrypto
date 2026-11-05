@@ -1,0 +1,312 @@
+{
+ "slug": "register-2",
+ "id": "6:88",
+ "frameName": "Register 2",
+ "size": [
+  412,
+  1234
+ ],
+ "overlap": 94,
+ "texts": [
+  {
+   "text": "Lengkapi Data",
+   "size": 24,
+   "weight": 700,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2045,
+    -1556,
+    168,
+    32
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Sedikit lagi, lengkapi data berikut untuk menyelesaikan pendaftaran.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2091,
+    -1518,
+    261,
+    40
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Nomor Telepon",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2131,
+    -1432,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+62",
+   "size": 14,
+   "weight": 500,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2113,
+    -1391,
+    27,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan nomor ponsel aktif",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2049,
+    -1391,
+    240,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Email",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2131,
+    -1342,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan email aktif",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2085,
+    -1301,
+    276,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kata Sandi",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2131,
+    -1252,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Minimal 8 karakter",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2085,
+    -1211,
+    248,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Gunakan kombinasi huruf besar, huruf kecil, dan angka.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2113,
+    -1160,
+    322,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Konfirmasi Kata Sandi",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2131,
+    -1112,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ulangi kata sandi",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2085,
+    -1071,
+    248,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode Captcha",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2131,
+    -1022,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan kode",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2113,
+    -981,
+    168,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7K4P",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 21.8,
+   "letterSpacing": 1,
+   "color": "#1A2C44",
+   "box": [
+    -1903,
+    -984,
+    50,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ketik ulang kode yang tampil di kotak sebelah kanan ke kolom ini. Kode tidak bisa dibaca? Ketuk ikon putar untuk mengganti kode baru.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2113,
+    -942,
+    322,
+    48
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saya menyetujui Syarat & Ketentuan serta Kebijakan Privasi yang berlaku.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2101,
+    -876,
+    240,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Daftar",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -1985,
+    -777,
+    49,
+    19
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Data yang kamu masukkan hanya digunakan untuk keperluan proses registrasi akun di aplikasi ini. Kami tidak akan membagikan, menjual, atau menggunakan data kamu untuk tujuan lain di luar proses pendaftaran tanpa persetujuan darimu.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#7F90A5",
+   "box": [
+    -2113,
+    -722,
+    304,
+    85
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Dengan mendaftar, saya menyatakan bahwa saya sudah dewasa dan menerima ketentuan- ketentuan Perjanjian Klien dan Kebijakan Privasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2111,
+    -563,
+    261,
+    72
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

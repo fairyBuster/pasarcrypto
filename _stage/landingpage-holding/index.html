@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+}
+.site-header .logo img {
+  width: 51px;
+  height: 51px;
+  object-fit: contain;
+}
+.site-header .menu-btn {
+  background-color: #1f3048;
+  border: none;
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+.site-header .menu-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+/* CSS for section section:Hero */
+.hero-section {
+  padding: 12px 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.breadcrumb {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.hero-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+.hero-subtitle {
+  font-size: 14px;
+  color: #a9b7c8;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.hero-image-wrapper {
+  margin-top: 24px;
+  width: calc(100% + 16px);
+  margin-left: -8px;
+  display: flex;
+  justify-content: center;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* CSS for section section:WhatIsHolding */
+.text-section {
+  padding: 40px 16px 0;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.section-text {
+  font-size: 14px;
+  color: #a9b7c8;
+  line-height: 1.5;
+}
+
+/* CSS for section section:HowItWorks */
+.list-section {
+  padding: 40px 16px 0;
+}
+.feature-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.feature-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(201, 212, 225, 0.16);
+}
+.feature-item:first-child {
+  border-top: 1px solid rgba(201, 212, 225, 0.16);
+}
+.feature-icon {
+  width: 38px;
+  height: 38px;
+  background-color: #1f3048;
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.feature-icon img {
+  width: 18px;
+  height: 18px;
+}
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.feature-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.feature-desc {
+  font-size: 13px;
+  color: #8597ab;
+  line-height: 1.4;
+}
+
+/* CSS for section section:UnderstandingAPR */
+.example-box {
+  margin-top: 16px;
+  background-color: rgba(31, 48, 72, 0.55);
+  border: 1px solid #8fb4ea;
+  border-radius: 18px;
+  padding: 22px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.example-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #8fb4ea;
+  letter-spacing: 0.5px;
+}
+.example-text {
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+/* CSS for section section:Tips */
+.tips-section {
+  padding: 40px 16px 24px;
+}
+.tips-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tips-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.bullet {
+  width: 6px;
+  height: 6px;
+  background-color: #8fa1b6;
+  border-radius: 3px;
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+.tips-item p {
+  font-size: 13px;
+  color: #c3cedb;
+  line-height: 1.5;
+}
+
+/* CSS for section section:Footer */
+.site-footer {
+  background-color: rgba(4, 9, 18, 0.35);
+  border-top: 1px solid #1c2d44;
+  padding: 28px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-logo img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+.footer-desc {
+  font-size: 13px;
+  color: #8597ab;
+  line-height: 1.5;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 8px;
+}
+.link-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.link-column h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.link-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.link-column a {
+  font-size: 12px;
+  color: #8597ab;
+  transition: color 0.2s;
+}
+.link-column a:hover {
+  color: #ffffff;
+}
+.app-badges {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 8px;
+}
+.badge-img {
+  height: 22px;
+  width: auto;
+  border-radius: 4px;
+}
+.footer-disclaimer {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(201, 212, 225, 0.14);
+}
+.footer-disclaimer p {
+  font-size: 11px;
+  color: #51657e;
+  line-height: 1.5;
+}
+.footer-copyright {
+  margin-top: 8px;
+}
+.footer-copyright p {
+  font-size: 11px;
+  color: #75879c;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="site-header">
+    <div class="logo">
+      <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="PasarCrypto Logo">
+    </div>
+    <button class="menu-btn" aria-label="Menu">
+      <img src="images/102_369.svg" alt="Menu Icon">
+    </button>
+  </header>
+</section>
+<section id="section-hero">
+  <div class="hero-section">
+    <div class="breadcrumb">Beranda &rsaquo; Holding</div>
+    <h1 class="hero-title">Mengenal holding aset kripto</h1>
+    <p class="hero-subtitle">Pelajari apa itu holding, bagaimana imbal hasil didapat, dan hal-hal yang perlu kamu pahami sebelum memulai.</p>
+    <div class="hero-image-wrapper">
+      <img src="images/5557c0ca1c33d3a307fef2ff88aa5e7698118271.png" alt="Holding Illustration" class="hero-image">
+    </div>
+  </div>
+</section>
+<section id="section-what-is-holding">
+  <div class="text-section">
+    <h2 class="section-title">Apa itu holding?</h2>
+    <p class="section-text">Holding adalah menyimpan aset kripto dalam jangka waktu tertentu dengan tujuan mendapatkan imbal hasil. Selama disimpan, aset kamu tetap menjadi milikmu dan tercatat di akunmu.</p>
+  </div>
+</section>
+<section id="section-how-it-works">
+  <div class="list-section">
+    <h2 class="section-title">Bagaimana imbal hasil didapat?</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <div class="feature-icon">
+          <img src="images/102_395.svg" alt="Icon">
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Aset disimpan</h3>
+          <p class="feature-desc">Kamu menyimpan sejumlah aset kripto di platform.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <img src="images/102_406.svg" alt="Icon">
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Aset dikelola</h3>
+          <p class="feature-desc">Aset dikelola untuk menghasilkan nilai tambah.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <img src="images/102_416.svg" alt="Icon">
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Imbal hasil dibagikan</h3>
+          <p class="feature-desc">Hasilnya dibagikan secara berkala ke saldomu.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-understanding-apr">
+  <div class="text-section">
+    <h2 class="section-title">Memahami APR</h2>
+    <p class="section-text">APR (Annual Percentage Rate) adalah persentase imbal hasil dalam satu tahun. Semakin tinggi APR, semakin besar perkiraan imbal hasil yang didapat.</p>
+    
+    <div class="example-box">
+      <span class="example-label">CONTOH</span>
+      <p class="example-text">Menyimpan 10.000.000 IDR dengan APR 8% per tahun berarti perkiraan imbal hasil sekitar 800.000 IDR per tahun, atau kurang lebih 2.190 IDR per hari.</p>
+    </div>
+  </div>
+</section>
+<section id="section-things-to-note">
+  <div class="list-section">
+    <h2 class="section-title">Hal yang perlu diperhatikan</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <div class="feature-icon">
+          <img src="images/102_441.svg" alt="Icon">
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Aset tetap milikmu</h3>
+          <p class="feature-desc">Aset yang kamu simpan tetap tercatat atas namamu.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <img src="images/102_451.svg" alt="Icon">
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Imbal hasil rutin</h3>
+          <p class="feature-desc">Imbal hasil dibagikan secara berkala ke saldomu.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <img src="images/102_460.svg" alt="Icon">
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Transparan</h3>
+          <p class="feature-desc">Setiap imbal hasil dan transaksi bisa dipantau kapan saja.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-tips">
+  <div class="tips-section">
+    <h2 class="section-title">Tips untuk pemula</h2>
+    <ul class="tips-list">
+      <li class="tips-item">
+        <span class="bullet"></span>
+        <p>Mulai dari nominal kecil sambil memahami cara kerjanya.</p>
+      </li>
+      <li class="tips-item">
+        <span class="bullet"></span>
+        <p>Gunakan dana yang tidak dipakai untuk kebutuhan sehari-hari.</p>
+      </li>
+      <li class="tips-item">
+        <span class="bullet"></span>
+        <p>Pelajari aset yang kamu simpan sebelum memulai.</p>
+      </li>
+      <li class="tips-item">
+        <span class="bullet"></span>
+        <p>Pantau asetmu secara berkala.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="section-footer">
+  <footer class="site-footer">
+    <div class="footer-logo">
+      <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="PasarCrypto Logo">
+    </div>
+    <p class="footer-desc">Platform aset kripto yang mudah, aman, dan transparan untuk semua orang.</p>
+    
+    <div class="footer-links">
+      <div class="link-column">
+        <h4>Produk</h4>
+        <ul>
+          <li><a href="#section-what-is-holding">Holding</a></li>
+          <li><a href="#">Hadiah</a></li>
+          <li><a href="#">Program Referral</a></li>
+        </ul>
+      </div>
+      <div class="link-column">
+        <h4>Perusahaan</h4>
+        <ul>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Pusat Bantuan</a></li>
+        </ul>
+      </div>
+      <div class="link-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Syarat & Ketentuan</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+          <li><a href="#">Perjanjian Klien</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="app-badges">
+      <img src="images/0df4ee1cbf5b1725acac2d9d08fb45019361fa6e.png" alt="Get it on Google Play" class="badge-img">
+      <img src="images/77d24c42cf84c32b2b4b166aa82a20eab63965b9.png" alt="Download on the App Store" class="badge-img">
+    </div>
+
+    <div class="footer-disclaimer">
+      <p>Aset kripto adalah komoditas yang memiliki risiko tinggi. Est. APR bukan jaminan imbal hasil dan dapat berubah sewaktu-waktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+    <div class="footer-copyright">
+      <p>© 2026 PasarCryptoIDN. Hak cipta dilindungi.</p>
+    </div>
+  </footer>
+</section>
+</body>
+</html>

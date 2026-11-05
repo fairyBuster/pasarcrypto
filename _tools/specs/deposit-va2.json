@@ -1,0 +1,342 @@
+{
+ "slug": "deposit-va2",
+ "id": "29:242",
+ "frameName": "Deposit va 2",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Detail Pembayaran",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    477,
+    -295,
+    156,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ikuti instruksi di bawah ini untuk menyelesaikan penyetoran dana.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    365,
+    -245,
+    380,
+    40
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "BRI Virtual Account",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    381,
+    -166,
+    262,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bayar sebelum",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    659,
+    -175,
+    70,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "23:59:12",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0.5,
+   "color": "#FFFFFF",
+   "box": [
+    661,
+    -159,
+    60,
+    16
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Nomor Virtual Account",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    495,
+    -95,
+    120,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "1234 5678 9012 345",
+   "size": 22,
+   "weight": 700,
+   "lineHeight": 28,
+   "letterSpacing": 0.5,
+   "color": "#FFFFFF",
+   "box": [
+    440,
+    -75,
+    232,
+    28
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Salin Nomor",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    528,
+    2,
+    77,
+    16
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total Penyetoran",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#C3CFDD",
+   "box": [
+    381,
+    59,
+    104,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "100.000 IDR",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    650,
+    59,
+    79,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tanggal Transaksi",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#C3CFDD",
+   "box": [
+    381,
+    100,
+    111,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23 Okt 2026, 22:19",
+   "size": 13,
+   "weight": 700,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    608,
+    100,
+    121,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang Saat Ini",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    381,
+    141,
+    153,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2.000.000 IDR",
+   "size": 14,
+   "weight": 700,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    628,
+    141,
+    101,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pembayaran aman & terlindungi",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    465,
+    210,
+    199,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Diproses oleh mitra pembayaran pihak ketiga resmi. Data dan transaksimu terenkripsi.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    465,
+    230,
+    234,
+    32
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Panduan Penyetoran",
+   "size": 14,
+   "weight": 700,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    365,
+    301,
+    380,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Buka aplikasi mobile banking BRI, ATM, atau internet banking BRI.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    381,
+    328,
+    297,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih menu Pembayaran, lalu pilih BRIVA.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    381,
+    374,
+    226,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan nomor Virtual Account di atas, lalu periksa nominalnya.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    381,
+    402,
+    300,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Konfirmasi pembayaran. Saldo akan masuk otomatis setelah berhasil.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    381,
+    448,
+    296,
+    36
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saya Sudah Bayar",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    490,
+    521,
+    130,
+    18
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

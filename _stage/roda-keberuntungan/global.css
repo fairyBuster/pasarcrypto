@@ -1,0 +1,21 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 412px;
+  min-height: 100vh;
+  background: radial-gradient(55% 55% at 69.23% -4%, rgba(78, 108, 142, 0.55) 0%, rgba(78, 108, 142, 0) 100%), linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%);
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}

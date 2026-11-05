@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:NotificationModal */
+.app-container {
+    width: 100%;
+    max-width: 412px; /* Based on Figma root frame width */
+    height: 100vh;
+    max-height: 917px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+
+  .app-background {
+    position: absolute;
+    inset: 0;
+    /* Approximated complex gradient from Figma node 8:968 */
+    background: linear-gradient(180deg, #0c1a2d 0%, #13263d 38%, #0f2036 70%, #0a1626 100%);
+  }
+
+  .modal-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(4, 9, 18, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+    z-index: 10;
+  }
+
+  .modal-content {
+    width: 100%;
+    max-width: 364px;
+    /* Approximated gradient from Figma node 8:970 */
+    background: linear-gradient(180deg, rgb(29, 51, 80) 0%, rgb(20, 38, 61) 100%);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .icon-svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+  }
+
+  .modal-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .modal-body {
+    width: 100%;
+  }
+
+  .modal-description {
+    color: #a9b7c8;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 4px;
+    width: 100%;
+  }
+
+  .btn-primary {
+    background: linear-gradient(180deg, #f5f8fb 0%, #c9d4e1 100%);
+    border-radius: 18px;
+    padding: 0 22px;
+    height: 36px;
+    border: none;
+    color: #0c1a2d;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease;
+  }
+
+  .btn-primary:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-primary:active {
+    opacity: 0.8;
+  }
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 360px) {
+    .modal-content {
+      padding: 16px;
+    }
+    .modal-overlay {
+      padding: 0 16px;
+    }
+  }
+  </style>
+</head>
+<body>
+<section id="notification-modal" class="app-container">
+  <!-- Background representing the app behind the modal -->
+  <div class="app-background"></div>
+  
+  <!-- The dark overlay and modal -->
+  <div class="modal-overlay">
+    <div class="modal-content">
+      
+      <header class="modal-header">
+        <div class="icon-container">
+          <img src="images/8_973.svg" alt="Lock Icon" class="icon-svg">
+        </div>
+        <h2 class="modal-title">Kata Sandi Salah</h2>
+      </header>
+
+      <div class="modal-body">
+        <p class="modal-description">
+          Kata sandi yang kamu masukkan tidak sesuai. Periksa kembali, lalu coba lagi.
+        </p>
+      </div>
+
+      <footer class="modal-footer">
+        <button class="btn-primary">Tutup</button>
+      </footer>
+
+    </div>
+  </div>
+</section>
+</body>
+</html>

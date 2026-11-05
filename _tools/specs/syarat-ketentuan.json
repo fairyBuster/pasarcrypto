@@ -1,0 +1,537 @@
+{
+ "slug": "syarat-ketentuan",
+ "id": "6:544",
+ "frameName": "Syarat ketentuan",
+ "size": [
+  412,
+  2051
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Syarat & Ketentuan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2623,
+    -1612,
+    160,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Terakhir diperbarui: DD Bulan YYYY",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    2603,
+    -1560,
+    201,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Dengan mendaftar dan menggunakan [Nama Aplikasi], kamu dianggap telah membaca, memahami, dan menyetujui Syarat & Ketentuan berikut.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2529,
+    -1510,
+    289,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2541,
+    -1376,
+    6,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ketentuan Umum",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -1376,
+    118,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan ini berlaku untuk seluruh pengguna [Nama Aplikasi]. Jika kamu tidak menyetujui sebagian atau seluruh ketentuan ini, mohon untuk tidak menggunakan aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -1347,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2541,
+    -1210,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Definisi",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -1210,
+    51,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "\"Aplikasi\" adalah PasarCryptoIDN beserta seluruh fitur di dalamnya. \"Pengguna\" adalah setiap orang yang mendaftar dan menggunakan Aplikasi. \"Kami\" adalah [Nama Perusahaan] selaku pengelola Aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -1181,
+    308,
+    120
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2540,
+    -1024,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pendaftaran Akun",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -1024,
+    122,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pengguna wajib berusia minimal 18 tahun dan mengisi data dengan benar, lengkap, dan terbaru. Satu orang hanya diperbolehkan memiliki satu akun.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -995,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2540,
+    -878,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Keamanan Akun",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -878,
+    110,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pengguna bertanggung jawab menjaga kerahasiaan username, kata sandi, dan kode verifikasi. Segala aktivitas yang terjadi melalui akun pengguna menjadi tanggung jawab pengguna.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -849,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2540,
+    -712,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Kewajiban Pengguna",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -712,
+    142,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pengguna wajib menggunakan Aplikasi sesuai dengan hukum yang berlaku, tidak merugikan pihak lain, dan mematuhi seluruh ketentuan yang ditetapkan oleh Kami.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -683,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2540,
+    -546,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Larangan Penggunaan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -546,
+    152,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pengguna dilarang memalsukan data, menggunakan akun milik orang lain, menyalahgunakan sistem atau celah keamanan, serta menggunakan Aplikasi untuk kegiatan yang melanggar hukum.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -517,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2541,
+    -380,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Batasan Tanggung Jawab",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -380,
+    175,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami tidak bertanggung jawab atas kerugian yang timbul akibat kelalaian pengguna, gangguan jaringan di luar kendali Kami, atau penggunaan Aplikasi yang tidak sesuai ketentuan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -351,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2540,
+    -214,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Penangguhan & Penutupan Akun",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -214,
+    222,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami berhak menangguhkan atau menutup akun tanpa pemberitahuan sebelumnya apabila ditemukan pelanggaran terhadap Syarat & Ketentuan ini.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -185,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "9",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2540,
+    -48,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Perubahan Ketentuan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    -48,
+    147,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami dapat mengubah Syarat & Ketentuan ini sewaktu-waktu. Perubahan akan diinformasikan melalui Aplikasi, dan penggunaan Aplikasi setelah perubahan dianggap sebagai persetujuan.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    -19,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2538,
+    118,
+    13,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Hukum yang Berlaku",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2565,
+    118,
+    140,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan ini tunduk pada dan ditafsirkan berdasarkan hukum yang berlaku di Negara Republik Indonesia.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2565,
+    147,
+    308,
+    60
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ada pertanyaan?",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2529,
+    261,
+    107,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hubungi tim kami melalui menu Bantuan di aplikasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2529,
+    279,
+    241,
+    36
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

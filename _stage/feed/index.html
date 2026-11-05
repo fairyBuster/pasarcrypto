@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px 0 16px;
+}
+#section-header .header-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#section-header .header-search-btn {
+    width: 36px;
+    height: 36px;
+    background-color: #1f3048;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-header .header-search-btn img {
+    width: 18px;
+    height: 18px;
+}
+
+/* CSS for section section:CreatePost */
+#section-create-post .create-post-container {
+    padding: 18px 16px 0 16px;
+}
+#section-create-post .create-post-input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#section-create-post .user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#section-create-post .input-box {
+    flex: 1;
+    height: 44px;
+    background-color: #1f3048;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px 0 16px;
+}
+#section-create-post .input-placeholder {
+    color: #75879c;
+    font-size: 14px;
+}
+#section-create-post .add-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #f5f8fb 0%, #c9d4e1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-create-post .add-btn img {
+    width: 16px;
+    height: 16px;
+}
+#section-create-post .create-post-subtext {
+    font-size: 11px;
+    color: #c3cedb;
+    padding-left: 46px;
+    margin-top: 10px;
+}
+
+/* CSS for section section:FeedList */
+#section-feed-list .feed-list {
+    padding: 18px 16px 96px 16px; /* Extra bottom padding to clear the fixed nav bar */
+}
+#section-feed-list .post-card {
+    border-bottom: 1px solid #1c2d44;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+#section-feed-list .post-card:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+#section-feed-list .post-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+#section-feed-list .post-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#section-feed-list .post-user-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+#section-feed-list .post-user-name-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#section-feed-list .post-username {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#section-feed-list .verified-icon {
+    width: 15px;
+    height: 15px;
+}
+#section-feed-list .post-date {
+    font-size: 12px;
+    color: #75879c;
+}
+#section-feed-list .post-options-btn {
+    padding: 2px 0;
+}
+#section-feed-list .post-options-btn img {
+    width: 18px;
+    height: 18px;
+}
+#section-feed-list .post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+#section-feed-list .post-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.4;
+}
+#section-feed-list .post-body {
+    font-size: 14px;
+    color: #c3cedb;
+    line-height: 1.5;
+}
+#section-feed-list .post-image-placeholder {
+    height: 226px;
+    border: 1px solid #51657e;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    width: 220px;
+}
+#section-feed-list .post-image-placeholder span {
+    font-size: 12px;
+    color: #75879c;
+    font-weight: 600;
+}
+#section-feed-list .post-actions {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: 8px;
+}
+#section-feed-list .action-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+#section-feed-list .action-btn img {
+    width: 18px;
+    height: 18px;
+}
+#section-feed-list .action-btn span {
+    font-size: 13px;
+    color: #8597ab;
+}
+#section-feed-list .action-btn span.highlight-text {
+    color: #7fa6dc;
+}
+
+/* CSS for section section:BottomNav */
+#section-bottom-nav.bottom-nav-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+#section-bottom-nav .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 76px;
+    background-color: #0d1b2e;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 10px;
+}
+#section-bottom-nav .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 60px;
+    text-decoration: none;
+}
+#section-bottom-nav .nav-item img {
+    width: 22px;
+    height: 22px;
+}
+#section-bottom-nav .nav-item span {
+    font-size: 11px;
+    color: #75879c;
+}
+#section-bottom-nav .nav-item.active span {
+    color: #ffffff;
+}
+#section-bottom-nav .nav-item-center-wrapper {
+    width: 60px;
+    position: relative;
+}
+#section-bottom-nav .nav-item-center {
+    position: absolute;
+    top: -26px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+}
+#section-bottom-nav .center-icon-bg {
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+    background: linear-gradient(180deg, #52a8ff 0%, #002040 100%);
+    border: 4px solid #0d1b2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#section-bottom-nav .center-icon-bg img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#section-bottom-nav .nav-item-center span {
+    font-size: 11px;
+    color: #d3dce7;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header" class="section-container">
+    <header class="header-content">
+        <h1 class="header-title">Feed</h1>
+        <button class="header-search-btn">
+            <img src="images/57_1600.svg" alt="Search">
+        </button>
+    </header>
+</section>
+<section id="section-create-post" class="section-container">
+    <div class="create-post-container">
+        <div class="create-post-input-row">
+            <img class="user-avatar" src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="User Avatar">
+            <div class="input-box">
+                <span class="input-placeholder">Bagikan berita atau pendapatmu…</span>
+                <button class="add-btn">
+                    <img src="images/57_1609.svg" alt="Add">
+                </button>
+            </div>
+        </div>
+        <div class="create-post-subtext">
+            Dapat +1000 IDR setiap kamu membuat postingan
+        </div>
+    </div>
+</section>
+<section id="section-feed-list" class="section-container">
+    <div class="feed-list">
+        
+        <!-- Post 1 -->
+        <article class="post-card">
+            <div class="post-header">
+                <img class="post-avatar" src="images/d27c34de057355c9e69251ff95dc5743829d1700.png" alt="Username">
+                <div class="post-user-info">
+                    <div class="post-user-name-row">
+                        <span class="post-username">Username</span>
+                        <img class="verified-icon" src="images/57_1623.svg" alt="Verified">
+                    </div>
+                    <span class="post-date">24 Okt</span>
+                </div>
+                <button class="post-options-btn">
+                    <img src="images/57_1629.svg" alt="Options">
+                </button>
+            </div>
+            <div class="post-content">
+                <h2 class="post-title">Lorem ipsum dolor sit amet, consectetur adipiscing?</h2>
+                <p class="post-body">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <div class="post-image-placeholder">
+                    <span>AREA GAMBAR</span>
+                </div>
+            </div>
+            <div class="post-actions">
+                <button class="action-btn">
+                    <img src="images/57_1644.svg" alt="Like">
+                    <span>63</span>
+                </button>
+                <button class="action-btn">
+                    <img src="images/57_1648.svg" alt="Share">
+                    <span>7</span>
+                </button>
+            </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="post-card">
+            <div class="post-header">
+                <img class="post-avatar" src="images/d27c34de057355c9e69251ff95dc5743829d1700.png" alt="Ke****ya">
+                <div class="post-user-info">
+                    <div class="post-user-name-row">
+                        <span class="post-username">Ke****ya</span>
+                    </div>
+                    <span class="post-date">24 Okt</span>
+                </div>
+                <button class="post-options-btn">
+                    <img src="images/57_1661.svg" alt="Options">
+                </button>
+            </div>
+            <div class="post-content">
+                <h2 class="post-title">Lorem ipsum dolor sit amet consectetur</h2>
+                <p class="post-body">$BTCUSDT duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="post-actions">
+                <button class="action-btn">
+                    <img src="images/57_1671.svg" alt="Like">
+                    <span class="highlight-text">87</span>
+                </button>
+                <button class="action-btn">
+                    <img src="images/57_1675.svg" alt="Share">
+                    <span>5</span>
+                </button>
+            </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="post-card">
+            <div class="post-header">
+                <img class="post-avatar" src="images/d27c34de057355c9e69251ff95dc5743829d1700.png" alt="An****ri">
+                <div class="post-user-info">
+                    <div class="post-user-name-row">
+                        <span class="post-username">An****ri</span>
+                    </div>
+                    <span class="post-date">23 Okt</span>
+                </div>
+                <button class="post-options-btn">
+                    <img src="images/57_1688.svg" alt="Options">
+                </button>
+            </div>
+            <div class="post-content">
+                <p class="post-body">Ut enim ad minim veniam, quis nostrud $SOLUSDT exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="post-image-placeholder">
+                    <span>AREA GAMBAR</span>
+                </div>
+            </div>
+            <div class="post-actions">
+                <button class="action-btn">
+                    <img src="images/57_1703.svg" alt="Like">
+                    <span>52</span>
+                </button>
+                <button class="action-btn">
+                    <img src="images/57_1707.svg" alt="Share">
+                    <span>2</span>
+                </button>
+            </div>
+        </article>
+
+    </div>
+</section>
+<section id="section-bottom-nav" class="section-container bottom-nav-container">
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item">
+            <img src="images/57_1713.svg" alt="Beranda">
+            <span>Beranda</span>
+        </a>
+        <a href="#" class="nav-item active">
+            <img src="images/57_1717.svg" alt="Feed">
+            <span>Feed</span>
+        </a>
+        <div class="nav-item-center-wrapper">
+            <a href="#" class="nav-item-center">
+                <div class="center-icon-bg">
+                    <img src="images/baa3015660a50107cbaea23d3e4ca9f97c83664c.png" alt="Pasar">
+                </div>
+                <span>Pasar</span>
+            </a>
+        </div>
+        <a href="#" class="nav-item">
+            <img src="images/57_1729.svg" alt="Aset">
+            <span>Aset</span>
+        </a>
+        <a href="#" class="nav-item">
+            <img src="images/57_1735.svg" alt="Akun">
+            <span>Akun</span>
+        </a>
+    </nav>
+</section>
+</body>
+</html>

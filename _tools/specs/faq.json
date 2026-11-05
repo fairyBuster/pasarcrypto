@@ -1,0 +1,342 @@
+{
+ "slug": "faq",
+ "id": "17:573",
+ "frameName": "FAQ",
+ "size": [
+  412,
+  1080
+ ],
+ "overlap": 97,
+ "texts": [
+  {
+   "text": "Pusat Bantuan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2067,
+    -295,
+    121,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Cari pertanyaan…",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2153,
+    -230,
+    117,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Akun",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2155,
+    -171,
+    285,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3 artikel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1860,
+    -167,
+    43,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagaimana cara mendaftar akun?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    -119,
+    318,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagaimana cara mengubah username?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    -68,
+    318,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saya lupa kata sandi, apa yang harus dilakukan?",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    -20,
+    318,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ketuk Lupa kata sandi? di halaman Masuk. Minta kode verifikasi ke tim kami melalui Live Chat, lalu masukkan kode tersebut dan buat kata sandi baru.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2183,
+    26,
+    318,
+    76
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo & Transaksi",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2155,
+    143,
+    285,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3 artikel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1860,
+    147,
+    43,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Apa bedanya Saldo Isi Ulang, Tersedia, dan Digunakan?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    192,
+    318,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagaimana cara melakukan deposit?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    260,
+    318,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Berapa lama proses penarikan dana?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    311,
+    318,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin & Feed",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2155,
+    373,
+    286,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2 artikel",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1859,
+    377,
+    42,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bagaimana cara mendapatkan poin dari Feed?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    422,
+    318,
+    38
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Poin bisa ditukar dengan apa saja?",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 19,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2183,
+    490,
+    318,
+    19
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "LIVE CHAT",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0.5,
+   "color": "#9FC0EC",
+   "box": [
+    -2181,
+    571,
+    62,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ngobrol langsung dengan tim kami",
+   "size": 18,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2181,
+    587,
+    190,
+    48
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Online",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2162,
+    648,
+    30,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Respon cepat",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -2110,
+    648,
+    65,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Mulai Chat",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2167,
+    688,
+    63,
+    15
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

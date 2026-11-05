@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px 0;
+  }
+  .back-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1f3048;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .header-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .header-spacer {
+    width: 40px;
+  }
+
+/* CSS for section section:Summary */
+.summary-container {
+    display: flex;
+    align-items: center;
+    padding: 20px 16px 0;
+    gap: 12px;
+  }
+  .summary-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #5982bf 0%, #2b4c80 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .summary-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 2px;
+  }
+  .summary-label {
+    font-size: 12px;
+    color: #a9b7c8;
+  }
+  .summary-amount {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .summary-count {
+    font-size: 12px;
+    color: #8597ab;
+    align-self: flex-end;
+    margin-bottom: 4px;
+  }
+
+/* CSS for section section:Filters */
+.filters-container {
+    padding: 24px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .filter-label {
+    font-size: 13px;
+    color: #a9b7c8;
+  }
+  .date-picker-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .date-box {
+    flex: 1;
+    height: 42px;
+    background-color: #1f3048;
+    border: 1px solid #2f4560;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap: 8px;
+  }
+  .date-icon {
+    width: 14px;
+    height: 14px;
+  }
+  .date-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .date-title {
+    font-size: 11px;
+    color: #75879c;
+    line-height: 1;
+    margin-bottom: 2px;
+  }
+  .date-value {
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 1;
+  }
+  .date-divider {
+    width: 8px;
+    height: 1.5px;
+    background-color: #51657e;
+  }
+  .status-tabs-wrapper {
+    margin-top: 6px;
+    margin-right: -16px; 
+  }
+  .status-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-right: 16px; 
+    scrollbar-width: none; 
+  }
+  .status-tabs::-webkit-scrollbar {
+    display: none; 
+  }
+  .tab-btn {
+    height: 30px;
+    padding: 0 14px;
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .tab-btn.active {
+    background: linear-gradient(180deg, #F5F8FB 0%, #C9D4E1 100%);
+    color: #0c1a2d;
+  }
+  .tab-btn:not(.active) {
+    background-color: #1f3048;
+    color: #a9b7c8;
+  }
+
+/* CSS for section section:TransactionList */
+.transaction-list-container {
+    padding: 16px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .transaction-card {
+    border-bottom: 1px solid rgba(201, 212, 225, 0.18);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .transaction-card:last-child {
+    border-bottom: none;
+  }
+  .tc-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .tc-icon-wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1f3048;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .tc-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .tc-title-col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 2px;
+  }
+  .tc-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .tc-date {
+    font-size: 11px;
+    color: #75879c;
+  }
+  .tc-amount-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  .tc-amount {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .tc-currency {
+    font-size: 11px;
+    color: #8597ab;
+    font-weight: 400;
+  }
+  .status-badge {
+    padding: 3px 7px;
+    border-radius: 9px;
+    font-size: 10px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .status-diproses {
+    background-color: rgba(201, 212, 225, 0.12);
+    color: #c9d4e1;
+  }
+  .status-berhasil {
+    background-color: rgba(62, 207, 142, 0.14);
+    color: #3ecf8e;
+  }
+  .status-gagal {
+    background-color: rgba(242, 102, 122, 0.14);
+    color: #f2667a;
+  }
+  .tc-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 48px; 
+  }
+  .tc-detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tc-detail-label {
+    font-size: 12px;
+    color: #75879c;
+  }
+  .tc-detail-value {
+    font-size: 12px;
+    color: #c3cedb;
+    display: flex;
+    align-items: center;
+  }
+  .copy-icon {
+    margin-left: 6px;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+  }
+
+/* CSS for section section:Pagination */
+.pagination-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 32px;
+    gap: 12px;
+  }
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .page-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .page-btn.active {
+    background: linear-gradient(180deg, #F5F8FB 0%, #C9D4E1 100%);
+    color: #0c1a2d;
+    font-weight: 600;
+  }
+  .page-btn:not(.active) {
+    background-color: transparent;
+    color: #a9b7c8;
+  }
+  .page-btn.nav-btn {
+    background-color: rgba(31, 48, 72, 0.4);
+  }
+  .page-dots {
+    color: #75879c;
+    font-size: 14px;
+    padding: 0 4px;
+  }
+  .pagination-info {
+    color: #75879c;
+    font-size: 12px;
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="app-header">
+    <button class="back-btn" aria-label="Go back">
+      <img src="images/85_6.svg" alt="Back Icon">
+    </button>
+    <h1 class="header-title">Riwayat Penarikan</h1>
+    <div class="header-spacer"></div>
+  </header>
+</section>
+<section id="section-summary">
+  <div class="summary-container">
+    <div class="summary-icon">
+      <img src="images/85_14.svg" alt="Withdrawal Icon">
+    </div>
+    <div class="summary-content">
+      <p class="summary-label">Total penarikan · sejak akun aktif</p>
+      <p class="summary-amount">9.817.000 IDR</p>
+    </div>
+    <div class="summary-count">
+      41 transaksi
+    </div>
+  </div>
+</section>
+<section id="section-filters">
+  <div class="filters-container">
+    <p class="filter-label">Pilih tanggal</p>
+    <div class="date-picker-row">
+      <div class="date-box">
+        <img src="images/85_29.svg" alt="Calendar Icon" class="date-icon">
+        <div class="date-text">
+          <span class="date-title">Dari</span>
+          <span class="date-value">01-10-2026</span>
+        </div>
+      </div>
+      <div class="date-divider"></div>
+      <div class="date-box">
+        <img src="images/85_39.svg" alt="Calendar Icon" class="date-icon">
+        <div class="date-text">
+          <span class="date-title">Sampai</span>
+          <span class="date-value">25-10-2026</span>
+        </div>
+      </div>
+    </div>
+    <div class="status-tabs-wrapper">
+      <div class="status-tabs">
+        <button class="tab-btn active">Semua</button>
+        <button class="tab-btn">Berhasil</button>
+        <button class="tab-btn">Diproses</button>
+        <button class="tab-btn">Gagal</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-transaction-list">
+  <div class="transaction-list-container">
+    
+    <!-- Card 1: Diproses -->
+    <div class="transaction-card">
+      <div class="tc-header">
+        <div class="tc-icon-wrapper">
+          <img src="images/85_62.svg" alt="Bank Icon" class="tc-icon">
+        </div>
+        <div class="tc-title-col">
+          <h3 class="tc-title">Penarikan ke BRI</h3>
+          <p class="tc-date">25-10-2026 18:25:31 WIB</p>
+        </div>
+        <div class="tc-amount-col">
+          <div class="tc-amount">-2.255.000 <span class="tc-currency">IDR</span></div>
+          <div class="status-badge status-diproses">Diproses</div>
+        </div>
+      </div>
+      <div class="tc-details">
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">No. Transaksi</span>
+          <span class="tc-detail-value">WD2610253475 <img src="images/85_81.svg" alt="Copy" class="copy-icon"></span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Rekening</span>
+          <span class="tc-detail-value">BRI · 7810 **** 9031</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Nama rekening</span>
+          <span class="tc-detail-value">Us****me</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Biaya admin</span>
+          <span class="tc-detail-value">0 IDR</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Diterima</span>
+          <span class="tc-detail-value">2.255.000 IDR</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Berhasil -->
+    <div class="transaction-card">
+      <div class="tc-header">
+        <div class="tc-icon-wrapper">
+          <img src="images/85_107.svg" alt="Bank Icon" class="tc-icon">
+        </div>
+        <div class="tc-title-col">
+          <h3 class="tc-title">Penarikan ke BRI</h3>
+          <p class="tc-date">23-10-2026 09:30:55 WIB</p>
+        </div>
+        <div class="tc-amount-col">
+          <div class="tc-amount">-2.255.000 <span class="tc-currency">IDR</span></div>
+          <div class="status-badge status-berhasil">Berhasil</div>
+        </div>
+      </div>
+      <div class="tc-details">
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">No. Transaksi</span>
+          <span class="tc-detail-value">WD2610234848 <img src="images/85_126.svg" alt="Copy" class="copy-icon"></span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Rekening</span>
+          <span class="tc-detail-value">BRI · 7810 **** 9031</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Nama rekening</span>
+          <span class="tc-detail-value">Us****me</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Biaya admin</span>
+          <span class="tc-detail-value">0 IDR</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Diterima</span>
+          <span class="tc-detail-value">2.255.000 IDR</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Gagal -->
+    <div class="transaction-card">
+      <div class="tc-header">
+        <div class="tc-icon-wrapper">
+          <img src="images/85_287.svg" alt="Bank Icon" class="tc-icon">
+        </div>
+        <div class="tc-title-col">
+          <h3 class="tc-title">Penarikan ke BRI</h3>
+          <p class="tc-date">15-10-2026 17:23:28 WIB</p>
+        </div>
+        <div class="tc-amount-col">
+          <div class="tc-amount">-500.000 <span class="tc-currency">IDR</span></div>
+          <div class="status-badge status-gagal">Gagal</div>
+        </div>
+      </div>
+      <div class="tc-details">
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">No. Transaksi</span>
+          <span class="tc-detail-value">WD2610159215 <img src="images/85_306.svg" alt="Copy" class="copy-icon"></span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Rekening</span>
+          <span class="tc-detail-value">BRI · 7810 **** 9031</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Nama rekening</span>
+          <span class="tc-detail-value">Us****me</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Biaya admin</span>
+          <span class="tc-detail-value">0 IDR</span>
+        </div>
+        <div class="tc-detail-row">
+          <span class="tc-detail-label">Keterangan</span>
+          <span class="tc-detail-value">Rekening tidak sesuai</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="section-pagination">
+  <div class="pagination-container">
+    <div class="pagination-controls">
+      <button class="page-btn nav-btn" aria-label="Previous page">
+        <img src="images/85_422.svg" alt="Previous">
+      </button>
+      <button class="page-btn active">1</button>
+      <button class="page-btn">2</button>
+      <button class="page-btn">3</button>
+      <span class="page-dots">…</span>
+      <button class="page-btn">6</button>
+      <button class="page-btn nav-btn" aria-label="Next page">
+        <img src="images/85_435.svg" alt="Next">
+      </button>
+    </div>
+    <p class="pagination-info">Menampilkan 1–8 dari 41 transaksi</p>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+ "slug": "loading-register",
+ "id": "6:203",
+ "frameName": "Loading register",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Sedang Memproses",
+   "size": 20,
+   "weight": 700,
+   "lineHeight": 28,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1634,
+    -953,
+    195,
+    28
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pendaftaranmu sedang kami proses, mohon tunggu sebentar ya.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 21,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1658,
+    -917,
+    242,
+    42
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Proses ini hanya butuh beberapa detik. Jangan tutup aplikasi, berpindah ke aplikasi lain, atau kembali ke halaman sebelumnya sampai proses selesai.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -1667,
+    -843,
+    221,
+    72
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

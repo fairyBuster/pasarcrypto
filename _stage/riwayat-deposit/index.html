@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#section-header {
+    padding: 20px 16px 0;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.back-btn {
+    background-color: #1f3048;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+.page-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+.header-placeholder {
+    width: 40px;
+    height: 40px;
+}
+
+/* CSS for section section:Summary */
+#section-summary {
+    padding: 20px 16px 0;
+    width: 100%;
+}
+.summary-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+.summary-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #5A82BF 0%, #2C4C80 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.summary-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-grow: 1;
+}
+.summary-label {
+    font-size: 12px;
+    color: #a9b7c8;
+    line-height: 1.2;
+}
+.summary-amount {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.4;
+}
+.summary-stats {
+    font-size: 12px;
+    color: #8597ab;
+    align-self: flex-end;
+    margin-bottom: 4px;
+}
+
+/* CSS for section section:Filter */
+#section-filter {
+    padding: 24px 16px 16px;
+    width: 100%;
+}
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.filter-title {
+    font-size: 12px;
+    color: #a9b7c8;
+}
+.filter-inputs-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+.date-input-box {
+    flex: 1;
+    background-color: #1f3048;
+    border: 1px solid #2f4560;
+    border-radius: 12px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap: 8px;
+}
+.date-text-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.date-label {
+    font-size: 10px;
+    color: #75879c;
+    line-height: 1.1;
+}
+.date-value {
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-top: 2px;
+}
+.date-separator {
+    width: 8px;
+    height: 1.5px;
+    background-color: #51657e;
+    flex-shrink: 0;
+}
+
+/* CSS for section section:TransactionList */
+#section-transaction-list {
+    padding: 10px 16px;
+    width: 100%;
+}
+.transaction-list-container {
+    display: flex;
+    flex-direction: column;
+}
+.transaction-card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(201, 212, 225, 0.18);
+    gap: 16px;
+}
+.transaction-card:last-child {
+    border-bottom: none;
+}
+.tx-main-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.tx-icon-wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1f3048;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.tx-title-col {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex-grow: 1;
+}
+.tx-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.tx-datetime {
+    font-size: 11px;
+    color: #75879c;
+}
+.tx-amount-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+.tx-amount {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3ecf8e;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.tx-currency {
+    font-size: 12px;
+    color: #8597ab;
+    font-weight: 400;
+}
+.tx-status {
+    font-size: 10px;
+    color: #3ecf8e;
+    background-color: rgba(62, 207, 142, 0.14);
+    padding: 3px 7px;
+    border-radius: 9px;
+}
+.tx-details-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 48px; /* 36px icon + 12px gap */
+}
+.tx-detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tx-detail-label {
+    font-size: 12px;
+    color: #75879c;
+}
+.tx-detail-value {
+    font-size: 12px;
+    color: #c3cedb;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* CSS for section section:Pagination */
+#section-pagination {
+    padding: 20px 16px 40px;
+    width: 100%;
+    margin-top: auto;
+}
+.pagination-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.pagination-nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.nav-arrow-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgba(31, 48, 72, 0.4);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+.page-number {
+    min-width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background: transparent;
+    border: none;
+    color: #a9b7c8;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 8px;
+}
+.page-number.active {
+    background: linear-gradient(180deg, #F5F8FB 0%, #C9D4E1 100%);
+    color: #0c1a2d;
+    font-weight: 600;
+}
+.page-ellipsis {
+    color: #75879c;
+    font-size: 13px;
+    padding: 0 4px;
+}
+.pagination-summary-text {
+    font-size: 11px;
+    color: #75879c;
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+    <header class="header-container">
+        <button class="back-btn" aria-label="Go back">
+            <img src="images/85_2166.svg" alt="">
+        </button>
+        <h1 class="page-title">Riwayat Deposit</h1>
+        <div class="header-placeholder"></div>
+    </header>
+</section>
+<section id="section-summary">
+    <div class="summary-card">
+        <div class="summary-icon">
+            <img src="images/85_2174.svg" alt="">
+        </div>
+        <div class="summary-content">
+            <span class="summary-label">Total deposit · sejak akun aktif</span>
+            <span class="summary-amount">12.874.000 IDR</span>
+        </div>
+        <div class="summary-stats">
+            94 transaksi
+        </div>
+    </div>
+</section>
+<section id="section-filter">
+    <div class="filter-container">
+        <div class="filter-title">Pilih tanggal</div>
+        <div class="filter-inputs-row">
+            <div class="date-input-box">
+                <img src="images/85_2189.svg" alt="Calendar icon">
+                <div class="date-text-group">
+                    <span class="date-label">Dari</span>
+                    <span class="date-value">01-10-2026</span>
+                </div>
+            </div>
+            <div class="date-separator"></div>
+            <div class="date-input-box">
+                <img src="images/85_2199.svg" alt="Calendar icon">
+                <div class="date-text-group">
+                    <span class="date-label">Sampai</span>
+                    <span class="date-value">25-10-2026</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-transaction-list">
+    <div class="transaction-list-container">
+        
+        <!-- Transaction Item 1 -->
+        <div class="transaction-card">
+            <div class="tx-main-info">
+                <div class="tx-icon-wrapper">
+                    <img src="images/85_2212.svg" alt="QRIS">
+                </div>
+                <div class="tx-title-col">
+                    <div class="tx-title">Deposit via QRIS</div>
+                    <div class="tx-datetime">23-10-2026 19:26:40 WIB</div>
+                </div>
+                <div class="tx-amount-col">
+                    <div class="tx-amount">+2.412.000 <span class="tx-currency">IDR</span></div>
+                    <div class="tx-status">Berhasil</div>
+                </div>
+            </div>
+            <div class="tx-details-list">
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">No. Transaksi</span>
+                    <span class="tx-detail-value">DP2610235608 <img src="images/85_2231.svg" alt="Copy"></span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Metode</span>
+                    <span class="tx-detail-value">QRIS</span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Masuk ke</span>
+                    <span class="tx-detail-value">Saldo Isi Ulang</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Transaction Item 2 -->
+        <div class="transaction-card">
+            <div class="tx-main-info">
+                <div class="tx-icon-wrapper">
+                    <img src="images/85_2247.svg" alt="VA BRI">
+                </div>
+                <div class="tx-title-col">
+                    <div class="tx-title">Deposit via VA BRI</div>
+                    <div class="tx-datetime">23-10-2026 20:30:51 WIB</div>
+                </div>
+                <div class="tx-amount-col">
+                    <div class="tx-amount">+1.000.000 <span class="tx-currency">IDR</span></div>
+                    <div class="tx-status">Berhasil</div>
+                </div>
+            </div>
+            <div class="tx-details-list">
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">No. Transaksi</span>
+                    <span class="tx-detail-value">DP2610239396 <img src="images/85_2266.svg" alt="Copy"></span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Metode</span>
+                    <span class="tx-detail-value">Virtual Account BRI</span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Masuk ke</span>
+                    <span class="tx-detail-value">Saldo Isi Ulang</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Transaction Item 3 -->
+        <div class="transaction-card">
+            <div class="tx-main-info">
+                <div class="tx-icon-wrapper">
+                    <img src="images/85_2282.svg" alt="QRIS">
+                </div>
+                <div class="tx-title-col">
+                    <div class="tx-title">Deposit via QRIS</div>
+                    <div class="tx-datetime">20-10-2026 16:15:50 WIB</div>
+                </div>
+                <div class="tx-amount-col">
+                    <div class="tx-amount">+750.000 <span class="tx-currency">IDR</span></div>
+                    <div class="tx-status">Berhasil</div>
+                </div>
+            </div>
+            <div class="tx-details-list">
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">No. Transaksi</span>
+                    <span class="tx-detail-value">DP2610201052 <img src="images/85_2301.svg" alt="Copy"></span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Metode</span>
+                    <span class="tx-detail-value">QRIS</span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Masuk ke</span>
+                    <span class="tx-detail-value">Saldo Isi Ulang</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Transaction Item 4 -->
+        <div class="transaction-card">
+            <div class="tx-main-info">
+                <div class="tx-icon-wrapper">
+                    <img src="images/85_2317.svg" alt="QRIS">
+                </div>
+                <div class="tx-title-col">
+                    <div class="tx-title">Deposit via QRIS</div>
+                    <div class="tx-datetime">17-10-2026 22:37:27 WIB</div>
+                </div>
+                <div class="tx-amount-col">
+                    <div class="tx-amount">+1.500.000 <span class="tx-currency">IDR</span></div>
+                    <div class="tx-status">Berhasil</div>
+                </div>
+            </div>
+            <div class="tx-details-list">
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">No. Transaksi</span>
+                    <span class="tx-detail-value">DP2610172134 <img src="images/85_2336.svg" alt="Copy"></span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Metode</span>
+                    <span class="tx-detail-value">QRIS</span>
+                </div>
+                <div class="tx-detail-item">
+                    <span class="tx-detail-label">Masuk ke</span>
+                    <span class="tx-detail-value">Saldo Isi Ulang</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="section-pagination">
+    <div class="pagination-container">
+        <div class="pagination-nav">
+            <button class="nav-arrow-btn prev" aria-label="Previous page">
+                <img src="images/85_2492.svg" alt="">
+            </button>
+            <button class="page-number active">1</button>
+            <button class="page-number">2</button>
+            <button class="page-number">3</button>
+            <span class="page-ellipsis">…</span>
+            <button class="page-number">12</button>
+            <button class="nav-arrow-btn next" aria-label="Next page">
+                <img src="images/85_2505.svg" alt="">
+            </button>
+        </div>
+        <div class="pagination-summary-text">
+            Menampilkan 1–8 dari 94 transaksi
+        </div>
+    </div>
+</section>
+</body>
+</html>

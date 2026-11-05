@@ -1,0 +1,642 @@
+{
+ "slug": "fear-and-greed",
+ "id": "54:1436",
+ "frameName": "Fear and Greed",
+ "size": [
+  412,
+  1217
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Fear & Greed",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3039,
+    1245,
+    107,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "50",
+   "size": 44,
+   "weight": 700,
+   "lineHeight": 53.3,
+   "letterSpacing": 0,
+   "color": "#E9C46A",
+   "box": [
+    3063,
+    1355,
+    59,
+    53
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Neutral",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3068,
+    1409,
+    49,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Diperbarui 25-10-2026 07:00 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3004,
+    1453,
+    176,
+    13
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Kemarin",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    2902,
+    1488,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "46",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#E9C46A",
+   "box": [
+    2902,
+    1505,
+    99,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Neutral",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2902,
+    1531,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Minggu lalu",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3016,
+    1488,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "62",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#9BD36E",
+   "box": [
+    3016,
+    1505,
+    99,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Greed",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3016,
+    1531,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Bulan lalu",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3131,
+    1488,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "38",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#F29A6A",
+   "box": [
+    3131,
+    1505,
+    99,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fear",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3131,
+    1531,
+    99,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Riwayat",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2902,
+    1580,
+    59,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7H",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3170,
+    1584,
+    15,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "30H",
+   "size": 11,
+   "weight": 600,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    3209,
+    1584,
+    23,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1T",
+   "size": 11,
+   "weight": 500,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    3256,
+    1584,
+    13,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25 Sep",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2902,
+    1748,
+    39,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "10 Okt",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3074,
+    1748,
+    36,
+    12
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "25 Okt",
+   "size": 10,
+   "weight": 400,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3245,
+    1748,
+    37,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Arti skala",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2902,
+    1792,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Extreme Fear",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2922,
+    1834,
+    321,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "0–24",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3253,
+    1835,
+    29,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fear",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2922,
+    1871,
+    314,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25–44",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3246,
+    1872,
+    36,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Neutral",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2922,
+    1910,
+    242,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "45–55",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3174,
+    1911,
+    36,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sekarang",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#E9C46A",
+   "box": [
+    3228,
+    1912,
+    46,
+    12
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Greed",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2922,
+    1949,
+    315,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "56–75",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3247,
+    1950,
+    35,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Extreme Greed",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2922,
+    1986,
+    309,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "76–100",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    3241,
+    1987,
+    41,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Apa itu Fear & Greed?",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2902,
+    2042,
+    380,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Indeks yang mengukur sentimen pasar kripto dari 0 sampai 100. Angka rendah berarti pasar sedang takut, angka tinggi berarti pasar sedang serakah.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2902,
+    2074,
+    380,
+    60
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volatilitas",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2914,
+    2154,
+    55,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Volume pasar",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3000,
+    2154,
+    77,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Media sosial",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3110,
+    2154,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dominasi BTC",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2914,
+    2192,
+    80,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tren pencarian",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    3025,
+    2192,
+    85,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Catatan",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2902,
+    2240,
+    380,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Fear & Greed Index menunjukkan sentimen pasar kripto dalam skala 0–100. Nilai indeks dapat berubah mengikuti kondisi dan aktivitas pasar.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2916,
+    2264,
+    331,
+    54
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Data diperbarui secara berkala dan dapat berbeda dari kondisi pasar secara langsung. Indeks ini hanya sebagai informasi, bukan rekomendasi untuk membeli atau menjual aset kripto.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    2916,
+    2324,
+    358,
+    54
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

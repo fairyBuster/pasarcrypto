@@ -1,0 +1,177 @@
+{
+ "slug": "register-1",
+ "id": "6:29",
+ "frameName": "Register 1",
+ "size": [
+  412,
+  1021
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Buat Akun Baru",
+   "size": 24,
+   "weight": 700,
+   "lineHeight": 32,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -2476,
+    -1350,
+    182,
+    32
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Mulai dengan membuat username untuk akunmu.",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2497,
+    -1312,
+    225,
+    40
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Username",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2555,
+    -1220,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan username",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2509,
+    -1179,
+    276,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4–16 karakter, hanya huruf dan angka.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    -2537,
+    -1140,
+    322,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kode Referral",
+   "size": 13,
+   "weight": 500,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2555,
+    -1106,
+    340,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Masukkan kode referral",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -2509,
+    -1065,
+    276,
+    17
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Lanjut",
+   "size": 16,
+   "weight": 600,
+   "lineHeight": 19.4,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -2422,
+    -963,
+    48,
+    19
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Sudah punya akun? Masuk",
+   "size": 14,
+   "weight": 400,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -2474,
+    -908,
+    178,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Data yang kamu masukkan hanya digunakan untuk keperluan proses registrasi akun di aplikasi ini. Kami tidak akan membagikan, menjual, atau menggunakan data kamu untuk tujuan lain di luar proses pendaftaran tanpa persetujuan darimu.",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 17,
+   "letterSpacing": 0,
+   "color": "#7F90A5",
+   "box": [
+    -2537,
+    -883,
+    304,
+    85
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Dengan mendaftar, saya menyatakan bahwa saya sudah dewasa dan menerima ketentuan- ketentuan Perjanjian Klien dan Kebijakan Privasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    -2535,
+    -770,
+    261,
+    72
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

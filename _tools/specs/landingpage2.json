@@ -1,0 +1,207 @@
+{
+ "slug": "landingpage2",
+ "id": "99:2",
+ "frameName": "Landing page 2",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Beranda",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -7749,
+    -1549,
+    304,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Holding",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -7749,
+    -1488,
+    304,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hadiah",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -7749,
+    -1427,
+    304,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Program Referral",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -7749,
+    -1366,
+    304,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Tentang Kami",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -7749,
+    -1305,
+    304,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pusat Bantuan",
+   "size": 15,
+   "weight": 600,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -7749,
+    -1244,
+    304,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Daftar Sekarang",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 18.2,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    -7667,
+    -1165,
+    120,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Masuk",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 16.9,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -7629,
+    -1106,
+    45,
+    17
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Bahasa",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 15.7,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -7797,
+    -1044,
+    45,
+    16
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Indonesia",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#E6ECF3",
+   "box": [
+    -7504,
+    -1043,
+    57,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Syarat & Ketentuan",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -7797,
+    -998,
+    109,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kebijakan Privasi",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -7672,
+    -998,
+    96,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Perjanjian Klien",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -7560,
+    -998,
+    87,
+    15
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

@@ -1,0 +1,1557 @@
+{
+ "slug": "riwayat-deposit",
+ "id": "85:2161",
+ "frameName": "Riwayat deposit",
+ "size": [
+  412,
+  1457
+ ],
+ "overlap": 90,
+ "texts": [
+  {
+   "text": "Riwayat Deposit",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    179,
+    4695,
+    135,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Total deposit · sejak akun aktif",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    112,
+    4748,
+    247,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12.874.000 IDR",
+   "size": 20,
+   "weight": 600,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    112,
+    4765,
+    247,
+    26
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "94 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    371,
+    4763,
+    65,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Pilih tanggal",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    56,
+    4811,
+    380,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Dari",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    91,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "01-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    91,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Sampai",
+   "size": 9,
+   "weight": 400,
+   "lineHeight": 10.9,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    293,
+    4842,
+    130,
+    11
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "25-10-2026",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    293,
+    4853,
+    130,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit via QRIS",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    4906,
+    228,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23-10-2026 19:26:40 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    4927,
+    228,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+2.412.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    347,
+    4902,
+    73,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    4903,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    4928,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    4953,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610235608",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    338,
+    4953,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    4974,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QRIS",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    410,
+    4974,
+    26,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    4995,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    4995,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Deposit via VA BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    5048,
+    227,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "23-10-2026 20:30:51 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5069,
+    227,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    347,
+    5044,
+    73,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    5045,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    5070,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5095,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610239396",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    338,
+    5095,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5116,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Virtual Account BRI",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    335,
+    5116,
+    101,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5137,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    5137,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Deposit via QRIS",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    5190,
+    239,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "20-10-2026 16:15:50 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5211,
+    239,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+750.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    358,
+    5186,
+    62,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    5187,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    5212,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5237,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610201052",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    340,
+    5237,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5258,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QRIS",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    410,
+    5258,
+    26,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5279,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    5279,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Deposit via QRIS",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    5332,
+    228,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "17-10-2026 22:37:27 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5353,
+    228,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.500.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    347,
+    5328,
+    73,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    5329,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    5354,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5379,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610172134",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    342,
+    5379,
+    78,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5400,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QRIS",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    410,
+    5400,
+    26,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5421,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    5421,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Deposit via QRIS",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    5474,
+    227,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "15-10-2026 22:14:44 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5495,
+    227,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+1.000.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    347,
+    5470,
+    73,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    5471,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    5496,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5521,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610151693",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    341,
+    5521,
+    79,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5542,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QRIS",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    410,
+    5542,
+    26,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5563,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    5563,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Deposit via VA BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    5616,
+    228,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "12-10-2026 17:28:02 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5637,
+    228,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+2.412.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    347,
+    5612,
+    73,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    5613,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    5638,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5663,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610126389",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    340,
+    5663,
+    80,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5684,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Virtual Account BRI",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    335,
+    5684,
+    101,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5705,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    5705,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Deposit via VA BRI",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    5758,
+    237,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "09-10-2026 18:23:01 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5779,
+    237,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+500.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    356,
+    5754,
+    64,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    5755,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    5780,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5805,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610093536",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    338,
+    5805,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5826,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Virtual Account BRI",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    335,
+    5826,
+    101,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5847,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    5847,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Deposit via QRIS",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    104,
+    5900,
+    237,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "05-10-2026 20:59:01 WIB",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5921,
+    237,
+    13
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "+500.000",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    356,
+    5896,
+    64,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "IDR",
+   "size": 10,
+   "weight": 500,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    419,
+    5897,
+    17,
+    18
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Berhasil",
+   "size": 10,
+   "weight": 600,
+   "lineHeight": 12.1,
+   "letterSpacing": 0,
+   "color": "#3ECF8E",
+   "box": [
+    389,
+    5922,
+    40,
+    12
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "No. Transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5947,
+    71,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "DP2610058424",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    338,
+    5947,
+    82,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Metode",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5968,
+    40,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "QRIS",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    410,
+    5968,
+    26,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "Masuk ke",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    104,
+    5989,
+    50,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Isi Ulang",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 15,
+   "letterSpacing": 0,
+   "color": "#C3CEDB",
+   "box": [
+    359,
+    5989,
+    77,
+    15
+   ],
+   "align": "RIGHT"
+  },
+  {
+   "text": "1",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    173,
+    6050,
+    6,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "2",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    210,
+    6050,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "3",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    249,
+    6050,
+    8,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "…",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    279,
+    6050,
+    10,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "12",
+   "size": 12,
+   "weight": 500,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    309,
+    6050,
+    14,
+    15
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Menampilkan 1–8 dari 94 transaksi",
+   "size": 11,
+   "weight": 400,
+   "lineHeight": 13.3,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    156,
+    6083,
+    180,
+    13
+   ],
+   "align": "CENTER"
+  }
+ ]
+}

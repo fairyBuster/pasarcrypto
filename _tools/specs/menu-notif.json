@@ -1,0 +1,252 @@
+{
+ "slug": "menu-notif",
+ "id": "23:2",
+ "frameName": "Notifikasi sistem",
+ "size": [
+  412,
+  917
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Notifikasi Sistem",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1650,
+    -295,
+    141,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Penarikan Berhasil",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1751,
+    -235,
+    137,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kamu berhasil menarik 2.255.000 IDR dari akunmu. Nomor rekening: 7810 **** 9031 Waktu: 23-10-2026 18:14:02 (WIB)",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1766,
+    -207,
+    342,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari ini 18:14",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1766,
+    -117,
+    342,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit Dikonfirmasi",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1766,
+    -61,
+    342,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit kamu telah dikonfirmasi. Jumlah deposit: 2.412.000 IDR Nomor rekening: 4302 **** 6654 Waktu: 23-10-2026 18:11:34 (WIB)",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1766,
+    -33,
+    342,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari ini 18:11",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1766,
+    57,
+    342,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit Dikonfirmasi",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1766,
+    113,
+    342,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Deposit kamu telah dikonfirmasi. Jumlah deposit: 1.500.000 IDR Nomor rekening: 4302 **** 6654 Waktu: 23-10-2026 18:10:05 (WIB)",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1766,
+    141,
+    342,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hari ini 18:10",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1766,
+    231,
+    342,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Penarikan Berhasil",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1766,
+    287,
+    342,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kamu berhasil menarik 3.152.000 IDR dari akunmu. Nomor rekening: 7810 **** 9031 Waktu: 22-10-2026 23:22:47 (WIB)",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1766,
+    315,
+    342,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kemarin 23:22",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1766,
+    405,
+    342,
+    15
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo Ditambahkan",
+   "size": 15,
+   "weight": 700,
+   "lineHeight": 22,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    -1766,
+    461,
+    342,
+    22
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Saldo sebesar 50.000 IDR telah ditambahkan. Waktu: 22-10-2026 20:05:11 (WIB)",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    -1766,
+    489,
+    342,
+    40
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kemarin 20:05",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 14.5,
+   "letterSpacing": 0,
+   "color": "#75879C",
+   "box": [
+    -1766,
+    539,
+    342,
+    15
+   ],
+   "align": "LEFT"
+  }
+ ]
+}

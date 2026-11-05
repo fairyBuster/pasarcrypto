@@ -1,0 +1,447 @@
+{
+ "slug": "syarat-layanan",
+ "id": "6:645",
+ "frameName": "Syarat layanan",
+ "size": [
+  412,
+  1708
+ ],
+ "overlap": 100,
+ "texts": [
+  {
+   "text": "Syarat Layanan",
+   "size": 17,
+   "weight": 700,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    3063,
+    -1612,
+    128,
+    24
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Terakhir diperbarui: DD Bulan YYYY",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#8597AB",
+   "box": [
+    3027,
+    -1553,
+    201,
+    18
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Syarat Layanan ini mengatur penggunaan seluruh fitur dan layanan yang tersedia di [Nama Aplikasi].",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#D3DCE7",
+   "box": [
+    2953,
+    -1496,
+    255,
+    60
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "1",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2965,
+    -1375,
+    6,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ruang Lingkup Layanan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -1375,
+    161,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "[Nama Aplikasi] menyediakan layanan yang dapat diakses oleh pengguna terdaftar. Jenis dan cakupan layanan dapat berbeda sesuai fitur yang tersedia di Aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -1346,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "2",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2965,
+    -1209,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Ketersediaan Layanan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -1209,
+    150,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami berupaya agar layanan dapat diakses 24 jam setiap hari. Namun, layanan dapat sewaktu-waktu tidak tersedia karena pemeliharaan, pembaruan sistem, atau kendala teknis.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -1180,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "3",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2964,
+    -1043,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Penggunaan Fitur",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -1043,
+    120,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Setiap fitur hanya boleh digunakan sesuai dengan fungsinya. Kami berhak membatasi penggunaan fitur apabila ditemukan aktivitas yang mencurigakan atau tidak wajar.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -1014,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "4",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2964,
+    -877,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Biaya Layanan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -877,
+    97,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Beberapa layanan dapat dikenakan biaya. Informasi biaya akan ditampilkan dengan jelas di Aplikasi sebelum pengguna melakukan transaksi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -848,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "5",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2964,
+    -731,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Pemeliharaan & Gangguan Sistem",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -731,
+    228,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami akan berusaha memberikan informasi sebelum melakukan pemeliharaan terjadwal. Kami tidak bertanggung jawab atas gangguan yang disebabkan oleh pihak ketiga atau keadaan kahar.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -702,
+    308,
+    120
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "6",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2964,
+    -545,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Hak Kekayaan Intelektual",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -545,
+    171,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Seluruh konten, logo, desain, dan merek di dalam Aplikasi merupakan milik [Nama Perusahaan] dan dilindungi hukum. Pengguna dilarang menyalin atau menggunakannya tanpa izin tertulis.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -516,
+    308,
+    100
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "7",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2965,
+    -379,
+    7,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Penghentian Layanan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -379,
+    146,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Kami berhak menghentikan sebagian atau seluruh layanan dengan pemberitahuan terlebih dahulu kepada pengguna melalui Aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -350,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "8",
+   "size": 11,
+   "weight": 700,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#0C1A2D",
+   "box": [
+    2964,
+    -233,
+    8,
+    20
+   ],
+   "align": "CENTER"
+  },
+  {
+   "text": "Kontak Layanan",
+   "size": 14,
+   "weight": 600,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2989,
+    -233,
+    108,
+    20
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Jika mengalami kendala atau memiliki pertanyaan terkait layanan, pengguna dapat menghubungi tim kami melalui menu Bantuan di Aplikasi.",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2989,
+    -204,
+    308,
+    80
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Ada pertanyaan?",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#FFFFFF",
+   "box": [
+    2953,
+    -63,
+    107,
+    18
+   ],
+   "align": "LEFT"
+  },
+  {
+   "text": "Hubungi tim kami melalui menu Bantuan di aplikasi.",
+   "size": 12,
+   "weight": 400,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "color": "#A9B7C8",
+   "box": [
+    2953,
+    -45,
+    241,
+    36
+   ],
+   "align": "LEFT"
+  }
+ ]
+}
