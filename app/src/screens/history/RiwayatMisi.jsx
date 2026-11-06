@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { dateTimeID, idr, trxStamp } from '../../lib/format.js';
+import { readHistory, writeHistory } from '../../lib/historyCache.js';
 import DateSheet, { withinRange } from '../../components/DateSheet.jsx';
 import { t } from '../../lib/i18n.js';
 
@@ -361,8 +362,10 @@ const css = `
 `;
 
 export default function RiwayatMisi() {
-  const [rows, setRows] = useState([]);
-  const [status, setStatus] = useState('loading');
+  // the rows this screen painted last render immediately; the API call below
+  // replaces them in the background
+  const [rows, setRows] = useState(() => readHistory('misi')?.rows || []);
+  const [status, setStatus] = useState(() => (readHistory('misi') ? 'ready' : 'loading'));
   const [error, setError] = useState('');
   const [range, setRange] = useState({ from: '', to: '' });
   const [picker, setPicker] = useState('');
@@ -375,6 +378,14 @@ export default function RiwayatMisi() {
       // rows the rewards screen totals
       const all = [];
       let failed = null;
+      const sorted = () => [...all].sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
+      // each page is painted the moment it lands, so the list starts filling up
+      // while the older pages are still being read
+      const paint = () => {
+        if (!alive) return;
+        setRows(sorted());
+        setStatus('ready');
+      };
       for (let n = 1; n <= MAX_PAGES; n += 1) {
         const res = await api.transactions({ type: 'MISSIONS', status: 'COMPLETED', page: n });
         if (!res.ok) {
@@ -383,20 +394,23 @@ export default function RiwayatMisi() {
         }
         const list = Array.isArray(res.data?.results) ? res.data.results : [];
         all.push(...list);
+        paint();
         if (!res.data?.next || list.length === 0) break;
       }
       if (!alive) return;
-      // a failed page only sinks the screen when nothing at all came back
+      // a failed page only sinks the screen when nothing at all came back;
+      // with rows on screen the rest of the pages are simply skipped
       if (all.length === 0 && failed) {
-        setError(friendlyError(failed, 'Gagal memuat riwayat misi.'));
-        setStatus('error');
+        if (!readHistory('misi')) {
+          setError(friendlyError(failed, 'Gagal memuat riwayat misi.'));
+          setStatus('error');
+        }
         return;
       }
-      all.sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
-      setRows(all);
-      setStatus('ready');
+      writeHistory('misi', { rows: sorted() });
+      paint();
     })().catch(() => {
-      if (!alive) return;
+      if (!alive || readHistory('misi')) return;
       setError('Gagal memuat riwayat misi.');
       setStatus('error');
     });
@@ -493,7 +507,6 @@ export default function RiwayatMisi() {
       </section>
       <section id="section-mission-list">
         <div className="mission-list">
-            {status === 'loading' && <p className="list-state">{t('Memuat riwayat misi…')}</p>}
             {status === 'error' && <p className="list-state">{error}</p>}
             {status === 'ready' && visible.length === 0 && (
               <p className="list-state">

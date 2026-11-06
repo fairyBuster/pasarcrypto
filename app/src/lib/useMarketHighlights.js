@@ -4,6 +4,10 @@
 import { useEffect, useState } from 'react';
 
 const ENDPOINT = '/cg/coins/categories';
+// the edge CDN can answer /cg from its own copy, and a blocked or broken entry
+// leaves every tile blank; the build also ships a trimmed snapshot so the tiles
+// always have figures to draw
+const SNAPSHOT = '/market-categories.json';
 
 // the five tiles the frame lays out; the first id is the design's category and
 // the next one is a live stand-in for categories CoinGecko leaves empty
@@ -53,20 +57,37 @@ const read = (body) => {
 let cache = null;
 let pending = null;
 
+// the CDN honours the upstream max-age, so a stale entry is asked around with a
+// one-minute key; the browser cache is skipped so a reload really re-reads it
+const fetchJson = async (url) => {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 8000);
+  try {
+    const res = await fetch(url, { signal: controller.signal, cache: 'no-store' });
+    if (!res.ok) return null;
+    const body = await res.json();
+    return Array.isArray(body) && body.length ? body : null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+};
+
 const load = () => {
   if (cache) return Promise.resolve(cache);
   if (!pending) {
-    pending = fetch(ENDPOINT)
-      .then((res) => (res.ok ? res.json() : null))
-      .then((body) => {
-        if (!Array.isArray(body)) return { status: 'error', rows: read(null) };
-        cache = { status: 'ready', rows: read(body) };
-        return cache;
-      })
-      .catch(() => ({ status: 'error', rows: read(null) }))
-      .finally(() => {
-        pending = null;
-      });
+    pending = (async () => {
+      const body =
+        (await fetchJson(ENDPOINT)) ||
+        (await fetchJson(`${ENDPOINT}?v=${Math.floor(Date.now() / 60000)}`)) ||
+        (await fetchJson(SNAPSHOT));
+      if (!body) return { status: 'error', rows: read(null) };
+      cache = { status: 'ready', rows: read(body) };
+      return cache;
+    })().finally(() => {
+      pending = null;
+    });
   }
   return pending;
 };

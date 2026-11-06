@@ -564,11 +564,11 @@ export default function Akun() {
           </div>
       
           <div className="action-buttons">
-            <button className="btn-primary" data-route="/deposit">
+            <button className="btn-primary" data-route="/send">
               <img src="/assets/img/27f59345a9.svg" alt="Top Up" />
               <span>{t('Isi Ulang')}</span>
             </button>
-            <button className="btn-secondary" data-route="/tarik">
+            <button className="btn-secondary" data-route="/draw">
               <img src="/assets/img/d463632364.svg" alt="Withdraw" />
               <span>{t('Penarikan')}</span>
             </button>
@@ -584,21 +584,21 @@ export default function Akun() {
           <p className="section-subtitle">{t('Pilih jenis riwayat untuk melihat catatan transaksimu')}</p>
         </div>
         <div className="history-grid">
-          <div className="grid-item" data-route="/riwayat/deposit">
+          <div className="grid-item" data-route="/riwayat/send">
             <div className="icon-wrapper">
               <img src="/assets/img/cc68f81cb9.svg" alt="Deposit" />
             </div>
             <span className="item-label">{t('Deposit')}</span>
             <img src="/assets/img/ed881aa87c.svg" alt="Arrow" className="arrow-icon" />
           </div>
-          <div className="grid-item" data-route="/riwayat/penarikan">
+          <div className="grid-item" data-route="/riwayat/draw">
             <div className="icon-wrapper">
               <img src="/assets/img/7c55492545.svg" alt="Penarikan" />
             </div>
             <span className="item-label">{t('Penarikan')}</span>
             <img src="/assets/img/ed881aa87c.svg" alt="Arrow" className="arrow-icon" />
           </div>
-          <div className="grid-item" data-route="/riwayat/keuntungan">
+          <div className="grid-item" data-route="/coin">
             <div className="icon-wrapper">
               <img src="/assets/img/4bb30fcaab.svg" alt="Keuntungan" />
             </div>
@@ -660,7 +660,7 @@ export default function Akun() {
             <span className="list-label">{t('Misi Rewards')}</span>
             <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
           </div>
-          <div className="list-item" data-route="/rewards/referral">
+          <div className="list-item" data-route="/rewards/share">
             <div className="list-icon"><img src="/assets/img/803cf45c4a.svg" alt="Undangan" /></div>
             <span className="list-label">{t('Undangan')}</span>
             <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
@@ -705,12 +705,12 @@ export default function Akun() {
               </div>
             )}
           </div>
-          <div className="list-item" data-route="/profil/bank/1">
+          <div className="list-item" data-route="/dompet">
             <div className="list-icon"><img src="/assets/img/c83972142f.svg" alt="Bank" /></div>
             <span className="list-label">{t('Rekening Bank')}</span>
             <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
           </div>
-          <div className="list-item" data-route="/profil/password">
+          <div className="list-item" data-route="/change">
             <div className="list-icon"><img src="/assets/img/557a882d15.svg" alt="Sandi" /></div>
             <span className="list-label">{t('Ubah Kata Sandi')}</span>
             <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />

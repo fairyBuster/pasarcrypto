@@ -5,7 +5,7 @@ import { useAuth } from '../../lib/auth.jsx';
 import { useAssets } from '../../lib/useAssets.js';
 import { useFearGreed, fearGreedColor } from '../../lib/useFearGreed.js';
 import { useMarketHighlights } from '../../lib/useMarketHighlights.js';
-import { useTrending } from '../../lib/useTrending.js';
+import { useUsdRate } from '../../lib/useUsdRate.js';
 import { api } from '../../lib/api.js';
 import { idr, initials, quotaPercent, ratePercent, usdtApprox } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
@@ -454,9 +454,15 @@ const css = `
     align-items: center;
     font-size: 8px;
     font-weight: 600;
+    flex-shrink: 0;
+    position: relative;
     overflow: hidden;
   }
+/* the product artwork covers the initials; a broken upload is removed in
+   place, so the initials underneath stay visible instead of a broken icon */
 .scr-home .coin-icon img{
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -464,6 +470,11 @@ const css = `
   }
 .scr-home .coin-name{
     flex: 1;
+    /* product names run longer than the coin names the frame drew */
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 .scr-home .coin-change{
     font-weight: 600;
@@ -804,6 +815,18 @@ const volumeFor = (hour, id) => {
 };
 const volumeText = (hour, id) => `${volumeFor(hour, id).toFixed(1).replace('.', ',')} Jt USDT`;
 
+// the trending widget prefers catalogue entries the holding cards below do not
+// already preview, then wraps around so a short catalogue still fills both rows
+const trendingRowsFrom = (catalogue, preview) => {
+  const shown = new Set(preview.map((product) => product.id));
+  const rows = catalogue.filter((product) => !shown.has(product.id)).slice(0, 2);
+  for (const product of catalogue) {
+    if (rows.length >= 2) break;
+    if (!rows.some((row) => row.id === product.id)) rows.push(product);
+  }
+  return rows;
+};
+
 // the frame stacks placeholder circles; each slot now carries a top coin logo
 const MergedAvatars = ({ icons = [], slots = 3 }) => (
   <div className="merged-avatars" style={{ position: 'relative', width: `${20 + 14 * (slots - 1)}px`, height: '20px' }}>
@@ -853,14 +876,13 @@ const MarketText = ({ loading, row }) =>
 export default function Home() {
   const { user } = useAuth();
   const { deposit, available, balanceHold, todayIncome, status } = useAssets();
+  // the API quotes the rupiah-per-USD rate the sub-balance is read at
+  const usdRate = useUsdRate();
   const { data: fearGreedData, status: fearGreedStatus } = useFearGreed();
   const fearGreed = fearGreedData?.now || null;
   // the five market tiles, Layer 1 first to match the frame's tall card
   const { rows: highlights, status: marketStatus } = useMarketHighlights();
   const [layerOne, solana, meme, defi, ai] = highlights;
-  // the two trending rows come from the same CoinGecko proxy
-  const { rows: trending, status: trendingStatus } = useTrending();
-  const trendingLoading = trendingStatus === 'loading';
   // the knob rides the 46px arc: 0 sits at the left end, 100 at the right
   const knobAngle = Math.PI * (1 - Math.max(0, Math.min(100, fearGreed?.value ?? 50)) / 100);
   const knob = { x: 56 + 46 * Math.cos(knobAngle), y: 56 - 46 * Math.sin(knobAngle) };
@@ -900,8 +922,10 @@ export default function Home() {
   }, []);
 
   // the section previews only the two cheapest products; the list endpoint has
-  // no price ordering, so every page is read before sorting
+  // no price ordering, so every page is read before sorting. The same fetch
+  // feeds the trending widget, which keeps the catalogue order the API sends
   const [products, setProducts] = useState([]);
+  const [catalogue, setCatalogue] = useState([]);
   const [productsStatus, setProductsStatus] = useState('loading');
   useEffect(() => {
     let alive = true;
@@ -918,8 +942,8 @@ export default function Home() {
         all.push(...list);
         if (!res.data?.next || list.length === 0) break;
       }
-      all.sort((a, b) => (Number(a.price) || 0) - (Number(b.price) || 0));
-      setProducts(all.slice(0, 2));
+      setCatalogue(all);
+      setProducts([...all].sort((a, b) => (Number(a.price) || 0) - (Number(b.price) || 0)).slice(0, 2));
       setProductsStatus('ready');
     })().catch(() => {
       if (alive) setProductsStatus('error');
@@ -928,6 +952,12 @@ export default function Home() {
       alive = false;
     };
   }, []);
+
+  // the trending rows read the product catalogue (name + artwork) instead of a
+  // coin feed; the two cards below already preview the cheapest pair, so the
+  // widget prefers other entries before it wraps around
+  const trendingLoading = productsStatus === 'loading';
+  const trendingRows = trendingRowsFrom(catalogue, products);
 
   // the volume placeholder rolls over when the hour changes
   const [hourSlot, setHourSlot] = useState(() => Math.floor(Date.now() / 3600000));
@@ -975,7 +1005,7 @@ export default function Home() {
                 <img src="/assets/img/a5c24f2e4d.svg" alt="" className="eye-icon" />
               </button>
             </div>
-            <button className="deposit-btn" data-route="/deposit">{t('Deposit')}</button>
+            <button className="deposit-btn" data-route="/send">{t('Deposit')}</button>
           </div>
           
           <div className="asset-balance-group">
@@ -992,7 +1022,7 @@ export default function Home() {
             ) : (
               /* the same total read as USDT, at the rate the asset screens quote */
               <div className="sub-balance text-lighter" aria-hidden={balanceHidden || undefined}>
-                {ready ? usdtApprox(total) : '—'}
+                {ready ? usdtApprox(total, usdRate) : '—'}
               </div>
             )}
             <div className="pnl-group">
@@ -1043,7 +1073,7 @@ export default function Home() {
       </section>
       <section id="section-quick-actions">
         <div className="actions-grid">
-          <a href="#tarik" className="action-item" data-route="/tarik">
+          <a href="#/draw" className="action-item" data-route="/draw">
             <img src="/assets/img/a89c155e9c.png" alt="Tarik" />
             <span>{t('Tarik')}</span>
           </a>
@@ -1088,17 +1118,17 @@ export default function Home() {
       </section>
       <section id="section-widgets">
         <div className="widgets-grid">
-          <div className="widget-card referral-card" data-route="/rewards/referral">
+          <div className="widget-card referral-card" data-route="/rewards/share">
             <div className="referral-content">
               <span className="text-light" style={{ fontSize: "10px" }}>{t('Program Referral')}</span>
               <h3 className="referral-title">{t('Ajak Teman,')}<br />{t('Dapat Bonus')}<br />{t('Poin')}</h3>
-              <button className="btn-mulai" data-route="/rewards/referral">{t('Mulai')}</button>
+              <button className="btn-mulai" data-route="/rewards/share">{t('Mulai')}</button>
             </div>
             <img src="/assets/img/1024158bf1.png" alt="Coins" className="referral-img" />
           </div>
           
           <div className="widget-col">
-            <div className="widget-card small-card" data-route="/fear-greed">
+            <div className="widget-card small-card" data-route="/learning">
               <div className="card-header">
                 <span className="text-light" style={{ fontSize: "12px" }}>{t('Fear & Greed')}</span>
                 <img src="/assets/img/43b9aba116.svg" alt="Arrow" />
@@ -1146,25 +1176,45 @@ export default function Home() {
                 <img src="/assets/img/43b9aba116.svg" alt="Arrow" />
               </div>
               <div className="trending-list">
-                {/* the frame only held placeholders; the rows read the live feed for
-                    the logo and the 24h move, initials stand in while it loads */}
-                {trending.map((row) => (
-                  <div className="trending-item" key={row.id}>
-                    <div className="coin-icon">
-                      {row.image ? (
-                        <img src={row.image} alt="" />
-                      ) : (
-                        <span>{row.symbol}</span>
-                      )}
-                    </div>
-                    <span className="coin-name">{trendingLoading ? <Sk w={48} h={10} /> : row.name}</span>
-                    {trendingLoading ? (
+                {/* the frame only held placeholders; the rows take the name and
+                    artwork of the catalogue, initials stand in on a broken URL */}
+                {trendingLoading &&
+                  [0, 1].map((slot) => (
+                    <div className="trending-item" key={`trending-skeleton-${slot}`} aria-hidden="true">
+                      <div className="coin-icon"></div>
+                      <span className="coin-name"><Sk w={48} h={10} /></span>
                       <Sk w={36} h={10} />
-                    ) : (
-                      <span className={`coin-change ${changeClass(row)}`}>{changeText(row)}</span>
-                    )}
+                    </div>
+                  ))}
+                {!trendingLoading && trendingRows.length === 0 && (
+                  <div className="trending-item">
+                    <span className="coin-name text-muted">{t('Tidak tersedia')}</span>
                   </div>
-                ))}
+                )}
+                {!trendingLoading &&
+                  trendingRows.map((product) => (
+                    <div
+                      className="trending-item"
+                      key={product.id}
+                      data-route={`/pasar/detail?id=${product.id}`}
+                    >
+                      <div className="coin-icon">
+                        {initials(product.name)}
+                        {product.image && (
+                          <img
+                            src={product.image}
+                            alt={product.name}
+                            onError={(event) => {
+                              // a missing media file leaves the initials underneath
+                              event.currentTarget.remove();
+                            }}
+                          />
+                        )}
+                      </div>
+                      <span className="coin-name">{product.name}</span>
+                      <span className="coin-change text-green">{ratePercent(product)}</span>
+                    </div>
+                  ))}
               </div>
             </div>
           </div>

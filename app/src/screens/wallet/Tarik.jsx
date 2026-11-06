@@ -365,7 +365,7 @@ export default function Tarik() {
       </section>
       <section id="section-history">
         <div className="history-container">
-          <a href="#" className="history-card" data-route="/riwayat/penarikan">
+          <a href="#" className="history-card" data-route="/riwayat/draw">
             <div className="history-icon-wrapper">
               <img src="/assets/img/ee43abaf76.svg" alt="" />
             </div>
@@ -404,7 +404,7 @@ export default function Tarik() {
                       : 'Memuat rekening…'}
                 </div>
                 {status === 'ready' && (
-                  <a href="#" className="destination-link" data-route="/profil/bank">
+                  <a href="#" className="destination-link" data-route="/dompet/pilih">
                     {t('Tambah rekening bank')}
                   </a>
                 )}
@@ -456,7 +456,7 @@ export default function Tarik() {
             disabled={!valid}
             onClick={(event) => {
               event.stopPropagation();
-              navigate(`/tarik/konfirmasi?amount=${nominal}`);
+              navigate(`/draw/konfirmasi?amount=${nominal}`);
             }}
           >
             {t('Tarik Sekarang')}

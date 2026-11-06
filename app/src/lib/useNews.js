@@ -3,9 +3,19 @@
 import { useEffect, useState } from 'react';
 import { api } from './api.js';
 
+// the API serves images under /media/news/; older responses to missing files
+// were cacheable for a year, so the URL carries a version tag that changes
+// whenever the record does and keeps browsers off that stale entry
+const withImageVersion = (row) => {
+  if (!row || !row.image) return row;
+  const version = encodeURIComponent(row.updated_at || row.id || '1');
+  const glue = row.image.includes('?') ? '&' : '?';
+  return { ...row, image: `${row.image}${glue}v=${version}` };
+};
+
 const read = (data) => {
   const rows = Array.isArray(data) ? data : data?.results || [];
-  return rows.filter((row) => row.is_published !== false);
+  return rows.filter((row) => row.is_published !== false).map(withImageVersion);
 };
 
 // one request per page load feeds the featured card and the list below it
@@ -74,8 +84,9 @@ export function useNewsItem(id) {
       .then((res) => {
         if (!alive) return;
         if (res.ok && res.data && res.data.id) {
-          items.set(nextKey, res.data);
-          setState({ item: res.data, status: 'ready' });
+          const item = withImageVersion(res.data);
+          items.set(nextKey, item);
+          setState({ item, status: 'ready' });
           return;
         }
         setState({ item: null, status: 'error' });

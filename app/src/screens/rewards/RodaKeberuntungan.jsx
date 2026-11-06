@@ -6,42 +6,57 @@ import { friendlyError } from '../../lib/auth.jsx';
 import { idr } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
 
-// the artwork is ten even slices inside the 280px wheel; every label sits on
-// the middle of its slice, 78px out from the hub, as in the Figma frame
+// the artwork is ten even slices inside the 280px wheel, and the painted face
+// ends at r=124. The nominal sits inside that lane and the prize art outside
+// it: sharing one radial line made the image cover the amount, so the two now
+// split the slice and keep ~8px of air between them.
 const SLICE_COUNT = 10;
 const SLICE_ANGLE = 360 / SLICE_COUNT;
-const LABEL_RADIUS = 78;
+const LABEL_RADIUS = 61;
+const PRIZE_RADIUS = 110;
 const TURNS = 5;
 const SPIN_MS = 3800;
 
 // Figma copy, clockwise from the top. Only the top slice is painted light, so
 // its label reads in navy and the other nine stay white on the dark artwork.
+// The page already states that prizes are in IDR, so the slices carry only the
+// nominal — the freed radial space keeps it clear of the prize artwork.
 const FALLBACK_LABELS = [
-  '500.000 IDR',
-  '10.000 IDR',
-  '50.000 IDR',
-  '5.000 IDR',
-  '100.000 IDR',
-  '15.000 IDR',
-  '250.000 IDR',
-  '20.000 IDR',
-  '75.000 IDR',
-  '25.000 IDR',
+  '500.000',
+  '10.000',
+  '50.000',
+  '5.000',
+  '100.000',
+  '15.000',
+  '250.000',
+  '20.000',
+  '75.000',
+  '25.000',
 ];
 
-// a slice says what it pays; NONE is the zonk slice and carries no rupiah value
+// a slice says what it pays; a NONE prize has no rupiah value, so it carries
+// the campaign's prize title instead of a hardcoded "Zonk"
 const prizeLabel = (prize) => {
   const amount = Number(prize?.amount) || 0;
-  if (prize?.prize_type === 'NONE' || amount <= 0) return 'Zonk';
-  return `${idr(amount)} IDR`;
+  if (prize?.prize_type === 'NONE' || amount <= 0) return (prize?.name || '').trim() || '—';
+  return idr(amount);
 };
+
+// an unusually large nominal or an admin title steps down a size so it still
+// clears the hub and the prize chip; anything past ten characters wraps into
+// a second column instead of growing toward the chip, and very long titles
+// are cut after two columns
+const labelSize = (label) =>
+  label.length > 10 ? '9px' : label.length > 7 ? '10px' : undefined;
+const wrapLabel = (label) => label.length > 10;
+const fitLabel = (label) => (label.length > 16 ? `${label.slice(0, 15)}…` : label);
 
 // the admin uploads the prize artwork; a broken URL quietly falls back to text
 const PrizeChip = ({ prize }) => {
   const [failed, setFailed] = useState(false);
   if (!prize?.image || failed) return null;
   return (
-    <span className="wheel-prize">
+    <span className="wheel-prize" style={{ top: `${-PRIZE_RADIUS}px` }}>
       <img src={prize.image} alt={prize.name || ''} onError={() => setFailed(true)} />
     </span>
   );
@@ -178,31 +193,42 @@ const css = `
   left: 0;
   transform: translate(-50%, -50%);
   color: #ffffff;
-  font-size: 13px;
+  /* one step down from the 13px frame so a nominal still fits between the hub
+     and the prize chip without touching either */
+  font-size: 12px;
   font-weight: 700;
   white-space: nowrap;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  /* the nominal has to stay readable where it crosses the prize chip */
-  text-shadow: 0 0 4px rgba(4, 10, 18, 0.9), 0 0 2px rgba(4, 10, 18, 0.9);
+  /* a tight shadow keeps the nominal readable on the slice artwork without
+     glowing into the prize chip sitting further out */
+  text-shadow: 0 0 2px rgba(4, 10, 18, 0.9), 0 0 1px rgba(4, 10, 18, 0.65);
 }
 .scr-roda-keberuntungan .wheel-text.wheel-text-dark{
   color: #0C1A2D;
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.75);
 }
-/* the admin uploads prize artwork; the chip sits behind the nominal text, so
-   both stay visible on the same slice */
+/* the admin can name a NONE prize anything; a long title flows into a second
+   column inside the same 94px lane so it never runs under the prize chip */
+.scr-roda-keberuntungan .wheel-text.wheel-text-wrap{
+  white-space: normal;
+  overflow-wrap: anywhere;
+  max-height: 56px;
+  line-height: 1.1;
+}
+/* the admin uploads prize artwork; the chip sits out by the rim while the
+   label stays inside the hub-to-chip lane (hub 30 -> chip 95), so one never
+   covers the other. The ring is inset so it cannot bleed back toward the text */
 .scr-roda-keberuntungan .wheel-prize{
   position: absolute;
   left: 0;
-  top: -78px;
   transform: translate(-50%, -50%);
-  width: 42px;
-  height: 42px;
-  border-radius: 21px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.14);
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.24);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(4, 10, 18, 0.35);
 }
 .scr-roda-keberuntungan .wheel-prize img{
   width: 100%;
@@ -376,7 +402,7 @@ export default function RodaKeberuntungan() {
   const canSpin = status === 'ready' && active && !spinning && spins > 0;
 
   const labels = FALLBACK_LABELS.map((fallback, index) =>
-    prizes.length ? prizeLabel(prizes[index % prizes.length]) : fallback
+    prizes.length ? fitLabel(prizeLabel(prizes[index % prizes.length])) : fallback
   );
 
   const spin = async (event) => {
@@ -502,8 +528,12 @@ export default function RodaKeberuntungan() {
                     >
                       {prize?.image && <PrizeChip prize={prize} />}
                       <span
-                        className={index === 0 ? 'wheel-text wheel-text-dark' : 'wheel-text'}
-                        style={{ top: `${-LABEL_RADIUS}px` }}
+                        className={[
+                          'wheel-text',
+                          index === 0 ? 'wheel-text-dark' : '',
+                          wrapLabel(label) ? 'wheel-text-wrap' : '',
+                        ].filter(Boolean).join(' ')}
+                        style={{ top: `${-LABEL_RADIUS}px`, fontSize: labelSize(label) }}
                       >
                         {label}
                       </span>

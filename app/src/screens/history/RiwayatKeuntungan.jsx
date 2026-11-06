@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { dateTimeID, idr, rateLabel, rateValue } from '../../lib/format.js';
+import { readHistory, writeHistory } from '../../lib/historyCache.js';
 import { BUCKET_LABELS, bucketOf } from '../../lib/useAssets.js';
 import DateSheet, { withinRange } from '../../components/DateSheet.jsx';
 import { t } from '../../lib/i18n.js';
@@ -30,13 +31,10 @@ const STATUS_TONE = {
   CANCELLED: 'status-gagal',
 };
 
-// the design's chips reuse the bucket rule of the Aset screens
-const TABS = [
-  { key: 'all', label: 'Semua', bucket: null },
-  { key: 'fleksibel', label: 'Fleksibel', bucket: 'fleksibel' },
-  { key: 'terkunci', label: 'Terkunci', bucket: 'terkunci' },
-  { key: 'stablecoin', label: 'Stablecoin', bucket: 'stablecoin' },
-];
+// the chips are the product categories the catalogue sells (the same golongan
+// the Pasar and Aset screens show); the fixed three lead, extras follow
+const CATEGORY_ORDER = ['steady returns', 'flash earn', 'special earn'];
+const categoryRank = (name) => CATEGORY_ORDER.indexOf(name.trim().toLowerCase());
 
 // "1 2 3 … 27" with the current page always in the row
 const pageItems = (current, total) => {
@@ -67,6 +65,14 @@ const bucketFor = (row, investments) => {
     product_name: meta?.product_name ?? row.product_name ?? '',
     can_claim_principal: Boolean(meta?.can_claim_principal),
   });
+};
+
+// a profit row itself carries no golongan, so the chip filter reads it from the
+// purchase the row was matched to
+const categoryFor = (row, investments) => {
+  const meta = metaFor(row, investments);
+  const name = (meta?.product_golongan || row.product_golongan || '').trim();
+  return name && name !== '-' ? name : '';
 };
 
 const css = `
@@ -397,9 +403,11 @@ const css = `
 `;
 
 export default function RiwayatKeuntungan() {
-  const [rows, setRows] = useState([]);
-  const [investments, setInvestments] = useState([]);
-  const [status, setStatus] = useState('loading');
+  // the rows and holdings this screen painted last render immediately; the API
+  // calls below replace them in the background
+  const [rows, setRows] = useState(() => readHistory('keuntungan')?.rows || []);
+  const [investments, setInvestments] = useState(() => readHistory('keuntungan')?.investments || []);
+  const [status, setStatus] = useState(() => (readHistory('keuntungan') ? 'ready' : 'loading'));
   const [error, setError] = useState('');
   const [tab, setTab] = useState('all');
   const [page, setPage] = useState(1);
@@ -415,10 +423,18 @@ export default function RiwayatKeuntungan() {
       // the chips and the page numbers work on the whole history, so every page
       // of the endpoint is read once and cached in state
       const all = [];
+      // each page is painted the moment it lands, so the list starts filling up
+      // while the older pages are still being read
+      const paint = () => {
+        if (!alive) return;
+        setRows([...all]);
+        setStatus((prev) => (prev === 'error' ? prev : 'ready'));
+      };
       for (let n = 1; n <= MAX_PAGES; n += 1) {
         const res = await api.transactions({ type: 'INTEREST', page: n });
         if (!res.ok) {
-          if (n === 1 && alive) {
+          // with a cached list on screen the refresh stays silent
+          if (n === 1 && alive && !readHistory('keuntungan')) {
             setError(friendlyError(res.data, 'Gagal memuat riwayat keuntungan.'));
             setStatus('error');
           }
@@ -426,15 +442,18 @@ export default function RiwayatKeuntungan() {
         }
         const list = Array.isArray(res.data?.results) ? res.data.results : [];
         all.push(...list);
+        paint();
         if (!res.data?.next || list.length === 0) break;
       }
       const held = await holdings;
       if (!alive) return;
-      setRows(all);
-      if (held.ok) setInvestments(Array.isArray(held.data) ? held.data : []);
+      const heldList = held.ok && Array.isArray(held.data) ? held.data : null;
+      setRows([...all]);
+      if (heldList) setInvestments(heldList);
+      writeHistory('keuntungan', heldList ? { rows: all, investments: heldList } : { rows: all });
       setStatus((prev) => (prev === 'error' ? prev : 'ready'));
     })().catch(() => {
-      if (!alive) return;
+      if (!alive || readHistory('keuntungan')) return;
       setError('Gagal memuat riwayat keuntungan.');
       setStatus('error');
     });
@@ -443,11 +462,31 @@ export default function RiwayatKeuntungan() {
     };
   }, []);
 
-  const active = TABS.find((item) => item.key === tab) || TABS[0];
-  // the chips pick the holding bucket, the date boxes pick the days
+  // the categories come from the holdings themselves, the same values the
+  // catalogue and the Aset chips use; "Semua" always leads
+  const categories = [
+    ...new Set(
+      investments
+        .map((row) => (row.product_golongan || '').trim())
+        .filter((name) => name && name !== '-')
+    ),
+  ].sort((a, b) => {
+    const ra = categoryRank(a);
+    const rb = categoryRank(b);
+    if (ra === -1 && rb === -1) return a.localeCompare(b);
+    if (ra === -1) return 1;
+    if (rb === -1) return -1;
+    return ra - rb;
+  });
+  const tabs = [
+    { key: 'all', label: 'Semua', category: '' },
+    ...categories.map((name) => ({ key: name, label: name, category: name })),
+  ];
+  const active = tabs.find((item) => item.key === tab) || tabs[0];
+  // the chips pick the product category, the date boxes pick the days
   const filtered = rows.filter(
     (row) =>
-      (!active.bucket || bucketFor(row, investments) === active.bucket) &&
+      (!active.category || categoryFor(row, investments) === active.category) &&
       withinRange(row.created_at, range.from, range.to)
   );
   const rangeActive = Boolean(range.from || range.to);
@@ -538,11 +577,11 @@ export default function RiwayatKeuntungan() {
             </button>
           </div>
           <div className="category-tabs">
-            {TABS.map((item) => (
+            {tabs.map((item) => (
               <button
                 key={item.key}
                 type="button"
-                className={`tab${item.key === tab ? ' active' : ''}`}
+                className={`tab${item.key === active.key ? ' active' : ''}`}
                 onClick={(event) => {
                   // the shell also toggles .active on .tab, React owns it here
                   event.stopPropagation();
@@ -559,7 +598,6 @@ export default function RiwayatKeuntungan() {
       <section id="section-transaction-list">
         <div className="tx-list">
 
-          {status === 'loading' && <p className="list-state">{t('Memuat riwayat keuntungan…')}</p>}
           {status === 'error' && <p className="list-state">{error}</p>}
           {status === 'ready' && visible.length === 0 && (
             <p className="list-state">

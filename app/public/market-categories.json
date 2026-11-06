@@ -1,0 +1,57 @@
+[
+  {
+    "id": "layer-1",
+    "name": "Layer 1 (L1)",
+    "market_cap": 2174848464631.0476,
+    "market_cap_change_24h": -5.695045944813223,
+    "top_3_coins": [
+      "https://coin-images.coingecko.com/coins/images/1/small/bitcoin.png",
+      "https://coin-images.coingecko.com/coins/images/279/small/ethereum.png",
+      "https://coin-images.coingecko.com/coins/images/825/small/bnb-icon2_2x.png"
+    ]
+  },
+  {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme",
+    "market_cap": 2613961559.632907,
+    "market_cap_change_24h": -4.799053576675872,
+    "top_3_coins": [
+      "https://coin-images.coingecko.com/coins/images/52622/small/PUDGY_PENGUINS_PENGU_PFP.png",
+      "https://coin-images.coingecko.com/coins/images/53746/small/trump.png",
+      "https://coin-images.coingecko.com/coins/images/28600/small/bonk.jpg"
+    ]
+  },
+  {
+    "id": "meme-token",
+    "name": "Meme",
+    "market_cap": 27184044142.2307,
+    "market_cap_change_24h": -4.479175606367035,
+    "top_3_coins": [
+      "https://coin-images.coingecko.com/coins/images/5/small/dogecoin.png",
+      "https://coin-images.coingecko.com/coins/images/11939/small/shiba.png",
+      "https://coin-images.coingecko.com/coins/images/29850/small/pepe-token.jpeg"
+    ]
+  },
+  {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance (DeFi)",
+    "market_cap": 70096937692.72324,
+    "market_cap_change_24h": -5.347413022901799,
+    "top_3_coins": [
+      "https://coin-images.coingecko.com/coins/images/13442/small/steth_logo.png",
+      "https://coin-images.coingecko.com/coins/images/50882/small/hyperliquid.jpg",
+      "https://coin-images.coingecko.com/coins/images/18834/small/wstETH.png"
+    ]
+  },
+  {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence (AI)",
+    "market_cap": 19679766143.09659,
+    "market_cap_change_24h": -4.82021200414963,
+    "top_3_coins": [
+      "https://coin-images.coingecko.com/coins/images/10365/small/near.jpg",
+      "https://coin-images.coingecko.com/coins/images/28452/small/ARUsPeNQ_400x400.jpeg",
+      "https://coin-images.coingecko.com/coins/images/66305/small/bittensor.jpg"
+    ]
+  }
+]

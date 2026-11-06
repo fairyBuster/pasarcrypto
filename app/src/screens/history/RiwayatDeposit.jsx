@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { dateTimeID, idr, trxStamp } from '../../lib/format.js';
+import { readHistory, writeHistory } from '../../lib/historyCache.js';
 import DateSheet, { withinRange } from '../../components/DateSheet.jsx';
 import { t } from '../../lib/i18n.js';
 
@@ -10,8 +11,9 @@ import { t } from '../../lib/i18n.js';
 const ROWS_PER_PAGE = 10;
 const MAX_PAGES = 25;
 
-// this screen is one slice of the ledger: the deposit rows only
+// this screen is one slice of the ledger: the deposit rows that actually landed
 const TYPE = 'DEPOSIT';
+const SETTLED = 'COMPLETED';
 
 const STATUS_LABEL = {
   PENDING: 'Diproses',
@@ -413,8 +415,10 @@ const css = `
 `;
 
 export default function RiwayatDeposit() {
-  const [rows, setRows] = useState([]);
-  const [status, setStatus] = useState('loading');
+  // the rows this screen painted last render immediately; the API call below
+  // replaces them in the background
+  const [rows, setRows] = useState(() => readHistory('deposit')?.rows || []);
+  const [status, setStatus] = useState(() => (readHistory('deposit') ? 'ready' : 'loading'));
   const [error, setError] = useState('');
   const [page, setPage] = useState(1);
   // the date boxes open this sheet; an empty range means "everything"
@@ -428,6 +432,18 @@ export default function RiwayatDeposit() {
       // every page of the deposit ledger is read once and cached in state
       const all = [];
       let failed = null;
+      // the ledger keeps every attempt; this frame only lists money that reached
+      // the wallet, so pending, failed and cancelled deposits stay out of the list
+      const settled = () =>
+        all.filter((row) => row.status === SETTLED)
+          .sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
+      // each page is painted the moment it lands, so the screen fills up while
+      // the older pages are still being read instead of waiting for all of them
+      const paint = () => {
+        if (!alive) return;
+        setRows(settled());
+        setStatus('ready');
+      };
       for (let n = 1; n <= MAX_PAGES; n += 1) {
         const res = await api.transactions({ type: TYPE, page: n });
         if (!res.ok) {
@@ -436,20 +452,23 @@ export default function RiwayatDeposit() {
         }
         const list = Array.isArray(res.data?.results) ? res.data.results : [];
         all.push(...list);
+        paint();
         if (!res.data?.next || list.length === 0) break;
       }
       if (!alive) return;
-      // a failed page only sinks the screen when nothing at all came back
+      // a failed page only sinks the screen when nothing at all came back;
+      // with rows on screen the rest of the pages are simply skipped
       if (all.length === 0 && failed) {
-        setError(friendlyError(failed, 'Gagal memuat riwayat deposit.'));
-        setStatus('error');
+        if (!readHistory('deposit')) {
+          setError(friendlyError(failed, 'Gagal memuat riwayat deposit.'));
+          setStatus('error');
+        }
         return;
       }
-      all.sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
-      setRows(all);
-      setStatus('ready');
+      writeHistory('deposit', { rows: settled() });
+      paint();
     })().catch(() => {
-      if (!alive) return;
+      if (!alive || readHistory('deposit')) return;
       setError('Gagal memuat riwayat deposit.');
       setStatus('error');
     });
@@ -481,14 +500,13 @@ export default function RiwayatDeposit() {
     setPicker('');
   };
 
-  // "sejak akun aktif": deposit that actually reached the wallet
-  const settled = rows.filter((row) => row.status === 'COMPLETED');
-  const totalDeposit = settled.reduce((sum, row) => sum + (Number(row.amount) || 0), 0);
+  // every row in state is already COMPLETED, so the headline is their sum
+  const totalDeposit = rows.reduce((sum, row) => sum + (Number(row.amount) || 0), 0);
 
   const oldest = rows.length ? rows[rows.length - 1].created_at : '';
   const newest = rows.length ? rows[0].created_at : '';
-  const fromDate = oldest ? dateTimeID(oldest).slice(0, 10) : '—';
-  const toDate = newest ? dateTimeID(newest).slice(0, 10) : '—';
+  const fromDate = oldest ? dateTimeID(oldest).slice(0, 10) : '';
+  const toDate = newest ? dateTimeID(newest).slice(0, 10) : '';
 
   const firstRow = filtered.length ? (current - 1) * ROWS_PER_PAGE + 1 : 0;
   const lastRow = Math.min(current * ROWS_PER_PAGE, filtered.length);
@@ -513,11 +531,11 @@ export default function RiwayatDeposit() {
               <div className="summary-content">
                   <span className="summary-label">{t('Total deposit · sejak akun aktif')}</span>
                   <span className="summary-amount">
-                      {status === 'ready' ? `${idr(totalDeposit)} IDR` : '—'}
+                      {status === 'ready' ? `${idr(totalDeposit)} IDR` : ''}
                   </span>
               </div>
               <div className="summary-stats">
-                  {status === 'ready' ? `${settled.length} transaksi` : '—'}
+                  {status === 'ready' ? `${rows.length} transaksi` : ''}
               </div>
           </div>
       </section>
@@ -553,9 +571,6 @@ export default function RiwayatDeposit() {
       </section>
       <section id="section-transaction-list">
           <div className="transaction-list-container">
-              {status === 'loading' && (
-                  <p className="list-state">{t('Memuat riwayat deposit…')}</p>
-              )}
               {status === 'error' && <p className="list-state">{error}</p>}
               {status === 'ready' && visible.length === 0 && (
                   <p className="list-state">
@@ -576,7 +591,7 @@ export default function RiwayatDeposit() {
                                   <img src="/assets/img/5f9f970a49.svg" alt="" />
                               </div>
                               <div className="tx-title-col">
-                                  <div className="tx-title">{row.description || 'Deposit'}</div>
+                                  <div className="tx-title">Isi saldo</div>
                                   <div className="tx-datetime">{dateTimeID(row.created_at, true)} WIB</div>
                               </div>
                               <div className="tx-amount-col">
@@ -585,7 +600,7 @@ export default function RiwayatDeposit() {
                                       +{idr(row.amount)} <span className="tx-currency">{row.currency_code || 'IDR'}</span>
                                   </div>
                                   <div className={`tx-status ${STATUS_TONE[row.status] || 'status-diproses'}`}>
-                                      {STATUS_LABEL[row.status] || row.status || '—'}
+                                      {STATUS_LABEL[row.status] || row.status || ''}
                                   </div>
                               </div>
                           </div>
@@ -608,12 +623,12 @@ export default function RiwayatDeposit() {
                               </div>
                               <div className="tx-detail-item">
                                   <span className="tx-detail-label">{t('Metode')}</span>
-                                  <span className="tx-detail-value">{method || '—'}</span>
+                                  <span className="tx-detail-value">{method || ''}</span>
                               </div>
                               <div className="tx-detail-item">
                                   <span className="tx-detail-label">{t('Masuk ke')}</span>
                                   <span className="tx-detail-value">
-                                      {WALLET_LABEL[row.wallet_type] || row.wallet_type || '—'}
+                                      {WALLET_LABEL[row.wallet_type] || row.wallet_type || ''}
                                   </span>
                               </div>
                           </div>

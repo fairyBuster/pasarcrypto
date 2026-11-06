@@ -1,3 +1,6 @@
+import { useEffect, useState } from 'react';
+import { api } from '../../lib/api.js';
+import { DEPOSIT_METHODS } from '../../lib/deposit.js';
 import { t } from '../../lib/i18n.js';
 // deposit-metode — ported from the Figma export, typography re-synced to Figma
 const css = `
@@ -154,6 +157,16 @@ const css = `
     font-size: 12px;
     font-weight: 500;
 }
+/* the gateway can be switched off from the admin, the rows then stay read-only */
+.scr-deposit-metode .list-item.is-blocked{
+    opacity: 0.45;
+}
+.scr-deposit-metode .gateway-notice{
+    padding: 16px 16px 0 16px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #f5b96b;
+}
 .scr-deposit-metode .security-container{
     padding: 16px 16px 0 16px;
 }
@@ -201,7 +214,47 @@ const css = `
 .scr-deposit-metode .provider-name.provider-name { font-weight: 700; }
 `;
 
+// the helper endpoint lists every gateway with its own enabled flag; this
+// screen's initiate call goes through Yuipay, so its row decides whether the
+// two channels are open (older builds answered a single { enabled } object)
+const gatewayOpen = (data) => {
+  if (Array.isArray(data)) {
+    const row = data.find((entry) => entry?.code === 'yuipay');
+    return row ? row.enabled !== false : data.some((entry) => entry?.enabled);
+  }
+  return data?.enabled !== false;
+};
+
 export default function DepositMetode() {
+  // the helper endpoint only says whether the gateway is reachable; the
+  // channels below are the ones its initiate call accepts
+  const [gateway, setGateway] = useState({ ready: false, enabled: true });
+  // a method that is not live yet answers with this notice instead of opening a
+  // flow the gateway would reject
+  const unavailable = t('Om, kalau pilih ini kasih notif dulu aja. Segera hadir nanti!');
+
+  useEffect(() => {
+    let alive = true;
+    api.depositMethods()
+      .then((res) => {
+        if (!alive) return;
+        // a failed probe closes the list just like a disabled gateway: either
+        // way the rows cannot take a payment, so they stay read-only
+        setGateway({ ready: true, enabled: res.ok && gatewayOpen(res.data) });
+      })
+      .catch(() => {
+        if (alive) setGateway({ ready: true, enabled: false });
+      });
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  // a disabled gateway would only fail on the amount screen, so the rows go dead
+  const blocked = gateway.ready && !gateway.enabled;
+  const qris = DEPOSIT_METHODS.find((row) => row.type === 'QRIS');
+  const banks = DEPOSIT_METHODS.filter((row) => row.type === 'VA');
+
   return (
     <div className="scr-deposit-metode">
       <style>{css}</style>
@@ -216,7 +269,7 @@ export default function DepositMetode() {
       </section>
       <section id="section-history">
           <div className="history-container">
-              <a href="#" className="history-btn" data-route="/riwayat/deposit">
+              <a href="#" className="history-btn" data-route="/riwayat/send">
                   <div className="history-icon">
                       <img src="/assets/img/ee43abaf76.svg" alt="" />
                   </div>
@@ -226,11 +279,20 @@ export default function DepositMetode() {
           </div>
       </section>
       <section id="section-payment-methods">
+          {blocked && (
+              <p className="gateway-notice">{unavailable}</p>
+          )}
           <div className="method-group">
               <h2 className="section-title">{t('QRIS')}</h2>
               <div className="list-container">
-                  <a href="#" className="list-item" data-route="/deposit/qris">
-                      <img src="/assets/img/d37fb3edfd.png" alt="QRIS" className="provider-logo qris-logo" />
+                  <a
+                      href="#"
+                      className={`list-item${blocked ? ' is-blocked' : ''}`}
+                      data-route={blocked ? undefined : '/send/qr'}
+                      data-toast={blocked ? unavailable : undefined}
+                      aria-disabled={blocked || undefined}
+                  >
+                      <img src={qris.logo} alt="QRIS" className={`provider-logo ${qris.logoClass}`} />
                       <span className="provider-name">{t('QRIS')}</span>
                       <div className="badge">
                           <span>{t('Instan')}</span>
@@ -243,14 +305,27 @@ export default function DepositMetode() {
           <div className="method-group">
               <h2 className="section-title">{t('Virtual Account')}</h2>
               <div className="list-container">
-                  <a href="#" className="list-item" data-route="/deposit/va">
-                      <img src="/assets/img/90ed915a6a.png" alt="BRI" className="provider-logo bri-logo" />
-                      <span className="provider-name">{t('BRI')}</span>
-                      <div className="badge">
-                          <span>{t('Instan')}</span>
-                      </div>
-                      <img src="/assets/img/c252a02177.svg" alt="" className="arrow-icon" />
-                  </a>
+                  {banks.map((bank) => (
+                      <a
+                          key={bank.code}
+                          href="#"
+                          className={`list-item${blocked ? ' is-blocked' : ''}`}
+                          data-route={blocked ? undefined : '/send/va'}
+                          data-toast={blocked ? unavailable : undefined}
+                          aria-disabled={blocked || undefined}
+                      >
+                          <img
+                              src={bank.logo}
+                              alt={bank.label}
+                              className={`provider-logo ${bank.logoClass}`}
+                          />
+                          <span className="provider-name">{t(bank.label)}</span>
+                          <div className="badge">
+                              <span>{t('Instan')}</span>
+                          </div>
+                          <img src="/assets/img/c252a02177.svg" alt="" className="arrow-icon" />
+                      </a>
+                  ))}
               </div>
           </div>
       </section>

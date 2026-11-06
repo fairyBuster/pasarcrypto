@@ -1,12 +1,15 @@
 // deposit-qris-1 — ported from the Figma export, typography re-synced to Figma
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../lib/api.js';
+import { friendlyError } from '../../lib/auth.jsx';
+import { DEPOSIT_LIMITS, DEPOSIT_WALLET, saveOrder } from '../../lib/deposit.js';
 import { idr } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
 
 // the same bounds the info card below spells out
-const MIN_DEPOSIT = 50000;
-const MAX_DEPOSIT = 10000000;
+const MIN_DEPOSIT = DEPOSIT_LIMITS.QRIS.min;
+const MAX_DEPOSIT = DEPOSIT_LIMITS.QRIS.max;
 
 const css = `
 /* deposit-qris-1 — ported from Figma export, typography re-synced */
@@ -207,6 +210,8 @@ const css = `
 export default function DepositQris1() {
   const navigate = useNavigate();
   const [amount, setAmount] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
 
   const nominal = Number(amount) || 0;
   const underMin = nominal > 0 && nominal < MIN_DEPOSIT;
@@ -217,6 +222,28 @@ export default function DepositQris1() {
     : overMax
       ? `Maksimal isi ulang ${idr(MAX_DEPOSIT)} IDR`
       : '';
+
+  // the charge is created here, the confirmation screen only renders the
+  // pay_data that comes back
+  const submit = async (event) => {
+    // App.jsx turns bare buttons into a toast, so the navigation is ours
+    event.stopPropagation();
+    if (!valid || busy) return;
+    setBusy(true);
+    setError('');
+    const res = await api.initiateDeposit({
+      amount: nominal,
+      method: 'QRIS',
+      wallet_type: DEPOSIT_WALLET,
+    });
+    if (!res.ok || !res.data?.order_num) {
+      setError(friendlyError(res.data, 'Gagal membuat pembayaran, coba lagi.'));
+      setBusy(false);
+      return;
+    }
+    saveOrder({ ...res.data, requested_at: new Date().toISOString() });
+    navigate(`/send/qr/konfirmasi?order=${encodeURIComponent(res.data.order_num)}`);
+  };
 
   return (
     <div className="scr-deposit-qris-1">
@@ -239,17 +266,24 @@ export default function DepositQris1() {
             className="amount-input"
             placeholder={t('Masukkan nominal untuk pengisian')}
             value={amount ? idr(Number(amount)) : ''}
-            onChange={(event) => setAmount(event.target.value.replace(/\D/g, ''))}
+            onChange={(event) => {
+              setAmount(event.target.value.replace(/\D/g, ''));
+              setError('');
+            }}
           />
           <span className="currency">{t('IDR')}</span>
         </div>
-        {hint && <div className="amount-hint is-error">{hint}</div>}
+        {hint ? (
+          <div className="amount-hint is-error">{hint}</div>
+        ) : error ? (
+          <div className="amount-hint is-error">{error}</div>
+        ) : null}
       </section>
       <section id="section-deposit-info">
         <ul className="info-list">
           <li>
             <span className="bullet"></span>
-            <p>{t('Minimum isi ulang')} <strong>{t('50.000 IDR')}</strong>{t(', maksimum')}<br /><strong>{t('10.000.000 IDR')}</strong></p>
+            <p>{t('Minimum isi ulang')} <strong>{idr(MIN_DEPOSIT)} IDR</strong>{t(', maksimum')}<br /><strong>{idr(MAX_DEPOSIT)} IDR</strong></p>
           </li>
           <li>
             <span className="bullet"></span>
@@ -261,14 +295,10 @@ export default function DepositQris1() {
         <button
           type="button"
           className="btn-primary"
-          disabled={!valid}
-          onClick={(event) => {
-            // App.jsx turns bare buttons into a toast, so the navigation is ours
-            event.stopPropagation();
-            navigate(`/deposit/qris/konfirmasi?amount=${nominal}`);
-          }}
+          disabled={!valid || busy}
+          onClick={submit}
         >
-          {t('Selanjutnya')}
+          {busy ? t('Memproses…') : t('Selanjutnya')}
         </button>
       </section>
       <section id="section-security">

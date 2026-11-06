@@ -7,6 +7,8 @@
 // Same-origin by default: the dev server proxies /api to Django, so the browser
 // never sends a cross-origin request. Point VITE_API_BASE at a full URL when the
 // frontend is served by something that has no proxy.
+import { clearHistoryCache } from './historyCache.js';
+
 const BASE = import.meta.env.VITE_API_BASE || '';
 const SALT = import.meta.env.VITE_API_SALT || 'KXXADFDFDF';
 
@@ -37,6 +39,8 @@ export const session = {
     localStorage.removeItem(ACCESS_KEY);
     localStorage.removeItem(REFRESH_KEY);
     localStorage.removeItem(USER_KEY);
+    // the ledger snapshots belong to the account that fetched them
+    clearHistoryCache();
   },
 };
 
@@ -129,6 +133,12 @@ export const api = {
   login: (identifier, password) =>
     send('/api/auth/jwt/identifier-login/', { method: 'POST', body: { identifier, password } }),
   register: (payload) => send('/api/auth/register/', { method: 'POST', body: payload }),
+  // public settings — names the deployed frontend host invite links must use.
+  // send() attaches no bearer token, so a stale session cannot turn it into 401
+  settings: () => send('/api/auth/settings/'),
+  // currency quote — public too; `rate_to_main` is one secondary unit in IDR
+  currencySettings: (code = 'USD') =>
+    send(`/api/auth/settings/currency/?code=${encodeURIComponent(code)}`),
   resetPassword: (payload) => send('/api/auth/reset-password-otp/', { method: 'POST', body: payload }),
   requestOtp: (phone) => send('/api/auth/request-otp/', { method: 'POST', body: { phone } }),
   logout: (refresh, token) =>
@@ -156,6 +166,9 @@ export const api = {
     request(`/api/auth/address/${id}/`, { method: 'PUT', body: payload }),
   // support — the FAQ list is public and arrives as a bare array
   faqs: () => request('/api/support/faqs/'),
+  // support — the channel popup reads its Telegram / WhatsApp / help-desk rows
+  // from here; public and paginated under results
+  supportLinks: () => send('/api/support/links/'),
   // support chat — one thread per account, oldest message first
   supportChat: () => request('/api/support/chat/messages/'),
   supportChatSend: (message) =>
@@ -196,6 +209,9 @@ export const api = {
     return request(`/api/products/${query ? `?${query}` : ''}`);
   },
   product: (id) => request(`/api/products/${id}/`),
+  // daily price history for one product's chart; days is 7/14/30/90
+  productChart: (id, days = 7) =>
+    request(`/api/products/${id}/chart/?days=${encodeURIComponent(days)}`),
   purchase: (payload) => request('/api/products/purchase/', { method: 'POST', body: payload }),
   // the endpoint answers with a bare array, not a paginated object
   investments: (params = {}) => {
@@ -226,6 +242,11 @@ export const api = {
   withdraw: (payload) => request('/api/withdraw/', { method: 'POST', body: payload }),
   // paginated: { count, next, previous, results }
   withdraws: (page = 1) => request(`/api/withdraw/?page=${page}`),
+  // deposits — the gateway the admin enabled, then the charge itself: the
+  // response carries pay_data (QR string or VA number) alongside pay_url
+  depositMethods: () => request('/api/deposits/methods/'),
+  initiateDeposit: (payload) =>
+    request('/api/deposits/yuipay/initiate/', { method: 'POST', body: payload }),
   transactions: (params = {}) => {
     const query = new URLSearchParams(
       Object.entries(params).filter(([, value]) => value !== '' && value != null)

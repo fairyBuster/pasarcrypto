@@ -4,7 +4,7 @@ import { api } from '../../lib/api.js';
 import { useAuth } from '../../lib/auth.jsx';
 import { copyText } from '../../lib/clipboard.js';
 import { idr } from '../../lib/format.js';
-import { inviteLink } from '../../lib/referral.js';
+import { useInviteLink } from '../../lib/referral.js';
 import { t } from '../../lib/i18n.js';
 const css = `
 /* program-referral — ported from Figma export, typography re-synced */
@@ -396,7 +396,9 @@ export default function ProgramReferral() {
   const trading = rows.reduce((sum, row) => sum + num(row.members_active), 0);
 
   const code = user?.referral_code || '';
-  const link = inviteLink(code);
+  // the host comes from /api/auth/settings/, so the copied link points at the
+  // domain the API reports rather than whatever host this tab opened
+  const link = useInviteLink(code);
 
   // the shell copies closest('div').innerText, which here is the whole row
   const copy = async (event, key, value) => {

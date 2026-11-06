@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { dateTimeID, idr } from '../../lib/format.js';
+import { readHistory, writeHistory } from '../../lib/historyCache.js';
 import DateSheet, { withinRange } from '../../components/DateSheet.jsx';
 import { t } from '../../lib/i18n.js';
 
@@ -360,8 +361,10 @@ const css = `
 `;
 
 export default function RiwayatAbsen() {
-  const [rows, setRows] = useState([]);
-  const [status, setStatus] = useState('loading');
+  // the log this screen painted last renders immediately; the API call below
+  // replaces it in the background
+  const [rows, setRows] = useState(() => readHistory('absen')?.rows || []);
+  const [status, setStatus] = useState(() => (readHistory('absen') ? 'ready' : 'loading'));
   const [error, setError] = useState('');
   const [wallet, setWallet] = useState('');
   const [range, setRange] = useState({ from: '', to: '' });
@@ -375,6 +378,14 @@ export default function RiwayatAbsen() {
       // page of the attendance history is read once and cached in state
       const all = [];
       let failed = null;
+      const sorted = () => [...all].sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
+      // each page is painted the moment it lands, so the log starts filling up
+      // while the older pages are still being read
+      const paint = () => {
+        if (!alive) return;
+        setRows(sorted());
+        setStatus('ready');
+      };
       for (let n = 1; n <= MAX_PAGES; n += 1) {
         const res = await api.attendanceLogs({ page: n });
         if (!res.ok) {
@@ -383,20 +394,23 @@ export default function RiwayatAbsen() {
         }
         const list = Array.isArray(res.data?.results) ? res.data.results : [];
         all.push(...list);
+        paint();
         if (!res.data?.next || list.length === 0) break;
       }
       if (!alive) return;
-      // a failed page only sinks the screen when nothing at all came back
+      // a failed page only sinks the screen when nothing at all came back;
+      // with rows on screen the rest of the pages are simply skipped
       if (all.length === 0 && failed) {
-        setError(friendlyError(failed, 'Gagal memuat riwayat absen.'));
-        setStatus('error');
+        if (!readHistory('absen')) {
+          setError(friendlyError(failed, 'Gagal memuat riwayat absen.'));
+          setStatus('error');
+        }
         return;
       }
-      all.sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
-      setRows(all);
-      setStatus('ready');
+      writeHistory('absen', { rows: sorted() });
+      paint();
     })().catch(() => {
-      if (!alive) return;
+      if (!alive || readHistory('absen')) return;
       setError('Gagal memuat riwayat absen.');
       setStatus('error');
     });
@@ -446,8 +460,8 @@ export default function RiwayatAbsen() {
   const totalBonus = rows.reduce((sum, row) => sum + (Number(row.amount) || 0), 0);
   const oldest = rows.length ? rows[rows.length - 1].created_at : '';
   const newest = rows.length ? rows[0].created_at : '';
-  const fromDate = oldest ? dateTimeID(oldest).slice(0, 10) : '—';
-  const toDate = newest ? dateTimeID(newest).slice(0, 10) : '—';
+  const fromDate = oldest ? dateTimeID(oldest).slice(0, 10) : '';
+  const toDate = newest ? dateTimeID(newest).slice(0, 10) : '';
   const firstRow = filtered.length ? (current - 1) * ROWS_PER_PAGE + 1 : 0;
   const lastRow = Math.min(current * ROWS_PER_PAGE, filtered.length);
 
@@ -476,9 +490,9 @@ export default function RiwayatAbsen() {
               </div>
               <div className="summary-info">
                 <div className="summary-label">{t('Total bonus absen · sejak akun aktif')}</div>
-                <div className="summary-amount">{status === 'ready' ? `${idr(totalBonus)} IDR` : '—'}</div>
+                <div className="summary-amount">{status === 'ready' ? `${idr(totalBonus)} IDR` : ''}</div>
               </div>
-              <div className="summary-days">{status === 'ready' ? `${rows.length} absen` : '—'}</div>
+              <div className="summary-days">{status === 'ready' ? `${rows.length} absen` : ''}</div>
             </div>
           </div>
         </div>
@@ -518,7 +532,6 @@ export default function RiwayatAbsen() {
       <section id="section-history-list" className="app-section">
         <div className="app-container">
           <div className="history-list">
-            {status === 'loading' && <p className="list-state">{t('Memuat riwayat absen…')}</p>}
             {status === 'error' && <p className="list-state">{error}</p>}
             {status === 'ready' && visible.length === 0 && (
               <p className="list-state">

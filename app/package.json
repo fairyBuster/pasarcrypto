@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "routes": "node scripts/gen-nginx-routes.mjs",
+    "snapshot": "node scripts/gen-market-snapshot.mjs",
+    "build": "npm run routes && npm run snapshot && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import BottomNav from '../../components/BottomNav.jsx';
 import { dateTimeID, idr, initials, usdtApprox } from '../../lib/format.js';
 import { useAssets } from '../../lib/useAssets.js';
+import { useUsdRate } from '../../lib/useUsdRate.js';
 import { t } from '../../lib/i18n.js';
 
 // a fixed product pays rupiah per day, so its rate is measured against the money
@@ -463,6 +464,8 @@ const css = `
 export default function AsetSaya() {
   const { active, deposit, available, balanceHold, interestTotal, todayIncome, status, error } =
     useAssets();
+  // the API quotes the rupiah-per-USD rate the equivalent line is read at
+  const usdRate = useUsdRate();
   // the breakdown rows are these three wallets, so their percentages are of
   // their own sum (the asset total also adds the running holdings)
   const shownTotal = deposit + available + balanceHold;
@@ -523,14 +526,14 @@ export default function AsetSaya() {
               <span className="amount" aria-hidden={balanceHidden || undefined}>{idr(available)}</span>
               <span className="currency">{t('IDR')}</span>
             </div>
-            <div className="asset-equivalent" aria-hidden={balanceHidden || undefined}>{usdtApprox(available)}</div>
+            <div className="asset-equivalent" aria-hidden={balanceHidden || undefined}>{usdtApprox(available, usdRate)}</div>
             <div className="asset-change" aria-hidden={balanceHidden || undefined}>▲ Profit hari ini +{idr(todayIncome)} IDR</div>
             <div className="asset-actions">
-              <button className="btn-withdraw" data-route="/tarik">
+              <button className="btn-withdraw" data-route="/draw">
                 <img src="/assets/img/d4068b08e6.svg" alt="" />
                 {t('Tarik')}
               </button>
-              <button className="btn-history" data-route="/riwayat/keuntungan">
+              <button className="btn-history" data-route="/coin">
                 <img src="/assets/img/db9506035c.svg" alt="" />
                 {t('Riwayat')}
               </button>

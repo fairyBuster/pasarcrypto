@@ -1,7 +1,10 @@
 // deposit-qris-2 — ported from the Figma export, typography re-synced to Figma
-import { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import { QRCodeSVG } from 'qrcode.react';
+import { toPng } from 'html-to-image';
 import { useAuth } from '../../lib/auth.jsx';
+import { clock, readOrder, useCountdown } from '../../lib/deposit.js';
 import { dateTimeWIB, idr } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
 
@@ -99,6 +102,16 @@ const css = `
   font-size: 14px;
   font-weight: 700;
 }
+/* the dashed frame is only the placeholder; a real code fills the box */
+.scr-deposit-qris-2 #section-hero .qr-box.is-filled{
+  border: none;
+}
+.scr-deposit-qris-2 #section-hero .qr-box svg{
+  display: block;
+}
+.scr-deposit-qris-2 #section-hero .timer-pill.is-expired{
+  color: #f5808f;
+}
 .scr-deposit-qris-2 #section-hero .download-btn{
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
@@ -113,6 +126,10 @@ const css = `
   font-weight: 700;
   cursor: pointer;
   margin-bottom: 24px;
+}
+.scr-deposit-qris-2 #section-hero .download-btn:disabled{
+  opacity: 0.5;
+  cursor: default;
 }
 .scr-deposit-qris-2 #section-hero .payment-details{
   width: 100%;
@@ -238,13 +255,54 @@ const css = `
 `;
 
 export default function DepositQris2() {
+  const navigate = useNavigate();
   const [params] = useSearchParams();
   const { user } = useAuth();
 
-  // the amount arrives from the previous screen; the balance follows the account
-  const amount = Number(params.get('amount')) || 0;
+  // the charge was opened on the amount screen, so this frame only renders it
+  const orderNum = params.get('order') || '';
+  const order = useMemo(() => readOrder(orderNum), [orderNum]);
+  const [saving, setSaving] = useState(false);
+  const qrRef = useRef(null);
+
+  // the balance shown is the wallet the deposit lands in
   const deposit = Number(user?.balance_deposit) || 0;
-  const [orderedAt] = useState(() => dateTimeWIB());
+  const payData = order?.pay_data || '';
+  const isQr = order?.pay_data_type === 'QR_CODE' && Boolean(payData);
+  const left = useCountdown(order?.expires_at);
+  const expired = left === 0;
+
+  // without an order there is nothing to pay, so the amount screen takes over
+  useEffect(() => {
+    if (!order) navigate('/send/qr', { replace: true });
+  }, [order, navigate]);
+
+  // cashier mode answers without pay_data, and then the gateway page owns the flow
+  useEffect(() => {
+    if (order && !isQr && order.pay_url) window.location.assign(order.pay_url);
+  }, [order, isQr]);
+
+  const downloadQr = async (event) => {
+    event.stopPropagation();
+    if (!qrRef.current || !isQr || saving) return;
+    setSaving(true);
+    try {
+      const png = await toPng(qrRef.current, {
+        pixelRatio: 3,
+        backgroundColor: '#ffffff',
+        cacheBust: true,
+      });
+      const anchor = document.createElement('a');
+      anchor.href = png;
+      anchor.download = `qris-${order.order_num || 'deposit'}.png`;
+      anchor.click();
+    } catch {
+      // capture can fail when the browser refuses canvas access
+    }
+    setSaving(false);
+  };
+
+  if (!order) return <div className="scr-deposit-qris-2" />;
 
   return (
     <div className="scr-deposit-qris-2">
@@ -266,25 +324,42 @@ export default function DepositQris2() {
           <div className="qr-card">
             <div className="qr-timer-row">
               <div className="timer-label">{t('Bayar sebelum')}</div>
-              <div className="timer-pill">00:14:56</div>
-            </div>
-            <div className="qr-box-container">
-              <div className="qr-box">
-                <span>{t('QR CODE')}</span>
+              <div className={`timer-pill${expired ? ' is-expired' : ''}`}>
+                {left == null ? '—' : clock(left)}
               </div>
             </div>
-            <button className="download-btn">
+            <div className="qr-box-container">
+              <div className={`qr-box${isQr ? ' is-filled' : ''}`} ref={qrRef}>
+                {isQr ? (
+                  // pay_data is the QR string Yuipay built for this order
+                  <QRCodeSVG
+                    value={payData}
+                    size={168}
+                    level="M"
+                    bgColor="#ffffff"
+                    fgColor="#0c1a2d"
+                  />
+                ) : (
+                  <span>{t('QR CODE')}</span>
+                )}
+              </div>
+            </div>
+            <button
+              className="download-btn"
+              disabled={!isQr || saving}
+              onClick={downloadQr}
+            >
               <img src="/assets/img/bf48dfeb38.svg" alt="Download" />
-              <span>{t('Download')}</span>
+              <span>{saving ? t('Menyiapkan…') : t('Download')}</span>
             </button>
             <div className="payment-details">
               <div className="detail-row">
                 <span className="detail-label">{t('Total Penyetoran')}</span>
-                <span className="detail-value">{amount ? `${idr(amount)} IDR` : '—'}</span>
+                <span className="detail-value">{idr(order.amount)} IDR</span>
               </div>
               <div className="detail-row">
                 <span className="detail-label">{t('Tanggal Transaksi')}</span>
-                <span className="detail-value">{orderedAt}</span>
+                <span className="detail-value">{dateTimeWIB(order.requested_at)}</span>
               </div>
               <div className="detail-row highlight">
                 <span className="detail-label">{t('Saldo Isi Ulang Saat Ini')}</span>
@@ -330,7 +405,7 @@ export default function DepositQris2() {
       </section>
       <section id="section-footer">
         <div className="footer-wrapper">
-          <button className="primary-btn" data-route="/aset">{t('Saya Sudah Bayar')}</button>
+          <button className="primary-btn" data-route="/riwayat/send">{t('Saya Sudah Bayar')}</button>
         </div>
       </section>
     </div>

@@ -1,10 +1,10 @@
 // pasar — ported from the Figma export, typography re-synced to Figma
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import BottomNav from '../../components/BottomNav.jsx';
 import { api } from '../../lib/api.js';
 import { friendlyError, useAuth } from '../../lib/auth.jsx';
 import { idr, initials, quotaPercent, ratePercent, volumeText } from '../../lib/format.js';
-import { useCoinChart } from '../../lib/useCoinChart.js';
+import { useProductChart, chartGeometry } from '../../lib/useProductChart.js';
 import { t } from '../../lib/i18n.js';
 // the endpoint is paginated and has no ordering, so the pages are walked
 const MAX_PAGES = 10;
@@ -22,44 +22,80 @@ const quotaFill = (product) => {
 };
 // a stock-enabled product with zero stock cannot be bought
 const soldOut = (product) => !!product?.stock_enabled && Number(product.stock) <= 0;
-// the card chart is the real 30-day CoinGecko series (same hook as the detail
-// screen); unknown coins, empty data, and failures keep the static asset
+// the card chart is the product's real 7-day series from the backend chart
+// endpoint (same hook as the detail screen) drawn as percent change, so every
+// coin keeps its own shape; unknown products, empty data, and failures keep the
+// static asset
 const CARD_W = 360;
 const CARD_H = 100;
-const CardChart = ({ name }) => {
-  const { points, status } = useCoinChart(name, 30);
-  if (status !== 'ready' || points.length < 2) {
-    return <img src="/assets/img/111ef1c789.svg" alt="Chart" className="chart-img" />;
+const CardChart = ({ productId }) => {
+  // every visible card asks for its own series, so a card only calls once it is
+  // about to scroll into view instead of firing the whole list on mount
+  const slot = useRef(null);
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    const node = slot.current;
+    if (!node || visible) return undefined;
+    if (typeof IntersectionObserver === 'undefined') {
+      setVisible(true);
+      return undefined;
+    }
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '250px' }
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [visible]);
+
+  const { points, status } = useProductChart(visible ? productId : null);
+  const plot = status === 'ready' ? chartGeometry(points, CARD_W, CARD_H) : null;
+  if (!plot) {
+    // the slot keeps its height but stays empty while the series is on its way;
+    // only a product whose chart cannot be drawn keeps the static figure
+    const waiting = status === 'loading' || status === 'unsupported';
+    return (
+      <div className="chart-slot" ref={slot}>
+        {waiting ? null : <img src="/assets/img/111ef1c789.svg" alt="Chart" className="chart-img" />}
+      </div>
+    );
   }
-  const min = Math.min(...points.map((p) => p.v));
-  const max = Math.max(...points.map((p) => p.v));
-  const span = max - min || 1;
-  const step = CARD_W / (points.length - 1);
-  const coords = points.map((p, i) => ({
-    x: +(i * step).toFixed(2),
-    y: +((1 - (p.v - min) / span) * (CARD_H - 8) + 4).toFixed(2),
-  }));
-  const line = coords.map((c) => `${c.x},${c.y}`).join(' ');
-  const area = `0,${CARD_H} ${line} ${CARD_W},${CARD_H}`;
-  const last = coords[coords.length - 1];
+  const stroke = plot.up ? '#3ecf8e' : '#f2667a';
   return (
-    <svg
-      className="chart-img"
-      viewBox={`0 0 ${CARD_W} ${CARD_H}`}
-      preserveAspectRatio="none"
-      aria-hidden="true"
-    >
-      <polygon points={area} fill="rgba(62, 207, 142, 0.12)" />
-      <polyline
-        points={line}
-        fill="none"
-        stroke="#3ecf8e"
-        strokeWidth="2"
-        strokeLinejoin="round"
-        strokeLinecap="round"
-      />
-      <circle cx={last.x} cy={last.y} r="3.5" fill="#3ecf8e" />
-    </svg>
+    <div className="chart-slot" ref={slot}>
+      <svg
+        className="chart-img"
+        viewBox={`0 0 ${CARD_W} ${CARD_H}`}
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        {/* the zero line is what makes a pegged coin read as flat */}
+        <line
+          x1="0"
+          y1={plot.center}
+          x2={CARD_W}
+          y2={plot.center}
+          stroke="rgba(201, 212, 225, 0.18)"
+          strokeWidth="1"
+          strokeDasharray="3 4"
+        />
+        <polygon points={plot.area} fill={plot.up ? 'rgba(62, 207, 142, 0.12)' : 'rgba(242, 102, 122, 0.12)'} />
+        <polyline
+          points={plot.line}
+          fill="none"
+          stroke={stroke}
+          strokeWidth="2"
+          strokeLinejoin="round"
+          strokeLinecap="round"
+        />
+        <circle cx={plot.last.x} cy={plot.last.y} r="3.5" fill={stroke} />
+      </svg>
+    </div>
   );
 };
 const css = `
@@ -386,6 +422,12 @@ const css = `
     height: 48px;
     object-fit: cover;
 }
+/* the chart only asks for its series once the slot approaches the viewport */
+.scr-pasar .chart-slot{
+    display: block;
+    width: 100%;
+    height: 48px;
+}
 .scr-pasar .volume-section{
     margin-top: 12px;
 }
@@ -693,7 +735,7 @@ export default function Pasar() {
                               <span className="amount">{idr(account?.balance_deposit)}</span>
                               <span className="currency">{t('IDR')}</span>
                           </div>
-                          <button className="btn-isi-ulang" data-route="/deposit">{t('Isi Ulang')}</button>
+                          <button className="btn-isi-ulang" data-route="/send">{t('Isi Ulang')}</button>
                       </div>
                       <div className="divider"></div>
                       <div className="balance-section flex-col">
@@ -717,14 +759,14 @@ export default function Pasar() {
                               <span className="amount">{idr(account?.balance)}</span>
                               <span className="currency">{t('IDR')}</span>
                           </div>
-                          <button className="btn-tarik" data-route="/tarik">{t('Tarik')}</button>
+                          <button className="btn-tarik" data-route="/draw">{t('Tarik')}</button>
                       </div>
                   </div>
               </div>
           </div>
           <div className="holding-status flex-row justify-between items-center">
               <span className="status-text">{t('Sedang berlangsung')} <strong>{idr(held)} IDR</strong></span>
-              <a href="#" className="history-link flex-row items-center" data-route="/riwayat/keuntungan">{t('Riwayat Coin')} <img src="/assets/img/ca4e0764f0.svg" alt="Arrow" /></a>
+              <a href="#" className="history-link flex-row items-center" data-route="/coin">{t('Riwayat Coin')} <img src="/assets/img/ca4e0764f0.svg" alt="Arrow" /></a>
           </div>
       </section>
       <section id="section-filters">
@@ -800,14 +842,14 @@ export default function Pasar() {
               </div>
               <div className="chart-section flex-col">
                   <div className="chart-header flex-row justify-between items-center">
-                      <span className="chart-title">{t('Grafik APR · 30 hari')}</span>
+                      <span className="chart-title">{t('Grafik harga · 7 hari')}</span>
                       {/* the price quote stacks value over label, right-aligned */}
                       <div className="apr-info flex-col">
                           <span className="apr-value">{idr(product.price)} IDR</span>
                           <span className="apr-label">{t('Mulai dari')}</span>
                       </div>
                   </div>
-                  <CardChart name={product.name} />
+                  <CardChart productId={product.id} />
               </div>
               <div className="volume-section flex-row justify-between items-center">
                   <div className="volume-left flex-row items-center">

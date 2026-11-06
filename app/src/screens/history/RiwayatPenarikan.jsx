@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { dateTimeID, idr, maskAccount, maskName, trxStamp } from '../../lib/format.js';
+import { readHistory, writeHistory } from '../../lib/historyCache.js';
 import DateSheet, { withinRange } from '../../components/DateSheet.jsx';
 import { t } from '../../lib/i18n.js';
 
@@ -417,8 +418,10 @@ const css = `
 `;
 
 export default function RiwayatPenarikan() {
-  const [rows, setRows] = useState([]);
-  const [status, setStatus] = useState('loading');
+  // the rows this screen painted last render immediately; the API call below
+  // replaces them in the background
+  const [rows, setRows] = useState(() => readHistory('penarikan')?.rows || []);
+  const [status, setStatus] = useState(() => (readHistory('penarikan') ? 'ready' : 'loading'));
   const [error, setError] = useState('');
   const [tab, setTab] = useState('all');
   const [page, setPage] = useState(1);
@@ -432,10 +435,18 @@ export default function RiwayatPenarikan() {
       // the tabs and the page numbers work on the whole history, so every
       // page of the endpoint is read once and cached in state
       const all = [];
+      // each page is painted the moment it lands, so the list starts filling up
+      // while the older pages are still being read
+      const paint = () => {
+        if (!alive) return;
+        setRows([...all]);
+        setStatus((prev) => (prev === 'error' ? prev : 'ready'));
+      };
       for (let n = 1; n <= MAX_PAGES; n += 1) {
         const res = await api.withdraws(n);
         if (!res.ok) {
-          if (n === 1 && alive) {
+          // with a cached list on screen the refresh stays silent
+          if (n === 1 && alive && !readHistory('penarikan')) {
             setError(friendlyError(res.data, 'Gagal memuat riwayat penarikan.'));
             setStatus('error');
           }
@@ -443,13 +454,15 @@ export default function RiwayatPenarikan() {
         }
         const list = Array.isArray(res.data?.results) ? res.data.results : [];
         all.push(...list);
+        paint();
         if (!res.data?.next || list.length === 0) break;
       }
       if (!alive) return;
-      setRows(all);
+      writeHistory('penarikan', { rows: all });
+      setRows([...all]);
       setStatus((prev) => (prev === 'error' ? prev : 'ready'));
     })().catch(() => {
-      if (!alive) return;
+      if (!alive || readHistory('penarikan')) return;
       setError('Gagal memuat riwayat penarikan.');
       setStatus('error');
     });
@@ -574,7 +587,6 @@ export default function RiwayatPenarikan() {
       </section>
       <section id="section-transaction-list">
         <div className="transaction-list-container">
-          {status === 'loading' && <p className="list-state">{t('Memuat riwayat penarikan…')}</p>}
           {status === 'error' && <p className="list-state">{error}</p>}
           {status === 'ready' && visible.length === 0 && (
             <p className="list-state">

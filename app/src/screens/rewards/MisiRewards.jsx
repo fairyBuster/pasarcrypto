@@ -5,7 +5,7 @@ import { api } from '../../lib/api.js';
 import { friendlyError, useAuth } from '../../lib/auth.jsx';
 import { copyText } from '../../lib/clipboard.js';
 import { idr } from '../../lib/format.js';
-import { inviteLink } from '../../lib/referral.js';
+import { useInviteLink } from '../../lib/referral.js';
 import { t } from '../../lib/i18n.js';
 
 const MAX_PAGES = 10;
@@ -487,6 +487,9 @@ export default function MisiRewards() {
   const [claimingId, setClaimingId] = useState(null);
   const [claimError, setClaimError] = useState('');
   const [copied, setCopied] = useState(false);
+  // the host comes from /api/auth/settings/, so the copied link points at the
+  // domain the API reports rather than whatever host this tab opened
+  const invite = useInviteLink(user?.referral_code || '');
 
   useEffect(() => {
     let alive = true;
@@ -562,7 +565,7 @@ export default function MisiRewards() {
     event.stopPropagation();
     const code = user?.referral_code;
     if (!code) return;
-    if (await copyText(inviteLink(code))) setCopied(true);
+    if (await copyText(invite)) setCopied(true);
   };
 
   useEffect(() => {
@@ -604,9 +607,10 @@ export default function MisiRewards() {
       <style>{css}</style>
       <section id="section-header" className="header-section">
         <div className="header-container">
-          <button className="back-button" data-back="1">
+          {/* the back arrow returns to the akun screen, not the browser history */}
+          <a href="#/akun" className="back-button">
             <img src="/assets/img/44b91558db.svg" alt="Back" />
-          </button>
+          </a>
           <h1 className="header-title">{t('Misi Rewards')}</h1>
           <div className="header-placeholder"></div>
         </div>
@@ -661,7 +665,7 @@ export default function MisiRewards() {
         </div>
       </section>
       <section id="section-invite-button" className="invite-section">
-        <button className="invite-button" data-route="/rewards/referral">
+        <button className="invite-button" data-route="/rewards/share">
           <img src="/assets/img/28b6db7b75.svg" alt="Invite" />
           <span>{t('Undang Teman')}</span>
         </button>

@@ -186,7 +186,7 @@ export default function KonfirmasiTarik() {
 
   // the amount lives in the URL so a refresh keeps the same request on screen
   useEffect(() => {
-    if (!amount) navigate('/tarik', { replace: true });
+    if (!amount) navigate('/draw', { replace: true });
   }, [amount, navigate]);
 
   const requirePin = Boolean(settings?.require_pin);
@@ -216,7 +216,7 @@ export default function KonfirmasiTarik() {
     });
     if (res.ok) {
       // a successful request skips the notification and lands on the withdrawal history
-      navigate('/riwayat/penarikan');
+      navigate('/riwayat/draw');
       return;
     }
     setError(friendlyError(res.data, 'Penarikan gagal, coba lagi.'));

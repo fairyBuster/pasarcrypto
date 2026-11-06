@@ -4,7 +4,7 @@ import ProfilEditForm from '../../components/ProfilEditForm.jsx';
 import { api } from '../../lib/api.js';
 import { friendlyError, useAuth } from '../../lib/auth.jsx';
 import { dateID, maskEmail, maskPhone } from '../../lib/format.js';
-import { inviteLink } from '../../lib/referral.js';
+import { useInviteLink } from '../../lib/referral.js';
 import { t } from '../../lib/i18n.js';
 
 // the avatar upload accepts exactly what the API documents
@@ -421,6 +421,9 @@ const css = `
 export default function ProfilSaya1() {
   // the whole object comes from /api/auth/account-info/, hydrated by AuthProvider
   const { user } = useAuth();
+  // the host comes from /api/auth/settings/, so the copied link points at the
+  // domain the API reports rather than whatever host this tab opened
+  const referralLink = useInviteLink(user?.referral_code || '');
   // the edit state swaps the read-only rows for the PUT form
   const [editing, setEditing] = useState(false);
   // the rank row names the current rank, which only rank-status carries
@@ -590,7 +593,7 @@ export default function ProfilSaya1() {
                 type="button"
                 className="copy-link"
                 aria-label={t('Salin link referral')}
-                data-copy={user?.referral_code ? inviteLink(user.referral_code) : undefined}
+                data-copy={referralLink || undefined}
               >
                 <img src="/assets/img/1edf6f972a.svg" alt="" className="data-icon" />
               </button>

@@ -2,12 +2,15 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { initials, quotaPercent, rateLabel, rateValue, volumeText } from '../../lib/format.js';
-import { useCoinChart } from '../../lib/useCoinChart.js';
+import { useProductChart, chartGeometry } from '../../lib/useProductChart.js';
 import { t } from '../../lib/i18n.js';
 // pencarian — ported from the Figma export, typography re-synced to Figma
 // the endpoint is paginated and has no search filter, so the pages are walked
 const MAX_PAGES = 10;
-const RECENT_KEY = 'pscryp.recentSearches';
+// the first key also collected every product-card tap, so it is retired; a new
+// key starts the list from real submitted searches only
+const RECENT_KEY = 'pscryp.recentSearches.v2';
+const LEGACY_RECENT_KEY = 'pscryp.recentSearches';
 const MAX_RECENT = 8;
 
 // the card mirrors the quota label: full when unlimited, empty when sold out
@@ -23,26 +26,24 @@ const quotaFill = (product) => {
 };
 // a stock-enabled product with zero stock cannot be bought
 const soldOut = (product) => !!product?.stock_enabled && Number(product.stock) <= 0;
-// the card chart is the real 30-day CoinGecko series (same hook as the detail
-// screen); unknown coins, empty data, and failures keep the static asset
+// the card chart is the product's real 7-day series from the backend chart
+// endpoint (same hook as the market list); empty data and failures keep the
+// static asset
 const CARD_W = 360;
 const CARD_H = 100;
-const CardChart = ({ name }) => {
-  const { points, status } = useCoinChart(name, 30);
-  if (status !== 'ready' || points.length < 2) {
+const CardChart = ({ productId }) => {
+  const { points, status } = useProductChart(productId);
+  const plot = status === 'ready' ? chartGeometry(points, CARD_W, CARD_H) : null;
+  if (!plot) {
+    // the placeholder keeps the chart's footprint, so nothing jumps when the
+    // series lands; only a product whose chart cannot be drawn shows the static
+    // figure
+    if (status === 'loading' || status === 'unsupported') {
+      return <div className="chart-loading" aria-hidden="true" />;
+    }
     return <img src="/assets/img/d1f1eda1cc.svg" alt="Chart" className="chart-img" />;
   }
-  const min = Math.min(...points.map((p) => p.v));
-  const max = Math.max(...points.map((p) => p.v));
-  const span = max - min || 1;
-  const step = CARD_W / (points.length - 1);
-  const coords = points.map((p, i) => ({
-    x: +(i * step).toFixed(2),
-    y: +((1 - (p.v - min) / span) * (CARD_H - 8) + 4).toFixed(2),
-  }));
-  const line = coords.map((c) => `${c.x},${c.y}`).join(' ');
-  const area = `0,${CARD_H} ${line} ${CARD_W},${CARD_H}`;
-  const last = coords[coords.length - 1];
+  const stroke = plot.up ? '#3ecf8e' : '#f2667a';
   return (
     <svg
       className="chart-img"
@@ -50,16 +51,26 @@ const CardChart = ({ name }) => {
       preserveAspectRatio="none"
       aria-hidden="true"
     >
-      <polygon points={area} fill="rgba(62, 207, 142, 0.12)" />
+      {/* the zero line is what makes a pegged coin read as flat */}
+      <line
+        x1="0"
+        y1={plot.center}
+        x2={CARD_W}
+        y2={plot.center}
+        stroke="rgba(201, 212, 225, 0.18)"
+        strokeWidth="1"
+        strokeDasharray="3 4"
+      />
+      <polygon points={plot.area} fill={plot.up ? 'rgba(62, 207, 142, 0.12)' : 'rgba(242, 102, 122, 0.12)'} />
       <polyline
-        points={line}
+        points={plot.line}
         fill="none"
-        stroke="#3ecf8e"
+        stroke={stroke}
         strokeWidth="2"
         strokeLinejoin="round"
         strokeLinecap="round"
       />
-      <circle cx={last.x} cy={last.y} r="3.5" fill="#3ecf8e" />
+      <circle cx={plot.last.x} cy={plot.last.y} r="3.5" fill={stroke} />
     </svg>
   );
 };
@@ -295,6 +306,13 @@ const css = `
   margin-top: 6px;
   display: block;
 }
+/* the same footprint while the series loads, with nothing drawn yet */
+.scr-pencarian .chart-loading{
+  width: 100%;
+  height: 48px;
+  margin-top: 6px;
+  display: block;
+}
 .scr-pencarian .volume-section{
   display: flex;
   justify-content: space-between;
@@ -444,6 +462,13 @@ export default function Pencarian() {
   });
 
   useEffect(() => {
+    // drop the entries the old card-tap behaviour saved; the new key only ever
+    // holds terms the user actually submitted
+    try {
+      localStorage.removeItem(LEGACY_RECENT_KEY);
+    } catch {
+      // storage can be blocked
+    }
     const id = window.setInterval(() => setHourSlot(Math.floor(Date.now() / 3600000)), 30000);
     return () => window.clearInterval(id);
   }, []);
@@ -502,9 +527,11 @@ export default function Pencarian() {
       )
     : [];
 
-  // one card per product; the whole card opens the detail, the button buys
+  // one card per product; the whole card opens the detail, the button buys.
+  // tapping a card is not a search, so only a submitted term (or a history
+  // chip) goes into "Pencarian terakhir"
   const card = (product) => (
-    <div className="asset-card" key={product.id} data-route={`/pasar/detail?id=${product.id}`} onClick={() => remember(product.name)}>
+    <div className="asset-card" key={product.id} data-route={`/pasar/detail?id=${product.id}`}>
       <div className="card-header">
         <div className="asset-icon-wrapper">
           <span className="asset-icon-text">{initials(product.name)}</span>
@@ -538,9 +565,9 @@ export default function Pencarian() {
           
       <div className="chart-section">
         <div className="chart-header">
-          <span className="chart-title">{t('Grafik APR · 30 hari')}</span>
+          <span className="chart-title">{t('Grafik harga · 7 hari')}</span>
         </div>
-        <CardChart name={product.name} />
+        <CardChart productId={product.id} />
       </div>
       
       <div className="volume-section">

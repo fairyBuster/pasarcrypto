@@ -43,31 +43,31 @@ export const ROUTES = [
     "group": "support"
   },
   {
-    "path": "/deposit",
+    "path": "/send",
     "slug": "deposit-metode",
     "comp": "DepositMetode",
     "group": "wallet"
   },
   {
-    "path": "/deposit/qris",
+    "path": "/send/qr",
     "slug": "deposit-qris-1",
     "comp": "DepositQris1",
     "group": "wallet"
   },
   {
-    "path": "/deposit/qris/konfirmasi",
+    "path": "/send/qr/konfirmasi",
     "slug": "deposit-qris-2",
     "comp": "DepositQris2",
     "group": "wallet"
   },
   {
-    "path": "/deposit/va",
+    "path": "/send/va",
     "slug": "deposit-va1",
     "comp": "DepositVa1",
     "group": "wallet"
   },
   {
-    "path": "/deposit/va/konfirmasi",
+    "path": "/send/va/konfirmasi",
     "slug": "deposit-va2",
     "comp": "DepositVa2",
     "group": "wallet"
@@ -79,7 +79,7 @@ export const ROUTES = [
     "group": "support"
   },
   {
-    "path": "/fear-greed",
+    "path": "/learning",
     "slug": "fear-and-greed",
     "comp": "FearAndGreed",
     "group": "market"
@@ -109,7 +109,7 @@ export const ROUTES = [
     "group": "market"
   },
   {
-    "path": "/tarik/konfirmasi",
+    "path": "/draw/konfirmasi",
     "slug": "konfirmasi-tarik",
     "comp": "KonfirmasiTarik",
     "group": "wallet"
@@ -313,7 +313,7 @@ export const ROUTES = [
     "group": "legal"
   },
   {
-    "path": "/profil/bank",
+    "path": "/dompet/pilih",
     "slug": "pilihan-bank",
     "comp": "PilihanBank",
     "group": "profile"
@@ -349,7 +349,7 @@ export const ROUTES = [
     "group": "profile"
   },
   {
-    "path": "/rewards/referral",
+    "path": "/rewards/share",
     "slug": "program-referral",
     "comp": "ProgramReferral",
     "group": "rewards"
@@ -373,19 +373,19 @@ export const ROUTES = [
     "group": "auth"
   },
   {
-    "path": "/profil/bank/1",
+    "path": "/dompet",
     "slug": "rekening-bank-1",
     "comp": "RekeningBank1",
     "group": "profile"
   },
   {
-    "path": "/profil/bank/2",
+    "path": "/dompet/2",
     "slug": "rekening-bank-2",
     "comp": "RekeningBank2",
     "group": "profile"
   },
   {
-    "path": "/profil/bank/3",
+    "path": "/dompet/3",
     "slug": "rekening-bank-3",
     "comp": "RekeningBank3",
     "group": "profile"
@@ -397,7 +397,7 @@ export const ROUTES = [
     "group": "history"
   },
   {
-    "path": "/riwayat/deposit",
+    "path": "/riwayat/send",
     "slug": "riwayat-deposit",
     "comp": "RiwayatDeposit",
     "group": "history"
@@ -409,7 +409,7 @@ export const ROUTES = [
     "group": "history"
   },
   {
-    "path": "/riwayat/keuntungan",
+    "path": "/coin",
     "slug": "riwayat-keuntungan",
     "comp": "RiwayatKeuntungan",
     "group": "history"
@@ -433,7 +433,7 @@ export const ROUTES = [
     "group": "history"
   },
   {
-    "path": "/riwayat/penarikan",
+    "path": "/riwayat/draw",
     "slug": "riwayat-penarikan",
     "comp": "RiwayatPenarikan",
     "group": "history"
@@ -457,7 +457,7 @@ export const ROUTES = [
     "group": "legal"
   },
   {
-    "path": "/tarik",
+    "path": "/draw",
     "slug": "tarik",
     "comp": "Tarik",
     "group": "wallet"
@@ -475,7 +475,7 @@ export const ROUTES = [
     "group": "profile"
   },
   {
-    "path": "/profil/password",
+    "path": "/change",
     "slug": "ubah-kata-sandi",
     "comp": "UbahKataSandi",
     "group": "profile"

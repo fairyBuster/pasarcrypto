@@ -4,11 +4,11 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { api } from '../../lib/api.js';
 import { friendlyError, useAuth } from '../../lib/auth.jsx';
 import { dateID, idr, initials, orderDailyProfit, quotaPercent, ratePercent, volumeText } from '../../lib/format.js';
-import { useCoinChart } from '../../lib/useCoinChart.js';
+import { useProductChart, chartGeometry } from '../../lib/useProductChart.js';
 import { t } from '../../lib/i18n.js';
 
-// the chart draws the real CoinGecko price series (useCoinChart); when a coin
-// has no known id it falls back to the static background asset
+// the chart draws the product's real price series from the backend chart
+// endpoint; while it is missing or unavailable the static asset is shown
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
 // the period chips (7H / 30H / 60H) were removed; the chart is fixed on one week
 const CHART_DAYS = 7;
@@ -484,8 +484,8 @@ export default function PasarDetail() {
   const [error, setError] = useState('');
   // the period chips were removed; the chart window is fixed at one week
   const period = CHART_DAYS;
-  // the real CoinGecko series for the fixed window; product is null until loaded
-  const { points, status: chartStatus } = useCoinChart(product?.name, period);
+  // the real daily series for the fixed window; product is null until loaded
+  const { points, status: chartStatus } = useProductChart(product?.id, period);
   // the volume placeholder rolls over when the hour changes
   const [hourSlot, setHourSlot] = useState(() => Math.floor(Date.now() / 3600000));
   const [orderRows] = useState(() => Array.from({ length: OB_ROWS }, (_, index) => makeOrderRow(index)));
@@ -564,21 +564,9 @@ export default function PasarDetail() {
   const remaining = quotaPercent(product);
   const filled = 100 - remaining;
 
-  // the price series folded into svg coordinates; null while loading or unknown
-  const plot = (() => {
-    if (chartStatus !== 'ready' || !points || points.length < 2) return null;
-    const min = Math.min(...points.map((p) => p.v));
-    const max = Math.max(...points.map((p) => p.v));
-    const span = max - min || 1;
-    const step = CHART_W / (points.length - 1);
-    const coords = points.map((p, i) => ({
-      x: +(i * step).toFixed(2),
-      y: +((1 - (p.v - min) / span) * (CHART_H - 8) + 4).toFixed(2),
-    }));
-    const line = coords.map((c) => `${c.x},${c.y}`).join(' ');
-    const area = `0,${CHART_H} ${line} ${CHART_W},${CHART_H}`;
-    return { line, area, last: coords[coords.length - 1] };
-  })();
+  // the price series folded into svg percent-change coordinates; null while
+  // loading or unknown, and a flat stablecoin draws flat
+  const plot = chartStatus === 'ready' ? chartGeometry(points, CHART_W, CHART_H) : null;
   // first vs last real price drives the trend line above the chart
   const change = (() => {
     if (!points || points.length < 2) return null;
@@ -682,16 +670,25 @@ export default function PasarDetail() {
                                   preserveAspectRatio="none"
                                   style={{ position: 'absolute', inset: '0', width: '100%', height: '100%' }}
                               >
-                                  <polygon points={plot.area} fill="rgba(62, 207, 142, 0.12)" />
+                                  <polygon points={plot.area} fill={plot.up ? 'rgba(62, 207, 142, 0.12)' : 'rgba(242, 102, 122, 0.12)'} />
+                                  <line
+                                      x1="0"
+                                      y1={plot.center}
+                                      x2={CHART_W}
+                                      y2={plot.center}
+                                      stroke="rgba(201, 212, 225, 0.18)"
+                                      strokeWidth="1"
+                                      strokeDasharray="3 4"
+                                  />
                                   <polyline
                                       points={plot.line}
                                       fill="none"
-                                      stroke="#3ecf8e"
+                                      stroke={plot.up ? '#3ecf8e' : '#f2667a'}
                                       strokeWidth="2"
                                       strokeLinejoin="round"
                                       strokeLinecap="round"
                                   />
-                                  <circle cx={plot.last.x} cy={plot.last.y} r="3.5" fill="#3ecf8e" />
+                                  <circle cx={plot.last.x} cy={plot.last.y} r="3.5" fill={plot.up ? '#3ecf8e' : '#f2667a'} />
                               </svg>
                           ) : chartStatus === 'loading' ? (
                               <div className="chart-state chart-loading" />

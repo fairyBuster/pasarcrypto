@@ -134,18 +134,35 @@ export default function ChannelSheet({
   return (
     <>
       <style>{css}</style>
-      <div className="cs-root">
+      <div
+        className="cs-root"
+        // the dimmed area is a dismiss target as well: a tap that lands on the
+        // veil itself closes the sheet, while anything inside the card does not
+        onClick={(event) => {
+          if (event.target === event.currentTarget) dismiss();
+        }}
+      >
         <div className="cs-card" role="dialog" aria-modal="true">
           <div className="cs-handle" />
           {image && <img className="cs-hero" src={image} alt="" />}
           <h2 className="cs-title" dangerouslySetInnerHTML={{ __html: title }} />
           <p className="cs-desc">{description}</p>
           <div className="cs-channels">
-            {channels.map((c) => (
-              <a key={c.name} className="cs-channel" href={c.href || '#'}>
-                <img src={c.icon} alt="" />
-                <span className="cs-name">{c.name}</span>
-                <span className="cs-label">{c.label || 'Saluran'}</span>
+            {channels.map(({ id, name, label, icon, href, title: full }) => (
+              <a
+                key={id || name}
+                className="cs-channel"
+                href={href || '#'}
+                title={full || undefined}
+                // the channels live outside the app, so they open in their own
+                // tab; a row without a link must not reset the hash route
+                target={href ? '_blank' : undefined}
+                rel={href ? 'noreferrer noopener' : undefined}
+                onClick={href ? undefined : (event) => event.preventDefault()}
+              >
+                <img src={icon} alt="" />
+                <span className="cs-name">{name}</span>
+                <span className="cs-label">{label || 'Saluran'}</span>
               </a>
             ))}
           </div>

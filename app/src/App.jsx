@@ -1,5 +1,5 @@
-import { lazy, Suspense, useEffect, useRef, useState } from 'react';
-import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import { Component, lazy, Suspense, useEffect, useRef, useState } from 'react';
+import { Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { ROUTES } from './screen-map.js';
 import { RequireAuth, isPublicPath } from './lib/auth.jsx';
 import { copyText } from './lib/clipboard.js';
@@ -25,6 +25,68 @@ function ScreenHost({ comp }) {
       <Screen />
     </Suspense>
   );
+}
+
+// a screen that throws must not take the whole shell down; the reload button
+// also covers an import that failed after a deploy replaced its chunk
+export class AppBoundary extends Component {
+  state = { failed: false };
+
+  static getDerivedStateFromError() {
+    return { failed: true };
+  }
+
+  render() {
+    if (this.state.failed) {
+      return (
+        <div className="route-missing">
+          <p>{t('Layar gagal dimuat')}</p>
+          <button
+            type="button"
+            onClick={() => window.location.reload()}
+            style={{ background: 'none', border: 'none', color: 'inherit', textDecoration: 'underline', cursor: 'pointer' }}
+          >
+            {t('Muat ulang')}
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
+// URLs that were already shared keep working: the old path forwards to the
+// renamed screen and keeps its query string (deposit/konfirmasi?order=...)
+const LEGACY_ROUTES = {
+  '/deposit': '/send',
+  '/deposit/qris': '/send/qr',
+  '/deposit/qris/konfirmasi': '/send/qr/konfirmasi',
+  '/deposit/va': '/send/va',
+  '/deposit/va/konfirmasi': '/send/va/konfirmasi',
+  '/tarik': '/draw',
+  '/tarik/konfirmasi': '/draw/konfirmasi',
+  '/riwayat/deposit': '/riwayat/send',
+  '/riwayat/penarikan': '/riwayat/draw',
+  '/riwayat/keuntungan': '/coin',
+  '/rewards/referral': '/rewards/share',
+  '/fear-greed': '/learning',
+  '/profil/bank': '/dompet/pilih',
+  '/profil/bank/1': '/dompet',
+  '/profil/bank/2': '/dompet/2',
+  '/profil/bank/3': '/dompet/3',
+  '/profil/password': '/change',
+};
+
+function LegacyRedirect({ to }) {
+  const { search } = useLocation();
+  return <Navigate to={`${to}${search}`} replace />;
+}
+
+// a shared invite link is path-based (/ref/CODE); the register screen reads the
+// code from its query string, so the fragment carries it there
+function ReferralRedirect() {
+  const { code = '' } = useParams();
+  return <Navigate to={`/register?ref=${encodeURIComponent(code)}`} replace />;
 }
 
 // tabs, filter pills, amount chips and pagination are in-page state, not routes
@@ -90,6 +152,15 @@ export default function App() {
       return;
     }
 
+    // a row that is not live yet answers the tap with a notification instead of
+    // walking into a flow the backend would reject
+    const notify = event.target.closest('[data-toast]');
+    if (notify) {
+      event.preventDefault();
+      setToast(notify.getAttribute('data-toast') || '');
+      return;
+    }
+
     // copy / share buttons — the exact string to put on the clipboard
     const copyValue = event.target.closest('[data-copy]');
     if (copyValue) {
@@ -131,10 +202,15 @@ export default function App() {
     }
 
     // a control nothing is wired to yet still swallows the tap, so a bare href="#"
-    // cannot move the scroll position — but the prototype never announces itself
+    // cannot move the scroll position. A real submit button is the exception:
+    // cancelling its click keeps every <form onSubmit> from ever firing. So is an
+    // outbound link (telegram, whatsapp, mailto): its default navigation must
+    // survive, otherwise the channels popup is a row of dead tiles.
     const interactive = event.target.closest('button, a, [role="button"]');
-    if (interactive) {
-      event.preventDefault();
+    if (interactive && interactive.getAttribute('type') !== 'submit') {
+      const href = interactive.getAttribute('href');
+      const outbound = interactive.tagName === 'A' && href && href !== '#';
+      if (!outbound) event.preventDefault();
     }
   };
 
@@ -149,19 +225,28 @@ export default function App() {
                 path={route.path}
                 element={
                   isPublicPath(route.path) ? (
-                    <ScreenHost comp={route.comp} />
+                    <AppBoundary>
+                      <ScreenHost comp={route.comp} />
+                    </AppBoundary>
                   ) : (
                     <RequireAuth>
-                      <ScreenHost comp={route.comp} />
+                      <AppBoundary>
+                        <ScreenHost comp={route.comp} />
+                      </AppBoundary>
                     </RequireAuth>
                   )
                 }
               />
             ))}
+            {Object.entries(LEGACY_ROUTES).map(([from, to]) => (
+              <Route key={from} path={from} element={<LegacyRedirect to={to} />} />
+            ))}
             {/* Entry point opens the marketing landing page, not the welcome splash */}
             <Route path="/" element={<Navigate to="/landing" replace />} />
+            {/* the short invite link every shared referral URL uses */}
+            <Route path="/ref/:code" element={<ReferralRedirect />} />
             {/* a tapped article reuses the education-article frame, filled from /api/news/{id}/ */}
-            <Route path="/landing/berita/:id" element={<ScreenHost comp="LandingpageMateriDetail" />} />
+            <Route path="/landing/berita/:id" element={<AppBoundary><ScreenHost comp="LandingpageMateriDetail" /></AppBoundary>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
@@ -179,7 +264,7 @@ function NotFound() {
   return (
     <div className="route-missing">
       <p>{t('Halaman tidak ditemukan')}</p>
-      <a href="/landing" data-route="/landing">
+      <a href="#/landing" data-route="/landing">
         {t('Kembali ke awal')}
       </a>
     </div>

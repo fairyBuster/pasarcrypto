@@ -1,12 +1,15 @@
 // deposit-va1 — ported from the Figma export, typography re-synced to Figma
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../lib/api.js';
+import { friendlyError } from '../../lib/auth.jsx';
+import { DEPOSIT_LIMITS, DEPOSIT_WALLET, saveOrder } from '../../lib/deposit.js';
 import { idr } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
 
-// the same bounds the info card below spells out
-const MIN_DEPOSIT = 50000;
-const MAX_DEPOSIT = 50000000;
+// the method screen only offers BRIVA, matching the frame
+const METHOD = 'BRI';
+const { min: MIN_DEPOSIT, max: MAX_DEPOSIT } = DEPOSIT_LIMITS.VA;
 
 const css = `
 /* deposit-va1 — ported from Figma export, typography re-synced */
@@ -226,6 +229,8 @@ const css = `
 export default function DepositVa1() {
   const navigate = useNavigate();
   const [amount, setAmount] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
 
   const nominal = Number(amount) || 0;
   const underMin = nominal > 0 && nominal < MIN_DEPOSIT;
@@ -236,6 +241,28 @@ export default function DepositVa1() {
     : overMax
       ? `Maksimal isi ulang ${idr(MAX_DEPOSIT)} IDR`
       : '';
+
+  // the charge is created here, the confirmation screen renders the VA number
+  // that comes back in pay_data
+  const submit = async (event) => {
+    // App.jsx turns bare buttons into a toast, so the navigation is ours
+    event.stopPropagation();
+    if (!valid || busy) return;
+    setBusy(true);
+    setError('');
+    const res = await api.initiateDeposit({
+      amount: nominal,
+      method: METHOD,
+      wallet_type: DEPOSIT_WALLET,
+    });
+    if (!res.ok || !res.data?.order_num) {
+      setError(friendlyError(res.data, 'Gagal membuat pembayaran, coba lagi.'));
+      setBusy(false);
+      return;
+    }
+    saveOrder({ ...res.data, requested_at: new Date().toISOString() });
+    navigate(`/send/va/konfirmasi?order=${encodeURIComponent(res.data.order_num)}`);
+  };
 
   return (
     <div className="scr-deposit-va1">
@@ -259,11 +286,18 @@ export default function DepositVa1() {
               className="deposit-input"
               placeholder={t('Masukkan nominal untuk pengisian')}
               value={amount ? idr(Number(amount)) : ''}
-              onChange={(event) => setAmount(event.target.value.replace(/\D/g, ''))}
+              onChange={(event) => {
+                setAmount(event.target.value.replace(/\D/g, ''));
+                setError('');
+              }}
             />
             <span className="deposit-currency">{t('IDR')}</span>
           </div>
-          {hint && <div className="amount-hint is-error">{hint}</div>}
+          {hint ? (
+            <div className="amount-hint is-error">{hint}</div>
+          ) : error ? (
+            <div className="amount-hint is-error">{error}</div>
+          ) : null}
         </div>
       </section>
       <section id="section-info">
@@ -273,7 +307,7 @@ export default function DepositVa1() {
               <div className="bullet-container">
                 <div className="bullet"></div>
               </div>
-              <p className="info-text">{t('Minimum isi ulang')} <strong>{t('50.000 IDR')}</strong>{t(', maksimum')}<br /><strong>{t('50.000.000 IDR')}</strong></p>
+              <p className="info-text">{t('Minimum isi ulang')} <strong>{idr(MIN_DEPOSIT)} IDR</strong>{t(', maksimum')}<br /><strong>{idr(MAX_DEPOSIT)} IDR</strong></p>
             </div>
             <div className="info-item">
               <div className="bullet-container">
@@ -289,14 +323,10 @@ export default function DepositVa1() {
           <button
             type="button"
             className="btn-primary"
-            disabled={!valid}
-            onClick={(event) => {
-              // App.jsx turns bare buttons into a toast, so the navigation is ours
-              event.stopPropagation();
-              navigate(`/deposit/va/konfirmasi?amount=${nominal}`);
-            }}
+            disabled={!valid || busy}
+            onClick={submit}
           >
-            {t('Selanjutnya')}
+            {busy ? t('Memproses…') : t('Selanjutnya')}
           </button>
         </div>
       </section>

@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { dateTimeID, idr, trxStamp } from '../../lib/format.js';
+import { readHistory, writeHistory } from '../../lib/historyCache.js';
 import DateSheet, { withinRange } from '../../components/DateSheet.jsx';
 import { t } from '../../lib/i18n.js';
 
@@ -389,8 +390,10 @@ const css = `
 `;
 
 export default function RiwayatHadiah() {
-  const [rows, setRows] = useState([]);
-  const [status, setStatus] = useState('loading');
+  // the rows this screen painted last render immediately; the API call below
+  // replaces them in the background
+  const [rows, setRows] = useState(() => readHistory('hadiah')?.rows || []);
+  const [status, setStatus] = useState(() => (readHistory('hadiah') ? 'ready' : 'loading'));
   const [error, setError] = useState('');
   const [tab, setTab] = useState('all');
   const [page, setPage] = useState(1);
@@ -405,6 +408,13 @@ export default function RiwayatHadiah() {
       // once and filtered in memory
       const all = [];
       let failed = null;
+      // each page is painted the moment it lands, so the list starts filling up
+      // while the older pages are still being read
+      const paint = () => {
+        if (!alive) return;
+        setRows([...all]);
+        setStatus('ready');
+      };
       for (let n = 1; n <= MAX_PAGES; n += 1) {
         const res = await api.transactions({ type: 'BONUS', page: n });
         if (!res.ok) {
@@ -413,19 +423,23 @@ export default function RiwayatHadiah() {
         }
         const list = Array.isArray(res.data?.results) ? res.data.results : [];
         all.push(...list);
+        paint();
         if (!res.data?.next || list.length === 0) break;
       }
       if (!alive) return;
-      // a failed page only sinks the screen when nothing at all came back
+      // a failed page only sinks the screen when nothing at all came back;
+      // with rows on screen the rest of the pages are simply skipped
       if (all.length === 0 && failed) {
-        setError(friendlyError(failed, 'Gagal memuat riwayat hadiah.'));
-        setStatus('error');
+        if (!readHistory('hadiah')) {
+          setError(friendlyError(failed, 'Gagal memuat riwayat hadiah.'));
+          setStatus('error');
+        }
         return;
       }
-      setRows(all);
-      setStatus('ready');
+      writeHistory('hadiah', { rows: all });
+      paint();
     })().catch(() => {
-      if (!alive) return;
+      if (!alive || readHistory('hadiah')) return;
       setError('Gagal memuat riwayat hadiah.');
       setStatus('error');
     });
@@ -549,7 +563,6 @@ export default function RiwayatHadiah() {
       </section>
       <section id="section-history-list">
         <div className="history-list-container">
-          {status === 'loading' && <div className="list-state">{t('Memuat riwayat hadiah…')}</div>}
           {status === 'error' && <div className="list-state">{error}</div>}
           {status === 'ready' && visible.length === 0 && (
             <div className="list-state">

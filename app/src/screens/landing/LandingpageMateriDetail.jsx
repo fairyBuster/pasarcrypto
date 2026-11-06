@@ -525,7 +525,7 @@ export default function LandingpageMateriDetail() {
         <section className="full-width-section">
           <div className="app-container article-state">
             <p>{article.status === 'error' ? 'Berita tidak ditemukan.' : 'Memuat berita…'}</p>
-            <a href="/landing" data-route="/landing">{t('‹ Kembali ke beranda')}</a>
+            <a href="#/landing" data-route="/landing">{t('‹ Kembali ke beranda')}</a>
           </div>
         </section>
       </div>

@@ -405,7 +405,7 @@ export default function RekeningBank2() {
       <section id="section-add-account">
         <div className="add-container">
           {status === 'ready' && banks.length < MAX_ACCOUNTS && (
-            <button className="add-account-btn" data-route="/profil/bank/3">
+            <button className="add-account-btn" data-route="/dompet/3">
               <img src="/assets/img/c535cc438a.svg" alt="" />
               <span>{t('Tambah Rekening')}</span>
             </button>

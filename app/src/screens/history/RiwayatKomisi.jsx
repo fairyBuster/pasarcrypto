@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { dateTimeID, idr, maskName, maskPhone, trxStamp } from '../../lib/format.js';
+import { readHistory, writeHistory } from '../../lib/historyCache.js';
 import DateSheet, { withinRange } from '../../components/DateSheet.jsx';
 import { t } from '../../lib/i18n.js';
 
@@ -407,10 +408,12 @@ const css = `
 `;
 
 export default function RiwayatKomisi() {
-  const [rows, setRows] = useState([]);
-  const [members, setMembers] = useState({});
-  const [products, setProducts] = useState({});
-  const [status, setStatus] = useState('loading');
+  // the rows and lookups this screen painted last render immediately; the API
+  // calls below replace them in the background
+  const [rows, setRows] = useState(() => readHistory('komisi')?.rows || []);
+  const [members, setMembers] = useState(() => readHistory('komisi')?.members || {});
+  const [products, setProducts] = useState(() => readHistory('komisi')?.products || {});
+  const [status, setStatus] = useState(() => (readHistory('komisi') ? 'ready' : 'loading'));
   const [error, setError] = useState('');
   const [tab, setTab] = useState('all');
   const [page, setPage] = useState(1);
@@ -440,6 +443,14 @@ export default function RiwayatKomisi() {
       // of both commission kinds is read once and cached in state
       const all = [];
       let failed = null;
+      const sorted = () => [...all].sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
+      // each page is painted the moment it lands, so the list starts filling up
+      // while the older pages are still being read
+      const paint = () => {
+        if (!alive) return;
+        setRows(sorted());
+        setStatus('ready');
+      };
       for (const type of TYPES) {
         for (let n = 1; n <= MAX_PAGES; n += 1) {
           const res = await api.transactions({ type, page: n });
@@ -449,6 +460,7 @@ export default function RiwayatKomisi() {
           }
           const list = Array.isArray(res.data?.results) ? res.data.results : [];
           all.push(...list);
+          paint();
           if (!res.data?.next || list.length === 0) break;
         }
       }
@@ -456,10 +468,13 @@ export default function RiwayatKomisi() {
       const [people, catalog] = await Promise.all([downlines, catalogue]);
       if (!alive) return;
 
-      // a failed page only sinks the screen when nothing at all came back
+      // a failed page only sinks the screen when nothing at all came back;
+      // with a cached list on screen the refresh stays silent
       if (all.length === 0 && failed) {
-        setError(friendlyError(failed, 'Gagal memuat riwayat komisi.'));
-        setStatus('error');
+        if (!readHistory('komisi')) {
+          setError(friendlyError(failed, 'Gagal memuat riwayat komisi.'));
+          setStatus('error');
+        }
         return;
       }
 
@@ -469,12 +484,13 @@ export default function RiwayatKomisi() {
       }
 
       all.sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)));
-      setRows(all);
+      writeHistory('komisi', { rows: all, members: byPhone, products: catalog });
+      setRows([...all]);
       setMembers(byPhone);
       setProducts(catalog);
       setStatus('ready');
     })().catch(() => {
-      if (!alive) return;
+      if (!alive || readHistory('komisi')) return;
       setError('Gagal memuat riwayat komisi.');
       setStatus('error');
     });
@@ -597,7 +613,6 @@ export default function RiwayatKomisi() {
           </div>
         </section>
       <section id="section-list">
-        {status === 'loading' && <div className="list-state">{t('Memuat riwayat komisi…')}</div>}
         {status === 'error' && <div className="list-state">{error}</div>}
         {status === 'ready' && visible.length === 0 && (
           <div className="list-state">

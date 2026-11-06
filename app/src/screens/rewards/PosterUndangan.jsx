@@ -4,7 +4,7 @@ import { QRCodeSVG } from 'qrcode.react';
 import { toPng } from 'html-to-image';
 import { useAuth } from '../../lib/auth.jsx';
 import { copyText } from '../../lib/clipboard.js';
-import { inviteLink } from '../../lib/referral.js';
+import { useInviteLink } from '../../lib/referral.js';
 import { t } from '../../lib/i18n.js';
 const css = `
 /* poster-undangan — ported from Figma export, typography re-synced */
@@ -215,7 +215,9 @@ export default function PosterUndangan() {
   }, [copied]);
 
   const code = user?.referral_code || '';
-  const link = inviteLink(code);
+  // the host comes from /api/auth/settings/, so the poster and share sheet hand
+  // out the domain the API reports rather than whatever host this tab opened
+  const link = useInviteLink(code);
 
   const share = async (event) => {
     event.stopPropagation();

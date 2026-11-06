@@ -154,8 +154,8 @@ const TITLES = {
 
 // the arrow has to land on the ledger the row came from
 const ROUTES = {
-  DEPOSIT: '/riwayat/deposit',
-  WITHDRAW: '/riwayat/penarikan',
+  DEPOSIT: '/riwayat/send',
+  WITHDRAW: '/riwayat/draw',
   CREDIT: '/riwayat/lainnya',
 };
 

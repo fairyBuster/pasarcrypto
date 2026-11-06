@@ -175,7 +175,7 @@ export default function RekeningBank1() {
   }, []);
 
   // the Akun row lands on this frame; accounts that already have one go to the list
-  if (count > 0) return <Navigate to="/profil/bank/2" replace />;
+  if (count > 0) return <Navigate to="/dompet/2" replace />;
 
   return (
     <div className="scr-rekening-bank-1">
@@ -197,7 +197,7 @@ export default function RekeningBank1() {
             <img src="/assets/img/933eee66d5.png" alt="3D Ethereum Logo" className="empty-state-img" />
             <h2 className="empty-state-title">{t('Belum ada rekening bank')}</h2>
             <p className="empty-state-desc">{t('Tambahkan rekening bank untuk bisa')}<br />{t('menarik saldo ke rekeningmu.')}</p>
-            <button className="add-account-btn" data-route="/profil/bank/3">
+            <button className="add-account-btn" data-route="/dompet/3">
               <img src="/assets/img/27f59345a9.svg" alt="" />
               <span>{t('Tambah Rekening')}</span>
             </button>

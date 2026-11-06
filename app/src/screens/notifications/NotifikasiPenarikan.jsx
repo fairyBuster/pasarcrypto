@@ -24,7 +24,7 @@ export default function NotifikasiPenarikan() {
       layout="info"
       icon="/assets/img/242aea32ce.svg"
       title={t('Penarikan Sedang Diproses')}
-      actions={[{ label: 'Tutup', to: '/tarik' }]}
+      actions={[{ label: 'Tutup', to: '/draw' }]}
     >
       <p>
         {withdrawal ? (

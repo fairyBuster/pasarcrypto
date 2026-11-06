@@ -302,7 +302,7 @@ export default function PilihanBank({ onClose, onSelect }) {
 
   // the picker only exists as a sheet over the add-rekening form; a direct visit
   // would show an overlay with nothing behind it, so it opens that form instead
-  if (!onClose) return <Navigate to="/profil/bank/3" replace />;
+  if (!onClose) return <Navigate to="/dompet/3" replace />;
 
   const close = (event) => {
     event.stopPropagation();

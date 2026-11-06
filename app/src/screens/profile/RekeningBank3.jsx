@@ -291,7 +291,7 @@ export default function RekeningBank3() {
         return;
       }
       // replace the form so Back does not return to the submitted fields
-      navigate('/profil/bank/2', { replace: true, state: { added: true } });
+      navigate('/dompet/2', { replace: true, state: { added: true } });
     } catch {
       setError('Gagal menyimpan rekening.');
       setBusy(false);

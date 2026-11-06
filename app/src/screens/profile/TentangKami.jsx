@@ -697,14 +697,14 @@ export default function TentangKami() {
             <div className="icon-bg solid"><img src="/assets/img/57f3c54e1a.svg" alt="" /></div>
             <div className="contact-content">
               <div className="contact-label">{t('Email')}</div>
-              <div className="contact-value">{t('support@namaaplikasi.com')}</div>
+              <div className="contact-value">{t('support@pasarcryptoid.com')}</div>
             </div>
           </div>
           <div className="contact-item">
             <div className="icon-bg solid"><img src="/assets/img/fdeae56522.svg" alt="" /></div>
             <div className="contact-content">
               <div className="contact-label">{t('Website')}</div>
-              <div className="contact-value">{t('www.namaaplikasi.com')}</div>
+              <div className="contact-value">{t('pasarcryptoid.com')}</div>
             </div>
           </div>
           <div className="contact-item">

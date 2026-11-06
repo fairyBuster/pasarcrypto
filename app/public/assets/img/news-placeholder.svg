@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 152" role="img" aria-label="Gambar belum tersedia">
+  <rect width="152" height="152" fill="#0a1626"/>
+  <rect x="10" y="10" width="132" height="132" rx="16" fill="none" stroke="#51657e" stroke-width="2"/>
+  <path d="M46 96l16-18 12 13 10-11 22 24H46Z" fill="#1f3048"/>
+  <circle cx="60" cy="58" r="8" fill="#1f3048"/>
+  <text x="76" y="120" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#75879c">GAMBAR</text>
+</svg>

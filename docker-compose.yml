@@ -1,0 +1,53 @@
+name: pasarcrypto
+
+services:
+  web:
+    build:
+      context: ./app
+      args:
+        # baked into the bundle by Vite; leave empty to keep the API same-origin
+        VITE_API_BASE: ${VITE_API_BASE:-}
+        VITE_API_SALT: ${VITE_API_SALT:-KXXADFDFDF}
+    image: pasarcrypto-web:latest
+    container_name: pasarcrypto-web
+    restart: unless-stopped
+    ports:
+      - "${WEB_PORT:-80}:80"
+    environment:
+      # Django/DRF origin used by the /api and /media proxies.
+      # host.docker.internal points at the host; use a service name instead when
+      # the backend joins this compose network.
+      API_UPSTREAM: ${API_UPSTREAM:-http://host.docker.internal:8000}
+      # optional CoinGecko demo API key; raises the /cg quota well above the
+      # keyless per-IP limit
+      COINGECKO_API_KEY: ${COINGECKO_API_KEY:-}
+      # how long a deploy keeps the chunks of earlier builds on the asset
+      # volume; a tab older than this still self-heals through a reload
+      ASSET_RETENTION_DAYS: ${ASSET_RETENTION_DAYS:-7}
+      # hard cap for that volume; past it the oldest builds are dropped first
+      ASSET_STORE_MAX_MB: ${ASSET_STORE_MAX_MB:-512}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      # the cached public feeds outlive a deploy: their upstreams rate-limit by
+      # IP, so the last good snapshot is kept instead of starting cold
+      - nginx_cache:/var/cache/nginx
+      # every build's hashed chunks stay readable for a grace window, so a tab
+      # opened before a deploy never asks for a file that is already gone
+      - web_assets:/srv/assets
+    # only the pid file and the envsubst-rendered config need writing
+    read_only: true
+    tmpfs:
+      - /var/run
+      - /etc/nginx/conf.d
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  nginx_cache:
+  web_assets:

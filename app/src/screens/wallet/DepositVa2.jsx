@@ -1,7 +1,8 @@
 // deposit-va2 — ported from the Figma export, typography re-synced to Figma
-import { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useEffect, useMemo } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../../lib/auth.jsx';
+import { clock, readOrder, useCountdown, vaBare, vaText } from '../../lib/deposit.js';
 import { dateTimeWIB, idr } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
 
@@ -101,6 +102,9 @@ const css = `
   font-size: 12px;
   font-weight: 600;
 }
+.scr-deposit-va2 .pc-timer-value.is-expired{
+  color: #f5808f;
+}
 .scr-deposit-va2 .pc-va-box{
   background-color: rgba(0, 0, 0, 0.22);
   border: 1px solid #3a5272;
@@ -142,6 +146,11 @@ const css = `
   color: #ffffff;
   font-size: 12px;
   font-weight: 500;
+}
+/* nothing to copy when the gateway answered without a VA number */
+.scr-deposit-va2 .pc-copy-btn:disabled{
+  opacity: 0.5;
+  cursor: default;
 }
 .scr-deposit-va2 .pc-details{
   width: 100%;
@@ -272,19 +281,35 @@ const css = `
 .scr-deposit-va2 .btn-primary.btn-primary { font-weight: 600; }
 `;
 
-// shown grouped for reading; the clipboard takes it bare so it can be pasted
-// straight into a banking app
-const VA_NUMBER = '1234 5678 9012 345';
-
+// the number is printed grouped for reading; the clipboard takes it bare so it
+// can be pasted straight into a banking app
 export default function DepositVa2() {
+  const navigate = useNavigate();
   const [params] = useSearchParams();
   const { user } = useAuth();
 
-  // same contract as the QRIS confirmation: the amount rides in the URL, the
-  // rupiah balance comes from the account the session already hydrated
-  const amount = Number(params.get('amount')) || 0;
+  // the charge was opened on the amount screen; this frame only renders it
+  const orderNum = params.get('order') || '';
+  const order = useMemo(() => readOrder(orderNum), [orderNum]);
+
+  // the bank is BRIVA whatever the order says, the frame shows one channel
   const deposit = Number(user?.balance_deposit) || 0;
-  const [orderedAt] = useState(() => dateTimeWIB());
+  const vaNumber = order?.pay_data || '';
+  const isVa = order?.pay_data_type === 'VA' && Boolean(vaNumber);
+  const left = useCountdown(order?.expires_at);
+  const expired = left === 0;
+
+  // without an order there is nothing to pay, so the amount screen takes over
+  useEffect(() => {
+    if (!order) navigate('/send/va', { replace: true });
+  }, [order, navigate]);
+
+  // cashier mode answers without pay_data, and then the gateway page owns the flow
+  useEffect(() => {
+    if (order && !isVa && order.pay_url) window.location.assign(order.pay_url);
+  }, [order, isVa]);
+
+  if (!order) return <div className="scr-deposit-va2" />;
 
   return (
     <div className="scr-deposit-va2">
@@ -310,19 +335,22 @@ export default function DepositVa2() {
               <span className="pc-bank-name">{t('BRI Virtual Account')}</span>
               <div className="pc-timer-wrapper">
                 <span className="pc-timer-label">{t('Bayar sebelum')}</span>
-                <span className="pc-timer-value">23:59:12</span>
+                <span className={`pc-timer-value${expired ? ' is-expired' : ''}`}>
+                  {left == null ? '—' : clock(left)}
+                </span>
               </div>
             </div>
             
             <div className="pc-va-box">
               <span className="pc-va-label">{t('Nomor Virtual Account')}</span>
-              <span className="pc-va-number">{VA_NUMBER}</span>
+              <span className="pc-va-number">{isVa ? vaText(vaNumber) : '—'}</span>
             </div>
             
             <button
               type="button"
               className="pc-copy-btn"
-              data-copy={VA_NUMBER.replace(/\s/g, '')}
+              data-copy={vaBare(vaNumber)}
+              disabled={!isVa}
               aria-label={t('Salin Nomor Virtual Account')}
             >
               <img src="/assets/img/4ece3586ef.svg" alt="" />
@@ -332,11 +360,11 @@ export default function DepositVa2() {
             <div className="pc-details">
               <div className="pc-detail-row">
                 <span className="pc-detail-label">{t('Total Penyetoran')}</span>
-                <span className="pc-detail-value">{amount ? `${idr(amount)} IDR` : '—'}</span>
+                <span className="pc-detail-value">{idr(order.amount)} IDR</span>
               </div>
               <div className="pc-detail-row">
                 <span className="pc-detail-label">{t('Tanggal Transaksi')}</span>
-                <span className="pc-detail-value">{orderedAt}</span>
+                <span className="pc-detail-value">{dateTimeWIB(order.requested_at)}</span>
               </div>
               <div className="pc-detail-row">
                 <span className="pc-detail-label">{t('Saldo Isi Ulang Saat Ini')}</span>
@@ -382,7 +410,7 @@ export default function DepositVa2() {
       </section>
       <section id="section-footer">
         <div className="footer-section">
-          <button className="btn-primary" data-route="/aset">{t('Saya Sudah Bayar')}</button>
+          <button className="btn-primary" data-route="/riwayat/send">{t('Saya Sudah Bayar')}</button>
         </div>
       </section>
     </div>

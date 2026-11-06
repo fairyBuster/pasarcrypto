@@ -1,6 +1,9 @@
 // The notification list is derived from the ledger: deposits, withdrawals and
-// manual credits are the three events the frame draws. Which rows the user has
-// already opened is kept in localStorage, so the red dots survive a reload.
+// manual credits are the three events the frame draws. A deposit only becomes an
+// event once it is confirmed, the same rule the deposit history follows, so
+// pending, failed and cancelled attempts never reach the feed. Which rows the
+// user has already opened is kept in localStorage, so the red dots survive a
+// reload.
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { api } from './api.js';
 
@@ -34,7 +37,13 @@ export function useNotifications() {
   useEffect(() => {
     let alive = true;
 
-    Promise.all(SOURCES.map((type) => api.transactions({ type })))
+    Promise.all(
+      SOURCES.map((type) =>
+        // the backend can narrow the deposit source itself; the filter below
+        // repeats the rule in case the parameter is ignored
+        api.transactions(type === 'DEPOSIT' ? { type, status: 'COMPLETED' } : { type })
+      )
+    )
       .then((responses) => {
         if (!alive) return;
         // every source failing means the feed itself is broken; a single empty
@@ -45,6 +54,7 @@ export function useNotifications() {
         }
         const merged = responses
           .flatMap(rowsOf)
+          .filter((row) => row.type !== 'DEPOSIT' || row.status === 'COMPLETED')
           .sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)))
           .slice(0, LIMIT);
         setItems(merged);

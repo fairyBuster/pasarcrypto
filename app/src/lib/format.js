@@ -58,10 +58,13 @@ export const quotaPercent = (product) => {
   return Math.min(100, Math.floor((stock / STOCK_FULL) * 100));
 };
 
-// no endpoint quotes IDR/USDT, so the rupiah totals are converted at the rate
-// the Aset frame implies (14.700.000 IDR ≈ 889,83 USDT)
-export const USDT_RATE = 16520;
-export const usdtApprox = (value) => `≈ ${decimal.format((Number(value) || 0) / USDT_RATE)} USDT`;
+// the API quotes one USD in rupiah (`rate_to_main`), so the rupiah totals are
+// printed as their USDT equivalent at that live rate
+export const usdtApprox = (value, rate) => {
+  const price = Number(rate) || 0;
+  if (!(price > 0)) return '—';
+  return `≈ ${decimal.format((Number(value) || 0) / price)} USDT`;
+};
 
 // profit earned by one unit in one day
 export const dailyProfit = (product) => {
