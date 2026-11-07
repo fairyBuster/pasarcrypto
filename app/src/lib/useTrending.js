@@ -2,7 +2,7 @@
 // and the live 24h move through the same-origin proxy (see vite.config.js).
 import { useEffect, useState } from 'react';
 
-const ENDPOINT = '/cg/coins/markets?vs_currency=usd&ids=bitcoin,ethereum&price_change_percentage=24h';
+const ENDPOINT = `${import.meta.env.VITE_CG_BASE || '/cg'}/coins/markets?vs_currency=usd&ids=bitcoin,ethereum&price_change_percentage=24h`;
 
 // the widget keeps its two rows even when the feed is down; only the logo and
 // the numbers blank

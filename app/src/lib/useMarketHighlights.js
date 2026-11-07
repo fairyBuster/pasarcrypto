@@ -3,7 +3,7 @@
 // through the same-origin proxy (see vite.config.js).
 import { useEffect, useState } from 'react';
 
-const ENDPOINT = '/cg/coins/categories';
+const ENDPOINT = `${import.meta.env.VITE_CG_BASE || '/cg'}/coins/categories`;
 // the edge CDN can answer /cg from its own copy, and a blocked or broken entry
 // leaves every tile blank; the build also ships a trimmed snapshot so the tiles
 // always have figures to draw

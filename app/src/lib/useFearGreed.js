@@ -3,8 +3,9 @@
 // the browser still talks to a single origin, exactly like /api.
 import { useEffect, useState } from 'react';
 
-// one request covers the chart's 7D/30D/1Y pills and the three stat blocks
-const ENDPOINT = '/fng/?limit=366&format=json';
+// one request covers the chart's 7D/30D/1Y pills and the three stat blocks;
+// the Android bundle has no proxy, so VITE_FNG_BASE points it at the public feed
+const ENDPOINT = `${import.meta.env.VITE_FNG_BASE || '/fng'}/?limit=366&format=json`;
 
 // the API speaks the five English buckets; the UI prints them in Indonesian
 const LABELS = {

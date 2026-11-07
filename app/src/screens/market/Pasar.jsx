@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import BottomNav from '../../components/BottomNav.jsx';
 import { api } from '../../lib/api.js';
+import { mediaUrl } from '../../lib/media.js';
 import { friendlyError, useAuth } from '../../lib/auth.jsx';
 import { idr, initials, quotaPercent, ratePercent, volumeText } from '../../lib/format.js';
 import { useProductChart, chartGeometry } from '../../lib/useProductChart.js';
@@ -809,7 +810,7 @@ export default function Pasar() {
                           <span>{initials(product.name)}</span>
                           {product.image && (
                               <img
-                                  src={product.image}
+                                  src={mediaUrl(product.image)}
                                   alt={product.name}
                                   onError={(event) => {
                                     // a missing media file leaves the initials underneath

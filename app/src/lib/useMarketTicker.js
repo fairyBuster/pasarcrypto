@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { idr } from './format.js';
 
 const ENDPOINT =
-  '/cg/coins/markets?vs_currency=idr&ids=bitcoin,ethereum,solana&price_change_percentage=24h';
+  `${import.meta.env.VITE_CG_BASE || '/cg'}/coins/markets?vs_currency=idr&ids=bitcoin,ethereum,solana&price_change_percentage=24h`;
 
 // the frame's figures used to sit here as a hardcoded fallback; a quote is now
 // real or an em dash, because a stale rupiah amount reads as a live price

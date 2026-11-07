@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { api } from '../../lib/api.js';
+import { mediaUrl } from '../../lib/media.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { idr } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
@@ -57,7 +58,7 @@ const PrizeChip = ({ prize }) => {
   if (!prize?.image || failed) return null;
   return (
     <span className="wheel-prize" style={{ top: `${-PRIZE_RADIUS}px` }}>
-      <img src={prize.image} alt={prize.name || ''} onError={() => setFailed(true)} />
+      <img src={mediaUrl(prize.image)} alt={prize.name || ''} onError={() => setFailed(true)} />
     </span>
   );
 };

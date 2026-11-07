@@ -2,6 +2,7 @@
 // API exposes at /api/news/ (public, paginated).
 import { useEffect, useState } from 'react';
 import { api } from './api.js';
+import { mediaUrl } from './media.js';
 
 // the API serves images under /media/news/; older responses to missing files
 // were cacheable for a year, so the URL carries a version tag that changes
@@ -10,7 +11,7 @@ const withImageVersion = (row) => {
   if (!row || !row.image) return row;
   const version = encodeURIComponent(row.updated_at || row.id || '1');
   const glue = row.image.includes('?') ? '&' : '?';
-  return { ...row, image: `${row.image}${glue}v=${version}` };
+  return { ...row, image: `${mediaUrl(row.image)}${glue}v=${version}` };
 };
 
 const read = (data) => {

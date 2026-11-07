@@ -8,9 +8,15 @@
     "routes": "node scripts/gen-nginx-routes.mjs",
     "snapshot": "node scripts/gen-market-snapshot.mjs",
     "build": "npm run routes && npm run snapshot && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "android:build": "npm run routes && npm run snapshot && vite build --mode android",
+    "android:sync": "npm run android:build && cap sync android",
+    "android:apk": "npm run android:sync && cd android && gradlew assembleDebug"
   },
   "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
     "html-to-image": "^1.11.13",
     "qrcode.react": "^4.2.0",
     "react": "^18.3.1",

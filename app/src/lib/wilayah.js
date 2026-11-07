@@ -2,7 +2,7 @@
 // read from the free, key-less wilayah.id dataset (Kepmendagri codes, 38
 // provinces). The dev/preview proxy in vite.config.js keeps the browser on one
 // origin, exactly like /cg and /fng.
-const ENDPOINT = '/wilayah';
+const ENDPOINT = import.meta.env.VITE_WILAYAH_BASE || '/wilayah';
 
 // one request per level, kept for the session: walking back up the pickers
 // should not refetch a list that is already known

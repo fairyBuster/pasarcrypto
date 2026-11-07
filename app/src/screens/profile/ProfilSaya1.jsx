@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import ProfilEditForm from '../../components/ProfilEditForm.jsx';
 import { api } from '../../lib/api.js';
+import { mediaUrl } from '../../lib/media.js';
 import { friendlyError, useAuth } from '../../lib/auth.jsx';
 import { dateID, maskEmail, maskPhone } from '../../lib/format.js';
 import { useInviteLink } from '../../lib/referral.js';
@@ -532,7 +533,7 @@ export default function ProfilSaya1() {
       <section id="section-profile">
         <div className="profile-container">
           <div className="avatar-wrapper">
-            <img src={avatar} alt="User Avatar" className="avatar-img" />
+            <img src={mediaUrl(avatar)} alt="User Avatar" className="avatar-img" />
             <button
               type="button"
               className="btn-edit-avatar"

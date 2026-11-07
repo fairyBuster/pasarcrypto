@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import BottomNav from '../../components/BottomNav.jsx';
 import { api } from '../../lib/api.js';
+import { mediaUrl } from '../../lib/media.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { t } from '../../lib/i18n.js';
 
@@ -426,7 +427,7 @@ export default function Feed() {
                                       <img
                                           className="post-image"
                                           key={image.id}
-                                          src={image.image}
+                                          src={mediaUrl(image.image)}
                                           alt="Gambar ulasan"
                                           onError={(event) => {
                                             // the DB can still point at a file that was removed

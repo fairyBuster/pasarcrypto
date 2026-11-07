@@ -58,6 +58,9 @@ const allProxy = { ...proxy, ...cgProxy, ...wilayahProxy };
 
 export default defineConfig({
   plugins: [react()],
+  // relative asset paths so the Capacitor WebView can load the bundle from its
+  // local server (and the web build stays untouched by the change)
+  base: './',
   server: {
     port: 5174,
     strictPort: true,

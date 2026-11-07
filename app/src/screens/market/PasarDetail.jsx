@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { api } from '../../lib/api.js';
+import { mediaUrl } from '../../lib/media.js';
 import { friendlyError, useAuth } from '../../lib/auth.jsx';
 import { dateID, idr, initials, orderDailyProfit, quotaPercent, ratePercent, volumeText } from '../../lib/format.js';
 import { useProductChart, chartGeometry } from '../../lib/useProductChart.js';
@@ -648,7 +649,7 @@ export default function PasarDetail() {
                           {initials(product.name)}
                           {product.image && (
                               <img
-                                  src={product.image}
+                                  src={mediaUrl(product.image)}
                                   alt={product.name}
                                   onError={(event) => {
                                     // a missing media file leaves the initials underneath

@@ -110,3 +110,20 @@ npm run dev
 
 Build only: `npm run build` inside `app/`. Regenerate the nginx route allowlist
 alone with `npm run routes`.
+
+## Android (Capacitor)
+
+The prototype also ships as a native Android app via Capacitor 8. The device
+build ignores the Vite proxies: it talks straight to the live API and the
+public feeds, configured in `app/.env.android` (`VITE_API_BASE=https://otpdisini.vip`,
+CoinGecko, alternative.me, wilayah.id). `CapacitorHttp` routes fetch through
+native networking, so the WebView never runs into CORS.
+
+```sh
+cd app
+npm run android:sync   # build the web bundle (--mode android) and copy it in
+npm run android:apk    # assemble app-debug.apk via Gradle
+```
+
+The APK lands in `app/android/app/build/outputs/apk/debug/app-debug.apk`; the
+`app/android/` project also opens directly in Android Studio.

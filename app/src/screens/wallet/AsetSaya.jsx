@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import BottomNav from '../../components/BottomNav.jsx';
 import { dateTimeID, idr, initials, usdtApprox } from '../../lib/format.js';
+import { mediaUrl } from '../../lib/media.js';
 import { useAssets } from '../../lib/useAssets.js';
 import { useUsdRate } from '../../lib/useUsdRate.js';
 import { t } from '../../lib/i18n.js';
@@ -654,7 +655,7 @@ export default function AsetSaya() {
                   <span>{initials(row.product_name)}</span>
                   {row.product_image && (
                     <img
-                      src={row.product_image}
+                      src={mediaUrl(row.product_image)}
                       alt={row.product_name}
                       onError={(event) => {
                         // a missing media file leaves the initials underneath

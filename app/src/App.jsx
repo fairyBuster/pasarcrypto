@@ -1,5 +1,6 @@
 import { Component, lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { Capacitor } from '@capacitor/core';
 import { ROUTES } from './screen-map.js';
 import { RequireAuth, isPublicPath } from './lib/auth.jsx';
 import { copyText } from './lib/clipboard.js';
@@ -259,8 +260,8 @@ export default function App() {
             {Object.entries(LEGACY_ROUTES).map(([from, to]) => (
               <Route key={from} path={from} element={<LegacyRedirect to={to} />} />
             ))}
-            {/* Entry point opens the marketing landing page, not the welcome splash */}
-            <Route path="/" element={<Navigate to="/landing" replace />} />
+            {/* web entry opens the marketing landing page; the native app opens login */}
+            <Route path="/" element={<Navigate to={Capacitor.isNativePlatform() ? '/login' : '/landing'} replace />} />
             {/* the short invite link every shared referral URL uses */}
             <Route path="/ref/:code" element={<ReferralRedirect />} />
             {/* a tapped article reuses the education-article frame, filled from /api/news/{id}/ */}

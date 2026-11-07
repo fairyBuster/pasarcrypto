@@ -1,0 +1,10 @@
+{
+  "appId": "id.pasarcrypto.app",
+  "appName": "PasarCryptoID",
+  "webDir": "dist",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

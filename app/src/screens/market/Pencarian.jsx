@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { api } from '../../lib/api.js';
+import { mediaUrl } from '../../lib/media.js';
 import { friendlyError } from '../../lib/auth.jsx';
 import { initials, quotaPercent, rateLabel, rateValue, volumeText } from '../../lib/format.js';
 import { useProductChart, chartGeometry } from '../../lib/useProductChart.js';
@@ -531,7 +532,7 @@ export default function Pencarian() {
           <span className="asset-icon-text">{initials(product.name)}</span>
           {product.image && (
             <img
-              src={product.image}
+              src={mediaUrl(product.image)}
               alt={product.name}
               onError={(event) => {
                 // a missing media file leaves the initials underneath

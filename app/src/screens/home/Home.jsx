@@ -7,6 +7,7 @@ import { useFearGreed, fearGreedColor } from '../../lib/useFearGreed.js';
 import { useMarketHighlights } from '../../lib/useMarketHighlights.js';
 import { useUsdRate } from '../../lib/useUsdRate.js';
 import { api } from '../../lib/api.js';
+import { mediaUrl } from '../../lib/media.js';
 import { idr, initials, quotaPercent, ratePercent, usdtApprox } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
 
@@ -1205,7 +1206,7 @@ export default function Home() {
                         {initials(product.name)}
                         {product.image && (
                           <img
-                            src={product.image}
+                            src={mediaUrl(product.image)}
                             alt={product.name}
                             onError={(event) => {
                               // a missing media file leaves the initials underneath
@@ -1272,7 +1273,7 @@ export default function Home() {
                 {initials(product.name)}
                 {product.image && (
                   <img
-                    src={product.image}
+                    src={mediaUrl(product.image)}
                     alt={product.name}
                     onError={(event) => {
                       // a missing media file leaves the initials underneath
