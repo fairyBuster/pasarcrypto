@@ -583,7 +583,6 @@ export default function RiwayatDeposit() {
               {visible.map((row) => {
                   const done = row.status === 'COMPLETED';
                   const receipt = row.trx_id || row.transaction_id || '';
-                  const method = row.bank_name || row.withdrawal_service_name || '';
                   return (
                       <div className="transaction-card" key={row.id}>
                           <div className="tx-main-info">
@@ -620,10 +619,6 @@ export default function RiwayatDeposit() {
                                           </button>
                                       ) : null}
                                   </span>
-                              </div>
-                              <div className="tx-detail-item">
-                                  <span className="tx-detail-label">{t('Metode')}</span>
-                                  <span className="tx-detail-value">{method || ''}</span>
                               </div>
                               <div className="tx-detail-item">
                                   <span className="tx-detail-label">{t('Masuk ke')}</span>

@@ -48,6 +48,8 @@ export const EN = {
   'Chat dengan Tim Kami': 'Chat with Our Team',
   'Metode pembayaran sedang tidak tersedia. Coba lagi nanti ya.':
     'Payment methods are unavailable right now. Please try again later.',
+  'Kamu memenangkan': 'You won',
+  'Hadiah tercatat di Riwayat Hadiah.': 'The prize is recorded in Prize History.',
   'Bantuan lebih cepat di Telegram!': 'Get help faster on Telegram!',
   Online: 'Online',
   Tentang: 'About',
