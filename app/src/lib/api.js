@@ -54,18 +54,39 @@ const decodeEnvelope = (text) => {
   return JSON.parse(new TextDecoder().decode(bytes));
 };
 
+// a nested serializer error (dicts inside lists) would print as "[object
+// Object]"; flattening keeps the sentence the API wrote
+const flattenError = (value) => {
+  if (value == null) return '';
+  if (Array.isArray(value)) return value.map(flattenError).filter(Boolean).join(' ');
+  if (typeof value === 'object') return Object.values(value).map(flattenError).filter(Boolean).join(' ');
+  return String(value).trim();
+};
+
+// an HTML page is never a message a screen can show
+const isMarkup = (text) => /^\s*</.test(text);
+
 // DRF errors arrive as { field: ["msg"] } or { detail: "msg" }
 export const errorText = (data, fallback = 'Terjadi kesalahan') => {
   if (!data) return fallback;
-  if (typeof data === 'string') return data;
-  if (data.detail) return String(data.detail);
+  if (typeof data === 'string') return data.trim() && !isMarkup(data) ? data : fallback;
+  if (Array.isArray(data)) {
+    const joined = flattenError(data);
+    return joined && !isMarkup(joined) ? joined : fallback;
+  }
+  const pick = (value) => {
+    const text = flattenError(value);
+    return text && !isMarkup(text) ? text : '';
+  };
+  if (data.detail) return pick(data.detail) || fallback;
   // the products endpoints report failures as { "error": "..." }
-  if (data.error) return String(data.error);
-  if (Array.isArray(data.non_field_errors)) return data.non_field_errors.join(' ');
+  if (data.error) return pick(data.error) || fallback;
+  if (data.non_field_errors) return pick(data.non_field_errors) || fallback;
   const first = Object.entries(data)[0];
   if (!first) return fallback;
   const [field, value] = first;
-  const msg = Array.isArray(value) ? value.join(' ') : String(value);
+  const msg = pick(value);
+  if (!msg) return fallback;
   return field === 'detail' ? msg : `${field}: ${msg}`;
 };
 
@@ -73,6 +94,12 @@ export const errorText = (data, fallback = 'Terjadi kesalahan') => {
 // envelope, so the decoded detail would be raw markup; every screen hears the
 // same friendly line instead, and the shell shows it as a toast
 const RATE_LIMIT_MESSAGE = 'Terlalu cepat, pelan-pelan ya. Coba lagi sebentar.';
+
+// the edge, the gateway and Django all answer failures in their own format
+// (HTML block pages, nginx 502 pages, raw stack details); a screen must never
+// paint that markup, so anything without a usable JSON message collapses into
+// this one plain sentence
+const SERVER_ERROR_MESSAGE = 'Gagal menghubungkan server. Coba lagi sebentar.';
 
 const isRateLimited = (res, text) => {
   if (res.status === 429) return true;
@@ -107,8 +134,14 @@ const readResponse = async (res) => {
     try {
       data = decodeEnvelope(text);
     } catch {
-      data = { detail: text.slice(0, 200) };
+      // an HTML block page is not a message a screen can show
+      data = res.ok ? { detail: text.slice(0, 200) } : { detail: SERVER_ERROR_MESSAGE };
     }
+  }
+  // 403 (outside the throttle above) and every 5xx have no message worth
+  // repeating; validation failures (400) keep the sentence the API wrote
+  if (!res.ok && (res.status === 403 || res.status >= 500)) {
+    data = { detail: SERVER_ERROR_MESSAGE };
   }
   return { ok: res.ok, status: res.status, data };
 };
