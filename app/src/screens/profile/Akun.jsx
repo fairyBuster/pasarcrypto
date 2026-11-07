@@ -141,13 +141,13 @@ const css = `
   align-items: center;
   flex-shrink: 0;
 }
-/* the telegram mark is a raster asset, so it is sized down to the row's glyphs */
+/* the channel marks are raster assets, so they are sized down to the row's glyphs */
 .scr-akun .list-icon-img{
   width: 18px;
   height: 18px;
   object-fit: contain;
 }
-/* the telegram row is a real outbound link; its label must stay plain white */
+/* the channel rows are real outbound links; their labels must stay plain white */
 .scr-akun a.list-item{
   text-decoration: none;
 }
@@ -507,35 +507,42 @@ export default function Akun() {
     return () => { alive = false; };
   }, []);
 
-  // the Bantuan list adds a faster-help row for the CS desk, but its target only
-  // ever comes from /api/support/links/ — the row stays off until an active
-  // telegram link answers, so no invite URL is baked into the bundle
-  const [telegram, setTelegram] = useState('');
+  // the Bantuan list mirrors the three channels the CMS publishes: the CS desk
+  // plus the two broadcast channels. Targets only ever come from
+  // /api/support/links/, and a row stays off until its own active link answers,
+  // so no invite URL is baked into the bundle
+  const [channels, setChannels] = useState({ cs: '', telegram: '', whatsapp: '' });
   useEffect(() => {
     let alive = true;
     (async () => {
       // the upstream sits behind a CDN that occasionally 524s, so one retry is
-      // cheaper than losing the row for the rest of the visit
+      // cheaper than losing the rows for the rest of the visit
       for (let attempt = 0; attempt < 2; attempt += 1) {
         const res = await api.supportLinks().catch(() => null);
         if (!alive) return;
         if (!res?.ok) continue;
-        const rows = Array.isArray(res.data?.results) ? res.data.results : [];
-        // only a telegram destination can back a row that promises Telegram
-        const telegramRows = rows.filter(
-          (item) =>
-            item.is_active !== false &&
-            /^https?:\/\/(?:www\.)?(?:t\.me|telegram\.me)\//i.test(String(item.url || ''))
+        const rows = (Array.isArray(res.data?.results) ? res.data.results : []).filter(
+          (item) => item.is_active !== false && /^https?:\/\//i.test(String(item.url || ''))
         );
-        // the CS desk is the "other" row (Layanan Bantuan), not the channel that
-        // sits under "Saluran"; if the CMS ever moves it to another platform the
-        // support wording still finds it instead of losing the row
-        const row =
+        const byPlatform = (name) =>
+          rows.find((item) => String(item.platform || '').toLowerCase() === name);
+        // only a telegram destination can back the faster-help row; the CS desk
+        // is the "other" row (Layanan Bantuan), not the update channel
+        const telegramRows = rows.filter((item) =>
+          /^https?:\/\/(?:www\.)?(?:t\.me|telegram\.me)\//i.test(String(item.url || ''))
+        );
+        // if the CMS ever moves the desk to another platform the support wording
+        // still finds it instead of losing the row
+        const desk =
           telegramRows.find((item) => String(item.platform || '').toLowerCase() === 'other') ||
           telegramRows.find((item) =>
             /\b(?:bantuan|support|layanan|cs)\b/i.test(`${item.title || ''} ${item.description || ''}`)
           );
-        if (row) setTelegram(row.url);
+        setChannels({
+          cs: desk?.url || '',
+          telegram: byPlatform('telegram')?.url || '',
+          whatsapp: byPlatform('whatsapp')?.url || '',
+        });
         return;
       }
     })();
@@ -792,12 +799,26 @@ export default function Akun() {
             </div>
             <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
           </div>
-          {telegram && (
-            // a real href, not a route: the shell only swallows href="#" taps, so
-            // this one opens the CS Telegram channel in a new tab
-            <a className="list-item" href={telegram} target="_blank" rel="noopener noreferrer">
+          {channels.cs && (
+            // real hrefs, not routes: the shell only swallows href="#" taps, so
+            // these open the channel in a new tab
+            <a className="list-item" href={channels.cs} target="_blank" rel="noopener noreferrer">
               <div className="list-icon"><img src="/assets/img/56c976c9cc.png" alt="Telegram" className="list-icon-img" /></div>
               <span className="list-label">{t('Bantuan lebih cepat di Telegram!')}</span>
+              <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
+            </a>
+          )}
+          {channels.telegram && (
+            <a className="list-item" href={channels.telegram} target="_blank" rel="noopener noreferrer">
+              <div className="list-icon"><img src="/assets/img/56c976c9cc.png" alt="Telegram" className="list-icon-img" /></div>
+              <span className="list-label">{t('Saluran Telegram')}</span>
+              <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
+            </a>
+          )}
+          {channels.whatsapp && (
+            <a className="list-item" href={channels.whatsapp} target="_blank" rel="noopener noreferrer">
+              <div className="list-icon"><img src="/assets/img/50c60b7d43.png" alt="WhatsApp" className="list-icon-img" /></div>
+              <span className="list-label">{t('Saluran WhatsApp')}</span>
               <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
             </a>
           )}

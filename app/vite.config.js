@@ -56,11 +56,13 @@ const wilayahProxy = {
 
 const allProxy = { ...proxy, ...cgProxy, ...wilayahProxy };
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  // relative asset paths so the Capacitor WebView can load the bundle from its
-  // local server (and the web build stays untouched by the change)
-  base: './',
+  // the Capacitor WebView loads the bundle from its local server, so the
+  // android build keeps relative paths. The web build is served at the origin
+  // root: a deep link such as /ref/CODE gets the shell at that path, and a
+  // relative ref would resolve to /ref/assets/... (404) instead of /assets/...
+  base: mode === 'android' ? './' : '/',
   server: {
     port: 5174,
     strictPort: true,
@@ -75,4 +77,4 @@ export default defineConfig({
     allowedHosts: ['localhost', '127.0.0.1', '.scagerwebsite.uk', ...extraHosts],
     proxy: allProxy,
   },
-});
+}));

@@ -51,6 +51,8 @@ export const ZH = {
   'Kamu memenangkan': '你赢得了',
   'Hadiah tercatat di Riwayat Hadiah.': '奖品已记录在奖品历史中。',
   'Bantuan lebih cepat di Telegram!': '在 Telegram 获得更快的帮助！',
+  'Saluran Telegram': 'Telegram 频道',
+  'Saluran WhatsApp': 'WhatsApp 频道',
   Online: '在线',
   Tentang: '关于',
   'Unduh Aplikasi': '下载应用',

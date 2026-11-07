@@ -51,6 +51,8 @@ export const EN = {
   'Kamu memenangkan': 'You won',
   'Hadiah tercatat di Riwayat Hadiah.': 'The prize is recorded in Prize History.',
   'Bantuan lebih cepat di Telegram!': 'Get help faster on Telegram!',
+  'Saluran Telegram': 'Telegram Channel',
+  'Saluran WhatsApp': 'WhatsApp Channel',
   Online: 'Online',
   Tentang: 'About',
   'Unduh Aplikasi': 'Download App',

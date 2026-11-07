@@ -78,6 +78,14 @@ server {
         try_files $uri =404;
     }
 
+    # Deep links such as /ref/CODE are answered by the shell at that path. A
+    # shell that still carries relative refs (an older build, or one an edge
+    # cached) then asks for /ref/assets/<chunk>: map the prefix back to the real
+    # file so the page boots instead of 404ing every chunk it needs.
+    location ~ "^/.+/assets/" {
+        rewrite ^/.+/assets/(.*)$ /assets/$1 last;
+    }
+
     # everything copied verbatim from public/ (the avatars and illustrations)
     location /assets/ {
         include /etc/nginx/snippets/security-headers.conf;
