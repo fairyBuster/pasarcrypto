@@ -141,6 +141,16 @@ const css = `
   align-items: center;
   flex-shrink: 0;
 }
+/* the telegram mark is a raster asset, so it is sized down to the row's glyphs */
+.scr-akun .list-icon-img{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+/* the telegram row is a real outbound link; its label must stay plain white */
+.scr-akun a.list-item{
+  text-decoration: none;
+}
 .scr-akun .list-label{
   font-size: 14px;
   color: #ffffff;
@@ -497,6 +507,41 @@ export default function Akun() {
     return () => { alive = false; };
   }, []);
 
+  // the Bantuan list adds a faster-help row for the CS desk, but its target only
+  // ever comes from /api/support/links/ — the row stays off until an active
+  // telegram link answers, so no invite URL is baked into the bundle
+  const [telegram, setTelegram] = useState('');
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      // the upstream sits behind a CDN that occasionally 524s, so one retry is
+      // cheaper than losing the row for the rest of the visit
+      for (let attempt = 0; attempt < 2; attempt += 1) {
+        const res = await api.supportLinks().catch(() => null);
+        if (!alive) return;
+        if (!res?.ok) continue;
+        const rows = Array.isArray(res.data?.results) ? res.data.results : [];
+        // only a telegram destination can back a row that promises Telegram
+        const telegramRows = rows.filter(
+          (item) =>
+            item.is_active !== false &&
+            /^https?:\/\/(?:www\.)?(?:t\.me|telegram\.me)\//i.test(String(item.url || ''))
+        );
+        // the CS desk is the "other" row (Layanan Bantuan), not the channel that
+        // sits under "Saluran"; if the CMS ever moves it to another platform the
+        // support wording still finds it instead of losing the row
+        const row =
+          telegramRows.find((item) => String(item.platform || '').toLowerCase() === 'other') ||
+          telegramRows.find((item) =>
+            /\b(?:bantuan|support|layanan|cs)\b/i.test(`${item.title || ''} ${item.description || ''}`)
+          );
+        if (row) setTelegram(row.url);
+        return;
+      }
+    })();
+    return () => { alive = false; };
+  }, []);
+
   const rankTitle = String(rank?.current_title || '').trim();
   const tone = toneOf(rankTitle);
   const nextTitle = String(rank?.next_title || '').trim();
@@ -747,6 +792,15 @@ export default function Akun() {
             </div>
             <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
           </div>
+          {telegram && (
+            // a real href, not a route: the shell only swallows href="#" taps, so
+            // this one opens the CS Telegram channel in a new tab
+            <a className="list-item" href={telegram} target="_blank" rel="noopener noreferrer">
+              <div className="list-icon"><img src="/assets/img/56c976c9cc.png" alt="Telegram" className="list-icon-img" /></div>
+              <span className="list-label">{t('Bantuan lebih cepat di Telegram!')}</span>
+              <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
+            </a>
+          )}
         </div>
       </section>
       <section id="section-about" className="list-section">

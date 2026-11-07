@@ -125,9 +125,20 @@ export default function App() {
 
   useEffect(() => {
     if (!toast) return undefined;
-    const timer = setTimeout(() => setToast(''), 1600);
+    const timer = setTimeout(() => setToast(''), 2400);
     return () => clearTimeout(timer);
   }, [toast]);
+
+  // a throttled API call answers with an HTML 403 page; api.js turns that into
+  // one shell-level notice, so every screen shows the same friendly copy
+  useEffect(() => {
+    const onRateLimit = (event) => {
+      const message = event.detail?.message;
+      if (message) setToast(message);
+    };
+    window.addEventListener('pscryp:rate-limit', onRateLimit);
+    return () => window.removeEventListener('pscryp:rate-limit', onRateLimit);
+  }, []);
 
   // the toast only confirms what actually reached the clipboard
   const copyToClipboard = async (value) => {
@@ -168,6 +179,13 @@ export default function App() {
       copyToClipboard(copyValue.getAttribute('data-copy') || '');
       return;
     }
+
+    // a real outbound link always wins over the class-based helpers below. The
+    // generated screens mark selectable rows with classes like list-item, and a
+    // link that carries one of those classes must still leave the app instead
+    // of being swallowed as an in-page toggle
+    const link = event.target.closest('a[href]');
+    if (link && /^(?:https?:|mailto:|tel:)/i.test(link.getAttribute('href') || '')) return;
 
     // copy / share buttons
     const copy = findWithClass(event.target, root, COPY_CLASSES);

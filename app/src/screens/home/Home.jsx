@@ -815,6 +815,9 @@ const volumeFor = (hour, id) => {
 };
 const volumeText = (hour, id) => `${volumeFor(hour, id).toFixed(1).replace('.', ',')} Jt USDT`;
 
+// a stock-enabled product with zero stock has no detail to open from a card
+const soldOut = (product) => !!product?.stock_enabled && Number(product?.stock) <= 0;
+
 // the trending widget prefers catalogue entries the holding cards below do not
 // already preview, then wraps around so a short catalogue still fills both rows
 const trendingRowsFrom = (catalogue, preview) => {
@@ -1196,7 +1199,7 @@ export default function Home() {
                     <div
                       className="trending-item"
                       key={product.id}
-                      data-route={`/pasar/detail?id=${product.id}`}
+                      data-route={soldOut(product) ? undefined : `/pasar/detail?id=${product.id}`}
                     >
                       <div className="coin-icon">
                         {initials(product.name)}
@@ -1263,7 +1266,7 @@ export default function Home() {
             <p className="holding-state">{t('Belum ada produk aktif.')}</p>
           )}
           {products.map((product) => (
-          <div className="holding-card" key={product.id} data-route={`/pasar/detail?id=${product.id}`}>
+          <div className="holding-card" key={product.id} data-route={soldOut(product) ? undefined : `/pasar/detail?id=${product.id}`}>
             <div className="holding-top">
               <div className="coin-badge">
                 {initials(product.name)}

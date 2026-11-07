@@ -69,17 +69,39 @@ export const errorText = (data, fallback = 'Terjadi kesalahan') => {
   return field === 'detail' ? msg : `${field}: ${msg}`;
 };
 
-async function send(path, { method = 'GET', body, form, token } = {}) {
-  const res = await fetch(BASE + path, {
-    method,
-    headers: {
-      // multipart uploads must let the browser set the boundary itself
-      ...(form ? {} : { 'Content-Type': 'application/json' }),
-      ...(token ? { Authorization: `Bearer ${token}` } : {}),
-    },
-    body: form || (body === undefined ? undefined : JSON.stringify(body)),
-  });
+// ESA answers a throttled request with an HTML 403 page instead of the DRF
+// envelope, so the decoded detail would be raw markup; every screen hears the
+// same friendly line instead, and the shell shows it as a toast
+const RATE_LIMIT_MESSAGE = 'Terlalu cepat, pelan-pelan ya. Coba lagi sebentar.';
+
+const isRateLimited = (res, text) => {
+  if (res.status === 429) return true;
+  if (res.status !== 403) return false;
+  // the ESA block page names the rule; a plain Django/CSRF 403 does not, so it
+  // keeps its own message instead of being reported as a throttle
+  if (/http_ratelimit|too many requests|rate.?limit/i.test(text)) return true;
+  return /^\s*<!doctype html/i.test(text) && /sorry, you have been blocked|denied by/i.test(text);
+};
+
+const announceRateLimit = () => {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(
+    new CustomEvent('pscryp:rate-limit', { detail: { message: RATE_LIMIT_MESSAGE } })
+  );
+};
+
+// a page that opened during a short throttle or a 5xx should fill itself
+// instead of staying broken; writes are never replayed because a repeated POST
+// could buy or withdraw twice
+const RETRY_STATUS = new Set([408, 429, 500, 502, 503, 504]);
+const MAX_RETRIES = 2;
+const RETRY_DELAY_MS = [800, 2000];
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const readResponse = async (res) => {
   const text = await res.text();
+  if (isRateLimited(res, text)) return { rateLimited: true, status: res.status };
   let data = null;
   if (text) {
     try {
@@ -89,6 +111,61 @@ async function send(path, { method = 'GET', body, form, token } = {}) {
     }
   }
   return { ok: res.ok, status: res.status, data };
+};
+
+async function send(path, { method = 'GET', body, form, token } = {}) {
+  const verb = String(method).toUpperCase();
+  // only reads are retried; a form submission keeps its single attempt
+  const retries = verb === 'GET' || verb === 'HEAD' ? MAX_RETRIES : 0;
+  let attempt = 0;
+
+  for (;;) {
+    let res;
+    try {
+      res = await fetch(BASE + path, {
+        method,
+        headers: {
+          // multipart uploads must let the browser set the boundary itself
+          ...(form ? {} : { 'Content-Type': 'application/json' }),
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
+        body: form || (body === undefined ? undefined : JSON.stringify(body)),
+      });
+    } catch (error) {
+      // a dropped connection is retried like a 5xx
+      if (attempt >= retries) throw error;
+      await sleep(RETRY_DELAY_MS[attempt] ?? RETRY_DELAY_MS[RETRY_DELAY_MS.length - 1]);
+      attempt += 1;
+      continue;
+    }
+
+    const parsed = await readResponse(res);
+    const transient = parsed.rateLimited || RETRY_STATUS.has(parsed.status);
+
+    if (transient && attempt < retries) {
+      // honour a short Retry-After from the edge, otherwise back off ourselves
+      const after = Number(res.headers.get('Retry-After'));
+      const wait = Number.isFinite(after) && after > 0
+        ? Math.min(after * 1000, 5000)
+        : RETRY_DELAY_MS[attempt] ?? 2000;
+      await sleep(wait);
+      attempt += 1;
+      continue;
+    }
+
+    if (parsed.rateLimited) {
+      // only after every retry failed; a recovered request stays silent
+      announceRateLimit();
+      return {
+        ok: false,
+        status: parsed.status,
+        rateLimited: true,
+        data: { detail: RATE_LIMIT_MESSAGE },
+      };
+    }
+
+    return parsed;
+  }
 }
 
 let refreshing = null;
@@ -101,6 +178,9 @@ async function refreshAccess() {
       body: { refresh: session.refresh },
     })
       .then((r) => {
+        // a throttled refresh is not a dead session; the shell already showed
+        // the rate-limit notice, so keep the tokens instead of logging out
+        if (r.rateLimited) return null;
         if (!r.ok || !r.data?.access) return '';
         // ROTATE_REFRESH_TOKENS is on, so keep the new refresh if one comes back
         session.save({ access: r.data.access, refresh: r.data.refresh || session.refresh });
@@ -118,6 +198,8 @@ export async function request(path, options = {}) {
   let res = await send(path, { ...options, token: session.access });
   if (res.status === 401 && session.refresh) {
     const fresh = await refreshAccess();
+    // null means the refresh was throttled, not rejected; keep the session
+    if (fresh === null) return res;
     if (fresh) res = await send(path, { ...options, token: fresh });
   }
   if (res.status === 401) {

@@ -142,7 +142,7 @@ const css = `
   padding: 0;
 }
 .scr-pencarian #section-recent-searches{
-  padding: 26px 16px 0;
+  padding: 26px 16px 20px;
 }
 .scr-pencarian .recent-header{
   display: flex;
@@ -187,12 +187,6 @@ const css = `
 .scr-pencarian .chip-text{
   color: #d3dce7;
   font-size: 12px;
-}
-.scr-pencarian #section-most-searched{
-  padding: 26px 16px 20px;
-}
-.scr-pencarian #section-most-searched .section-title{
-  margin-bottom: 16px;
 }
 .scr-pencarian .asset-card{
   display: flex;
@@ -441,8 +435,8 @@ const css = `
 `;
 
 export default function Pencarian() {
-  // the catalogue is walked like Pasar, then sorted by APR so the "most
-  // searched" picks mirror the market's highest-yield products
+  // the catalogue is walked like Pasar, then sorted by APR so search results
+  // mirror the market's highest-yield products
   const [items, setItems] = useState([]);
   const [status, setStatus] = useState('loading');
   const [error, setError] = useState('');
@@ -527,11 +521,11 @@ export default function Pencarian() {
       )
     : [];
 
-  // one card per product; the whole card opens the detail, the button buys.
-  // tapping a card is not a search, so only a submitted term (or a history
-  // chip) goes into "Pencarian terakhir"
+  // one card per product; the whole card opens the detail and the button buys,
+  // while a sold-out card opens nothing. Tapping a card is not a search, so only
+  // a submitted term (or a history chip) goes into "Pencarian terakhir"
   const card = (product) => (
-    <div className="asset-card" key={product.id} data-route={`/pasar/detail?id=${product.id}`}>
+    <div className="asset-card" key={product.id} data-route={soldOut(product) ? undefined : `/pasar/detail?id=${product.id}`}>
       <div className="card-header">
         <div className="asset-icon-wrapper">
           <span className="asset-icon-text">{initials(product.name)}</span>
@@ -638,47 +632,32 @@ export default function Pencarian() {
           )}
         </section>
       ) : (
-        <>
-          {recent.length > 0 && (
-            <section id="section-recent-searches">
-              <div className="recent-header">
-                <h2 className="section-title">{t('Pencarian terakhir')}</h2>
-                <button className="clear-btn" onClick={clearRecent}>{t('Hapus')}</button>
-              </div>
-              <div className="recent-chips">
-                {recent.map((term) => (
-                  <button
-                    key={term}
-                    type="button"
-                    className="chip"
-                    onClick={(event) => {
-                      // the shell would otherwise toggle the chip's active state
-                      event.stopPropagation();
-                      setQuery(term);
-                      remember(term);
-                    }}
-                  >
-                    <img src="/assets/img/e3e4ffdaa5.svg" alt="History" className="chip-icon" />
-                    <span className="chip-text">{term}</span>
-                  </button>
-                ))}
-              </div>
-            </section>
-          )}
-          <section id="section-most-searched">
-            <h2 className="section-title">{t('Paling dicari')}</h2>
-            {status === 'loading' && <p className="list-state">{t('Memuat produk…')}</p>}
-            {status === 'error' && <p className="list-state error">{error}</p>}
-            {status === 'ready' && items.length === 0 && (
-              <p className="list-state">{t('Belum ada produk yang aktif.')}</p>
-            )}
-            {status === 'ready' && items.length > 0 && (
-              <div className="results-list">
-                {items.slice(0, 3).map(card)}
-              </div>
-            )}
+        recent.length > 0 && (
+          <section id="section-recent-searches">
+            <div className="recent-header">
+              <h2 className="section-title">{t('Pencarian terakhir')}</h2>
+              <button className="clear-btn" onClick={clearRecent}>{t('Hapus')}</button>
+            </div>
+            <div className="recent-chips">
+              {recent.map((term) => (
+                <button
+                  key={term}
+                  type="button"
+                  className="chip"
+                  onClick={(event) => {
+                    // the shell would otherwise toggle the chip's active state
+                    event.stopPropagation();
+                    setQuery(term);
+                    remember(term);
+                  }}
+                >
+                  <img src="/assets/img/e3e4ffdaa5.svg" alt="History" className="chip-icon" />
+                  <span className="chip-text">{term}</span>
+                </button>
+              ))}
+            </div>
           </section>
-        </>
+        )
       )}
     </div>
   );

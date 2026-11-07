@@ -46,6 +46,9 @@ export const EN = {
   Bahasa: 'Language',
   Bantuan: 'Help',
   'Chat dengan Tim Kami': 'Chat with Our Team',
+  'Metode pembayaran sedang tidak tersedia. Coba lagi nanti ya.':
+    'Payment methods are unavailable right now. Please try again later.',
+  'Bantuan lebih cepat di Telegram!': 'Get help faster on Telegram!',
   Online: 'Online',
   Tentang: 'About',
   'Unduh Aplikasi': 'Download App',

@@ -46,6 +46,9 @@ export const ZH = {
   Bahasa: '语言',
   Bantuan: '帮助',
   'Chat dengan Tim Kami': '与我们的团队聊天',
+  'Metode pembayaran sedang tidak tersedia. Coba lagi nanti ya.':
+    '支付方式暂时不可用，请稍后再试。',
+  'Bantuan lebih cepat di Telegram!': '在 Telegram 获得更快的帮助！',
   Online: '在线',
   Tentang: '关于',
   'Unduh Aplikasi': '下载应用',

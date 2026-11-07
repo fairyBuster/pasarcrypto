@@ -229,9 +229,9 @@ export default function DepositMetode() {
   // the helper endpoint only says whether the gateway is reachable; the
   // channels below are the ones its initiate call accepts
   const [gateway, setGateway] = useState({ ready: false, enabled: true });
-  // a method that is not live yet answers with this notice instead of opening a
-  // flow the gateway would reject
-  const unavailable = t('Om, kalau pilih ini kasih notif dulu aja. Segera hadir nanti!');
+  // a blocked gateway answers with this notice instead of opening a flow it
+  // would reject
+  const unavailable = t('Metode pembayaran sedang tidak tersedia. Coba lagi nanti ya.');
 
   useEffect(() => {
     let alive = true;
@@ -302,7 +302,7 @@ export default function DepositMetode() {
               </div>
           </div>
       
-          <div className="method-group">
+          {/* <div className="method-group">
               <h2 className="section-title">{t('Virtual Account')}</h2>
               <div className="list-container">
                   {banks.map((bank) => (
@@ -327,7 +327,7 @@ export default function DepositMetode() {
                       </a>
                   ))}
               </div>
-          </div>
+          </div> */}
       </section>
       <section id="section-security">
           <div className="security-container">

@@ -23,7 +23,7 @@ export const DEPOSIT_METHODS = [
 
 // the amount bounds the gateway enforces per channel (IDR, whole rupiah)
 export const DEPOSIT_LIMITS = {
-  QRIS: { min: 10000, max: 10000000 },
+  QRIS: { min: 50000, max: 10000000 },
   VA: { min: 10000, max: 50000000 },
 };
 

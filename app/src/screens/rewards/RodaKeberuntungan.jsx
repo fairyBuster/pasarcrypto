@@ -108,6 +108,7 @@ const css = `
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
 }
 .scr-roda-keberuntungan .header-title{
   color: #ffffff;
@@ -461,9 +462,9 @@ export default function RodaKeberuntungan() {
       <style>{css}</style>
       <section id="section-header">
         <header className="site-header">
-          <div className="back-btn" data-back="1">
-            <img src="/assets/img/aad66e4cfc.svg" alt="Back" />
-          </div>
+          <a className="back-btn" href="#/akun" data-route="/akun" aria-label={t('Menu akun')}>
+            <img src="/assets/img/aad66e4cfc.svg" alt="" />
+          </a>
           <h1 className="header-title">{t('Roda Keberuntungan')}</h1>
           <div className="header-placeholder"></div>
         </header>

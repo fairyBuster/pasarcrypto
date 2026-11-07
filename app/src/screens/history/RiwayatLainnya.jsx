@@ -536,13 +536,12 @@ export default function RiwayatLainnya() {
     setPicker('');
   };
 
-  // "sejak akun aktif": the net of everything that actually settled; pending
-  // rows stay in the list but not in the number
+  // "sejak akun aktif": the card totals the value that actually settled, the
+  // same way the other history screens sum their rows. A signed net turns
+  // negative as soon as debits outnumber credits, so the summary keeps the
+  // transaction volume instead; pending rows stay in the list, not the number
   const settled = rows.filter((row) => row.status === 'COMPLETED');
-  const totalOther = settled.reduce(
-    (sum, row) => sum + (isOutflow(row) ? -1 : 1) * (Number(row.amount) || 0),
-    0
-  );
+  const totalOther = settled.reduce((sum, row) => sum + Math.abs(Number(row.amount) || 0), 0);
 
   const oldest = rows.length ? rows[rows.length - 1].created_at : '';
   const newest = rows.length ? rows[0].created_at : '';

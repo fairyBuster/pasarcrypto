@@ -801,7 +801,8 @@ export default function Pasar() {
               <p className="list-state">{t('Belum ada produk di kategori ini.')}</p>
           )}
           {visible.map((product) => (
-          <div className="product-card" key={product.id} data-route={`/pasar/detail?id=${product.id}`}>
+          // a sold-out card keeps the "Not available" button inert and opens nothing
+          <div className="product-card" key={product.id} data-route={soldOut(product) ? undefined : `/pasar/detail?id=${product.id}`}>
               <div className="card-top flex-row justify-between items-center">
                   <div className="coin-info flex-row items-center">
                       <div className="coin-icon flex-row justify-center items-center">

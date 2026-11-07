@@ -22,6 +22,12 @@ export default function NotifikasiMisi() {
   const { state } = useLocation();
   const claim = state?.mission || readClaim();
   const wallet = claim?.wallet_type === 'balance_deposit' ? 'Saldo Isi Ulang' : 'Saldo Tersedia';
+  // a claim opens this popup on top of the mission screen, so "Tutup" pops it
+  // instead of stacking another entry — back then never reopens the popup
+  const fromClaim = Boolean(state?.mission);
+  const actions = fromClaim
+    ? [{ label: 'Tutup' }]
+    : [{ label: 'Tutup', to: '/rewards/misi', replace: true }];
 
   return (
     <NotificationPopup
@@ -30,12 +36,12 @@ export default function NotifikasiMisi() {
       title={t('Hadiah Berhasil Diklaim')}
       body={
         claim
-          ? `Bonus misi <strong>${escape(claim.mission_title || 'Misi Rewards')}</strong> {t('sebesar')} <strong>${idr(
+          ? `Bonus misi <strong>${escape(claim.mission_title || 'Misi Rewards')}</strong> ${t('sebesar')} <strong>${idr(
               claim.reward_amount
             )} IDR</strong> sudah masuk ke ${wallet}. Ajak lebih banyak teman untuk membuka hadiah berikutnya.`
           : 'Hadiah misi sudah masuk ke Saldo Tersedia. Ajak lebih banyak teman untuk membuka hadiah berikutnya.'
       }
-      actions={[{ label: 'Tutup', to: '/rewards/misi' }]}
+      actions={actions}
     />
   );
 }

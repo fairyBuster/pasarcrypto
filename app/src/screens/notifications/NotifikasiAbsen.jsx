@@ -20,13 +20,20 @@ export default function NotifikasiAbsen() {
   const claim = state?.attendance || readLastAttendance();
   const day = Number(claim?.streak) || 0;
   const next = Number(claim?.next_reward) || 0;
+  // a claim opens this popup on top of the attendance screen, so "Tutup" pops
+  // it instead of pushing another entry — back then never reopens the popup.
+  // A cold link (no claim state) still needs a target to land on
+  const fromClaim = Boolean(state?.attendance);
+  const actions = fromClaim
+    ? [{ label: 'Tutup' }]
+    : [{ label: 'Tutup', to: '/rewards/harian', replace: true }];
 
   return (
     <NotificationPopup
       layout="info"
       icon="/assets/img/64b8b61e6b.svg"
       title={t('Absen Berhasil')}
-      actions={[{ label: 'Tutup', to: '/rewards/harian' }]}
+      actions={actions}
     >
       <p>
         {claim ? (

@@ -169,7 +169,8 @@ export default function NotificationPopup({ icon, title, body, children, actions
   const run = (action) => {
     // "Ya, Keluar" on the logout confirmation is the one action that ends the session
     if (action.to === '/welcome' && pathname === '/notifikasi/keluar') signOut();
-    if (action.to) navigate(action.to);
+    // a replace action swaps the popup out of history, so back cannot reopen it
+    if (action.to) navigate(action.to, action.replace ? { replace: true } : undefined);
     else navigate(-1);
   };
 

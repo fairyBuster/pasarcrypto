@@ -468,6 +468,12 @@ const css = `
     line-height: 20px;
     color: #8597ab;
 }
+.scr-pasar-detail .detail-state a{
+    display: inline-block;
+    margin-top: 10px;
+    color: #a9c2e6;
+    text-decoration: underline;
+}
 .scr-pasar-detail .btn-primary:disabled{
     opacity: 0.5;
 }
@@ -547,6 +553,34 @@ export default function PasarDetail() {
           </div>
         </section>
         <p className="detail-state">{status === 'error' ? error : 'Memuat produk…'}</p>
+      </div>
+    );
+  }
+
+  // a sold-out product has no detail to show; a saved or shared link must not
+  // bypass the disabled card that leads here
+  if (product && product.stock_enabled && Number(product.stock) <= 0) {
+    return (
+      <div className="scr-pasar-detail">
+        <style>{css}</style>
+        <section id="section-header">
+          <div className="app-container">
+            <header className="header-container">
+              <div className="back-btn" data-back="1">
+                <img src="/assets/img/766dc7b439.svg" alt="Back" />
+              </div>
+              <div className="title-area">
+                <h1 className="title font-semibold">{t('Produk Tidak Tersedia')}</h1>
+              </div>
+              <div className="placeholder"></div>
+            </header>
+          </div>
+        </section>
+        <p className="detail-state">
+          {t('Produk ini sudah habis atau tidak tersedia.')}
+          <br />
+          <a href="#/pasar" data-route="/pasar">{t('Kembali ke Pasar')}</a>
+        </p>
       </div>
     );
   }

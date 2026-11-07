@@ -60,7 +60,9 @@ const stepAmount = (day, settings, rank) => {
 
 const css = `
 /* masuk-harian — ported from Figma export, typography re-synced */
-.scr-masuk-harian { background: radial-gradient(circle at 69% 0%, rgba(78, 108, 142, 0.55) 0%, rgba(78, 108, 142, 0) 100%),
+.scr-masuk-harian { width: 100%;
+    min-height: 100cqh;
+    background: radial-gradient(circle at 69% 0%, rgba(78, 108, 142, 0.55) 0%, rgba(78, 108, 142, 0) 100%),
     linear-gradient(180deg, #0c1a2d 0%, #13263d 30%, #0f2036 70%, #0a1626 100%); }
 .scr-masuk-harian section{
   width: 100%;

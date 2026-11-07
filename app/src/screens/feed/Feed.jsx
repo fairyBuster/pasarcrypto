@@ -393,7 +393,7 @@ export default function Feed() {
                   </div>
               </div>
               <div className="create-post-subtext">
-                  {t('Dapat +1000 IDR setiap kamu membuat postingan')}
+                  {t('Dapat +2000 IDR setiap kamu membuat postingan')}
               </div>
           </div>
       </section>
