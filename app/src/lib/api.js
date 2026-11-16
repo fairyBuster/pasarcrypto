@@ -362,6 +362,10 @@ export const api = {
   depositMethods: () => request('/api/deposits/methods/'),
   initiateDeposit: (payload) =>
     request('/api/deposits/yuipay/initiate/', { method: 'POST', body: payload }),
+  // Erbaopay answers the same order shape (pay_data plus pay_url); leaving the
+  // method out makes it open its cashier page instead of a QR/VA payload
+  initiateErbaopay: (payload) =>
+    request('/api/deposits/erbaopay/initiate/', { method: 'POST', body: payload }),
   transactions: (params = {}) => {
     const query = new URLSearchParams(
       Object.entries(params).filter(([, value]) => value !== '' && value != null)

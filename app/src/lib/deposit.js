@@ -1,5 +1,5 @@
-// Shared plumbing for the Yuipay deposit flow: the channels the API accepts,
-// the order that carries pay_data, and its expiry countdown.
+// Shared plumbing for the deposit flows: the channels the APIs accept, the
+// order that carries pay_data, and its expiry countdown.
 import { useEffect, useState } from 'react';
 
 // Yuipay answers a QR string for QRIS and a VA number for BRIVA, so the method
@@ -25,7 +25,17 @@ export const DEPOSIT_METHODS = [
 export const DEPOSIT_LIMITS = {
   QRIS: { min: 50000, max: 10000000 },
   VA: { min: 10000, max: 50000000 },
+  // Erbaopay keeps one window for every channel it opens (admin setting)
+  ERBAO: { min: 50000, max: 10000000 },
 };
+
+// Erbaopay is opened as a second QRIS channel; the method is fixed so the
+// amount screen never asks for a bank or hands the flow to the cashier page
+export const ERBAO_METHOD = 'QRIS';
+
+// minutes the charge stays payable; the API takes 1–9999 and keeps its own
+// default when the key is absent
+export const ERBAO_EXPIRY_MINUTES = 1440;
 
 // a deposit tops up the wallet the frames call "Saldo Isi Ulang"
 export const DEPOSIT_WALLET = 'BALANCE_DEPOSIT';
@@ -66,6 +76,17 @@ export const vaText = (value) => {
 
 // the clipboard takes the number the bank expects, without the reading groups
 export const vaBare = (value) => String(value || '').replace(/\s/g, '');
+
+// the provider page is the only place an order can send the tab; anything that
+// is not an https URL is treated as missing rather than followed
+export const payUrl = (value) => {
+  try {
+    const url = new URL(String(value || ''));
+    return url.protocol === 'https:' ? url.href : '';
+  } catch {
+    return '';
+  }
+};
 
 // milliseconds left until the order expires; null when no expiry came back
 export function useCountdown(expiresAt) {

@@ -787,7 +787,17 @@ const ROUTE_MAP = {
   'landingpage-tentang': '/landing/tentang',
 };
 
-const routes = built.map((b) => ({ path: ROUTE_MAP[b.slug] || '/' + b.slug, slug: b.slug, comp: b.comp, group: b.group }));
+// screens without a Figma frame live outside _stage, so they are listed here
+// and keep their routes when the map is regenerated
+const MANUAL_ROUTES = [
+  { path: '/send/erbao', slug: 'deposit-erbao-1', comp: 'DepositErbao', group: 'wallet' },
+  { path: '/send/erbao/konfirmasi', slug: 'deposit-erbao-2', comp: 'DepositErbao2', group: 'wallet' },
+];
+
+const routes = [
+  ...built.map((b) => ({ path: ROUTE_MAP[b.slug] || '/' + b.slug, slug: b.slug, comp: b.comp, group: b.group })),
+  ...MANUAL_ROUTES,
+];
 const missing = built.filter((b) => !ROUTE_MAP[b.slug]).map((b) => b.slug);
 const unused = Object.keys(ROUTE_MAP).filter((s) => !built.find((b) => b.slug === s));
 

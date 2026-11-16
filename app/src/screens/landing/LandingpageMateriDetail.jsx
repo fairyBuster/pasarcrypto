@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import { useNews, useNewsItem } from '../../lib/useNews.js';
 import { readMinutes } from '../../lib/format.js';
 import { t } from '../../lib/i18n.js';
+import { setPageMeta } from '../../lib/seo.jsx';
 
 const pad = (value) => String(value).padStart(2, '0');
 
@@ -499,6 +500,21 @@ export default function LandingpageMateriDetail() {
         keyPoints: [],
       }
     : STATIC_VIEW;
+
+  // the story arrives after the route rendered, so the head is refined once it
+  // lands; the canonical for this address was already set by the router
+  useEffect(() => {
+    const item = article.item;
+    if (!item) return;
+    const text = String(item.body || '')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+    setPageMeta({
+      title: `${item.title || 'Artikel'} — PasarCrypto`,
+      description: text.slice(0, 155),
+    });
+  }, [article.item]);
 
   const others = news.filter((row) => String(row.id) !== String(id));
   const position = news.findIndex((row) => String(row.id) === String(id));

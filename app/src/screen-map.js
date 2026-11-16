@@ -73,6 +73,18 @@ export const ROUTES = [
     "group": "wallet"
   },
   {
+    "path": "/send/erbao",
+    "slug": "deposit-erbao-1",
+    "comp": "DepositErbao",
+    "group": "wallet"
+  },
+  {
+    "path": "/send/erbao/konfirmasi",
+    "slug": "deposit-erbao-2",
+    "comp": "DepositErbao2",
+    "group": "wallet"
+  },
+  {
     "path": "/faq",
     "slug": "faq",
     "comp": "Faq",

@@ -253,7 +253,7 @@ export default function DepositQris1() {
           <button className="back-btn" aria-label={t('Go back')} data-back="1">
             <img src="/assets/img/11e3727a0b.svg" alt="" />
           </button>
-          <h1 className="title">{t('QRIS')}</h1>
+          <h1 className="title">{t('QRIS 2')}</h1>
           <div className="spacer"></div>
         </header>
       </section>

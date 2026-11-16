@@ -184,9 +184,11 @@ export default function App() {
     // a real outbound link always wins over the class-based helpers below. The
     // generated screens mark selectable rows with classes like list-item, and a
     // link that carries one of those classes must still leave the app instead
-    // of being swallowed as an in-page toggle
+    // of being swallowed as an in-page toggle. A download link is a file, not a
+    // route, so it is left to the browser as well.
     const link = event.target.closest('a[href]');
-    if (link && /^(?:https?:|mailto:|tel:)/i.test(link.getAttribute('href') || '')) return;
+    if (link && (/^(?:https?:|mailto:|tel:)/i.test(link.getAttribute('href') || '') || link.hasAttribute('download')))
+      return;
 
     // copy / share buttons
     const copy = findWithClass(event.target, root, COPY_CLASSES);

@@ -95,6 +95,26 @@ server {
         try_files $uri =404;
     }
 
+    # crawler files describe the current deploy; an edge-cached copy would keep
+    # Search Console pointing at an allowlist or map that no longer exists
+    location ~ ^/(robots\.txt|sitemap\.xml)$ {
+        include /etc/nginx/snippets/security-headers.conf;
+        add_header Cache-Control "no-cache";
+        access_log off;
+        try_files $uri =404;
+    }
+
+    # the Android package is published as a plain file; the download flag on the
+    # row plus this header make a tap save it instead of rendering the bytes
+    location /android/ {
+        include /etc/nginx/snippets/security-headers.conf;
+        default_type application/vnd.android.package-archive;
+        add_header Content-Disposition "attachment";
+        add_header Cache-Control "no-cache";
+        access_log off;
+        try_files $uri =404;
+    }
+
     # served through error_page for missing thumbnails; never cache it, so an
     # uploaded image replaces the placeholder on the very next visit
     location = /assets/img/news-placeholder.svg {

@@ -827,12 +827,19 @@ export default function Akun() {
       <section id="section-about" className="list-section">
         <h3 className="list-section-title">{t('Tentang')}</h3>
         <div className="list-container">
-          <div className="list-item">
+          {/* the package sits in public/android; the download flag plus the
+              attachment header from nginx make the tap save the file */}
+          <a
+            className="list-item"
+            href="/android/PasarCrypto.apk"
+            download="PasarCrypto.apk"
+            type="application/vnd.android.package-archive"
+          >
             <div className="list-icon"><img src="/assets/img/fb130bf4df.svg" alt="Unduh" /></div>
             <span className="list-label">{t('Unduh Aplikasi')}</span>
             <span className="list-value">{t('Android')}</span>
             <img src="/assets/img/8602b31a6d.svg" alt="Arrow" />
-          </div>
+          </a>
           <div className="list-item" data-route="/tentang-kami">
             <div className="list-icon"><img src="/assets/img/2e08d4e9ea.svg" alt="Tentang" /></div>
             <span className="list-label">{t('Tentang Kami')}</span>

@@ -113,6 +113,10 @@ const css = `
 }
 .scr-deposit-metode .list-container{
     padding: 0 16px;
+    /* one QRIS card for now; the gap still keeps a second one apart */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .scr-deposit-metode .list-item{
     display: flex;
@@ -214,21 +218,21 @@ const css = `
 .scr-deposit-metode .provider-name.provider-name { font-weight: 700; }
 `;
 
-// the helper endpoint lists every gateway with its own enabled flag; this
-// screen's initiate call goes through Yuipay, so its row decides whether the
-// two channels are open (older builds answered a single { enabled } object)
-const gatewayOpen = (data) => {
+// the helper endpoint lists every gateway with its own enabled flag, so each
+// row asks about its own code: one gateway can be off while the other stays
+// open (older builds answered a single { enabled } object)
+const gatewayOpen = (data, code) => {
   if (Array.isArray(data)) {
-    const row = data.find((entry) => entry?.code === 'yuipay');
+    const row = data.find((entry) => entry?.code === code);
     return row ? row.enabled !== false : data.some((entry) => entry?.enabled);
   }
   return data?.enabled !== false;
 };
 
 export default function DepositMetode() {
-  // the helper endpoint only says whether the gateway is reachable; the
-  // channels below are the ones its initiate call accepts
-  const [gateway, setGateway] = useState({ ready: false, enabled: true });
+  // the helper endpoint only says whether the gateways are reachable; the
+  // channels below are the ones their initiate calls accept
+  const [gateway, setGateway] = useState({ ready: false, yuipay: true, erbaopay: true });
   // a blocked gateway answers with this notice instead of opening a flow it
   // would reject
   const unavailable = t('Metode pembayaran sedang tidak tersedia. Coba lagi nanti ya.');
@@ -240,18 +244,23 @@ export default function DepositMetode() {
         if (!alive) return;
         // a failed probe closes the list just like a disabled gateway: either
         // way the rows cannot take a payment, so they stay read-only
-        setGateway({ ready: true, enabled: res.ok && gatewayOpen(res.data) });
+        setGateway({
+          ready: true,
+          yuipay: res.ok && gatewayOpen(res.data, 'yuipay'),
+          erbaopay: res.ok && gatewayOpen(res.data, 'erbaopay'),
+        });
       })
       .catch(() => {
-        if (alive) setGateway({ ready: true, enabled: false });
+        if (alive) setGateway({ ready: true, yuipay: false, erbaopay: false });
       });
     return () => {
       alive = false;
     };
   }, []);
 
-  // a disabled gateway would only fail on the amount screen, so the rows go dead
-  const blocked = gateway.ready && !gateway.enabled;
+  // a disabled gateway would only fail on the amount screen, so its rows go dead
+  const blocked = gateway.ready && !gateway.yuipay;
+  const erbaoBlocked = gateway.ready && !gateway.erbaopay;
   const qris = DEPOSIT_METHODS.find((row) => row.type === 'QRIS');
   const banks = DEPOSIT_METHODS.filter((row) => row.type === 'VA');
 
@@ -279,21 +288,23 @@ export default function DepositMetode() {
           </div>
       </section>
       <section id="section-payment-methods">
-          {blocked && (
+          {erbaoBlocked && (
               <p className="gateway-notice">{unavailable}</p>
           )}
           <div className="method-group">
               <h2 className="section-title">{t('QRIS')}</h2>
               <div className="list-container">
+                  {/* only the erbao gateway is offered; the yuipay row is gone, so
+                      this is the single QRIS option */}
                   <a
                       href="#"
-                      className={`list-item${blocked ? ' is-blocked' : ''}`}
-                      data-route={blocked ? undefined : '/send/qr'}
-                      data-toast={blocked ? unavailable : undefined}
-                      aria-disabled={blocked || undefined}
+                      className={`list-item${erbaoBlocked ? ' is-blocked' : ''}`}
+                      data-route={erbaoBlocked ? undefined : '/send/erbao'}
+                      data-toast={erbaoBlocked ? unavailable : undefined}
+                      aria-disabled={erbaoBlocked || undefined}
                   >
                       <img src={qris.logo} alt="QRIS" className={`provider-logo ${qris.logoClass}`} />
-                      <span className="provider-name">{t('QRIS')}</span>
+                      <span className="provider-name">{t('QRIS 1')}</span>
                       <div className="badge">
                           <span>{t('Instan')}</span>
                       </div>

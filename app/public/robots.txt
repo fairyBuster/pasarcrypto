@@ -1,4 +1,33 @@
+# PasarCrypto — the marketing and legal screens are crawlable; the signed-in
+# app is not content a search engine should index, so it stays out of the index.
+# Keep the sitemap line last: Search Console reads it as the discovery hint.
 User-agent: *
 Allow: /
+
 Disallow: /api/
 Disallow: /media/
+
+Disallow: /akun
+Disallow: /aset
+Disallow: /chat-cs
+Disallow: /deposit
+Disallow: /dompet
+Disallow: /draw
+Disallow: /feed
+Disallow: /home
+Disallow: /login
+Disallow: /lupa-password
+Disallow: /notifikasi
+Disallow: /pasar
+Disallow: /profil
+Disallow: /rank
+Disallow: /ref/
+Disallow: /register
+Disallow: /rewards
+Disallow: /riwayat
+Disallow: /send
+Disallow: /tarik
+Disallow: /tentang-kami
+Disallow: /welcome
+
+Sitemap: https://pasarcryptoid.com/sitemap.xml

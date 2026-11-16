@@ -4,6 +4,7 @@ import { HashRouter } from 'react-router-dom';
 import App, { AppBoundary } from './App.jsx';
 import { AuthProvider } from './lib/auth.jsx';
 import { loadFrontendUrl } from './lib/referral.js';
+import { Seo } from './lib/seo.jsx';
 import './styles/base.css';
 
 // the invite host comes from a public settings call; warming it here means the
@@ -48,13 +49,14 @@ if (bootUrl.searchParams.has('fresh')) {
   window.history.replaceState(null, '', `${bootUrl.pathname}${bootUrl.search}${bootUrl.hash}`);
 }
 
-// The app is hash-routed (/#/aset), so the server only ever sees "/" and every
-// screen keeps working without a SPA rewrite. Absolute links that were already
-// shared (/pasar, /landing/berita/86) are migrated in place before the router
-// reads the URL, so old bookmarks still land on the right screen.
+// The app is hash-routed (#/aset), so the server only ever sees the path and
+// every screen keeps working without a SPA rewrite. A path that was already
+// shared (/pasar, /landing/berita/86) keeps its address and gains the route as
+// the fragment: the router reads the hash either way, and a crawler gets one
+// address per screen instead of everything collapsing onto "/".
 const { pathname, search, hash } = window.location;
 if (!hash && pathname !== '/') {
-  window.history.replaceState(null, '', `/#${pathname}${search}`);
+  window.history.replaceState(null, '', `${pathname}${search}#${pathname}`);
 }
 
 createRoot(document.getElementById('root')).render(
@@ -62,6 +64,7 @@ createRoot(document.getElementById('root')).render(
     {/* shell-level guard: a crash below must still leave a reload path */}
     <AppBoundary>
       <HashRouter>
+        <Seo />
         <AuthProvider>
           <App />
         </AuthProvider>
